@@ -1,6 +1,240 @@
 [
  {
   "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.289,
+   "enterprise": 0.258,
+   "genai-llm": 0.262,
+   "mlops": 0.31,
+   "open-source": 0.329,
+   "research": 0.349,
+   "security": 0.385,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anthony Ha"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024"
+  },
+  "fetched": "2026-11-14T22:32:31Z",
+  "focus": "tech",
+  "id": "9a736294c460",
+  "kind": "news",
+  "published": "2026-11-14T21:41:22Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+  "tags": [],
+  "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+  "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.289,
+   "enterprise": 0.933,
+   "mlops": 0.863,
+   "open-source": 0.277,
+   "research": 0.371,
+   "robotics": 0.268,
+   "security": 0.335,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_logos-5.png"
+  },
+  "fetched": "2026-11-14T22:32:31Z",
+  "focus": "off",
+  "id": "3a53f4732b0a",
+  "kind": "news",
+  "published": "2026-11-14T19:05:17Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs.",
+  "tags": [],
+  "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+  "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/"
+ },
+ {
+  "categories": [
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.32,
+   "ai-ml": 0.489,
+   "enterprise": 0.401,
+   "genai-llm": 0.297,
+   "mlops": 0.322,
+   "open-source": 0.398,
+   "research": 0.402,
+   "robotics": 0.3,
+   "security": 0.45,
+   "tools-launches": 0.96
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Lauren Forristal"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797"
+  },
+  "fetched": "2026-11-14T22:32:31Z",
+  "focus": "tech",
+  "id": "b08cefd9996d",
+  "kind": "news",
+  "published": "2026-11-14T17:30:00Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+  "tags": [],
+  "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+  "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.344,
+   "genai-llm": 0.812,
+   "open-source": 0.388,
+   "research": 0.542,
+   "tools-launches": 0.3
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4_carbon_logo.png"
+  },
+  "fetched": "2026-11-14T22:32:31Z",
+  "focus": "tech",
+  "id": "d82d2c1dae8d",
+  "kind": "news",
+  "published": "2026-11-14T16:48:01Z",
+  "score": 18.0,
+  "source_id": "decoder",
+  "summary": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+  "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "ai-ml": 0.374,
+   "genai-llm": 0.863,
+   "mlops": 0.398,
+   "open-source": 0.363,
+   "research": 0.399,
+   "tools-launches": 0.733
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-6-scaled.png"
+  },
+  "fetched": "2026-11-14T22:32:31Z",
+  "focus": "tech",
+  "id": "3754a2a7dd16",
+  "kind": "news",
+  "published": "2026-11-14T16:45:48Z",
+  "score": 19.0,
+  "source_id": "marktechpost",
+  "summary": "Cmpnd has released dspy-wsp , a prototype optimizer that brings weight-space programming to DSPy . Weight-space programming is a technique in which a frontier LLM reads another model’s weights and edits them directly.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+  "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.295,
+   "ai-ml": 0.329,
+   "genai-llm": 0.986,
+   "open-source": 0.45,
+   "research": 0.402,
+   "robotics": 0.288,
+   "security": 0.251,
+   "tools-launches": 0.351
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png"
+  },
+  "fetched": "2026-11-14T22:32:31Z",
+  "focus": "tech",
+  "id": "a5dca2d386f6",
+  "kind": "news",
+  "published": "2026-11-14T16:42:56Z",
+  "score": 18.0,
+  "source_id": "decoder",
+  "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort.",
+  "tags": [],
+  "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+  "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/"
+ },
+ {
+  "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "ai-ml": 0.48,
+   "enterprise": 0.331,
+   "mlops": 0.252,
+   "open-source": 0.354,
+   "research": 0.296,
+   "security": 1.0,
+   "tools-launches": 0.285
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Nilay Patel"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-14T22:32:31Z",
+  "focus": "off",
+  "id": "19d340976929",
+  "kind": "news",
+  "published": "2026-11-14T15:00:00Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life.",
+  "tags": [],
+  "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+  "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+ },
+ {
+  "categories": [
    "enterprise"
   ],
   "category_scores": {
@@ -4636,14 +4870,14 @@
     "Robert Fonod",
     "Nikolas Geroliminis"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "e9940fb11db5",
   "kind": "paper",
   "published": "2026-11-12T17:55:06Z",
-  "score": 23.0,
+  "score": 24.9,
   "source_id": "arxiv",
   "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves.",
   "tags": [
@@ -8850,14 +9084,14 @@
    "github": "https://github.com/zhengxuyu/HDM-code",
    "hf_url": "https://huggingface.co/papers/2611.16961",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16961.png",
-   "upvotes": 2
+   "upvotes": 4
   },
   "fetched": "2026-11-13T23:39:45Z",
   "focus": "tech",
   "id": "d83a734d81f7",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 35.5,
+  "score": 39.9,
   "source_id": "hf-papers",
   "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
   "tags": [
@@ -8921,7 +9155,7 @@
    "github": "https://github.com/DAGroup-PKU/PhysLoop",
    "hf_url": "https://huggingface.co/papers/2611.16748",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16748.png",
-   "upvotes": 45
+   "upvotes": 46
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -8995,14 +9229,14 @@
    "github": "https://github.com/minhkks/NestOne",
    "hf_url": "https://huggingface.co/papers/2611.16321",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16321.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "89e1d9d80f7b",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions require.",
   "tags": [
@@ -9221,14 +9455,14 @@
    "github": "https://github.com/naver-ai/foam",
    "hf_url": "https://huggingface.co/papers/2611.16905",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16905.png",
-   "upvotes": 12
+   "upvotes": 14
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "28f099f5330a",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 46.2,
+  "score": 47.4,
   "source_id": "hf-papers",
   "summary": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memory and eigendecomposition overhead. We ask whether the benefits of SOAP can be retained at nearly the efficiency of AdamW.",
   "tags": [
@@ -9262,7 +9496,7 @@
    "github": "https://github.com/ZJU-REAL/decision-agents",
    "hf_url": "https://huggingface.co/papers/2611.17167",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png",
-   "upvotes": 32
+   "upvotes": 33
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -9301,14 +9535,14 @@
    "github": "https://github.com/doyoungkim-ml/ehrl",
    "hf_url": "https://huggingface.co/papers/2611.16409",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16409.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "1b74118948fc",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 36.0,
+  "score": 37.9,
   "source_id": "hf-papers",
   "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs).",
   "tags": [
@@ -17096,7 +17330,7 @@
    "github": "https://github.com/holdrain/SO-Arena",
    "hf_url": "https://huggingface.co/papers/2611.15777",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
-   "upvotes": 90
+   "upvotes": 134
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -17136,7 +17370,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.15131",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15131.png",
-   "upvotes": 39
+   "upvotes": 40
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -17203,7 +17437,7 @@
    "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
    "hf_url": "https://huggingface.co/papers/2611.15844",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15844.png",
-   "upvotes": 32
+   "upvotes": 34
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
@@ -20715,14 +20949,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14413",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14413.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "63d1654f5657",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper way to spend a fixed budget.",
   "tags": [
@@ -21117,7 +21351,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14815",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
-   "upvotes": 49
+   "upvotes": 50
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -22985,14 +23219,14 @@
    "github": "https://github.com/ljbro/GTAGym",
    "hf_url": "https://huggingface.co/papers/2611.13028",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13028.png",
-   "upvotes": 12
+   "upvotes": 13
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "c97463a0a3fe",
   "kind": "paper",
   "published": "2026-11-09T00:00:00Z",
-  "score": 46.2,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V tasks.",
   "tags": [
@@ -24087,7 +24321,7 @@
    "github": "https://github.com/DAGroup-PKU/G-STAR",
    "hf_url": "https://huggingface.co/papers/2611.13004",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13004.png",
-   "upvotes": 44
+   "upvotes": 45
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -24643,14 +24877,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.10439",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10439.png",
-   "upvotes": 6
+   "upvotes": 7
   },
   "fetched": "2026-11-14T06:39:54Z",
   "focus": "tech",
   "id": "0cf57875206a",
   "kind": "paper",
   "published": "2026-11-07T00:00:00Z",
-  "score": 42.8,
+  "score": 44.0,
   "source_id": "hf-papers",
   "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private.",
   "tags": [
@@ -25518,14 +25752,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.10193",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10193.png",
-   "upvotes": 16
+   "upvotes": 17
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "86a5ed94ec86",
   "kind": "paper",
   "published": "2026-11-06T00:00:00Z",
-  "score": 48.5,
+  "score": 49.0,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble routing.",
   "tags": [
@@ -29045,14 +29279,14 @@
    "github": "https://github.com/aHapBean/SimpleHC",
    "hf_url": "https://huggingface.co/papers/2611.05984",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05984.png",
-   "upvotes": 27
+   "upvotes": 29
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "9be320beeefa",
   "kind": "paper",
   "published": "2026-11-04T00:00:00Z",
-  "score": 52.8,
+  "score": 53.4,
   "source_id": "hf-papers",
   "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs.",
   "tags": [
@@ -29415,14 +29649,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.08538",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08538.png",
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "29f8cd1f7ad4",
   "kind": "paper",
   "published": "2026-11-04T00:00:00Z",
-  "score": 41.5,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "Subliminal learning is a phenomenon in large language models (LLMs) where a teacher passes a hidden preference to a student through training data unrelated to that preference. We study whether subliminal learning also occurs in vision-language models (VLMs). We finetune a teacher VLM to prefer a specific animal or facial attribute and use a control teacher from the same base model.",
   "tags": [
