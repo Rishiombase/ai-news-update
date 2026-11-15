@@ -1,6 +1,272 @@
 [
  {
   "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.256,
+   "ai-ml": 0.395,
+   "computer-vision": 0.618,
+   "genai-llm": 0.999,
+   "open-source": 0.45,
+   "research": 0.394
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Manuel Uth"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_fable_5.2_painting.png"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "tech",
+  "id": "65ecef2327a0",
+  "kind": "news",
+  "published": "2026-11-15T15:42:03Z",
+  "score": 18.0,
+  "source_id": "decoder",
+  "summary": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application.",
+  "tags": [],
+  "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+  "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.305,
+   "enterprise": 0.342,
+   "mlops": 0.989,
+   "open-source": 0.319,
+   "research": 0.343,
+   "security": 0.283,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "off",
+  "id": "fa1b9f395520",
+  "kind": "news",
+  "published": "2026-11-15T14:45:12Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ.",
+  "tags": [],
+  "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+  "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.251,
+   "genai-llm": 0.325,
+   "mlops": 0.282,
+   "open-source": 0.432,
+   "research": 0.253,
+   "security": 0.307,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Terrence O’Brien"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "off",
+  "id": "6fdb9cf64c8f",
+  "kind": "news",
+  "published": "2026-11-15T13:00:00Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien . The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here .",
+  "tags": [],
+  "title": "An overview of Jensen Huang’s messy days",
+  "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "agents": 0.276,
+   "ai-ml": 0.872,
+   "genai-llm": 0.45,
+   "mlops": 0.263,
+   "open-source": 0.391,
+   "security": 0.299,
+   "tools-launches": 0.259
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Reece Rogers"
+   ],
+   "image": "https://media.wired.com/photos/6af7840bd2837972f5ddf4f3/master/pass/Untitled-1.jpg"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "tech",
+  "id": "a23beef7bff8",
+  "kind": "news",
+  "published": "2026-11-15T12:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+  "tags": [],
+  "title": "AI DJs Completely Kill My Groove",
+  "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.784,
+   "genai-llm": 0.32,
+   "open-source": 0.345,
+   "research": 0.45,
+   "robotics": 0.3,
+   "tools-launches": 0.43
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Julian Chokkattu"
+   ],
+   "image": "https://media.wired.com/photos/6af4802ffbe5af43ea5dee0a/master/pass/Screenshot%202026-11-11%20at%2014.47.44.png"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "tech",
+  "id": "476e34247621",
+  "kind": "news",
+  "published": "2026-11-15T11:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+  "tags": [],
+  "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+  "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.29,
+   "ai-ml": 0.412,
+   "enterprise": 0.934,
+   "genai-llm": 0.44,
+   "mlops": 0.259,
+   "open-source": 0.316,
+   "research": 0.443,
+   "robotics": 0.303,
+   "security": 0.403,
+   "tools-launches": 0.6
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Manuel Uth"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/ai_impact_australian_jobs.png"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "tech",
+  "id": "7611c876b17c",
+  "kind": "news",
+  "published": "2026-11-15T10:45:58Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+  "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "nlp"
+  ],
+  "category_scores": {
+   "ai-ml": 0.262,
+   "genai-llm": 0.45,
+   "nlp": 0.776,
+   "open-source": 0.338,
+   "tools-launches": 0.782
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michal Sutter"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-7-scaled.png"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "tech",
+  "id": "c91a7de9e7aa",
+  "kind": "news",
+  "published": "2026-11-15T10:06:21Z",
+  "score": 21.0,
+  "source_id": "marktechpost",
+  "summary": "Bland, the San Francisco voice-AI company, has released Tofu-1 , a full-duplex speech-to-speech model in research preview. The Tofu-1 speech-to-speech model targets calls from moving cars, hospital rooms and weak-signal lines. It listens while it speaks and reasons while it talks.",
+  "tags": [
+   "Preview"
+  ],
+  "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+  "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.6,
+   "ai-ml": 0.305,
+   "enterprise": 0.3,
+   "genai-llm": 0.447,
+   "mlops": 0.875,
+   "open-source": 0.45,
+   "research": 0.314,
+   "security": 0.26,
+   "tools-launches": 0.458
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jonathan Kemper"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/meituan-logo-wall-chatgpt-5.6.jpg"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "tech",
+  "id": "6fc6bc2d3ff2",
+  "kind": "news",
+  "published": "2026-11-15T10:06:06Z",
+  "score": 21.0,
+  "source_id": "decoder",
+  "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+  "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+ },
+ {
+  "categories": [
    "security"
   ],
   "category_scores": {
@@ -1751,6 +2017,38 @@
  },
  {
   "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.87,
+   "enterprise": 0.428,
+   "mlops": 0.327,
+   "open-source": 0.259,
+   "research": 0.371,
+   "security": 0.359,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "David Pierce"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_111326_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-15T16:26:31Z",
+  "focus": "off",
+  "id": "5d09d1e98e76",
+  "kind": "news",
+  "published": "2026-11-13T14:47:16Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold.",
+  "tags": [],
+  "title": "What’s really at stake in the Jensen Huang saga",
+  "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+ },
+ {
+  "categories": [
    "enterprise",
    "tools-launches"
   ],
@@ -3057,14 +3355,14 @@
     "Nan Liu",
     "Desai Xie"
    ],
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "2eeb15f24271",
   "kind": "paper",
   "published": "2026-11-12T18:59:55Z",
-  "score": 21.9,
+  "score": 23.5,
   "source_id": "arxiv",
   "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block.",
   "tags": [
@@ -3095,14 +3393,14 @@
     "Mike Lewis",
     "Marjan Ghazvininejad"
    ],
-   "upvotes": 14
+   "upvotes": 16
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "ef255ee76f67",
   "kind": "paper",
   "published": "2026-11-12T18:59:54Z",
-  "score": 31.4,
+  "score": 32.5,
   "source_id": "arxiv",
   "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely.",
   "tags": [
@@ -6709,7 +7007,14 @@
    "security": 0.346,
    "tools-launches": 1.0
   },
-  "coverage": [],
+  "coverage": [
+   {
+    "published": "2026-11-13T15:58:00Z",
+    "source_id": "techcrunch",
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+   }
+  ],
   "extra": {
    "authors": [
     "Nilay Patel"
@@ -6721,7 +7026,7 @@
   "id": "11a9f97485e1",
   "kind": "news",
   "published": "2026-11-12T16:30:00Z",
-  "score": 20.0,
+  "score": 32.0,
   "source_id": "verge",
   "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode.",
   "tags": [],
@@ -9141,14 +9446,14 @@
    "github": "https://github.com/zhengxuyu/HDM-code",
    "hf_url": "https://huggingface.co/papers/2611.16961",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16961.png",
-   "upvotes": 5
+   "upvotes": 7
   },
   "fetched": "2026-11-13T23:39:45Z",
   "focus": "tech",
   "id": "d83a734d81f7",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 41.5,
+  "score": 44.0,
   "source_id": "hf-papers",
   "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
   "tags": [
@@ -9252,14 +9557,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.16517",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16517.png",
-   "upvotes": 12
+   "upvotes": 13
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "9bc50b65722b",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 46.2,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "We present UniSpark-9B, a unified multimodal model that investigates hybrid attention for visual understanding and generation. Built on a Mixture-of-Transformer-Experts backbone with approximately 9B parameters in each branch, UniSpark combines full attention for explicit token interactions with GatedDeltaNet linear attention for compact context propagation.",
   "tags": [
@@ -9334,14 +9639,14 @@
    "github": "https://github.com/Ropedia/Ropedia-Xperience-2",
    "hf_url": "https://huggingface.co/papers/2611.17060",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17060.png",
-   "upvotes": 26
+   "upvotes": 29
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "8685833bc258",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 52.5,
+  "score": 53.4,
   "source_id": "hf-papers",
   "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments.",
   "tags": [
@@ -17494,7 +17799,7 @@
    "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
    "hf_url": "https://huggingface.co/papers/2611.15844",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15844.png",
-   "upvotes": 35
+   "upvotes": 36
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
@@ -20968,14 +21273,14 @@
    "github": "https://github.com/jingjing12110/SE-MMAgents",
    "hf_url": "https://huggingface.co/papers/2611.14256",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14256.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "67e1d3f3c687",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer.",
   "tags": [
@@ -23618,14 +23923,14 @@
    "github": "https://github.com/isle-dev/Narrative-Bench-NeurIPS-2026",
    "hf_url": "https://huggingface.co/papers/2611.12750",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12750.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "774e333563cb",
   "kind": "paper",
   "published": "2026-11-09T00:00:00Z",
-  "score": 33.5,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages and information streams.",
   "tags": [
@@ -27681,14 +27986,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.08318",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08318.png",
-   "upvotes": 20
+   "upvotes": 21
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "8c97a33ec8de",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 50.4,
+  "score": 50.8,
   "source_id": "hf-papers",
   "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE).",
   "tags": [
@@ -27860,14 +28165,14 @@
    "github": "https://github.com/ZJU-REAL/Agent-R2",
    "hf_url": "https://huggingface.co/papers/2611.08219",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08219.png",
-   "upvotes": 6
+   "upvotes": 7
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "6aa2075d69c1",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 42.8,
+  "score": 44.0,
   "source_id": "hf-papers",
   "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements.",
   "tags": [
