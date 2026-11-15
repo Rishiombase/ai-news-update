@@ -4,6 +4,187 @@
    "genai-llm"
   ],
   "category_scores": {
+   "ai-ml": 0.442,
+   "genai-llm": 0.913,
+   "open-source": 0.423,
+   "research": 0.725,
+   "security": 0.258
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-15T22:56:21Z",
+  "focus": "tech",
+  "id": "87d7014c15ee",
+  "kind": "news",
+  "published": "2026-11-15T22:00:01Z",
+  "score": 32.0,
+  "source_id": "openai",
+  "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+  "tags": [],
+  "title": "A step toward defining the Standard Model on a lattice",
+  "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.381,
+   "open-source": 0.278,
+   "research": 1.0
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-15T22:56:21Z",
+  "focus": "tech",
+  "id": "4b0fc5b701ff",
+  "kind": "news",
+  "published": "2026-11-15T22:00:00Z",
+  "score": 30.0,
+  "source_id": "openai",
+  "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Our new blog for science",
+  "url": "https://openai.com/index/our-new-blog-for-science"
+ },
+ {
+  "categories": [
+   "security",
+   "tools-launches",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 1.0,
+   "enterprise": 0.328,
+   "genai-llm": 0.279,
+   "mlops": 0.344,
+   "open-source": 0.33,
+   "research": 0.379,
+   "security": 0.404,
+   "tools-launches": 0.394
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anthony Ha"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800"
+  },
+  "fetched": "2026-11-15T22:56:21Z",
+  "focus": "tech",
+  "id": "2cb612de9116",
+  "kind": "news",
+  "published": "2026-11-15T21:56:35Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+  "tags": [
+   "Research"
+  ],
+  "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+  "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.268,
+   "enterprise": 0.325,
+   "mlops": 0.288,
+   "open-source": 0.255,
+   "research": 0.363,
+   "security": 0.26,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Terrence O’Brien"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-15T22:56:21Z",
+  "focus": "off",
+  "id": "0ae485d0fe26",
+  "kind": "news",
+  "published": "2026-11-15T20:43:49Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning.",
+  "tags": [],
+  "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+  "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "agents": 0.347,
+   "genai-llm": 0.408,
+   "research": 0.294,
+   "security": 0.45,
+   "tools-launches": 0.404
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anthony Ha"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/snl.jpg?resize=1200,525"
+  },
+  "fetched": "2026-11-15T22:56:21Z",
+  "focus": "tech",
+  "id": "1a811a22b701",
+  "kind": "news",
+  "published": "2026-11-15T20:20:57Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+  "tags": [],
+  "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+  "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.361,
+   "enterprise": 0.301,
+   "mlops": 0.804,
+   "open-source": 0.25,
+   "research": 0.279,
+   "security": 0.45,
+   "tools-launches": 0.339
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Terrence O’Brien"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-15T22:56:21Z",
+  "focus": "off",
+  "id": "024802442c5a",
+  "kind": "news",
+  "published": "2026-11-15T19:15:43Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips.",
+  "tags": [],
+  "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
    "agents": 0.256,
    "ai-ml": 0.395,
    "computer-vision": 0.618,
@@ -9374,14 +9555,14 @@
    "github": "https://github.com/NVlabs/DVSM",
    "hf_url": "https://huggingface.co/papers/2611.17331",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17331.png",
-   "upvotes": 23
+   "upvotes": 25
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "f741b330c4b3",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 53.5,
+  "score": 54.2,
   "source_id": "hf-papers",
   "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
   "tags": [
@@ -9639,14 +9820,14 @@
    "github": "https://github.com/Ropedia/Ropedia-Xperience-2",
    "hf_url": "https://huggingface.co/papers/2611.17060",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17060.png",
-   "upvotes": 29
+   "upvotes": 30
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "8685833bc258",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 53.4,
+  "score": 53.7,
   "source_id": "hf-papers",
   "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments.",
   "tags": [
@@ -17692,7 +17873,7 @@
    "github": "https://github.com/holdrain/SO-Arena",
    "hf_url": "https://huggingface.co/papers/2611.15777",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
-   "upvotes": 136
+   "upvotes": 137
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -17732,7 +17913,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.15131",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15131.png",
-   "upvotes": 40
+   "upvotes": 43
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -17882,14 +18063,14 @@
    "github": "https://github.com/MLNeurosurg/neuro-vl",
    "hf_url": "https://huggingface.co/papers/2611.15094",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15094.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "061a5fe077d0",
   "kind": "paper",
   "published": "2026-11-11T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise.",
   "tags": [
@@ -21713,7 +21894,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14815",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14815.png",
-   "upvotes": 50
+   "upvotes": 51
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
@@ -25239,14 +25420,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.10439",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10439.png",
-   "upvotes": 8
+   "upvotes": 13
   },
   "fetched": "2026-11-14T06:39:54Z",
   "focus": "tech",
   "id": "0cf57875206a",
   "kind": "paper",
   "published": "2026-11-07T00:00:00Z",
-  "score": 45.0,
+  "score": 48.8,
   "source_id": "hf-papers",
   "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private.",
   "tags": [
