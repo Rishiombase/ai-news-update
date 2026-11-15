@@ -1,7 +1,7 @@
 {
  "https://arstechnica.com/ai/feed/": {
-  "etag": "\"405e760f6c87c6a750f1cd738bb4d443\"",
-  "last_modified": "Sat, 14 Nov 2026 19:05:58 GMT"
+  "etag": "\"9fcab80d760fe948d91dc402e9f1f108\"",
+  "last_modified": "Sun, 15 Nov 2026 00:46:00 GMT"
  },
  "https://aws.amazon.com/blogs/machine-learning/feed/": {
   "etag": null,
@@ -20,7 +20,7 @@
   "last_modified": "Fri, 13 Nov 2026 23:41:50 GMT"
  },
  "https://deepmind.google/blog/rss.xml": {
-  "etag": "\"0nnVoA\"",
+  "etag": "\"9KYM6Q\"",
   "last_modified": null
  },
  "https://developer.nvidia.com/blog/feed": {
@@ -44,7 +44,7 @@
   "last_modified": null
  },
  "https://lastweekin.ai/feed": {
-  "etag": "W/\"39d64-/sj+qWvvqn5YQFRxTQtCTRdfhZo\"",
+  "etag": "W/\"39d64-CPoAjCIFbu1QeBBpibxl0ke9Ay0\"",
   "last_modified": null
  },
  "https://machinelearning.apple.com/rss.xml": {
@@ -56,8 +56,8 @@
   "last_modified": "Fri, 13 Nov 2026 20:33:06 GMT"
  },
  "https://news.mit.edu/rss/topic/artificial-intelligence2": {
-  "etag": "\"1794694072\"",
-  "last_modified": "Sat, 14 Nov 2026 22:07:52 GMT"
+  "etag": "\"1794723850\"",
+  "last_modified": "Sun, 15 Nov 2026 06:24:10 GMT"
  },
  "https://openai.com/news/rss.xml": {
   "etag": null,
@@ -73,15 +73,15 @@
  },
  "https://simonwillison.net/atom/everything/": {
   "etag": null,
-  "last_modified": "Fri, 13 Nov 2026 23:02:45 GMT"
+  "last_modified": "Sat, 14 Nov 2026 23:59:28 GMT"
  },
  "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss": {
   "etag": "\"933ce037fe33ca468f08816990b06265\"",
   "last_modified": "Fri, 13 Nov 2026 19:00:55 GMT"
  },
  "https://techcrunch.com/category/artificial-intelligence/feed/": {
-  "etag": "W/\"081882115b72e76ca981c2929f44462a\"",
-  "last_modified": "Sat, 14 Nov 2026 22:25:37 GMT"
+  "etag": "W/\"3239e21113093e00408e07859a278706\"",
+  "last_modified": "Sun, 15 Nov 2026 02:03:06 GMT"
  },
  "https://the-decoder.com/feed/": {
   "etag": "\"18cf2d7644e8b46c907abe72e85d174e\"",
@@ -92,8 +92,8 @@
   "last_modified": "Sat, 14 Nov 2026 16:45:50 GMT"
  },
  "https://www.microsoft.com/en-us/research/feed/": {
-  "etag": "\"2648ca42a0d10ea9e0b22e8de33acd59\"",
-  "last_modified": "Fri, 13 Nov 2026 20:35:39 GMT"
+  "etag": "\"9769de77586c20c72cb29fa48e2fb2a2\"",
+  "last_modified": "Sun, 15 Nov 2026 00:17:23 GMT"
  },
  "https://www.technologyreview.com/topic/artificial-intelligence/feed": {
   "etag": "W/\"bf9de80d7620c5639a0b43368220de65\"",

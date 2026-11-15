@@ -1,6 +1,63 @@
 [
  {
   "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "enterprise": 0.328,
+   "mlops": 0.609,
+   "security": 1.0,
+   "tools-launches": 0.336
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Connie Loizos"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024"
+  },
+  "fetched": "2026-11-15T06:45:15Z",
+  "focus": "tech",
+  "id": "cdf34d438f12",
+  "kind": "news",
+  "published": "2026-11-15T00:08:07Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate…",
+  "tags": [],
+  "title": "Where was Nvidia’s security team?",
+  "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "genai-llm": 1.0,
+   "open-source": 0.27,
+   "tools-launches": 0.635
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp"
+  },
+  "fetched": "2026-11-15T06:45:15Z",
+  "focus": "tech",
+  "id": "f9a3c449e598",
+  "kind": "news",
+  "published": "2026-11-14T23:59:28Z",
+  "score": 14.0,
+  "source_id": "simon-willison",
+  "summary": "Release: datasette-llm 0.1a11 . datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "datasette-llm 0.1a11",
+  "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+ },
+ {
+  "categories": [
    "ai-ml"
   ],
   "category_scores": {
@@ -3000,14 +3057,14 @@
     "Nan Liu",
     "Desai Xie"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "2eeb15f24271",
   "kind": "paper",
   "published": "2026-11-12T18:59:55Z",
-  "score": 20.0,
+  "score": 21.9,
   "source_id": "arxiv",
   "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block.",
   "tags": [
@@ -9012,14 +9069,14 @@
    "github": "https://github.com/NVlabs/DVSM",
    "hf_url": "https://huggingface.co/papers/2611.17331",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17331.png",
-   "upvotes": 22
+   "upvotes": 23
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "f741b330c4b3",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 53.1,
+  "score": 53.5,
   "source_id": "hf-papers",
   "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality.",
   "tags": [
@@ -9084,14 +9141,14 @@
    "github": "https://github.com/zhengxuyu/HDM-code",
    "hf_url": "https://huggingface.co/papers/2611.16961",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16961.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T23:39:45Z",
   "focus": "tech",
   "id": "d83a734d81f7",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 39.9,
+  "score": 41.5,
   "source_id": "hf-papers",
   "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token.",
   "tags": [
@@ -9229,14 +9286,14 @@
    "github": "https://github.com/minhkks/NestOne",
    "hf_url": "https://huggingface.co/papers/2611.16321",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16321.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
   "id": "89e1d9d80f7b",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 38.0,
+  "score": 39.9,
   "source_id": "hf-papers",
   "summary": "Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions require.",
   "tags": [
@@ -9414,14 +9471,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2607.13920",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.13920.png",
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "3cd24f43d3c4",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 41.5,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates.",
   "tags": [
@@ -9496,7 +9553,7 @@
    "github": "https://github.com/ZJU-REAL/decision-agents",
    "hf_url": "https://huggingface.co/papers/2611.17167",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17167.png",
-   "upvotes": 33
+   "upvotes": 34
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -9535,14 +9592,14 @@
    "github": "https://github.com/doyoungkim-ml/ehrl",
    "hf_url": "https://huggingface.co/papers/2611.16409",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16409.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "1b74118948fc",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 37.9,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs).",
   "tags": [
@@ -17330,7 +17387,7 @@
    "github": "https://github.com/holdrain/SO-Arena",
    "hf_url": "https://huggingface.co/papers/2611.15777",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15777.png",
-   "upvotes": 134
+   "upvotes": 136
   },
   "fetched": "2026-11-13T06:12:15Z",
   "focus": "tech",
@@ -17437,7 +17494,7 @@
    "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
    "hf_url": "https://huggingface.co/papers/2611.15844",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15844.png",
-   "upvotes": 34
+   "upvotes": 35
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
@@ -17480,14 +17537,14 @@
    "github": "https://github.com/ZefanW/JustRUA",
    "hf_url": "https://huggingface.co/papers/2611.16009",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16009.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T17:16:48Z",
   "focus": "tech",
   "id": "472f6c53fd63",
   "kind": "paper",
   "published": "2026-11-11T00:00:00Z",
-  "score": 43.9,
+  "score": 45.5,
   "source_id": "hf-papers",
   "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains.",
   "tags": [
@@ -23177,14 +23234,14 @@
    "github": "https://github.com/ViktorAxelsen/HiVe-Mem",
    "hf_url": "https://huggingface.co/papers/2611.12872",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12872.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "cb19e2862333",
   "kind": "paper",
   "published": "2026-11-09T00:00:00Z",
-  "score": 38.0,
+  "score": 39.9,
   "source_id": "hf-papers",
   "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and overlook heterogeneous evidence needs across queries.",
   "tags": [
@@ -24877,14 +24934,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.10439",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.10439.png",
-   "upvotes": 7
+   "upvotes": 8
   },
   "fetched": "2026-11-14T06:39:54Z",
   "focus": "tech",
   "id": "0cf57875206a",
   "kind": "paper",
   "published": "2026-11-07T00:00:00Z",
-  "score": 44.0,
+  "score": 45.0,
   "source_id": "hf-papers",
   "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private.",
   "tags": [
@@ -27624,14 +27681,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.08318",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08318.png",
-   "upvotes": 18
+   "upvotes": 20
   },
   "fetched": "2026-11-13T09:26:01Z",
   "focus": "tech",
   "id": "8c97a33ec8de",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 49.5,
+  "score": 50.4,
   "source_id": "hf-papers",
   "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE).",
   "tags": [
@@ -27803,14 +27860,14 @@
    "github": "https://github.com/ZJU-REAL/Agent-R2",
    "hf_url": "https://huggingface.co/papers/2611.08219",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08219.png",
-   "upvotes": 4
+   "upvotes": 6
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "6aa2075d69c1",
   "kind": "paper",
   "published": "2026-11-05T00:00:00Z",
-  "score": 39.9,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements.",
   "tags": [
