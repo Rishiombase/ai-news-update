@@ -1,6 +1,1664 @@
 [
  {
   "categories": [
+   "tools-launches",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "computer-vision": 0.394,
+   "genai-llm": 0.715,
+   "research": 0.27,
+   "tools-launches": 0.908
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Nick Indge"
+   ],
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "bccee91cf811",
+  "kind": "news",
+  "published": "2026-11-18T00:27:29Z",
+  "score": 20.0,
+  "source_id": "ars",
+  "summary": "Opening the keynote at its Ignite event, Microsoft CEO Satya Nadella outlined the company's vision for its new \"frontier ecosystem,\" announcing Tuesday the general availability of Word, Excel, and PowerPoint inside Copilot, which he described as \"the new OS for work.\".",
+  "tags": [],
+  "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+  "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.251,
+   "enterprise": 0.301,
+   "mlops": 0.339,
+   "research": 0.343,
+   "security": 0.263,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Julie Bort"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "9f7286d0bf41",
+  "kind": "news",
+  "published": "2026-11-18T00:16:50Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+  "tags": [],
+  "title": "Nvidia promises that revenue will keep soaring — for now",
+  "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "agents": 0.283,
+   "ai-ml": 1.0,
+   "enterprise": 0.38,
+   "genai-llm": 0.356,
+   "mlops": 0.358,
+   "open-source": 0.338,
+   "research": 0.449,
+   "robotics": 0.277,
+   "security": 0.431,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Nilay Patel"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "698ced14e342",
+  "kind": "news",
+  "published": "2026-11-17T23:41:18Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked [. ]",
+  "tags": [],
+  "title": "Satya Nadella says he’s AGI-pilled now",
+  "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "enterprise": 0.257,
+   "mlops": 0.905,
+   "security": 0.271,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Tim Fernholz"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "8239fbdc6243",
+  "kind": "news",
+  "published": "2026-11-17T23:37:48Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+  "tags": [],
+  "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+  "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "mlops": 1.0,
+   "open-source": 0.41
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Vinay Arora"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/14/ML-22230-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "206b86c970ea",
+  "kind": "news",
+  "published": "2026-11-17T23:33:26Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
+  "tags": [],
+  "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+  "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "ai-ml": 0.283,
+   "enterprise": 0.305,
+   "mlops": 0.274,
+   "open-source": 1.0,
+   "security": 0.313,
+   "tools-launches": 0.32
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sarah Perez"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "8f07365d378c",
+  "kind": "news",
+  "published": "2026-11-17T23:04:35Z",
+  "score": 25.0,
+  "source_id": "techcrunch",
+  "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+  "tags": [
+   "Open source"
+  ],
+  "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+  "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "genai-llm": 0.325,
+   "open-source": 0.285,
+   "security": 0.512
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "c60558e98558",
+  "kind": "news",
+  "published": "2026-11-17T22:52:29Z",
+  "score": 16.0,
+  "source_id": "simon-willison",
+  "summary": "External sandboxes for coding agents . I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.",
+  "tags": [],
+  "title": "External sandboxes for coding agents",
+  "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.322,
+   "research": 0.286,
+   "security": 0.251,
+   "tools-launches": 0.252
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michal Sutter"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-14534-1-scaled.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "c028ef26047b",
+  "kind": "news",
+  "published": "2026-11-17T22:52:04Z",
+  "score": 16.0,
+  "source_id": "marktechpost",
+  "summary": "Perplexity has added Multiagent to Computer , its agent platform for research and multistep work. Perplexity Computer Multiagent is a new effort level that sits above Ultra. A lead agent runs a team of agents on different frontier models.",
+  "tags": [],
+  "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
+  "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.633,
+   "enterprise": 0.516,
+   "genai-llm": 0.482,
+   "mlops": 0.891,
+   "open-source": 0.36,
+   "research": 0.33,
+   "robotics": 0.257,
+   "security": 0.321,
+   "tools-launches": 0.346
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Pallav Gupta"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ml-21786-Figure-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "2c0a64e08e41",
+  "kind": "news",
+  "published": "2026-11-17T22:44:51Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "As enterprises build production agents with dozens of tools and large structured inputs, token consumption and latency become the primary blockers to a good user experience.",
+  "tags": [
+   "Enterprise"
+  ],
+  "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+  "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "enterprise": 0.319,
+   "mlops": 0.311,
+   "research": 0.265,
+   "security": 0.278,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Lucas Ropek"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "01ad01e5cd41",
+  "kind": "news",
+  "published": "2026-11-17T22:42:27Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+  "tags": [],
+  "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+  "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "enterprise": 0.255,
+   "open-source": 0.273,
+   "research": 0.345,
+   "robotics": 0.312,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Julie Bort"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "b397f013e77f",
+  "kind": "news",
+  "published": "2026-11-17T22:29:05Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+  "tags": [],
+  "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+  "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.262,
+   "enterprise": 0.302,
+   "mlops": 0.322,
+   "research": 0.433,
+   "security": 0.45,
+   "tools-launches": 0.435
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Rebecca Bellan"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "28fff23dec51",
+  "kind": "news",
+  "published": "2026-11-17T21:48:07Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+  "tags": [],
+  "title": "SEC reportedly investigating Nvidia amid Huang exit",
+  "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.276,
+   "enterprise": 0.253,
+   "mlops": 0.348,
+   "research": 0.45,
+   "tools-launches": 0.449
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jay Peters"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "5b6a4fa0520d",
+  "kind": "news",
+  "published": "2026-11-17T21:40:59Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return.",
+  "tags": [],
+  "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+  "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "genai-llm": 0.3,
+   "mlops": 0.289,
+   "research": 0.304,
+   "security": 0.29,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sarah Perez"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2020/10/gmail-icon-2020-ios.jpg?resize=1200,675"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "f378d4ace0f3",
+  "kind": "news",
+  "published": "2026-11-17T21:34:50Z",
+  "score": 25.0,
+  "source_id": "techcrunch",
+  "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+  "tags": [],
+  "title": "Google joins the tech outage trend by announcing it’s not having one",
+  "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.403,
+   "ai-ml": 0.577,
+   "enterprise": 0.486,
+   "genai-llm": 1.0,
+   "mlops": 0.513,
+   "open-source": 0.384
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Meghan Kothari"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22259-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "6dbfd2c16f1d",
+  "kind": "news",
+  "published": "2026-11-17T21:14:55Z",
+  "score": 16.0,
+  "source_id": "aws-ml",
+  "summary": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
+  "tags": [],
+  "title": "Cut generative AI costs: Code for rules, models for judgment",
+  "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.278,
+   "ai-ml": 0.439,
+   "enterprise": 0.348,
+   "genai-llm": 0.561,
+   "mlops": 0.977,
+   "open-source": 0.45,
+   "research": 0.285,
+   "robotics": 0.28,
+   "security": 0.259,
+   "tools-launches": 0.713
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Dmitry Soldatkin"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22381-1-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "8e21326b778b",
+  "kind": "news",
+  "published": "2026-11-17T21:11:51Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "Today, Amazon SageMaker AI introduces KV cache-aware routing (KV-aware routing), a new routing strategy for real-time endpoints. It uses the cache state that the model container reports. It sends each request to an instance that already holds a long cached match for its prompt and isn’t too busy.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+  "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.786,
+   "ai-ml": 0.558,
+   "enterprise": 0.332,
+   "genai-llm": 0.322,
+   "open-source": 0.45,
+   "research": 0.299,
+   "security": 0.433,
+   "tools-launches": 0.349
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Mia Sato"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "b4420b34b762",
+  "kind": "news",
+  "published": "2026-11-17T21:00:55Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent.",
+  "tags": [],
+  "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+  "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake"
+ },
+ {
+  "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "agents": 0.313,
+   "ai-ml": 0.576,
+   "enterprise": 0.381,
+   "genai-llm": 0.284,
+   "mlops": 0.345,
+   "open-source": 0.26,
+   "research": 0.45,
+   "security": 0.995,
+   "tools-launches": 0.343
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-10019-scaled.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "fcd5880c8a2d",
+  "kind": "news",
+  "published": "2026-11-17T20:49:45Z",
+  "score": 14.0,
+  "source_id": "marktechpost",
+  "summary": "Data retention has become one of the most misunderstood terms in AI infrastructure. After a wave of AI security headlines, many dev teams now ask a simple question. Does my AI provider keep my data? The honest answer depends on how you send it.",
+  "tags": [],
+  "title": "Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained",
+  "url": "https://www.marktechpost.com/2026/11/17/zero-data-retention-ai-apis-explained/"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.297,
+   "ai-ml": 0.913,
+   "enterprise": 0.289,
+   "genai-llm": 0.293,
+   "research": 0.45,
+   "robotics": 0.374,
+   "security": 0.321
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Danna Lorch | School of Humanities, Arts, and Social Sciences"
+   ],
+   "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "f38228c9ef56",
+  "kind": "news",
+  "published": "2026-11-17T20:40:00Z",
+  "score": 24.0,
+  "source_id": "mit-news-ai",
+  "summary": "MIT students are going to office hours less often. They’re spending less time working through problem sets, and with one another.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Putting a spotlight on AI, society, and humanity",
+  "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "research": 0.325,
+   "security": 0.45,
+   "tools-launches": 0.445
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Ashley Belanger"
+   ],
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "407420f377ab",
+  "kind": "news",
+  "published": "2026-11-17T20:32:55Z",
+  "score": 20.0,
+  "source_id": "ars",
+  "summary": "On Monday, large trucks began circling the streets of Washington, DC, carrying billboards urging Congress to investigate the Trump administration’s ties with Nvidia’s disgraced CEO Jensen Huang. “Jensen was in bed with a spy from China,” the billboards created by the Tech Oversight Project (TOP) alleged.",
+  "tags": [],
+  "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+  "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "genai-llm": 0.258,
+   "open-source": 0.29,
+   "security": 0.336
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sana Iqbal"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-22167-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "1796857b9a1b",
+  "kind": "news",
+  "published": "2026-11-17T20:31:04Z",
+  "score": 16.0,
+  "source_id": "aws-ml",
+  "summary": "As organizations build more agents, Model Context Protocol (MCP) servers and skills, they need a consistent way to describe, govern, and find them. AWS Agent Registry provides a catalog for registering, approving, and discovering these resources and custom records.",
+  "tags": [],
+  "title": "Govern and discover records with common metadata in AWS Agent Registry",
+  "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/"
+ },
+ {
+  "categories": [
+   "security",
+   "enterprise",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.771,
+   "enterprise": 0.8,
+   "genai-llm": 0.284,
+   "mlops": 0.577,
+   "open-source": 0.384,
+   "robotics": 0.254,
+   "security": 0.986,
+   "tools-launches": 0.295
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Nithyashree Alwarsamy"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21095-1-2.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "3a6ddd65cb94",
+  "kind": "news",
+  "published": "2026-11-17T20:25:23Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "Enterprises today need a clear way to extend their authentication and authorization controls into the agentic layer, often requiring either broad service account permissions or custom-built auth integrations that add operational overhead.",
+  "tags": [
+   "Enterprise"
+  ],
+  "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+  "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "enterprise",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.482,
+   "ai-ml": 0.734,
+   "enterprise": 0.916,
+   "genai-llm": 0.69,
+   "mlops": 0.978,
+   "open-source": 0.45,
+   "research": 0.351,
+   "security": 0.478,
+   "tools-launches": 0.329
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Varun Rajan"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22355-1.jpg"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "2052af3031ae",
+  "kind": "news",
+  "published": "2026-11-17T19:40:01Z",
+  "score": 21.0,
+  "source_id": "aws-ml",
+  "summary": "Teams that ship generative AI to production know that a model is only as good as its data. That is why preparing high-quality training and evaluation data comes first.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+  "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/"
+ },
+ {
+  "categories": [
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 0.349,
+   "ai-ml": 0.507,
+   "enterprise": 0.859,
+   "genai-llm": 0.316,
+   "mlops": 0.295,
+   "open-source": 0.45,
+   "research": 0.297,
+   "tools-launches": 0.449
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Marina Temkin"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "776157cf22e3",
+  "kind": "news",
+  "published": "2026-11-17T19:32:11Z",
+  "score": 22.0,
+  "source_id": "techcrunch",
+  "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+  "tags": [],
+  "title": "Model ML raises $250M to automate investment banking grunt work",
+  "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.389,
+   "ai-ml": 0.313,
+   "enterprise": 1.0,
+   "genai-llm": 0.3,
+   "mlops": 0.381,
+   "open-source": 0.424,
+   "research": 0.336,
+   "robotics": 0.429,
+   "security": 0.392,
+   "tools-launches": 0.643
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Dr. Asa Kalavade"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/02/26/asa-kalavde-aws-100x128.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "1e308b5aafc0",
+  "kind": "news",
+  "published": "2026-11-17T19:05:22Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "AWS Forward Deployed Engineering is now available in 15 countries including U.S., Mexico, Brazil, Canada, Australia, Singapore, India, South Korea, Japan, UK, Germany, Netherlands, France, Sweden, and Saudi Arabia for commercial and public sector customers; and powered by dozens of built in production-ready…",
+  "tags": [
+   "Available now",
+   "Enterprise"
+  ],
+  "title": "Getting AI out of the demo and into businesses globally",
+  "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "genai-llm": 0.855,
+   "research": 0.298,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Lucas Ropek"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "3aa0c6065ac0",
+  "kind": "news",
+  "published": "2026-11-17T19:02:20Z",
+  "score": 24.0,
+  "source_id": "techcrunch",
+  "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+  "tags": [],
+  "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+  "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/"
+ },
+ {
+  "categories": [
+   "security",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.829,
+   "ai-ml": 0.485,
+   "enterprise": 0.307,
+   "research": 0.284,
+   "robotics": 0.254,
+   "security": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Kathy Pretz"
+   ],
+   "image": "https://spectrum.ieee.org/media-library/illustration-of-floating-hands-inspecting-the-use-of-ai-features-across-a-laptop-computer-academic-paper-and-the-world-wide-web.jpg?id=68699342&width=980"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "41930dc76153",
+  "kind": "news",
+  "published": "2026-11-17T19:00:03Z",
+  "score": 20.0,
+  "source_id": "ieee",
+  "summary": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents.",
+  "tags": [],
+  "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+  "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems"
+ },
+ {
+  "categories": [
+   "agents",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.982,
+   "ai-ml": 0.477,
+   "enterprise": 0.389,
+   "genai-llm": 0.681,
+   "mlops": 0.293,
+   "open-source": 0.401,
+   "research": 0.342,
+   "robotics": 0.333,
+   "security": 0.259,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Emma Roth"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Tasks-in-Gemini.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "0488c951c729",
+  "kind": "news",
+  "published": "2026-11-17T18:58:01Z",
+  "score": 22.0,
+  "source_id": "verge",
+  "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US [. ]",
+  "tags": [],
+  "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+  "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.346,
+   "enterprise": 0.59,
+   "genai-llm": 0.385,
+   "mlops": 0.618,
+   "open-source": 0.431,
+   "research": 0.287,
+   "robotics": 0.259,
+   "security": 0.353,
+   "tools-launches": 0.392
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Marco Larrea"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-21698-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "dfdee5b6b2fc",
+  "kind": "news",
+  "published": "2026-11-17T18:48:50Z",
+  "score": 16.0,
+  "source_id": "aws-ml",
+  "summary": "Across Latin America, India, and Southeast Asia, WhatsApp is one of the most widely used messaging applications. That makes it an obvious place to build an AI agent. For many end users, it is how they expect to interact with businesses.",
+  "tags": [],
+  "title": "Build WhatsApp AI agents with Amazon Bedrock AgentCore",
+  "url": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "ai-ml": 0.293,
+   "genai-llm": 1.0,
+   "nlp": 0.362,
+   "research": 0.309,
+   "tools-launches": 0.706
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jagmeet Singh"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg?resize=1200,800"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "3a4b135687e3",
+  "kind": "news",
+  "published": "2026-11-17T18:48:23Z",
+  "score": 24.0,
+  "source_id": "techcrunch",
+  "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+  "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+ },
+ {
+  "categories": [
+   "enterprise"
+  ],
+  "category_scores": {
+   "ai-ml": 0.393,
+   "enterprise": 0.91,
+   "genai-llm": 0.259,
+   "mlops": 0.306,
+   "open-source": 0.344,
+   "research": 0.264,
+   "security": 0.31,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Dharmik Desai"
+   ],
+   "image": "https://news.microsoft.com/source/wp-content/uploads/2026/11/Microsoft_salesforce_1024x576.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "2adb42fb6372",
+  "kind": "news",
+  "published": "2026-11-17T18:10:16Z",
+  "score": 30.0,
+  "source_id": "microsoft-ai",
+  "summary": "November 17, 2026 Category: AI . Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences .",
+  "tags": [],
+  "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
+  "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.89,
+   "genai-llm": 0.377,
+   "mlops": 0.264,
+   "open-source": 0.388,
+   "research": 0.45,
+   "tools-launches": 0.317
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Tim Fernholz"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/attachment-1.jpeg?resize=1200,730"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "027b06d66aa2",
+  "kind": "news",
+  "published": "2026-11-17T18:10:00Z",
+  "score": 22.0,
+  "source_id": "techcrunch",
+  "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+  "tags": [
+   "Research"
+  ],
+  "title": "As decision model use skyrockets, is customization the next frontier?",
+  "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.354,
+   "enterprise": 0.379,
+   "genai-llm": 0.287,
+   "mlops": 0.843,
+   "open-source": 0.315,
+   "research": 0.45,
+   "tools-launches": 0.417
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Martin Maritsch"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21774-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "0f81d901dab5",
+  "kind": "news",
+  "published": "2026-11-17T18:06:44Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "Across industries, decision-making starts with understanding what is changing and why. Industrial organizations collect data that informs decisions across their operations.",
+  "tags": [],
+  "title": "Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart",
+  "url": "https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.641,
+   "ai-ml": 0.363,
+   "enterprise": 0.954,
+   "genai-llm": 0.257,
+   "mlops": 0.31,
+   "open-source": 0.306,
+   "research": 0.349,
+   "robotics": 0.305,
+   "security": 0.295,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Russell Brandom"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Pedestal-Cofounders-Photo-November-2026.jpg?resize=1200,800"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "48c463046560",
+  "kind": "news",
+  "published": "2026-11-17T18:04:16Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+  "tags": [],
+  "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+  "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.422,
+   "genai-llm": 1.0,
+   "nlp": 0.369,
+   "research": 0.254,
+   "tools-launches": 0.646
+  },
+  "coverage": [
+   {
+    "published": "2026-11-17T20:30:50Z",
+    "source_id": "decoder",
+    "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+    "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
+   },
+   {
+    "published": "2026-11-17T22:07:30Z",
+    "source_id": "marktechpost",
+    "title": "OpenAI Releases GPT-6.2 Astra and Sol With a 20% Cheaper Astra API",
+    "url": "https://www.marktechpost.com/2026/11/17/openai-gpt-6-2-astra-sol-release/"
+   },
+   {
+    "published": "2026-11-17T22:38:52Z",
+    "source_id": "simon-willison",
+    "title": "GPT‐6.2 Astra and GPT‐6.2 Sol",
+    "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+   }
+  ],
+  "extra": {},
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "549a77347d5e",
+  "kind": "news",
+  "published": "2026-11-17T17:45:00Z",
+  "score": 63.0,
+  "source_id": "openai",
+  "summary": "Introducing GPT‐6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+  "tags": [
+   "API",
+   "Available now"
+  ],
+  "title": "Introducing GPT-6.2 Astra and Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "security"
+  ],
+  "category_scores": {
+   "enterprise": 0.315,
+   "genai-llm": 0.971,
+   "mlops": 0.316,
+   "open-source": 0.45,
+   "research": 0.336,
+   "security": 0.612,
+   "tools-launches": 0.496
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sarah Perez"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2025/07/Lumo-by-proton.jpeg?resize=1200,600"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "6ab4eb3121ad",
+  "kind": "news",
+  "published": "2026-11-17T17:32:25Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+  "tags": [],
+  "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+  "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "agents",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.654,
+   "ai-ml": 0.267,
+   "genai-llm": 0.56,
+   "mlops": 0.811,
+   "nlp": 0.308
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Timmy Liu"
+   ],
+   "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/llm-optimize-deploy-768x432.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "41dc972095bf",
+  "kind": "news",
+  "published": "2026-11-17T17:30:00Z",
+  "score": 14.0,
+  "source_id": "nvidia-dev",
+  "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,.",
+  "tags": [],
+  "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+  "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/"
+ },
+ {
+  "categories": [
+   "security",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.857,
+   "ai-ml": 0.917,
+   "enterprise": 0.328,
+   "genai-llm": 0.357,
+   "mlops": 0.268,
+   "open-source": 0.387,
+   "research": 0.356,
+   "robotics": 0.289,
+   "security": 0.863,
+   "tools-launches": 0.267
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Kirsten Korosec, Rebecca Bellan"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1670871943.jpg?resize=1200,675"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "b20533735bac",
+  "kind": "news",
+  "published": "2026-11-17T17:20:41Z",
+  "score": 22.0,
+  "source_id": "techcrunch",
+  "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+  "tags": [],
+  "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+  "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+ },
+ {
+  "categories": [
+   "security",
+   "enterprise",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.628,
+   "enterprise": 0.714,
+   "genai-llm": 0.263,
+   "mlops": 0.329,
+   "open-source": 0.296,
+   "research": 0.277,
+   "robotics": 0.306,
+   "security": 0.867,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michelle Ye"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-22359-1.jpg"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "38c4a38bd619",
+  "kind": "news",
+  "published": "2026-11-17T17:08:21Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "AWS Quick is the AI workspace built only for work, where the dashboards, agents, and automations one person creates are available to everyone on the team. Built on AWS with enterprise security and governance from the start, Quick connects to the data and applications you use every day.",
+  "tags": [
+   "Enterprise"
+  ],
+  "title": "Your complete guide to AWS Quick at AWS re:Invent 2026",
+  "url": "https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026/"
+ },
+ {
+  "categories": [
+   "agents",
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.319,
+   "enterprise": 0.993,
+   "genai-llm": 0.328,
+   "mlops": 0.606,
+   "open-source": 0.398,
+   "research": 0.262,
+   "robotics": 0.303,
+   "security": 0.329,
+   "tools-launches": 0.387
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Mariah Miller"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/ML-21891-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "fa2d79e8a491",
+  "kind": "news",
+  "published": "2026-11-17T17:01:08Z",
+  "score": 14.0,
+  "source_id": "aws-ml",
+  "summary": "This post is co-written with Mariah Miller from AWS and Colin Terry from LoanPro . Have you ever wondered what the experience is like for the person on the other end of the phone when you call your bank for support?",
+  "tags": [],
+  "title": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore",
+  "url": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 0.307,
+   "enterprise": 0.719,
+   "genai-llm": 0.275,
+   "mlops": 0.45,
+   "open-source": 0.404,
+   "research": 0.441,
+   "robotics": 0.318,
+   "security": 0.326,
+   "tools-launches": 0.906
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Stefano Mensa"
+   ],
+   "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/hybrid-quantum-classical-computing-architecture-768x432.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "f0125ef202cb",
+  "kind": "news",
+  "published": "2026-11-17T17:00:00Z",
+  "score": 14.0,
+  "source_id": "nvidia-dev",
+  "summary": "Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation.",
+  "tags": [],
+  "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
+  "url": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "enterprise": 0.459,
+   "genai-llm": 0.812,
+   "open-source": 0.263,
+   "research": 0.262,
+   "tools-launches": 0.679
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Josh Woodward"
+   ],
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "cb1d8f8bc84f",
+  "kind": "news",
+  "published": "2026-11-17T17:00:00Z",
+  "score": 34.0,
+  "source_id": "google-ai",
+  "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+  "tags": [],
+  "title": "Put Gemini to work for you",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.305,
+   "enterprise": 0.426,
+   "genai-llm": 0.422,
+   "open-source": 0.336,
+   "research": 0.26,
+   "robotics": 0.323,
+   "security": 0.422,
+   "tools-launches": 0.451
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Mia Chang"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/30/ML-21131-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "692230a9d797",
+  "kind": "news",
+  "published": "2026-11-17T16:56:31Z",
+  "score": 16.0,
+  "source_id": "aws-ml",
+  "summary": "Companies build agentic AI platforms to govern the applications, tools, skills, models, and storage that agents use. The nondeterministic nature of generative AI models introduces a complexity that previous software development practices didn’t anticipate.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Responsible AI for agentic AI: A phased roadmap for platform and application teams",
+  "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.809,
+   "ai-ml": 0.373,
+   "enterprise": 0.948,
+   "genai-llm": 0.551,
+   "mlops": 0.272,
+   "open-source": 0.392,
+   "research": 0.313,
+   "robotics": 0.256,
+   "security": 0.414,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Alan Truly"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_healthcare_agents.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "c45e75136865",
+  "kind": "news",
+  "published": "2026-11-17T16:55:47Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "OpenAI wants GPT-6 Astra and GPT-6 Luna to automate administrative tasks in US healthcare through computer-use agents that operate existing clinic software and insurance portals the way a human would. Luna handles tasks like prior authorizations for about 8.5 cents each.",
+  "tags": [],
+  "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+  "url": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.279,
+   "ai-ml": 0.918,
+   "enterprise": 0.33,
+   "genai-llm": 0.262,
+   "research": 0.65,
+   "robotics": 0.344,
+   "security": 0.312,
+   "tools-launches": 0.346
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Doug Burger, Ava Amini, Eric Horvitz, Dr. Eric Topol"
+   ],
+   "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/Episode3-Amini-Horvitz-Topol_TheShapeofThings_TW_LI_FB_1920x1080-1.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "996b5745644e",
+  "kind": "news",
+  "published": "2026-11-17T16:52:17Z",
+  "score": 24.0,
+  "source_id": "msr",
+  "summary": "Technical advancement is moving at such a rapid pace that it can be challenging to define the tomorrow we’re working toward.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Can AI help build a healthier future?",
+  "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 0.298,
+   "ai-ml": 0.575,
+   "enterprise": 0.386,
+   "genai-llm": 1.0,
+   "mlops": 0.296,
+   "open-source": 0.382,
+   "research": 0.364,
+   "robotics": 0.25,
+   "security": 0.371,
+   "tools-launches": 0.371
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Ryan Whitwam"
+   ],
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "bfe144881fd6",
+  "kind": "news",
+  "published": "2026-11-17T16:50:10Z",
+  "score": 24.0,
+  "source_id": "ars",
+  "summary": "It can be hard to use Google products—or even the Internet itself—without coming into contact with Gemini AI. That is, of course, by design . The more you use Gemini, the more data Google collects to train and improve its generative AI chatbot.",
+  "tags": [],
+  "title": "Google makes it easier to use Gemini without training AI on your data",
+  "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
+ },
+ {
+  "categories": [
+   "tools-launches"
+  ],
+  "category_scores": {
+   "genai-llm": 0.389,
+   "mlops": 0.311,
+   "open-source": 0.415,
+   "research": 0.281,
+   "tools-launches": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "5b158888670a",
+  "kind": "news",
+  "published": "2026-11-17T16:48:33Z",
+  "score": 14.0,
+  "source_id": "simon-willison",
+  "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+  "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 0.265,
+   "ai-ml": 0.377,
+   "enterprise": 0.648,
+   "mlops": 0.95,
+   "open-source": 0.402,
+   "research": 0.288,
+   "robotics": 0.281,
+   "security": 0.446,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maximilian Schreiner"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/03/Datacenter-Remote.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "5a76136e8f2d",
+  "kind": "news",
+  "published": "2026-11-17T16:47:21Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "The US is tightening its chip export controls. Data centers in third countries like Singapore and Malaysia will soon need a US license to buy Nvidia chips, closing the loophole that let Chinese firms rent cloud compute abroad.",
+  "tags": [],
+  "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
+  "url": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.925,
+   "ai-ml": 0.302,
+   "enterprise": 0.326,
+   "genai-llm": 0.349,
+   "open-source": 0.332,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sarah Perez"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/2daydream-agent-1.jpeg?w=1024"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "9073920a14ea",
+  "kind": "news",
+  "published": "2026-11-17T16:32:55Z",
+  "score": 22.0,
+  "source_id": "techcrunch",
+  "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+  "tags": [],
+  "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+  "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.305,
+   "enterprise": 0.322,
+   "mlops": 1.0,
+   "research": 0.434,
+   "security": 0.316,
+   "tools-launches": 0.424
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Stevie Bonifield"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461724/STK432_Government__CVirginia_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "off",
+  "id": "cdafd8ebe9f4",
+  "kind": "news",
+  "published": "2026-11-17T16:19:03Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year.",
+  "tags": [],
+  "title": "The DOJ says it’s investigating Megaspeed",
+  "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update"
+ },
+ {
+  "categories": [
    "mlops",
    "genai-llm",
    "enterprise"
@@ -295,6 +1953,41 @@
   ],
   "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
   "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.911,
+   "ai-ml": 0.309,
+   "enterprise": 0.318,
+   "genai-llm": 0.267,
+   "mlops": 0.314,
+   "open-source": 0.415,
+   "research": 0.565,
+   "robotics": 0.262,
+   "security": 0.349,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Brian Caulfield"
+   ],
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "dec08682255b",
+  "kind": "news",
+  "published": "2026-11-17T14:00:10Z",
+  "score": 32.0,
+  "source_id": "nvidia",
+  "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems.",
+  "tags": [],
+  "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+  "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/"
  },
  {
   "categories": [
@@ -599,6 +2292,34 @@
  },
  {
   "categories": [
+   "tools-launches",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "genai-llm": 0.89,
+   "nlp": 0.262,
+   "open-source": 0.283,
+   "research": 0.307,
+   "tools-launches": 0.999
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "c6c361c53bc4",
+  "kind": "news",
+  "published": "2026-11-17T08:00:00Z",
+  "score": 35.0,
+  "source_id": "openai",
+  "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Introducing ChatGPT for Sales",
+  "url": "https://openai.com/index/introducing-chatgpt-for-sales"
+ },
+ {
+  "categories": [
    "ai-ml"
   ],
   "category_scores": {
@@ -716,6 +2437,35 @@
   ],
   "title": "Introducing OpenAI for Chile",
   "url": "https://openai.com/index/introducing-openai-for-chile"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "enterprise": 0.848,
+   "genai-llm": 0.593,
+   "nlp": 0.401,
+   "research": 0.331,
+   "security": 0.368,
+   "tools-launches": 0.485
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "0604bc2b50fc",
+  "kind": "news",
+  "published": "2026-11-17T00:00:00Z",
+  "score": 30.0,
+  "source_id": "openai",
+  "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+  "tags": [
+   "Enterprise"
+  ],
+  "title": "Astra for Law leads in legal intelligence",
+  "url": "https://openai.com/index/astra-law-6-2"
  },
  {
   "categories": [
@@ -1488,14 +3238,15 @@
     "Xuyang Chen",
     "Ruihua Shi",
     "Zhichao Xu"
-   ]
+   ],
+   "upvotes": 1
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "a0c3fb0c7b2d",
   "kind": "paper",
   "published": "2026-11-16T18:59:04Z",
-  "score": 10.0,
+  "score": 16.0,
   "source_id": "arxiv",
   "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets.",
   "tags": [
@@ -4170,7 +5921,8 @@
     "Emily Guilhem",
     "Jon Cleary",
     "Amal Saleh Nour"
-   ]
+   ],
+   "upvotes": 0
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -6269,6 +8021,12 @@
     "source_id": "verge",
     "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
     "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back"
+   },
+   {
+    "published": "2026-11-17T22:19:19Z",
+    "source_id": "wired",
+    "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+    "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/"
    }
   ],
   "extra": {
@@ -6282,7 +8040,7 @@
   "id": "ca1899ca1680",
   "kind": "news",
   "published": "2026-11-16T14:06:16Z",
-  "score": 32.0,
+  "score": 39.0,
   "source_id": "ars",
   "summary": "Jensen Huang is considering a comeback as Nvidia’s chief executive, as allies in Silicon Valley pressure the company’s board to reinstate him days after the tech executive resigned over reports he had affairs with a suspected Chinese spy and a subordinate.",
   "tags": [],
@@ -7765,7 +9523,7 @@
    "github": "https://github.com/panuvi/inclusionmed",
    "hf_url": "https://huggingface.co/papers/2611.21218",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21218.png",
-   "upvotes": 59
+   "upvotes": 62
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -7869,14 +9627,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.20385",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20385.png",
-   "upvotes": 3
+   "upvotes": 5
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "8dc7a4b61873",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 36.0,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "Can a vision-language model look at a picture of a chain reaction and tell what will happen? Recent multimodal models describe scenes fluently and solve textbook physics problems, which suggests they should also predict how a scene of ramps, ledges, pendulums, seesaws and dominoes plays out once a ball is pushed.",
   "tags": [
@@ -7938,7 +9696,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.21003",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21003.png",
-   "upvotes": 59
+   "upvotes": 72
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -8043,14 +9801,14 @@
    "github": "https://github.com/ifm-ai/LoRM",
    "hf_url": "https://huggingface.co/papers/2611.20404",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20404.png",
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "44a64670dccc",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 39.5,
+  "score": 40.8,
   "source_id": "hf-papers",
   "summary": "When high-quality data runs out, a common practice is to train on it for several epochs, but each repeat is worth less than the last. Latent feedback, which feeds each token's top-layer state into the next token's input, is another way to spend that compute, yet it has not been tested against a vanilla Transformer that spends the same compute on more epochs.",
   "tags": [
@@ -8082,6 +9840,33 @@
  },
  {
   "categories": [
+   "computer-vision"
+  ],
+  "category_scores": {
+   "ai-ml": 0.315,
+   "computer-vision": 1.0,
+   "genai-llm": 0.574,
+   "open-source": 0.279,
+   "research": 0.456
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png"
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "24e843e375a7",
+  "kind": "news",
+  "published": "2026-11-16T00:00:00Z",
+  "score": 30.0,
+  "source_id": "apple-ml",
+  "summary": "Latent 3D representations have significantly expanded the capabilities of modern shape modeling, enabling compact encoding of 3D scenes and supporting powerful 3D generative models.",
+  "tags": [],
+  "title": "Split-and-Scale Latent 3D Representations",
+  "url": "https://machinelearning.apple.com/research/split-scale-latent-3d"
+ },
+ {
+  "categories": [
    "agents",
    "research"
   ],
@@ -8106,14 +9891,14 @@
    "github": "https://github.com/AdAstraAbyssoque/accelerate-bench",
    "hf_url": "https://huggingface.co/papers/2611.20882",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20882.png",
-   "upvotes": 14
+   "upvotes": 16
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "1e00563b1147",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 49.4,
+  "score": 50.5,
   "source_id": "hf-papers",
   "summary": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions.",
   "tags": [
@@ -8121,6 +9906,48 @@
   ],
   "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
   "url": "https://arxiv.org/abs/2611.20882"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.98,
+   "ai-ml": 0.312,
+   "genai-llm": 1.0,
+   "open-source": 0.362,
+   "research": 0.269,
+   "security": 0.437,
+   "tools-launches": 0.517
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sajib Acharjee Dip",
+    "Brian Ouyang",
+    "Lala Motlhabi"
+   ],
+   "github": "https://github.com/Sajib-006/silentguard",
+   "hf_url": "https://huggingface.co/papers/2611.20595",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20595.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "1d1fbcd080ee",
+  "kind": "paper",
+  "published": "2026-11-16T00:00:00Z",
+  "score": 38.5,
+  "source_id": "hf-papers",
+  "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a request, such as a misnamed filter, yet returns HTTP 200 and a plausible but wrong result. Current fixes, such as checklists, reviewer models and LLM judges, ask the model to catch it. But models often see the problem and answer anyway.",
+  "tags": [
+   "API",
+   "Research"
+  ],
+  "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
+  "url": "https://arxiv.org/abs/2611.20595"
  },
  {
   "categories": [
@@ -8149,7 +9976,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.21607",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21607.png",
-   "upvotes": 39
+   "upvotes": 41
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -8189,14 +10016,14 @@
    "github": "https://github.com/LynnReal-AI/LynnReal",
    "hf_url": "https://huggingface.co/papers/2611.21479",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21479.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "1642db2418de",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation.",
   "tags": [
@@ -8234,14 +10061,14 @@
    "github": "https://github.com/Tencent-Hunyuan/MovieRoll",
    "hf_url": "https://huggingface.co/papers/2611.21339",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21339.png",
-   "upvotes": 8
+   "upvotes": 10
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "073c818a4759",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 45.0,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillation, and long-horizon inference.",
   "tags": [
@@ -8276,7 +10103,7 @@
    "github": "https://github.com/InternLM/Sage-S2.1-Flash",
    "hf_url": "https://huggingface.co/papers/2611.21072",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21072.png",
-   "upvotes": 79
+   "upvotes": 85
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -8455,7 +10282,14 @@
    "security": 0.26,
    "tools-launches": 0.45
   },
-  "coverage": [],
+  "coverage": [
+   {
+    "published": "2026-11-17T16:44:15Z",
+    "source_id": "techcrunch",
+    "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+    "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/"
+   }
+  ],
   "extra": {
    "authors": [
     "Terrence O’Brien"
@@ -8467,7 +10301,7 @@
   "id": "0ae485d0fe26",
   "kind": "news",
   "published": "2026-11-15T20:43:49Z",
-  "score": 20.0,
+  "score": 32.0,
   "source_id": "verge",
   "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning.",
   "tags": [],
@@ -9767,14 +11601,14 @@
    "github": "https://github.com/coder-gx/RAPO",
    "hf_url": "https://huggingface.co/papers/2605.09614",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.09614.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "e8d77a39972e",
   "kind": "paper",
   "published": "2026-11-15T00:00:00Z",
-  "score": 24.0,
+  "score": 30.0,
   "source_id": "hf-papers",
   "summary": "Long chain-of-thought (CoT) reasoning improves large vision--language models, but visual information often fades during generation, limiting long-horizon multimodal reasoning.",
   "tags": [
@@ -9809,14 +11643,14 @@
    "github": "https://github.com/AIGeeksGroup/JEPA4R",
    "hf_url": "https://huggingface.co/papers/2611.19771",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19771.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "ce96c9cb1d6d",
   "kind": "paper",
   "published": "2026-11-15T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space. Two challenges remain: 2D images leave the metric geometry that manipulation acts on implicit and entangled with appearance, and what these models imagine stays hidden, as they are mostly judged in simulation by short-horizon latent planning.",
   "tags": [
@@ -9850,7 +11684,7 @@
    "github": "https://github.com/allocflow/AllocFlow",
    "hf_url": "https://huggingface.co/papers/2611.19937",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19937.png",
-   "upvotes": 64
+   "upvotes": 67
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -9887,14 +11721,14 @@
    "github": "https://github.com/knoveleng/centered-ablation",
    "hf_url": "https://huggingface.co/papers/2611.20148",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20148.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "9dc7925d32d8",
   "kind": "paper",
   "published": "2026-11-15T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Directional ablation removes a hidden state's component along a \"behaviour direction\" while a language model runs. It is the standard way to switch a behaviour such as refusal off, but it is erratic: on some models it barely fires, on others the text collapses into repetition. We show why, and fix it.",
   "tags": [
@@ -9928,14 +11762,14 @@
    "github": "https://github.com/VoxDance-Lab/VoxMel",
    "hf_url": "https://huggingface.co/papers/2611.20254",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20254.png",
-   "upvotes": 20
+   "upvotes": 22
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "693ec7af8048",
   "kind": "paper",
   "published": "2026-11-15T00:00:00Z",
-  "score": 50.4,
+  "score": 51.1,
   "source_id": "hf-papers",
   "summary": "Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity.",
   "tags": [
@@ -9972,7 +11806,7 @@
    "github": "https://github.com/TokenWave-AI/swe-cowork-bench",
    "hf_url": "https://huggingface.co/papers/2611.20218",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20218.png",
-   "upvotes": 41
+   "upvotes": 44
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -10009,14 +11843,14 @@
    "github": "https://github.com/Fr0zenCrane/GlyphAtlas",
    "hf_url": "https://huggingface.co/papers/2611.20192",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20192.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "4438d55cfc36",
   "kind": "paper",
   "published": "2026-11-15T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Scene text synthesis requires stroke-accurate characters rendered in a specified layout, as well as visual coherence with the surrounding scene. To achieve this, existing methods commonly pre-render the target text at its intended locations to form a glyph image that jointly specifies layout and glyph structure.",
   "tags": [
@@ -10330,14 +12164,14 @@
     "Yi Zhao",
     "Jiaxuan You"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-17T03:59:05Z",
   "focus": "tech",
   "id": "6c1b48e077a6",
   "kind": "paper",
   "published": "2026-11-14T22:35:41Z",
-  "score": 20.0,
+  "score": 21.9,
   "source_id": "arxiv",
   "summary": "Looped Transformers improve parameter efficiency by repeatedly applying the same Transformer layers. During autoregressive decoding, however, generating each token requires several sequential passes through these layers, leading to high decoding latency.",
   "tags": [
@@ -14485,14 +16319,14 @@
    "github": "https://github.com/vicgalle/craftax-program-policies",
    "hf_url": "https://huggingface.co/papers/2611.19537",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19537.png",
-   "upvotes": 2
+   "upvotes": 5
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "3d97b6ea7b24",
   "kind": "paper",
   "published": "2026-11-14T00:00:00Z",
-  "score": 33.5,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "Coding agents can synthesize and optimize code-based policies from simulator feedback, allowing the resulting program to act with zero inference model calls. But for long horizon tasks, two challenges arise: local improvements can hurt final success and switching to a new objective requires another expensive synthesis run.",
   "tags": [
@@ -15229,14 +17063,14 @@
     "Atakan Kara",
     "Anand Bhattad"
    ],
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
   "id": "db4c9587f5e4",
   "kind": "paper",
   "published": "2026-11-13T18:55:59Z",
-  "score": 21.9,
+  "score": 23.5,
   "source_id": "arxiv",
   "summary": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representations of student models relative to their teachers.",
   "tags": [
@@ -18067,14 +19901,15 @@
    "arxiv_category": "eess.AS",
    "authors": [
     "Solano Amadori"
-   ]
+   ],
+   "upvotes": 4
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
   "id": "e8bac21d9123",
   "kind": "paper",
   "published": "2026-11-13T15:44:18Z",
-  "score": 10.0,
+  "score": 23.9,
   "source_id": "arxiv",
   "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We present Marimba, an interface for typed speech decisions built on frozen Qwen3-ASR 0.6B features. Lexical questions use zero-shot scoring of ASR transcripts; non-lexical questions use a question-conditioned head and a separate layer-18 turn-end readout.",
   "tags": [
@@ -20058,14 +21893,14 @@
     "Alexander Miller",
     "Junyi Song"
    ],
-   "upvotes": 13
+   "upvotes": 15
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
   "id": "7e9a74ca3ff8",
   "kind": "paper",
   "published": "2026-11-13T09:44:48Z",
-  "score": 35.8,
+  "score": 37.0,
   "source_id": "arxiv",
   "summary": "Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows. However, existing reproducible web-agent benchmarks cover only a small number of web applications drawn from a few software categories, and restrict modality to text and vision.",
   "tags": [
@@ -20598,14 +22433,15 @@
    "arxiv_category": "cs.AI",
    "authors": [
     "Seyed Mahmoud Sajjadi Mohammadabadi"
-   ]
+   ],
+   "upvotes": 3
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
   "id": "e07c9a1525f2",
   "kind": "paper",
   "published": "2026-11-13T00:18:25Z",
-  "score": 10.0,
+  "score": 22.0,
   "source_id": "arxiv",
   "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories.",
   "tags": [
@@ -20683,7 +22519,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.18359",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.18359.png",
-   "upvotes": 123
+   "upvotes": 124
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
@@ -20728,14 +22564,14 @@
    "github": "https://github.com/adminblackjack/OutfitterBench",
    "hf_url": "https://huggingface.co/papers/2611.17933",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17933.png",
-   "upvotes": 1
+   "upvotes": 4
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "cfd93a05342f",
   "kind": "paper",
   "published": "2026-11-13T00:00:00Z",
-  "score": 32.0,
+  "score": 39.9,
   "source_id": "hf-papers",
   "summary": "In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes future obligations and forecloses later opportunities. Sustaining performance therefore requires both keeping evolving plans feasible and comparing the value of resource allocations with the alternatives they displace.",
   "tags": [
@@ -20770,14 +22606,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.18919",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.18919.png",
-   "upvotes": 2
+   "upvotes": 5
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "c76cc3171c9c",
   "kind": "paper",
   "published": "2026-11-13T00:00:00Z",
-  "score": 33.5,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label. A grasping policy that works directly on the point cloud from a depth sensor needs only the geometry the robot observes, so it applies to any new object.",
   "tags": [
@@ -21159,7 +22995,7 @@
    "github": "https://github.com/RainBowLuoCS/Gamer",
    "hf_url": "https://huggingface.co/papers/2611.18397",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.18397.png",
-   "upvotes": 115
+   "upvotes": 119
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
@@ -21296,6 +23132,47 @@
  },
  {
   "categories": [
+   "research",
+   "nlp"
+  ],
+  "category_scores": {
+   "ai-ml": 0.314,
+   "enterprise": 0.362,
+   "genai-llm": 0.45,
+   "nlp": 0.744,
+   "open-source": 0.255,
+   "research": 0.824
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Abdullah Al Zubaer",
+    "Lorenz Wendlinger",
+    "Simon Alexander Nonn",
+    "Michael Granitzer",
+    "Jelena Mitrović"
+   ],
+   "github": "https://github.com/wendli01/gpbam",
+   "hf_url": "https://huggingface.co/papers/2611.18981",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.18981.png",
+   "upvotes": 0
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "2d2f5c773424",
+  "kind": "paper",
+  "published": "2026-11-13T00:00:00Z",
+  "score": 27.0,
+  "source_id": "hf-papers",
+  "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion. We introduce GPBam (German Public Law Bar-style Exam), 81 public-law examination cases with reference solutions, paired with a recitation task over 200 statutory provisions.",
+  "tags": [
+   "Research"
+  ],
+  "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+  "url": "https://arxiv.org/abs/2611.18981"
+ },
+ {
+  "categories": [
    "research"
   ],
   "category_scores": {
@@ -21318,14 +23195,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.17834",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17834.png",
-   "upvotes": 22
+   "upvotes": 27
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "11fbf687495f",
   "kind": "paper",
   "published": "2026-11-13T00:00:00Z",
-  "score": 51.1,
+  "score": 52.8,
   "source_id": "hf-papers",
   "summary": "As AI conference submissions grow rapidly, AI reviewers are being considered as an alternative. However, simply imitating human reviewing is problematic because reviewing serves multiple purposes, including evaluating papers' soundness, interestingness, and clarity, the last two of which are subjective.",
   "tags": [
@@ -24498,14 +26375,14 @@
     "Sergey Ivanov",
     "Ivan Khodnenko"
    ],
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-13T08:19:40Z",
   "focus": "tech",
   "id": "14bce3397c11",
   "kind": "paper",
   "published": "2026-11-12T17:43:44Z",
-  "score": 23.9,
+  "score": 25.5,
   "source_id": "arxiv",
   "summary": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens.",
   "tags": [
@@ -28582,14 +30459,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.16500",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16500.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-17T03:59:05Z",
   "focus": "tech",
   "id": "b7b9f46962a2",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 33.5,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia.",
   "tags": [
@@ -28715,6 +30592,29 @@
  },
  {
   "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "genai-llm": 0.933,
+   "nlp": 0.323,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "a045ec708b22",
+  "kind": "news",
+  "published": "2026-11-12T00:00:00Z",
+  "score": 30.0,
+  "source_id": "openai",
+  "summary": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+  "tags": [],
+  "title": "ChatGPT Ads increases its market presence in 44 countries",
+  "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence"
+ },
+ {
+  "categories": [
    "genai-llm",
    "research"
   ],
@@ -28775,14 +30675,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.16642",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16642.png",
-   "upvotes": 0
+   "upvotes": 3
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "8fe06f111bce",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 24.0,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "The task of dataset distillation concerns the learning of a small set of synthetic samples that can serve as an effective replacement for a large real dataset when used for downstream tasks. While many solutions have been proposed since the problem's inception, most of them primarily seek to optimize the distilled data with respect to a classifier.",
   "tags": [
@@ -29129,6 +31029,43 @@
   ],
   "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
   "url": "https://arxiv.org/abs/2611.17167"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.603,
+   "ai-ml": 0.371,
+   "genai-llm": 1.0,
+   "nlp": 0.438,
+   "research": 0.282
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Yupeng Tang",
+    "Mingfeng Lin"
+   ],
+   "github": "https://github.com/yupengtang/when-expert-disagreement-hurts",
+   "hf_url": "https://huggingface.co/papers/2611.16694",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16694.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "1c82401b0f5b",
+  "kind": "paper",
+  "published": "2026-11-12T00:00:00Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers.",
+  "tags": [
+   "Research"
+  ],
+  "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
+  "url": "https://arxiv.org/abs/2611.16694"
  },
  {
   "categories": [
@@ -35629,14 +37566,14 @@
     "Burak Topcu",
     "Mahmut Taylan Kandemir"
    ],
-   "upvotes": 1
+   "upvotes": 5
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "4e7ee37c9bfa",
   "kind": "paper",
   "published": "2026-11-11T03:11:00Z",
-  "score": 16.0,
+  "score": 25.5,
   "source_id": "arxiv",
   "summary": "Coding agents can solve a task well before they stop working on it. We characterize \\emph{termination lag}--the number of steps between an agent's first correct patch and the end of its run--across five models, two agent frameworks, and three SWE-bench datasets by recording and testing every distinct repository patch generated during execution.",
   "tags": [
@@ -40080,14 +42017,14 @@
    "github": "https://github.com/llong-cs/EgoGuidance",
    "hf_url": "https://huggingface.co/papers/2611.13685",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13685.png",
-   "upvotes": 3
+   "upvotes": 5
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "f9dc12b18f4e",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 36.0,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can provide independent and complementary learning signals alongside action prediction.",
   "tags": [
@@ -40952,14 +42889,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.14487",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14487.png",
-   "upvotes": 8
+   "upvotes": 10
   },
   "fetched": "2026-11-17T03:59:05Z",
   "focus": "tech",
   "id": "59baae17354b",
   "kind": "paper",
   "published": "2026-11-10T00:00:00Z",
-  "score": 43.0,
+  "score": 44.8,
   "source_id": "hf-papers",
   "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress.",
   "tags": [
@@ -44094,6 +46031,32 @@
  },
  {
   "categories": [
+   "tools-launches",
+   "genai-llm",
+   "enterprise"
+  ],
+  "category_scores": {
+   "enterprise": 0.743,
+   "genai-llm": 0.779,
+   "research": 0.27,
+   "tools-launches": 0.863
+  },
+  "coverage": [],
+  "extra": {},
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "041eb172e023",
+  "kind": "news",
+  "published": "2026-11-09T00:00:00Z",
+  "score": 30.0,
+  "source_id": "openai",
+  "summary": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.",
+  "tags": [],
+  "title": "How VistaPrint helps small businesses get the word out",
+  "url": "https://openai.com/ads/customers/vistaprint"
+ },
+ {
+  "categories": [
    "tools-launches"
   ],
   "category_scores": {
@@ -44447,6 +46410,48 @@
   ],
   "title": "Spatial Harness: Grounding Spatial Reasoning in Executable World States with Physics Engines",
   "url": "https://arxiv.org/abs/2611.11344"
+ },
+ {
+  "categories": [
+   "agents",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.95,
+   "ai-ml": 0.369,
+   "enterprise": 0.258,
+   "genai-llm": 0.945,
+   "nlp": 0.333,
+   "open-source": 0.28,
+   "research": 0.268
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Renee Jia",
+    "Di Mu",
+    "Yao Yu",
+    "Tianrui Liu"
+   ],
+   "github": "https://github.com/renee-jia/trading-bot",
+   "hf_url": "https://huggingface.co/papers/2611.11657",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11657.png",
+   "upvotes": 0
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "0223c88a59f7",
+  "kind": "paper",
+  "published": "2026-11-08T00:00:00Z",
+  "score": 26.0,
+  "source_id": "hf-papers",
+  "summary": "We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based portfolio construction and rule-based execution. Company-news and macroeconomic agents return structured reports to a coordinator that sets stock weights and cash reserves.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
+  "url": "https://arxiv.org/abs/2611.11657"
  },
  {
   "categories": [
@@ -45748,14 +47753,14 @@
    "github": "https://github.com/OpenBitSys/BitDecoding-FP4",
    "hf_url": "https://huggingface.co/papers/2611.09825",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.09825.png",
-   "upvotes": 1
+   "upvotes": 3
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "9c3a2d896fea",
   "kind": "paper",
   "published": "2026-11-06T00:00:00Z",
-  "score": 30.0,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving.",
   "tags": [
@@ -46111,6 +48116,46 @@
   ],
   "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
   "url": "https://arxiv.org/abs/2611.12934"
+ },
+ {
+  "categories": [
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.462,
+   "genai-llm": 0.45,
+   "mlops": 0.706,
+   "open-source": 0.309,
+   "research": 0.383
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "William Xingxu Chen",
+    "Alexi Gladstone",
+    "Zeyu Michael Li",
+    "Heng Ji",
+    "Yilun Du"
+   ],
+   "github": "https://github.com/wwillchen/ebr",
+   "hf_url": "https://huggingface.co/papers/2611.08977",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08977.png",
+   "upvotes": 4
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "5eb4e83b4199",
+  "kind": "paper",
+  "published": "2026-11-06T00:00:00Z",
+  "score": 39.9,
+  "source_id": "hf-papers",
+  "summary": "Looping is a powerful inductive bias for reasoning. By repeatedly iterating a recurrent block, looped models can scale their effective depth and enable multi-step reasoning in latent space. However, existing looped models are not inherently guided by an explicit measure of progress, making it difficult to determine when to stop looping and how to improve upon the current state.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+  "url": "https://arxiv.org/abs/2611.08977"
  },
  {
   "categories": [
@@ -48417,14 +50462,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.06866",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06866.png",
-   "upvotes": 12
+   "upvotes": 14
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
   "id": "36c32382e5bb",
   "kind": "paper",
   "published": "2026-11-04T18:20:41Z",
-  "score": 46.2,
+  "score": 47.4,
   "source_id": "hf-papers",
   "summary": "Agentic workflows enable AI agents to perform recurring repository tasks on schedules or in response to repository events. Existing studies examine workflow definitions and outputs, but provide limited evidence of what happens during execution.",
   "tags": [
@@ -49250,7 +51295,7 @@
    "github": "https://github.com/saintmachines/spillway",
    "hf_url": "https://huggingface.co/papers/2611.07222",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07222.png",
-   "upvotes": 45
+   "upvotes": 55
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -49293,14 +51338,14 @@
    "github": "https://github.com/yancyou/Loopback",
    "hf_url": "https://huggingface.co/papers/2611.07226",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07226.png",
-   "upvotes": 23
+   "upvotes": 24
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
   "id": "cebb296c29e7",
   "kind": "paper",
   "published": "2026-11-04T00:00:00Z",
-  "score": 51.5,
+  "score": 51.9,
   "source_id": "hf-papers",
   "summary": "Looped Transformers reduce parameter count by repeatedly applying shared blocks, but parameter sharing alone does not determine how the results of repeated computation are reused. We take the depth-memory view of residual connections and analyze which representation is stored after each block application and how later reads weight it.",
   "tags": [
@@ -51769,6 +53814,43 @@
  },
  {
   "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.964,
+   "genai-llm": 0.863,
+   "mlops": 0.294,
+   "nlp": 0.361,
+   "open-source": 0.442,
+   "research": 0.426,
+   "security": 0.29
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Renee Jia",
+    "Jinzhou Wu"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.04395",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04395.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-18T01:00:36Z",
+  "focus": "tech",
+  "id": "49c54cb5cdd7",
+  "kind": "paper",
+  "published": "2026-11-03T00:00:00Z",
+  "score": 35.5,
+  "source_id": "hf-papers",
+  "summary": "Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
+  "url": "https://arxiv.org/abs/2611.04395"
+ },
+ {
+  "categories": [
    "genai-llm",
    "computer-vision",
    "research"
@@ -53901,14 +55983,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.02822",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02822.png",
-   "upvotes": 10
+   "upvotes": 11
   },
   "fetched": "2026-11-16T06:44:19Z",
   "focus": "tech",
   "id": "a5bab3e045af",
   "kind": "paper",
   "published": "2026-11-02T00:00:00Z",
-  "score": 44.8,
+  "score": 45.5,
   "source_id": "hf-papers",
   "summary": "Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly once the inference horizon outruns the training horizon, due to compounding exposure bias. To stabilize long rollouts, recent methods heuristically adopt frame sink, keeping initial frames as a persistent model context, inspired by attention sinks in LLMs.",
   "tags": [
