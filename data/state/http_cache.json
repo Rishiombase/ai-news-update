@@ -1,7 +1,7 @@
 {
  "https://arstechnica.com/ai/feed/": {
-  "etag": "\"0e6de3495dbaa6811ad20c71bd6a2685\"",
-  "last_modified": "Wed, 18 Nov 2026 00:38:07 GMT"
+  "etag": "\"0cc804120b4d640e34b268b5a1625fcf\"",
+  "last_modified": "Wed, 18 Nov 2026 11:00:27 GMT"
  },
  "https://aws.amazon.com/blogs/machine-learning/feed/": {
   "etag": null,
@@ -20,7 +20,7 @@
   "last_modified": "Tue, 17 Nov 2026 23:50:42 GMT"
  },
  "https://deepmind.google/blog/rss.xml": {
-  "etag": "\"IDDlQQ\"",
+  "etag": "\"0YUUmA\"",
   "last_modified": null
  },
  "https://developer.nvidia.com/blog/feed": {
@@ -32,8 +32,8 @@
   "last_modified": "Tue, 17 Nov 2026 21:19:20 GMT"
  },
  "https://github.blog/ai-and-ml/feed/": {
-  "etag": "W/\"d234639be2b7ffac10ceb2f49a1f7d56\"",
-  "last_modified": "Tue, 17 Nov 2026 20:22:30 GMT"
+  "etag": "W/\"49670e0bb3f9b4e2f12a2cb2a7e896a0\"",
+  "last_modified": "Wed, 18 Nov 2026 01:31:33 GMT"
  },
  "https://huggingface.co/blog/feed.xml": {
   "etag": "W/\"4186f-XN9Hnkw5PokMlbvDxN8o8EGt6PQ\"",
@@ -44,7 +44,7 @@
   "last_modified": null
  },
  "https://lastweekin.ai/feed": {
-  "etag": "W/\"39d64-cVSXhpm83uxSIDiSPdit4h14GX8\"",
+  "etag": "W/\"39d64-w+YbGDb6S0m/5D3ZILTkgbpa9/4\"",
   "last_modified": null
  },
  "https://machinelearning.apple.com/rss.xml": {
@@ -56,16 +56,16 @@
   "last_modified": "Wed, 18 Nov 2026 00:02:57 GMT"
  },
  "https://news.mit.edu/rss/topic/artificial-intelligence2": {
-  "etag": "\"1794963221\"",
-  "last_modified": "Wed, 18 Nov 2026 00:53:41 GMT"
+  "etag": "\"1795001108\"",
+  "last_modified": "Wed, 18 Nov 2026 11:25:08 GMT"
  },
  "https://openai.com/news/rss.xml": {
   "etag": null,
   "last_modified": null
  },
  "https://pytorch.org/feed/": {
-  "etag": "\"72f42b1d74f15635af64cc9360e1b694\"",
-  "last_modified": "Tue, 17 Nov 2026 22:09:16 GMT"
+  "etag": "\"0eccf2b836e4ef474644d5c1c18f1ff4\"",
+  "last_modified": "Wed, 18 Nov 2026 09:41:09 GMT"
  },
  "https://research.google/blog/rss/": {
   "etag": null,
@@ -80,27 +80,27 @@
   "last_modified": "Tue, 17 Nov 2026 19:01:25 GMT"
  },
  "https://techcrunch.com/category/artificial-intelligence/feed/": {
-  "etag": "W/\"f0589083eefe27abd73876f0ad38fa86\"",
-  "last_modified": "Wed, 18 Nov 2026 00:59:40 GMT"
+  "etag": "W/\"0c75ab1794d20c74b7e6872efb159d0f\"",
+  "last_modified": "Wed, 18 Nov 2026 11:43:52 GMT"
  },
  "https://the-decoder.com/feed/": {
-  "etag": "\"a4c82bd93b8df7a8a07a3c9dc7145629\"",
-  "last_modified": "Tue, 17 Nov 2026 20:31:49 GMT"
+  "etag": "\"b24bc3f91df1f182ab7c2403f74cd96e\"",
+  "last_modified": "Wed, 18 Nov 2026 10:26:43 GMT"
  },
  "https://www.marktechpost.com/feed/": {
-  "etag": "W/\"0d65b29c294ab46736e046990ad750cb\"",
-  "last_modified": "Tue, 17 Nov 2026 22:52:06 GMT"
+  "etag": "W/\"a1c55db2f187baae3dfebf64d845f8ad\"",
+  "last_modified": "Wed, 18 Nov 2026 10:21:19 GMT"
  },
  "https://www.microsoft.com/en-us/research/feed/": {
-  "etag": "\"140caabb009b0592423ac38fa7ef91f4\"",
-  "last_modified": "Wed, 18 Nov 2026 00:57:18 GMT"
+  "etag": "\"823b4bd95addf11b90e1f8701b9621b8\"",
+  "last_modified": "Wed, 18 Nov 2026 06:59:50 GMT"
  },
  "https://www.technologyreview.com/topic/artificial-intelligence/feed": {
-  "etag": "W/\"51c5dad21774bdf3dc53ca7ab981990b\"",
-  "last_modified": "Tue, 17 Nov 2026 18:57:49 GMT"
+  "etag": "W/\"1a9a8150b3f25aac11849bad4edfc56f\"",
+  "last_modified": "Wed, 18 Nov 2026 10:21:29 GMT"
  },
  "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-  "etag": "W/\"76aa587f67e997086c4f38ee54d0de45\"",
+  "etag": "W/\"1f176e40c2aeccf888a934bb05aa6c62\"",
   "last_modified": null
  },
  "https://www.wired.com/feed/tag/ai/latest/rss": {
