@@ -1,6 +1,196 @@
 [
  {
   "categories": [
+   "research",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.256,
+   "genai-llm": 0.718,
+   "open-source": 0.272,
+   "research": 0.725,
+   "tools-launches": 0.421
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Manuel Uth"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_riemann.png"
+  },
+  "fetched": "2026-11-21T11:20:33Z",
+  "focus": "tech",
+  "id": "ac3df93f97de",
+  "kind": "news",
+  "published": "2026-11-21T11:19:49Z",
+  "score": 23.0,
+  "source_id": "decoder",
+  "summary": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages.",
+  "tags": [
+   "Available now",
+   "Research"
+  ],
+  "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+  "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "ai-ml": 0.256,
+   "genai-llm": 0.519,
+   "open-source": 0.941,
+   "research": 0.27,
+   "tools-launches": 0.416
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2025/09/thinking_machines_ca_illustration.png"
+  },
+  "fetched": "2026-11-21T11:20:33Z",
+  "focus": "tech",
+  "id": "101fc3518e5f",
+  "kind": "news",
+  "published": "2026-11-21T10:33:02Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+  "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 1.0,
+   "research": 0.425,
+   "security": 0.375,
+   "tools-launches": 0.291
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/tech_crash_synth.png"
+  },
+  "fetched": "2026-11-21T11:20:33Z",
+  "focus": "off",
+  "id": "31739de0b0b3",
+  "kind": "news",
+  "published": "2026-11-21T10:27:44Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO.",
+  "tags": [],
+  "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+  "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "agents": 0.543,
+   "ai-ml": 0.579,
+   "enterprise": 0.27,
+   "genai-llm": 0.332,
+   "open-source": 1.0,
+   "research": 0.535,
+   "security": 0.303,
+   "tools-launches": 0.272
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jonathan Kemper"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/bytedance-axio-training-pipeline-nano-banana-pro.jpg"
+  },
+  "fetched": "2026-11-21T11:20:33Z",
+  "focus": "tech",
+  "id": "c77f37fad59e",
+  "kind": "news",
+  "published": "2026-11-21T09:17:24Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps.",
+  "tags": [],
+  "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+  "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.857,
+   "enterprise": 0.317,
+   "mlops": 0.317,
+   "open-source": 0.346,
+   "research": 0.406,
+   "security": 0.351,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://substackcdn.com/image/fetch/$s_!RcOW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe937cf00-17ca-41fb-866c-fd971727d6c6_3366x1906.png"
+  },
+  "fetched": "2026-11-21T11:20:33Z",
+  "focus": "off",
+  "id": "411f6e2d31f4",
+  "kind": "news",
+  "published": "2026-11-21T08:41:43Z",
+  "score": 4.0,
+  "source_id": "last-week-ai",
+  "summary": "Top News. Anthropic’s record IPO lands well as the market around it falls into a correction. Sources:. Anthropic Debuts on Wall Street as a $2 Trillion Company . Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price . Anthropic shares fall 8% in premarket amid AI selloff as Nvidia, AMD shares drop .",
+  "tags": [],
+  "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+  "url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction"
+ },
+ {
+  "categories": [
+   "open-source"
+  ],
+  "category_scores": {
+   "ai-ml": 0.373,
+   "genai-llm": 0.56,
+   "open-source": 1.0,
+   "research": 0.371,
+   "tools-launches": 0.542
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-119999-1-1-1024x768.png"
+  },
+  "fetched": "2026-11-21T11:20:33Z",
+  "focus": "tech",
+  "id": "f1c306e2bd8b",
+  "kind": "news",
+  "published": "2026-11-21T04:01:04Z",
+  "score": 21.0,
+  "source_id": "marktechpost",
+  "summary": "Baseten has released bison-1 and groundhog-1, 2 open-weight decision models built on Google’s Gemma 4 . Decision models do not write text. They return calibrated probabilities for yes/no, choice and score questions. The Baseten bison-1 decision model scores 76 on the Artificial Analysis Decision Index v2.1 .",
+  "tags": [
+   "Open source",
+   "Available now"
+  ],
+  "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+  "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/"
+ },
+ {
+  "categories": [
    "agents",
    "tools-launches"
   ],
@@ -2324,14 +2514,14 @@
     "Duen Horng Chau",
     "Pinar Yanardag"
    ],
-   "upvotes": 14
+   "upvotes": 16
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "18030cf50d98",
   "kind": "paper",
   "published": "2026-11-19T18:59:53Z",
-  "score": 31.4,
+  "score": 32.5,
   "source_id": "arxiv",
   "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations.",
   "tags": [
@@ -4407,14 +4597,14 @@
    "authors": [
     "Tanmay Sah"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "5c7e324ff775",
   "kind": "paper",
   "published": "2026-11-19T17:18:38Z",
-  "score": 20.0,
+  "score": 21.9,
   "source_id": "arxiv",
   "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
   "tags": [
@@ -6207,14 +6397,14 @@
     "Xiangchi Yuan",
     "Ningshan Ma"
    ],
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "87fdae178a63",
   "kind": "paper",
   "published": "2026-11-19T15:14:55Z",
-  "score": 19.5,
+  "score": 22.0,
   "source_id": "arxiv",
   "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging.",
   "tags": [
@@ -10305,7 +10495,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.26590",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png",
-   "upvotes": 38
+   "upvotes": 41
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -10344,14 +10534,14 @@
    "github": "https://github.com/jmaasch/itpd",
    "hf_url": "https://huggingface.co/papers/2611.26232",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26232.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-21T02:26:44Z",
   "focus": "tech",
   "id": "d1acb81cd1be",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 24.0,
+  "score": 30.0,
   "source_id": "hf-papers",
   "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case.",
   "tags": [
@@ -10386,14 +10576,14 @@
    "github": "https://github.com/os-cua-framework/TuringSpace",
    "hf_url": "https://huggingface.co/papers/2611.25387",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25387.png",
-   "upvotes": 22
+   "upvotes": 23
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "cf18d6c71fe0",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 51.1,
+  "score": 51.5,
   "source_id": "hf-papers",
   "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same? CAPTCHAs offer a natural test, since humans solve them through this very loop, clicking and dragging on the screen and adjusting after each result.",
   "tags": [
@@ -10450,14 +10640,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25567",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25567.png",
-   "upvotes": 9
+   "upvotes": 10
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "b7d196b2231c",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 43.9,
+  "score": 44.8,
   "source_id": "hf-papers",
   "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline.",
   "tags": [
@@ -10494,14 +10684,14 @@
    "github": "https://github.com/PerfectXu88/PAD",
    "hf_url": "https://huggingface.co/papers/2611.25604",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25604.png",
-   "upvotes": 1
+   "upvotes": 3
   },
   "fetched": "2026-11-21T02:26:44Z",
   "focus": "tech",
   "id": "b2ed17431c5b",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 30.0,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another.",
   "tags": [
@@ -10534,14 +10724,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.26073",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26073.png",
-   "upvotes": 20
+   "upvotes": 22
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "ae8493cfe49e",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 50.4,
+  "score": 51.1,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same annotators.",
   "tags": [
@@ -10577,7 +10767,7 @@
    "github": "https://github.com/FrankYang-17/Coda",
    "hf_url": "https://huggingface.co/papers/2611.26595",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26595.png",
-   "upvotes": 32
+   "upvotes": 34
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -10640,14 +10830,14 @@
    "github": "https://github.com/Tencent/LightningMoBA",
    "hf_url": "https://huggingface.co/papers/2611.26268",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26268.png",
-   "upvotes": 12
+   "upvotes": 13
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "a0c418e6dda1",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 46.2,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the same column.",
   "tags": [
@@ -10723,14 +10913,14 @@
    "github": "https://github.com/showlab/O2LaF",
    "hf_url": "https://huggingface.co/papers/2611.26617",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26617.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "9c6fdc0eee9c",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 33.5,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O^{2}LaF, built on a simple principle: one prior, two dynamics.",
   "tags": [
@@ -10927,14 +11117,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.26408",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26408.png",
-   "upvotes": 12
+   "upvotes": 14
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "636d7b3b28e7",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 48.2,
+  "score": 49.4,
   "source_id": "hf-papers",
   "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming.",
   "tags": [
@@ -10967,7 +11157,7 @@
    "github": "https://github.com/Mind2Act/Mind2Act_World",
    "hf_url": "https://huggingface.co/papers/2611.26444",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26444.png",
-   "upvotes": 45
+   "upvotes": 46
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11037,14 +11227,14 @@
    "github": "https://github.com/RUCAIBox/AutoMaster",
    "hf_url": "https://huggingface.co/papers/2611.26510",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26510.png",
-   "upvotes": 10
+   "upvotes": 14
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "48c31b126ef9",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 46.8,
+  "score": 49.4,
   "source_id": "hf-papers",
   "summary": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification.",
   "tags": [
@@ -11120,7 +11310,7 @@
    "github": "https://github.com/yesiltepe-hidir/PMD",
    "hf_url": "https://huggingface.co/papers/2611.26629",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26629.png",
-   "upvotes": 31
+   "upvotes": 35
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11200,14 +11390,14 @@
    "github": "https://github.com/IlyaGusev/twicetold",
    "hf_url": "https://huggingface.co/papers/2611.26286",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26286.png",
-   "upvotes": 9
+   "upvotes": 10
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "23b4d8aebf88",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 43.9,
+  "score": 44.8,
   "source_id": "hf-papers",
   "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals.",
   "tags": [
@@ -11319,14 +11509,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25980",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25980.png",
-   "upvotes": 12
+   "upvotes": 14
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "0f1db7316aa0",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 48.2,
+  "score": 49.4,
   "source_id": "hf-papers",
   "summary": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations.",
   "tags": [
@@ -12345,14 +12535,14 @@
     "Xiaojun Chang",
     "Xiuying Chen"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-20T02:24:02Z",
   "focus": "tech",
   "id": "a541e3150ccd",
   "kind": "paper",
   "published": "2026-11-18T21:02:31Z",
-  "score": 20.0,
+  "score": 21.9,
   "source_id": "arxiv",
   "summary": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure. Passing an expert demonstration shows that a checker accepts one way of completing the task. Learned policies, however, may stop after partial progress or complete the task in a different way.",
   "tags": [
@@ -14552,14 +14742,14 @@
     "Mark Marosi",
     "Peter Antal"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "88225b01e047",
   "kind": "paper",
   "published": "2026-11-18T18:07:55Z",
-  "score": 22.0,
+  "score": 23.9,
   "source_id": "arxiv",
   "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model makes on the rest of its training data substitutes for the data that was withheld.",
   "tags": [
@@ -15024,14 +15214,14 @@
     "Wei Tang",
     "Yu Cheng"
    ],
-   "upvotes": 12
+   "upvotes": 13
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "c1bea1e1bbb0",
   "kind": "paper",
   "published": "2026-11-18T17:45:51Z",
-  "score": 32.2,
+  "score": 32.8,
   "source_id": "arxiv",
   "summary": "Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget.",
   "tags": [
@@ -19525,14 +19715,14 @@
     "Dheevatsa Mudigere",
     "Jatin Mitra"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-19T02:38:57Z",
   "focus": "tech",
   "id": "72db11267713",
   "kind": "paper",
   "published": "2026-11-18T04:40:10Z",
-  "score": 20.0,
+  "score": 21.9,
   "source_id": "arxiv",
   "summary": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width.",
   "tags": [
@@ -19637,14 +19827,14 @@
     "Yihao Liu",
     "Junwei He"
    ],
-   "upvotes": 6
+   "upvotes": 7
   },
   "fetched": "2026-11-19T02:38:57Z",
   "focus": "tech",
   "id": "bbdb3cd06735",
   "kind": "paper",
   "published": "2026-11-18T04:24:51Z",
-  "score": 26.8,
+  "score": 28.0,
   "source_id": "arxiv",
   "summary": "Reinforcement learning from terminal answer rewards enables search-augmented language models to interleave reasoning and retrieval without step-level annotations, yet outcome supervision assigns identical credit to every search in a trajectory regardless of whether it retrieved useful information.",
   "tags": [
@@ -20075,14 +20265,14 @@
     "Laia Mogas Pladevall",
     "Marçal Comajoan Cara"
    ],
-   "upvotes": 10
+   "upvotes": 12
   },
   "fetched": "2026-11-19T02:38:57Z",
   "focus": "tech",
   "id": "1f6e59d24f33",
   "kind": "paper",
   "published": "2026-11-18T03:35:35Z",
-  "score": 31.8,
+  "score": 33.2,
   "source_id": "arxiv",
   "summary": "Recent advances in machine learning have accelerated biomedical prediction, but evaluation on structured biomedical data remains fragmented, especially for datasets with high dimensionality, large sample size, missingness, and class imbalance.",
   "tags": [
@@ -20482,14 +20672,14 @@
     "Zhenya Huang",
     "Qi Liu"
    ],
-   "upvotes": 14
+   "upvotes": 16
   },
   "fetched": "2026-11-19T02:38:57Z",
   "focus": "tech",
   "id": "d447126fcbb5",
   "kind": "paper",
   "published": "2026-11-18T03:05:41Z",
-  "score": 33.4,
+  "score": 34.5,
   "source_id": "arxiv",
   "summary": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-specific hooks authored per environment.",
   "tags": [
@@ -22104,14 +22294,14 @@
    "github": "https://github.com/ValueByte-AI/chiron",
    "hf_url": "https://huggingface.co/papers/2611.24830",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24830.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "e9b4f62a38c3",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and distort population statistics. Here we introduce Chiron, a foundation model to measure and predict human behaviour.",
   "tags": [
@@ -22206,14 +22396,14 @@
    "github": "https://github.com/Sachithx/PACT",
    "hf_url": "https://huggingface.co/papers/2611.24075",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24075.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "c64cb56963da",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Pretrained Time-Series Foundation Models (TSFMs) provide strong representations for downstream classification tasks. Yet adapting a TSFM under changing operating conditions remains challenging. A model must improve on each newly observed condition without sacrificing conditions it has already learned, often from only a small labeled calibration set and without knowing the operating condition at inference time.",
   "tags": [
@@ -22392,14 +22582,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.24654",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24654.png",
-   "upvotes": 25
+   "upvotes": 26
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "a284680c5080",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 52.2,
+  "score": 52.5,
   "source_id": "hf-papers",
   "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update.",
   "tags": [
@@ -22432,14 +22622,14 @@
    "github": "https://github.com/Xalp/LateComer",
    "hf_url": "https://huggingface.co/papers/2611.24576",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24576.png",
-   "upvotes": 9
+   "upvotes": 10
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "9aaf60f65be6",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 45.9,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "Looped language models deepen reasoning at a compact parameter count by iterating a shared layer stack T times per token, turning recurrence depth directly into sequential decoding latency. Conventional early-exit decoding halts after initial passes without cache completion, truncating cached key-value states of past tokens to shallow depth.",
   "tags": [
@@ -22467,14 +22657,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25200",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25200.png",
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "90ba6109cbd2",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 30.0,
+  "score": 33.5,
   "source_id": "hf-papers",
   "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original win, a variant win, or an inconclusive result.",
   "tags": [
@@ -22630,14 +22820,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.24362",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24362.png",
-   "upvotes": 7
+   "upvotes": 8
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "7b8371ec98cf",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 44.0,
+  "score": 45.0,
   "source_id": "hf-papers",
   "summary": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR).",
   "tags": [
@@ -22673,14 +22863,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.24102",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24102.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "76208d59448a",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 39.9,
+  "score": 41.5,
   "source_id": "hf-papers",
   "summary": "Organizations increasingly deploy downloaded open-weight GUI agents. A backdoored agent passes acceptance tests on clean data and misbehaves only when a visual trigger appears on screen, turning an unvetted checkpoint into a supply-chain risk. However, existing sample-level detectors target image classifiers and CLIP-style encoders, leaving step-level backdoor detection for GUI agents unaddressed.",
   "tags": [
@@ -22769,14 +22959,14 @@
    "github": "https://github.com/Whalesong-zrs/RoughCut-Bench",
    "hf_url": "https://huggingface.co/papers/2611.24098",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24098.png",
-   "upvotes": 9
+   "upvotes": 10
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "61f9064370fa",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 48.9,
+  "score": 49.8,
   "source_id": "hf-papers",
   "summary": "Video rough-cut is a core stage in media production workflows, organizing raw media materials into an initial video cut. Despite recent advances in large vision-language models (LVLMs) for video-related tasks, automatic rough-cut remains underexplored, without a comprehensive benchmark for evaluation or mature workflows for producing executable cut plans.",
   "tags": [
@@ -22812,14 +23002,14 @@
    "github": "https://github.com/ztMotaLee/WM_mllm",
    "hf_url": "https://huggingface.co/papers/2611.24193",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24193.png",
-   "upvotes": 14
+   "upvotes": 15
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "590524de7be0",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 49.4,
+  "score": 50.0,
   "source_id": "hf-papers",
   "summary": "Video world models keep the world in the context of a generator, so a revisit is synthesized again and earlier edits can drift or disappear. We present WM^MLLM, the first interactive world model built on multimodal large language models (MLLMs), for persistent, editable world generation from a single image.",
   "tags": [
@@ -22968,14 +23158,14 @@
    "github": "https://github.com/Yueeeeeeee/MRPD",
    "hf_url": "https://huggingface.co/papers/2611.24059",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24059.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-20T02:24:02Z",
   "focus": "tech",
   "id": "460d6bf61b21",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 37.9,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores every sampled token, and the student inherits the drift of the final experts.",
   "tags": [
@@ -23012,14 +23202,14 @@
    "github": "https://github.com/agentscope-ai/Piccolo",
    "hf_url": "https://huggingface.co/papers/2611.24651",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24651.png",
-   "upvotes": 12
+   "upvotes": 13
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "44c595921009",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 48.2,
+  "score": 48.8,
   "source_id": "hf-papers",
   "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data workflows, and interactive games.",
   "tags": [
@@ -23052,7 +23242,7 @@
    "github": "https://github.com/Carol-lyh/Jeveration",
    "hf_url": "https://huggingface.co/papers/2611.24738",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24738.png",
-   "upvotes": 146
+   "upvotes": 148
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
@@ -23197,14 +23387,14 @@
    "github": "https://github.com/game2player/Game2Player",
    "hf_url": "https://huggingface.co/papers/2611.24154",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24154.png",
-   "upvotes": 28
+   "upvotes": 29
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "013b6c50f2dd",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 55.1,
+  "score": 55.4,
   "source_id": "hf-papers",
   "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes.",
   "tags": [
@@ -24724,14 +24914,14 @@
     "Song Han",
     "Ligeng Zhu"
    ],
-   "upvotes": 12
+   "upvotes": 13
   },
   "fetched": "2026-11-19T02:38:57Z",
   "focus": "tech",
   "id": "5541d6f2d814",
   "kind": "paper",
   "published": "2026-11-17T19:00:09Z",
-  "score": 32.2,
+  "score": 32.8,
   "source_id": "arxiv",
   "summary": "Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal.",
   "tags": [
@@ -24760,14 +24950,14 @@
     "Stephen Chung",
     "Wenyu Du"
    ],
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-19T02:38:57Z",
   "focus": "tech",
   "id": "1b16ab12fffa",
   "kind": "paper",
   "published": "2026-11-17T19:00:05Z",
-  "score": 21.9,
+  "score": 23.5,
   "source_id": "arxiv",
   "summary": "Language models can gain capacity at little computational cost from n-gram embedding tables: large tables of learned vectors for short sequences of consecutive tokens, which are looked up and added to the model's input or to its intermediate layers. Recent designs commonly use a separate n-gram embedding table for each layer, which makes the tables costly in memory and prevents layers from sharing what they learn.",
   "tags": [
@@ -27497,7 +27687,7 @@
     "Heng Lin",
     "Xinang Xu"
    ],
-   "upvotes": 37
+   "upvotes": 39
   },
   "fetched": "2026-11-18T11:53:48Z",
   "focus": "tech",
@@ -30956,14 +31146,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.22382",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22382.png",
-   "upvotes": 4
+   "upvotes": 5
   },
   "fetched": "2026-11-19T20:46:07Z",
   "focus": "tech",
   "id": "9499b87e092a",
   "kind": "paper",
   "published": "2026-11-17T00:00:00Z",
-  "score": 37.9,
+  "score": 39.5,
   "source_id": "hf-papers",
   "summary": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into its constituent documents. Yet published LLM methods still frame the task as boundary classification over one or a few neighboring pages, and commercial document-splitting APIs do not disclose their methods.",
   "tags": [
@@ -31038,14 +31228,14 @@
    "github": "https://github.com/MAGICLAB-NUS/BiCAT",
    "hf_url": "https://huggingface.co/papers/2611.23499",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23499.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "634bef00fa06",
   "kind": "paper",
   "published": "2026-11-17T00:00:00Z",
-  "score": 36.0,
+  "score": 37.9,
   "source_id": "hf-papers",
   "summary": "Autoregressive vision-language-action (VLA) models predict discrete action tokens with the next-token objective of their vision-language backbone, so the action tokenizer defines the interface between the policy and the robot. In bimanual manipulation, the two arms share a repertoire of movements yet coordinate through complementary roles, and an action representation should capture both.",
   "tags": [
@@ -31301,14 +31491,14 @@
    "github": "https://github.com/suho-yoo/ReMo",
    "hf_url": "https://huggingface.co/papers/2607.21179",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.21179.png",
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "3c3f9be8b7c2",
   "kind": "paper",
   "published": "2026-11-17T00:00:00Z",
-  "score": 36.0,
+  "score": 37.9,
   "source_id": "hf-papers",
   "summary": "The goal of this paper is to reduce the input token cost of Omni-modal large language models (Omni-LLMs) at inference time. Omni-LLMs reason jointly over audio, video and text, but the cost of the three streams is highly unbalanced: visual tokens account for the vast majority of the input, and are highly redundant.",
   "tags": [
@@ -35706,7 +35896,7 @@
     "Junyoung Hong",
     "Seon Joo Kim"
    ],
-   "upvotes": 31
+   "upvotes": 32
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -35825,7 +36015,7 @@
     "Chen Li",
     "Jing Lyu"
    ],
-   "upvotes": 49
+   "upvotes": 50
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -39023,14 +39213,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.21885",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21885.png",
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "9fe3e937f57a",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 41.5,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one.",
   "tags": [
@@ -39172,14 +39362,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.20455",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20455.png",
-   "upvotes": 3
+   "upvotes": 6
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "7955792171be",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 36.0,
+  "score": 40.8,
   "source_id": "hf-papers",
   "summary": "Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. What does this dense advantage measure? Existing benchmarks cannot tell: they use curated queries, old code and a handicapped BM25. To find out, we build Repo-Premium, a realistic repository-level code-search benchmark.",
   "tags": [
@@ -39334,14 +39524,14 @@
    "github": "https://github.com/eltzanis/SystemOneAgents",
    "hf_url": "https://huggingface.co/papers/2611.21053",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21053.png",
-   "upvotes": 3
+   "upvotes": 6
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "54442bdfd7b9",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 38.0,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs). Cloud LLMs expose patient data. Local LLMs hallucinate, and an invented value in a tool call propagates through every later step. Here we present a method to build System 1 agents: local agents that call tools without generating text.",
   "tags": [
@@ -43843,14 +44033,14 @@
     "Afshin Sadeghi",
     "Daniel Becker"
    ],
-   "upvotes": 3
+   "upvotes": 4
   },
   "fetched": "2026-11-17T03:59:05Z",
   "focus": "tech",
   "id": "4df488191e99",
   "kind": "paper",
   "published": "2026-11-14T16:45:00Z",
-  "score": 22.0,
+  "score": 23.9,
   "source_id": "arxiv",
   "summary": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model toward it. Although probe directions are often reused for steering, the direction that best detects a concept need not be the one that best changes it. We study this distinction in three instruction-tuned models from different families.",
   "tags": [
@@ -46319,14 +46509,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.19230",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19230.png",
-   "upvotes": 7
+   "upvotes": 8
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "482cc0c41d6a",
   "kind": "paper",
   "published": "2026-11-14T00:00:00Z",
-  "score": 42.0,
+  "score": 43.0,
   "source_id": "hf-papers",
   "summary": "We present CompoundingKernel, a self-improving agent system that writes GPU kernels by search. As of 2026-11-11, its generated kernels rank #1 on the public L1, L2 and Quantization boards of SOL-ExecBench (NVIDIA B200). They have held #1 on L1 since 2026-10-27, albeit a short loss on 2026-11-07.",
   "tags": [
@@ -52949,14 +53139,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.17605",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17605.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-19T20:46:07Z",
   "focus": "tech",
   "id": "8c93b2b23ff6",
   "kind": "paper",
   "published": "2026-11-13T00:00:00Z",
-  "score": 33.5,
+  "score": 36.0,
   "source_id": "hf-papers",
   "summary": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine. A common rule says a larger model at lower precision tends to beat a smaller one at higher precision. We ran 24 GGUF files of Qwen2.5-Coder at four sizes on a fanless MacBook Air M2 and priced each in energy per solved task on 542 EvalPlus tasks.",
   "tags": [
@@ -61168,14 +61358,14 @@
    "github": "https://github.com/eilamshapira/LightTAR",
    "hf_url": "https://huggingface.co/papers/2611.17600",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.17600.png",
-   "upvotes": 22
+   "upvotes": 23
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "556e5651db6e",
   "kind": "paper",
   "published": "2026-11-12T00:00:00Z",
-  "score": 51.1,
+  "score": 51.5,
   "source_id": "hf-papers",
   "summary": "Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prioritizes input variance but may overlook information relevant to predicting the target.",
   "tags": [
@@ -73626,7 +73816,7 @@
    "github": "https://github.com/Afterglow231/Tideway",
    "hf_url": "https://huggingface.co/papers/2611.14848",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14848.png",
-   "upvotes": 65
+   "upvotes": 66
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
