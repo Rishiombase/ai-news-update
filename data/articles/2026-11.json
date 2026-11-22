@@ -1,6 +1,95 @@
 [
  {
   "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "ai-ml": 0.262,
+   "computer-vision": 0.361,
+   "genai-llm": 0.273,
+   "research": 0.318,
+   "security": 1.0,
+   "tools-launches": 0.455
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anthony Ha"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800"
+  },
+  "fetched": "2026-11-22T01:24:16Z",
+  "focus": "tech",
+  "id": "f3487ac9886e",
+  "kind": "news",
+  "published": "2026-11-21T21:37:10Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+  "tags": [],
+  "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+  "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.305,
+   "research": 0.418,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anthony Ha"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
+  },
+  "fetched": "2026-11-22T01:24:16Z",
+  "focus": "off",
+  "id": "a1abc1ba2744",
+  "kind": "news",
+  "published": "2026-11-21T21:07:42Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+  "tags": [],
+  "title": "A tale of two Nvidias",
+  "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+ },
+ {
+  "categories": [
+   "robotics"
+  ],
+  "category_scores": {
+   "agents": 0.476,
+   "genai-llm": 0.273,
+   "open-source": 0.266,
+   "robotics": 0.948,
+   "security": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Terrence O’Brien"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-22T01:24:16Z",
+  "focus": "tech",
+  "id": "2cb10b95a79b",
+  "kind": "news",
+  "published": "2026-11-21T20:03:37Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations.",
+  "tags": [],
+  "title": "The UN fails to agree on rules regulating ‘killer robots’",
+  "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+ },
+ {
+  "categories": [
    "agents"
   ],
   "category_scores": {
@@ -1742,6 +1831,33 @@
   "tags": [],
   "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
   "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "genai-llm": 1.0,
+   "research": 0.345,
+   "tools-launches": 0.441
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://static.simonwillison.net/static/2026/gemini-4-xhigh-pelicans.webp"
+  },
+  "fetched": "2026-11-22T01:24:16Z",
+  "focus": "tech",
+  "id": "480c7f59bbc9",
+  "kind": "news",
+  "published": "2026-11-20T03:01:57Z",
+  "score": 18.0,
+  "source_id": "simon-willison",
+  "summary": "Release: llm-gemini 0.38.1 . Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "llm-gemini 0.38.1",
+  "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
  },
  {
   "categories": [
@@ -3717,14 +3833,14 @@
     "Alasdair Newson",
     "Patrick Pérez"
    ],
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "7a496c044718",
   "kind": "paper",
   "published": "2026-11-19T18:17:38Z",
-  "score": 14.0,
+  "score": 17.5,
   "source_id": "arxiv",
   "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties.",
   "tags": [
@@ -6734,14 +6850,14 @@
     "Xiangchi Yuan",
     "Ningshan Ma"
    ],
-   "upvotes": 5
+   "upvotes": 7
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "87fdae178a63",
   "kind": "paper",
   "published": "2026-11-19T15:14:55Z",
-  "score": 25.5,
+  "score": 28.0,
   "source_id": "arxiv",
   "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging.",
   "tags": [
@@ -10725,14 +10841,14 @@
    "github": "https://github.com/apple-aiml-research/ml-depth-pro-2",
    "hf_url": "https://huggingface.co/papers/2611.26603",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26603.png",
-   "upvotes": 29
+   "upvotes": 31
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "fe484bc213bb",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 53.4,
+  "score": 54.0,
   "source_id": "hf-papers",
   "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness.",
   "tags": [
@@ -11335,7 +11451,7 @@
    "github": "https://github.com/Tencent/WeMM-Video",
    "hf_url": "https://huggingface.co/papers/2611.26409",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26409.png",
-   "upvotes": 43
+   "upvotes": 44
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11494,7 +11610,7 @@
    "github": "https://github.com/Mind2Act/Mind2Act_World",
    "hf_url": "https://huggingface.co/papers/2611.26444",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26444.png",
-   "upvotes": 49
+   "upvotes": 50
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11647,7 +11763,7 @@
    "github": "https://github.com/yesiltepe-hidir/PMD",
    "hf_url": "https://huggingface.co/papers/2611.26629",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26629.png",
-   "upvotes": 36
+   "upvotes": 37
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -36352,7 +36468,7 @@
     "Chen Li",
     "Jing Lyu"
    ],
-   "upvotes": 51
+   "upvotes": 52
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
