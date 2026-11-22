@@ -1,6 +1,276 @@
 [
  {
   "categories": [
+   "mlops",
+   "computer-vision",
+   "tools-launches"
+  ],
+  "category_scores": {
+   "agents": 0.438,
+   "ai-ml": 0.263,
+   "computer-vision": 0.745,
+   "genai-llm": 0.45,
+   "mlops": 0.799,
+   "open-source": 0.412,
+   "research": 0.279,
+   "robotics": 0.667,
+   "security": 0.27,
+   "tools-launches": 0.72
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-1113454-scaled.png"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "f8d855c8071b",
+  "kind": "news",
+  "published": "2026-11-22T18:37:57Z",
+  "score": 19.0,
+  "source_id": "marktechpost",
+  "summary": "NVIDIA has released Alpamayo 2 Edge , a compact reasoning vision-language-action (VLA) model for autonomous driving. Alpamayo 2 Edge is a 2B-parameter model that plans trajectories and explains them inside the vehicle. It targets NVIDIA DRIVE AGX Thor , not a datacenter GPU.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
+  "url": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "ai-ml": 0.431,
+   "enterprise": 0.321,
+   "genai-llm": 0.381,
+   "mlops": 0.941,
+   "open-source": 0.311,
+   "research": 0.45,
+   "robotics": 0.268,
+   "security": 0.277,
+   "tools-launches": 0.272
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anthony Ha"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "off",
+  "id": "bed82431ae1f",
+  "kind": "news",
+  "published": "2026-11-22T18:08:43Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "In his new book “Hyperscale,” journalist Paris Marx investigates the impact of data centers and generative AI, taking readers inside the data centers themselves and explaining how computing infrastructure that goes back decades recently became a political landmine.",
+  "tags": [],
+  "title": "Why data centers are at the center of the Big Tech backlash",
+  "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "agents": 0.264,
+   "ai-ml": 0.909,
+   "enterprise": 0.329,
+   "genai-llm": 0.434,
+   "open-source": 0.431,
+   "research": 0.33,
+   "security": 0.394,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Terrence O’Brien"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "10b966779bbd",
+  "kind": "news",
+  "published": "2026-11-22T17:25:20Z",
+  "score": 23.0,
+  "source_id": "verge",
+  "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section.",
+  "tags": [
+   "For developers"
+  ],
+  "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+  "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.26,
+   "enterprise": 0.392,
+   "open-source": 0.268,
+   "research": 0.266,
+   "security": 0.288,
+   "tools-launches": 0.274
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jonathan Kemper"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "ea4ec8bb42c1",
+  "kind": "news",
+  "published": "2026-11-22T15:15:48Z",
+  "score": 16.0,
+  "source_id": "decoder",
+  "summary": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow.",
+  "tags": [
+   "For developers"
+  ],
+  "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+  "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.681,
+   "ai-ml": 0.274,
+   "genai-llm": 0.337,
+   "open-source": 0.253,
+   "research": 0.447,
+   "security": 0.279,
+   "tools-launches": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jonathan Kemper"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/Perplexity-Logo-Silhouette-Nano-Banana-Pro.jpg"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "141d3e3e6383",
+  "kind": "news",
+  "published": "2026-11-22T14:20:28Z",
+  "score": 17.0,
+  "source_id": "decoder",
+  "summary": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results.",
+  "tags": [
+   "API"
+  ],
+  "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+  "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.59,
+   "genai-llm": 0.792,
+   "mlops": 0.263,
+   "open-source": 0.294,
+   "research": 0.45,
+   "security": 0.31,
+   "tools-launches": 0.269
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "b014e723007f",
+  "kind": "news",
+  "published": "2026-11-22T13:00:43Z",
+  "score": 17.0,
+  "source_id": "decoder",
+  "summary": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do.",
+  "tags": [],
+  "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+  "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "genai-llm": 0.404,
+   "open-source": 0.392,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "David Pierce"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "0c81fa30a9f6",
+  "kind": "news",
+  "published": "2026-11-22T13:00:00Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce . The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here . How it started.",
+  "tags": [],
+  "title": "The vibe-coding revolution is coming to all the gadgets",
+  "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+ },
+ {
+  "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "agents": 0.269,
+   "ai-ml": 0.305,
+   "enterprise": 0.616,
+   "mlops": 0.597,
+   "open-source": 0.333,
+   "research": 0.581,
+   "security": 1.0,
+   "tools-launches": 0.3
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/cybersecurity_data_leak.png"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "1dea5cb19bbd",
+  "kind": "news",
+  "published": "2026-11-22T12:07:56Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests.",
+  "tags": [],
+  "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+  "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/"
+ },
+ {
+  "categories": [
    "research",
    "open-source"
   ],
@@ -159,6 +429,42 @@
   ],
   "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
   "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/"
+ },
+ {
+  "categories": [
+   "research",
+   "security",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.386,
+   "ai-ml": 0.95,
+   "enterprise": 0.341,
+   "genai-llm": 0.338,
+   "mlops": 0.328,
+   "open-source": 0.272,
+   "research": 0.45,
+   "robotics": 0.257,
+   "security": 0.428
+  },
+  "coverage": [],
+  "extra": {
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&amp;h=900&amp;fit=fill"
+  },
+  "fetched": "2026-11-22T19:48:29Z",
+  "focus": "tech",
+  "id": "de5cd1a6d51d",
+  "kind": "news",
+  "published": "2026-11-22T00:00:00Z",
+  "score": 30.0,
+  "source_id": "openai",
+  "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "Perplexity and Intelligence",
+  "url": "https://openai.com/index/perplexity-and-intelligence"
  },
  {
   "categories": [
@@ -3128,14 +3434,14 @@
     "Duen Horng Chau",
     "Pinar Yanardag"
    ],
-   "upvotes": 19
+   "upvotes": 20
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "18030cf50d98",
   "kind": "paper",
   "published": "2026-11-19T18:59:53Z",
-  "score": 33.9,
+  "score": 34.4,
   "source_id": "arxiv",
   "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations.",
   "tags": [
@@ -3994,14 +4300,14 @@
     "Alasdair Newson",
     "Patrick Pérez"
    ],
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "7a496c044718",
   "kind": "paper",
   "published": "2026-11-19T18:17:38Z",
-  "score": 17.5,
+  "score": 20.0,
   "source_id": "arxiv",
   "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties.",
   "tags": [
@@ -4526,14 +4832,14 @@
     "Philip Torr",
     "Yao Yao"
    ],
-   "upvotes": 4
+   "upvotes": 6
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "d2467dc0199e",
   "kind": "paper",
   "published": "2026-11-19T17:58:20Z",
-  "score": 21.9,
+  "score": 24.8,
   "source_id": "arxiv",
   "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels.",
   "tags": [
@@ -5218,14 +5524,14 @@
    "authors": [
     "Tanmay Sah"
    ],
-   "upvotes": 6
+   "upvotes": 7
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "5c7e324ff775",
   "kind": "paper",
   "published": "2026-11-19T17:18:38Z",
-  "score": 24.8,
+  "score": 26.0,
   "source_id": "arxiv",
   "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
   "tags": [
@@ -7018,14 +7324,14 @@
     "Xiangchi Yuan",
     "Ningshan Ma"
    ],
-   "upvotes": 7
+   "upvotes": 8
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "87fdae178a63",
   "kind": "paper",
   "published": "2026-11-19T15:14:55Z",
-  "score": 28.0,
+  "score": 29.0,
   "source_id": "arxiv",
   "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging.",
   "tags": [
@@ -11009,7 +11315,7 @@
    "github": "https://github.com/apple-aiml-research/ml-depth-pro-2",
    "hf_url": "https://huggingface.co/papers/2611.26603",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26603.png",
-   "upvotes": 31
+   "upvotes": 33
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11078,14 +11384,14 @@
    "github": "https://github.com/ZJUSCL/TwinLab-Bench",
    "hf_url": "https://huggingface.co/papers/2611.26248",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26248.png",
-   "upvotes": 5
+   "upvotes": 7
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "ddeb13a691aa",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 39.5,
+  "score": 42.0,
   "source_id": "hf-papers",
   "summary": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates.",
   "tags": [
@@ -11116,7 +11422,7 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.26590",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png",
-   "upvotes": 42
+   "upvotes": 43
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11261,14 +11567,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25567",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25567.png",
-   "upvotes": 11
+   "upvotes": 12
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "b7d196b2231c",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 45.5,
+  "score": 46.2,
   "source_id": "hf-papers",
   "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline.",
   "tags": [
@@ -11388,7 +11694,7 @@
    "github": "https://github.com/FrankYang-17/Coda",
    "hf_url": "https://huggingface.co/papers/2611.26595",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26595.png",
-   "upvotes": 35
+   "upvotes": 39
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11738,14 +12044,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.26408",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26408.png",
-   "upvotes": 15
+   "upvotes": 17
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "636d7b3b28e7",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 50.0,
+  "score": 51.0,
   "source_id": "hf-papers",
   "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming.",
   "tags": [
@@ -11778,7 +12084,7 @@
    "github": "https://github.com/Mind2Act/Mind2Act_World",
    "hf_url": "https://huggingface.co/papers/2611.26444",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26444.png",
-   "upvotes": 51
+   "upvotes": 52
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11890,14 +12196,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.26211",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26211.png",
-   "upvotes": 6
+   "upvotes": 7
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "4168c8cd8bf4",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 42.8,
+  "score": 44.0,
   "source_id": "hf-papers",
   "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames.",
   "tags": [
@@ -11931,7 +12237,7 @@
    "github": "https://github.com/yesiltepe-hidir/PMD",
    "hf_url": "https://huggingface.co/papers/2611.26629",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26629.png",
-   "upvotes": 38
+   "upvotes": 39
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -12130,14 +12436,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25980",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25980.png",
-   "upvotes": 15
+   "upvotes": 16
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "0f1db7316aa0",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 50.0,
+  "score": 50.5,
   "source_id": "hf-papers",
   "summary": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations.",
   "tags": [
@@ -15835,14 +16141,14 @@
     "Wei Tang",
     "Yu Cheng"
    ],
-   "upvotes": 13
+   "upvotes": 14
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "c1bea1e1bbb0",
   "kind": "paper",
   "published": "2026-11-18T17:45:51Z",
-  "score": 32.8,
+  "score": 33.4,
   "source_id": "arxiv",
   "summary": "Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget.",
   "tags": [
@@ -23324,14 +23630,14 @@
    "github": "https://github.com/be2rlab/ACCORD",
    "hf_url": "https://huggingface.co/papers/2611.25279",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25279.png",
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "8f083de4280d",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 39.5,
+  "score": 40.8,
   "source_id": "hf-papers",
   "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring metric scale. We present Accord, which constructs an accurate online dense metric map from any camera with an IMU.",
   "tags": [
@@ -23410,14 +23716,14 @@
    "github": "https://github.com/AIGeeksGroup/WAM-Policy",
    "hf_url": "https://huggingface.co/papers/2611.24011",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24011.png",
-   "upvotes": 16
+   "upvotes": 17
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "7ed6112c8b26",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 50.5,
+  "score": 51.0,
   "source_id": "hf-papers",
   "summary": "Arm-free quadrupeds can perform loco-manipulation, walking on three legs while manipulating with a front leg, yet no existing policy for it follows language instructions. World action models (WAMs) have emerged as effective language-conditioned manipulation policies, but are pretrained for robot arms and sample slowly. WAM-Policy turns one WAM into a quadrupedal loco-manipulation policy via two stages.",
   "tags": [
@@ -23630,14 +23936,14 @@
    "github": "https://github.com/ztMotaLee/WM_mllm",
    "hf_url": "https://huggingface.co/papers/2611.24193",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24193.png",
-   "upvotes": 15
+   "upvotes": 16
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "590524de7be0",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 50.0,
+  "score": 50.5,
   "source_id": "hf-papers",
   "summary": "Video world models keep the world in the context of a generator, so a revisit is synthesized again and earlier edits can drift or disappear. We present WM^MLLM, the first interactive world model built on multimodal large language models (MLLMs), for persistent, editable world generation from a single image.",
   "tags": [
@@ -36643,7 +36949,7 @@
     "Chen Li",
     "Jing Lyu"
    ],
-   "upvotes": 53
+   "upvotes": 55
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -39841,14 +40147,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.21885",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21885.png",
-   "upvotes": 10
+   "upvotes": 18
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "9fe3e937f57a",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 46.8,
+  "score": 51.5,
   "source_id": "hf-papers",
   "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one.",
   "tags": [
@@ -39990,14 +40296,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.20455",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20455.png",
-   "upvotes": 7
+   "upvotes": 8
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "7955792171be",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 42.0,
+  "score": 43.0,
   "source_id": "hf-papers",
   "summary": "Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with grep. What does this dense advantage measure? Existing benchmarks cannot tell: they use curated queries, old code and a handicapped BM25. To find out, we build Repo-Premium, a realistic repository-level code-search benchmark.",
   "tags": [
