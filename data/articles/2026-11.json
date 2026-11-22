@@ -1,6 +1,167 @@
 [
  {
   "categories": [
+   "research",
+   "open-source"
+  ],
+  "category_scores": {
+   "ai-ml": 0.297,
+   "open-source": 0.693,
+   "research": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Matthias Bastian"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/05/ai_and_math.png"
+  },
+  "fetched": "2026-11-22T11:38:27Z",
+  "focus": "tech",
+  "id": "5cfa4f9892b1",
+  "kind": "news",
+  "published": "2026-11-22T11:08:31Z",
+  "score": 14.0,
+  "source_id": "decoder",
+  "summary": "The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+  "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/"
+ },
+ {
+  "categories": [
+   "agents",
+   "security",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.353,
+   "enterprise": 0.364,
+   "genai-llm": 0.874,
+   "nlp": 0.355,
+   "open-source": 0.437,
+   "research": 0.295,
+   "robotics": 0.338,
+   "security": 0.904,
+   "tools-launches": 0.565
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-123454-1-scaled.png"
+  },
+  "fetched": "2026-11-22T11:38:27Z",
+  "focus": "tech",
+  "id": "969b7e78969d",
+  "kind": "news",
+  "published": "2026-11-22T10:36:17Z",
+  "score": 20.0,
+  "source_id": "marktechpost",
+  "summary": "A personal AI agent runs continuously, keeps memory across sessions, and acts inside your apps. You talk to it in a chat app, by email or by voice. It keeps working after you close the window. The category started small. OpenClaw began in November 2025 as Clawdbot, a weekend project by Peter Steinberger.",
+  "tags": [],
+  "title": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
+  "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.331,
+   "genai-llm": 0.763,
+   "open-source": 0.417,
+   "research": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Tomislav Bezmalinović"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/OpenAI-Logo.png"
+  },
+  "fetched": "2026-11-22T11:38:27Z",
+  "focus": "tech",
+  "id": "0cbda05d55dc",
+  "kind": "news",
+  "published": "2026-11-22T09:41:37Z",
+  "score": 21.0,
+  "source_id": "decoder",
+  "summary": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency.",
+  "tags": [],
+  "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+  "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/"
+ },
+ {
+  "categories": [
+   "tools-launches"
+  ],
+  "category_scores": {
+   "enterprise": 0.449,
+   "open-source": 0.277,
+   "research": 0.251,
+   "tools-launches": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Chris Geiger"
+   ],
+   "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22411-1.jpg"
+  },
+  "fetched": "2026-11-22T11:38:27Z",
+  "focus": "tech",
+  "id": "26e2979e9c83",
+  "kind": "news",
+  "published": "2026-11-22T01:59:13Z",
+  "score": 19.0,
+  "source_id": "aws-ml",
+  "summary": "Marketers have never had more data to act on. Take an apparel brand that advertises on Meta technologies: campaign results live in Meta Ads Manager, briefs and creative assets in shared storage, and inventory, customer lifetime value, and in-store purchases in a data lake.",
+  "tags": [
+   "Available now"
+  ],
+  "title": "Meta ads is now available in AWS Quick",
+  "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.258,
+   "mlops": 1.0,
+   "open-source": 0.346,
+   "research": 0.755
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michal Sutter"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-119999-4-scaled.png"
+  },
+  "fetched": "2026-11-22T11:38:27Z",
+  "focus": "tech",
+  "id": "3fb4d028a772",
+  "kind": "news",
+  "published": "2026-11-22T01:51:43Z",
+  "score": 14.0,
+  "source_id": "marktechpost",
+  "summary": "Researchers from Columbia University and CertiK have introduced TensorLean , a framework for formal verification of GPU kernels at the PTX level. TensorLean is a Lean-based verifier that proves compiled kernels match a tensor-level math spec.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+  "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/"
+ },
+ {
+  "categories": [
    "security"
   ],
   "category_scores": {
@@ -2967,14 +3128,14 @@
     "Duen Horng Chau",
     "Pinar Yanardag"
    ],
-   "upvotes": 17
+   "upvotes": 19
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "18030cf50d98",
   "kind": "paper",
   "published": "2026-11-19T18:59:53Z",
-  "score": 33.0,
+  "score": 33.9,
   "source_id": "arxiv",
   "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations.",
   "tags": [
@@ -4157,7 +4318,14 @@
    "research": 0.274,
    "tools-launches": 1.0
   },
-  "coverage": [],
+  "coverage": [
+   {
+    "published": "2026-11-22T10:03:54Z",
+    "source_id": "marktechpost",
+    "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+    "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/"
+   }
+  ],
   "extra": {
    "authors": [
     "Lucia Loher",
@@ -4170,7 +4338,7 @@
   "id": "b00f82b6db94",
   "kind": "news",
   "published": "2026-11-19T18:00:00Z",
-  "score": 44.0,
+  "score": 56.0,
   "source_id": "google-ai",
   "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
   "tags": [
@@ -5050,14 +5218,14 @@
    "authors": [
     "Tanmay Sah"
    ],
-   "upvotes": 5
+   "upvotes": 6
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "5c7e324ff775",
   "kind": "paper",
   "published": "2026-11-19T17:18:38Z",
-  "score": 23.5,
+  "score": 24.8,
   "source_id": "arxiv",
   "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters.",
   "tags": [
@@ -11407,14 +11575,14 @@
    "github": "https://github.com/xt4d/PlayCraft",
    "hf_url": "https://huggingface.co/papers/2611.26624",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26624.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "84d85636092d",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery.",
   "tags": [
@@ -11451,7 +11619,7 @@
    "github": "https://github.com/Tencent/WeMM-Video",
    "hf_url": "https://huggingface.co/papers/2611.26409",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26409.png",
-   "upvotes": 44
+   "upvotes": 45
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11610,7 +11778,7 @@
    "github": "https://github.com/Mind2Act/Mind2Act_World",
    "hf_url": "https://huggingface.co/papers/2611.26444",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26444.png",
-   "upvotes": 50
+   "upvotes": 51
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -11722,14 +11890,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.26211",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26211.png",
-   "upvotes": 2
+   "upvotes": 6
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "4168c8cd8bf4",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 35.5,
+  "score": 42.8,
   "source_id": "hf-papers",
   "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames.",
   "tags": [
@@ -11763,7 +11931,7 @@
    "github": "https://github.com/yesiltepe-hidir/PMD",
    "hf_url": "https://huggingface.co/papers/2611.26629",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26629.png",
-   "upvotes": 37
+   "upvotes": 38
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
@@ -16076,7 +16244,14 @@
    "security": 0.449,
    "tools-launches": 0.4
   },
-  "coverage": [],
+  "coverage": [
+   {
+    "published": "2026-11-22T11:00:00Z",
+    "source_id": "wired",
+    "title": "Banks Have Had It Up to Here With Your AI Agent",
+    "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+   }
+  ],
   "extra": {
    "authors": [
     "Tim Fernholz"
@@ -16088,7 +16263,7 @@
   "id": "6ae82bdc3864",
   "kind": "news",
   "published": "2026-11-18T17:32:10Z",
-  "score": 22.0,
+  "score": 34.0,
   "source_id": "techcrunch",
   "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
   "tags": [],
@@ -36349,7 +36524,7 @@
     "Junyoung Hong",
     "Seon Joo Kim"
    ],
-   "upvotes": 32
+   "upvotes": 33
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -36468,7 +36643,7 @@
     "Chen Li",
     "Jing Lyu"
    ],
-   "upvotes": 52
+   "upvotes": 53
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
@@ -39666,14 +39841,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.21885",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21885.png",
-   "upvotes": 8
+   "upvotes": 10
   },
   "fetched": "2026-11-20T20:30:02Z",
   "focus": "tech",
   "id": "9fe3e937f57a",
   "kind": "paper",
   "published": "2026-11-16T00:00:00Z",
-  "score": 45.0,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one.",
   "tags": [
