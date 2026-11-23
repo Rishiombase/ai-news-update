@@ -1,6 +1,102 @@
 [
  {
   "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.311,
+   "enterprise": 0.257,
+   "open-source": 0.294,
+   "research": 0.45,
+   "security": 0.304,
+   "tools-launches": 0.368
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Marina Temkin"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801"
+  },
+  "fetched": "2026-11-23T01:49:18Z",
+  "focus": "off",
+  "id": "914bb147d0bf",
+  "kind": "news",
+  "published": "2026-11-23T01:25:53Z",
+  "score": 20.0,
+  "source_id": "techcrunch",
+  "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+  "tags": [],
+  "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+  "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
+ },
+ {
+  "categories": [
+   "enterprise"
+  ],
+  "category_scores": {
+   "ai-ml": 0.276,
+   "enterprise": 0.787,
+   "research": 0.28,
+   "security": 0.274,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Terrence O’Brien"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-23T01:49:18Z",
+  "focus": "tech",
+  "id": "4b4d8e1532ef",
+  "kind": "news",
+  "published": "2026-11-22T22:48:02Z",
+  "score": 20.0,
+  "source_id": "verge",
+  "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come.",
+  "tags": [],
+  "title": "We haven’t seen the last of the major tech outages",
+  "url": "https://www.theverge.com/tech/1039851/major-tech-outages"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.293,
+   "ai-ml": 0.916,
+   "genai-llm": 0.31,
+   "mlops": 0.308,
+   "open-source": 0.371,
+   "research": 0.45,
+   "security": 0.435,
+   "tools-launches": 0.32
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Anthony Ha"
+   ],
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798"
+  },
+  "fetched": "2026-11-23T01:49:18Z",
+  "focus": "tech",
+  "id": "05744626c0d6",
+  "kind": "news",
+  "published": "2026-11-22T21:14:07Z",
+  "score": 10.0,
+  "source_id": "techcrunch",
+  "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+  "tags": [
+   "Research"
+  ],
+  "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+  "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+ },
+ {
+  "categories": [
    "mlops",
    "computer-vision",
    "tools-launches"
