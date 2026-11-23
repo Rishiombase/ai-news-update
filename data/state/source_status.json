@@ -1,211 +1,210 @@
 {
  "anthropic": {
-  "checked": "2026-11-23T01:49:19Z",
+  "checked": "2026-11-23T13:06:31Z",
   "items": 0,
-  "last_success": "2026-11-23T01:49:19Z",
+  "last_success": "2026-11-23T13:06:31Z",
   "ok": true,
   "seconds": 0.1
  },
  "apple-ml": {
-  "checked": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:31Z",
   "items": 0,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:31Z",
   "ok": true,
-  "seconds": 0.4
+  "seconds": 0.2
  },
  "ars": {
-  "checked": "2026-11-23T01:49:21Z",
+  "checked": "2026-11-23T13:06:33Z",
   "items": 20,
-  "last_success": "2026-11-23T01:49:21Z",
-  "ok": true,
-  "seconds": 0.6
- },
- "arxiv": {
-  "checked": "2026-11-23T01:50:00Z",
-  "items": 180,
-  "last_success": "2026-11-23T01:50:00Z",
-  "ok": true,
-  "seconds": 39.5
- },
- "aws-ml": {
-  "checked": "2026-11-23T01:49:21Z",
-  "items": 20,
-  "last_success": "2026-11-23T01:49:21Z",
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
   "seconds": 0.8
  },
- "bair": {
-  "checked": "2026-11-23T01:49:20Z",
-  "items": 10,
-  "last_success": "2026-11-23T01:49:20Z",
+ "arxiv": {
+  "checked": "2026-11-23T13:09:39Z",
+  "error": "RetryError: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.MA&sortBy=submittedDate&sortOrder=descending&start=0&max_results=30 (Caused by ResponseError('too many 429 error responses'))",
+  "last_success": "2026-11-23T01:50:00Z",
+  "ok": false
+ },
+ "aws-ml": {
+  "checked": "2026-11-23T13:06:33Z",
+  "items": 0,
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
-  "seconds": 1.0
+  "seconds": 0.3
+ },
+ "bair": {
+  "checked": "2026-11-23T13:06:33Z",
+  "items": 10,
+  "last_success": "2026-11-23T13:06:33Z",
+  "ok": true,
+  "seconds": 1.5
  },
  "decoder": {
-  "checked": "2026-11-23T01:49:22Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:22Z",
+  "checked": "2026-11-23T13:06:34Z",
+  "items": 10,
+  "last_success": "2026-11-23T13:06:34Z",
   "ok": true,
   "seconds": 1.2
  },
  "deepmind": {
-  "checked": "2026-11-23T01:49:19Z",
+  "checked": "2026-11-23T13:06:32Z",
   "items": 100,
-  "last_success": "2026-11-23T01:49:19Z",
-  "ok": true,
-  "seconds": 0.2
- },
- "github-ai": {
-  "checked": "2026-11-23T01:49:20Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:32Z",
   "ok": true,
   "seconds": 0.4
  },
+ "github-ai": {
+  "checked": "2026-11-23T13:06:32Z",
+  "items": 0,
+  "last_success": "2026-11-23T13:06:32Z",
+  "ok": true,
+  "seconds": 0.3
+ },
  "google-ai": {
-  "checked": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:31Z",
   "items": 20,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:31Z",
   "ok": true,
   "seconds": 0.3
  },
  "google-research": {
-  "checked": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:33Z",
   "items": 100,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
-  "seconds": 0.6
+  "seconds": 1.4
  },
  "hf-papers": {
-  "checked": "2026-11-23T01:49:20Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:32Z",
+  "items": 19,
+  "last_success": "2026-11-23T13:06:32Z",
   "ok": true,
-  "seconds": 0.2
+  "seconds": 0.4
  },
  "huggingface": {
-  "checked": "2026-11-23T01:49:19Z",
+  "checked": "2026-11-23T13:06:31Z",
   "items": 0,
-  "last_success": "2026-11-23T01:49:19Z",
+  "last_success": "2026-11-23T13:06:31Z",
   "ok": true,
   "seconds": 0.1
  },
  "ieee": {
-  "checked": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:33Z",
   "items": 0,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
-  "seconds": 0.4
+  "seconds": 0.5
  },
  "import-ai": {
-  "checked": "2026-11-23T01:49:21Z",
+  "checked": "2026-11-23T13:06:33Z",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://importai.substack.com/feed",
   "last_success": "2026-11-13T08:19:42Z",
   "ok": false
  },
  "last-week-ai": {
-  "checked": "2026-11-23T01:49:21Z",
+  "checked": "2026-11-23T13:06:33Z",
   "items": 20,
-  "last_success": "2026-11-23T01:49:21Z",
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
-  "seconds": 0.6
+  "seconds": 0.2
  },
  "marktechpost": {
-  "checked": "2026-11-23T01:49:21Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:21Z",
+  "checked": "2026-11-23T13:06:33Z",
+  "items": 10,
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
   "seconds": 0.3
  },
  "meta-eng": {
-  "checked": "2026-11-23T01:49:19Z",
+  "checked": "2026-11-23T13:06:31Z",
   "items": 0,
-  "last_success": "2026-11-23T01:49:19Z",
-  "ok": true,
-  "seconds": 0.1
- },
- "microsoft-ai": {
-  "checked": "2026-11-23T01:49:19Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:19Z",
-  "ok": true,
-  "seconds": 0.1
- },
- "mit-news-ai": {
-  "checked": "2026-11-23T01:49:20Z",
-  "items": 50,
-  "last_success": "2026-11-23T01:49:20Z",
-  "ok": true,
-  "seconds": 0.6
- },
- "mit-tr": {
-  "checked": "2026-11-23T01:49:20Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:31Z",
   "ok": true,
   "seconds": 0.2
  },
- "msr": {
-  "checked": "2026-11-23T01:49:20Z",
+ "microsoft-ai": {
+  "checked": "2026-11-23T13:06:31Z",
+  "items": 0,
+  "last_success": "2026-11-23T13:06:31Z",
+  "ok": true,
+  "seconds": 0.2
+ },
+ "mit-news-ai": {
+  "checked": "2026-11-23T13:06:32Z",
+  "items": 50,
+  "last_success": "2026-11-23T13:06:32Z",
+  "ok": true,
+  "seconds": 0.9
+ },
+ "mit-tr": {
+  "checked": "2026-11-23T13:06:33Z",
   "items": 10,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:33Z",
+  "ok": true,
+  "seconds": 0.7
+ },
+ "msr": {
+  "checked": "2026-11-23T13:06:33Z",
+  "items": 10,
+  "last_success": "2026-11-23T13:06:33Z",
+  "ok": true,
+  "seconds": 1.5
+ },
+ "nvidia": {
+  "checked": "2026-11-23T13:06:32Z",
+  "items": 18,
+  "last_success": "2026-11-23T13:06:32Z",
+  "ok": true,
+  "seconds": 0.8
+ },
+ "nvidia-dev": {
+  "checked": "2026-11-23T13:06:33Z",
+  "items": 0,
+  "last_success": "2026-11-23T13:06:33Z",
+  "ok": true,
+  "seconds": 0.4
+ },
+ "openai": {
+  "checked": "2026-11-23T13:06:32Z",
+  "items": 200,
+  "last_success": "2026-11-23T13:06:32Z",
+  "ok": true,
+  "seconds": 0.8
+ },
+ "pytorch": {
+  "checked": "2026-11-23T13:06:32Z",
+  "items": 10,
+  "last_success": "2026-11-23T13:06:32Z",
   "ok": true,
   "seconds": 1.0
  },
- "nvidia": {
-  "checked": "2026-11-23T01:49:20Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:20Z",
-  "ok": true,
-  "seconds": 0.3
- },
- "nvidia-dev": {
-  "checked": "2026-11-23T01:49:21Z",
-  "items": 0,
-  "last_success": "2026-11-23T01:49:21Z",
-  "ok": true,
-  "seconds": 0.6
- },
- "openai": {
-  "checked": "2026-11-23T01:49:20Z",
-  "items": 200,
-  "last_success": "2026-11-23T01:49:20Z",
-  "ok": true,
-  "seconds": 0.6
- },
- "pytorch": {
-  "checked": "2026-11-23T01:49:21Z",
-  "items": 10,
-  "last_success": "2026-11-23T01:49:21Z",
-  "ok": true,
-  "seconds": 1.4
- },
  "simon-willison": {
-  "checked": "2026-11-23T01:49:21Z",
-  "items": 30,
-  "last_success": "2026-11-23T01:49:21Z",
+  "checked": "2026-11-23T13:06:33Z",
+  "items": 0,
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
-  "seconds": 0.5
+  "seconds": 0.2
  },
  "techcrunch": {
-  "checked": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:32Z",
   "items": 20,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:32Z",
   "ok": true,
   "seconds": 0.2
  },
  "verge": {
-  "checked": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:32Z",
   "items": 10,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:32Z",
   "ok": true,
-  "seconds": 0.4
+  "seconds": 0.3
  },
  "wired": {
-  "checked": "2026-11-23T01:49:20Z",
+  "checked": "2026-11-23T13:06:33Z",
   "items": 10,
-  "last_success": "2026-11-23T01:49:20Z",
+  "last_success": "2026-11-23T13:06:33Z",
   "ok": true,
-  "seconds": 0.5
+  "seconds": 0.3
  }
 }

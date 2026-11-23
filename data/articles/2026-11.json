@@ -1,6 +1,333 @@
 [
  {
   "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.398,
+   "genai-llm": 0.811,
+   "open-source": 0.419,
+   "research": 0.725,
+   "security": 0.276
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Manuel Uth"
+   ],
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gpt_lean_proof.png"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "bc6b513693d3",
+  "kind": "news",
+  "published": "2026-11-23T12:17:01Z",
+  "score": 18.0,
+  "source_id": "decoder",
+  "summary": "OpenAI's GPT-6.2 Astra independently produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem, the first of its kind according to Vals AI. The model chose its own approach because key foundations were missing from Mathlib. On Autoform-Hard, Astra now leads the leaderboard with 49 of 56 tasks solved.",
+  "tags": [
+   "Research"
+  ],
+  "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+  "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/"
+ },
+ {
+  "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "ai-ml": 0.86,
+   "enterprise": 0.261,
+   "open-source": 0.28,
+   "research": 0.281,
+   "security": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sandra Upson, Steven Levy, Lauren Goode"
+   ],
+   "image": "https://media.wired.com/photos/6b00ca934909d8ae8eb24f03/master/pass/livestream_ama_ai_safety.jpg"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "7f245206e65f",
+  "kind": "news",
+  "published": "2026-11-23T12:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered.",
+  "tags": [],
+  "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+  "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/"
+ },
+ {
+  "categories": [
+   "tools-launches"
+  ],
+  "category_scores": {
+   "ai-ml": 0.479,
+   "enterprise": 0.383,
+   "genai-llm": 0.264,
+   "mlops": 0.328,
+   "open-source": 0.384,
+   "research": 0.344,
+   "robotics": 0.299,
+   "security": 0.302,
+   "tools-launches": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Ryan Whitwam"
+   ],
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "1793f4fe05b1",
+  "kind": "news",
+  "published": "2026-11-23T12:00:00Z",
+  "score": 20.0,
+  "source_id": "ars",
+  "summary": "Buying a new computer in the last few years has meant wading through all manner of AI branding nonsense . Most of the AI pitches for laptops are little more than marketing hype, but the launch of Nvidia RTX Spark could bring a meaningful improvement in AI capabilities to the device you use every day.",
+  "tags": [],
+  "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+  "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/"
+ },
+ {
+  "categories": [
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.449,
+   "enterprise": 0.283,
+   "genai-llm": 0.899,
+   "mlops": 0.35,
+   "open-source": 0.275,
+   "research": 0.416,
+   "robotics": 0.415,
+   "security": 0.389,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Maddy Varner"
+   ],
+   "image": "https://media.wired.com/photos/6b00c213fb286bb31d23bec0/master/pass/Security_Virginia%20and%20Oregon%20Sue%20Grok%20Over%20Nonconsensual%20Intimate%20Imagery_v1.jpg"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "off",
+  "id": "49258f2ca6af",
+  "kind": "news",
+  "published": "2026-11-23T11:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+  "tags": [],
+  "title": "States Sue SpaceX Over Grok Deepfakes",
+  "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/"
+ },
+ {
+  "categories": [
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.748,
+   "ai-ml": 0.272,
+   "enterprise": 0.292,
+   "genai-llm": 0.289,
+   "open-source": 0.324,
+   "tools-launches": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jess Weatherbed"
+   ],
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Walmart-Meta-Muse-Agent-Gateway.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "off",
+  "id": "3a8ea930f30c",
+  "kind": "news",
+  "published": "2026-11-23T11:00:00Z",
+  "score": 10.0,
+  "source_id": "verge",
+  "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals.",
+  "tags": [],
+  "title": "Meta Muse can do your Black Friday shopping at Walmart",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
+ },
+ {
+  "categories": [
+   "security"
+  ],
+  "category_scores": {
+   "agents": 0.25,
+   "ai-ml": 0.402,
+   "enterprise": 0.307,
+   "genai-llm": 0.256,
+   "research": 0.299,
+   "security": 1.0,
+   "tools-launches": 0.328
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michal Sutter"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-1113454-3-scaled.png"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "d1f41ec0b143",
+  "kind": "news",
+  "published": "2026-11-23T10:40:16Z",
+  "score": 14.0,
+  "source_id": "marktechpost",
+  "summary": "AI now sits on both sides of the security fight, and the vocabulary has changed with it. IBM’s 2026 Cost of a Data Breach Report found that 1 in 4 malicious breaches were AI-enabled, up 56% year over year. Those breaches cost an average of $6 million, about $1 million above the $4.99 million global [. ].",
+  "tags": [],
+  "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
+  "url": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "agents"
+  ],
+  "category_scores": {
+   "agents": 0.608,
+   "ai-ml": 0.37,
+   "enterprise": 0.315,
+   "genai-llm": 0.345,
+   "mlops": 0.257,
+   "open-source": 0.434,
+   "research": 0.45,
+   "robotics": 0.283,
+   "security": 0.426,
+   "tools-launches": 0.94
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Michal Sutter"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-1113454-2-scaled.png"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "a09824a7f477",
+  "kind": "news",
+  "published": "2026-11-23T10:05:47Z",
+  "score": 19.0,
+  "source_id": "marktechpost",
+  "summary": "Architect Labs has introduced Frostbite , an AI-designed CPU with a new instruction set built around interaction nets. The company states that its AI agents designed Frostbite from interaction net theory down to final GDS. In pre-silicon tests, it reports 4.59x the performance per watt of a modern in-order CPU core.",
+  "tags": [],
+  "title": "Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI",
+  "url": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets/"
+ },
+ {
+  "categories": [
+   "ai-ml"
+  ],
+  "category_scores": {
+   "ai-ml": 0.384,
+   "genai-llm": 0.45,
+   "nlp": 0.28,
+   "research": 0.315,
+   "robotics": 0.295
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sheon Han"
+   ],
+   "image": "https://media.wired.com/photos/6afb501c3f280c58f990fcf3/master/pass/WIRED-MREnglish-AaronFernandez-01.png"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "d0745af5ad07",
+  "kind": "news",
+  "published": "2026-11-23T10:00:00Z",
+  "score": 20.0,
+  "source_id": "wired",
+  "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
+  "tags": [],
+  "title": "Goodbye, World: The End of Programmers",
+  "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/"
+ },
+ {
+  "categories": [
+   "mlops"
+  ],
+  "category_scores": {
+   "agents": 0.296,
+   "genai-llm": 0.45,
+   "mlops": 0.904,
+   "open-source": 0.434,
+   "research": 0.404,
+   "tools-launches": 0.354
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Asif Razzaq"
+   ],
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-1113454-1-scaled.png"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "bd9a62b5020e",
+  "kind": "news",
+  "published": "2026-11-23T08:24:57Z",
+  "score": 14.0,
+  "source_id": "marktechpost",
+  "summary": "Meta has published a detailed report on TLX (Triton Low-Level Extensions) . It is the GPU compiler extension behind Meta’s production ML kernels. Meta TLX is a Triton extension that exposes warp groups, barriers, TMA and clusters to Python kernels.",
+  "tags": [],
+  "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
+  "url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/"
+ },
+ {
+  "categories": [
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.33,
+   "ai-ml": 0.63,
+   "enterprise": 0.467,
+   "genai-llm": 0.312,
+   "mlops": 0.765,
+   "research": 0.597,
+   "robotics": 0.332,
+   "security": 0.311
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Adam Zewe | MIT News"
+   ],
+   "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-AnalogOptimize-01-Press.jpg?itok=826Fvg7c"
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "315fb775dc30",
+  "kind": "news",
+  "published": "2026-11-23T05:00:00Z",
+  "score": 27.0,
+  "source_id": "mit-news-ai",
+  "summary": "A new technique developed by MIT researchers could help engineers use artificial intelligence to streamline the design and innovation of analog integrated circuits, semiconductor chips that perform vital functions like communication and power management in electronic devices.",
+  "tags": [
+   "Research"
+  ],
+  "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
+  "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+ },
+ {
+  "categories": [
    "ai-ml"
   ],
   "category_scores": {
@@ -1806,6 +2133,43 @@
  },
  {
   "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.0,
+   "genai-llm": 0.275
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Chi Yan",
+    "Guoyang Zhao",
+    "Wentao Yuan",
+    "Yixiao Ge",
+    "Yanning Zhou",
+    "Dan Xu"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.27915",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27915.png",
+   "upvotes": 6
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "9f14d4c4c068",
+  "kind": "paper",
+  "published": "2026-11-20T17:52:02Z",
+  "score": 42.8,
+  "source_id": "hf-papers",
+  "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints.",
+  "tags": [
+   "Research"
+  ],
+  "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+  "url": "https://arxiv.org/abs/2611.27915"
+ },
+ {
+  "categories": [
    "agents",
    "open-source"
   ],
@@ -2295,6 +2659,42 @@
  },
  {
   "categories": [
+   "research",
+   "computer-vision"
+  ],
+  "category_scores": {
+   "computer-vision": 0.725,
+   "research": 0.74
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Davide Gardenal",
+    "Mingxuan Liu",
+    "Flavio Vella",
+    "Quentin Guimard",
+    "Elisa Ricci"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.27398",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27398.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "dbc6e8f8b8d8",
+  "kind": "paper",
+  "published": "2026-11-20T10:03:29Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies. TTU requires continuously tracking objects through transformations, identifying new entities, maintaining a state graph of their relationships, and assigning semantic labels to transformations.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+  "url": "https://arxiv.org/abs/2611.27398"
+ },
+ {
+  "categories": [
    "security",
    "open-source",
    "genai-llm"
@@ -2599,6 +2999,127 @@
  },
  {
   "categories": [
+   "genai-llm",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.467,
+   "computer-vision": 0.682,
+   "genai-llm": 1.0,
+   "nlp": 0.315
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Tianhe Wu",
+    "Qilin Sun",
+    "Kede Ma"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.27229",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27229.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "c13bf7b0a74e",
+  "kind": "paper",
+  "published": "2026-11-20T00:00:00Z",
+  "score": 36.0,
+  "source_id": "hf-papers",
+  "summary": "Prompt enhancement (PE) refines concise user prompts into detailed descriptions to improve the compositional aesthetics of generated images while preserving user intent. A common practice constructs supervised fine-tuning (SFT) pairs by deriving short, user-like prompts from dense captions, implicitly assuming that captions that improve image generation also provide effective supervision.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+  "url": "https://arxiv.org/abs/2611.27229"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.297,
+   "genai-llm": 1.0,
+   "mlops": 0.711,
+   "nlp": 0.516
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Chang Nie",
+    "Chaoyou Fu",
+    "Songlin Liu",
+    "Yiqing Hu",
+    "Caifeng Shan"
+   ],
+   "github": "https://github.com/Clare-Nie/MemOnce",
+   "hf_url": "https://huggingface.co/papers/2611.27973",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27973.png",
+   "upvotes": 12
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "9965f17ee5bc",
+  "kind": "paper",
+  "published": "2026-11-20T00:00:00Z",
+  "score": 48.2,
+  "source_id": "hf-papers",
+  "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands.",
+  "tags": [
+   "Research"
+  ],
+  "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+  "url": "https://arxiv.org/abs/2611.27973"
+ },
+ {
+  "categories": [
+   "open-source",
+   "research",
+   "computer-vision"
+  ],
+  "category_scores": {
+   "ai-ml": 0.269,
+   "computer-vision": 0.522,
+   "genai-llm": 0.362,
+   "open-source": 0.788,
+   "research": 0.774,
+   "robotics": 0.268,
+   "security": 0.422
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Yuhang Dai",
+    "Yinwei Wu",
+    "Ziyue Lin",
+    "Han Ji",
+    "Xingyi Yang"
+   ],
+   "github": "https://github.com/yuhangdai427/NoPeWorld",
+   "hf_url": "https://huggingface.co/papers/2611.27963",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27963.png",
+   "upvotes": 48
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "9833cac21d4b",
+  "kind": "paper",
+  "published": "2026-11-20T00:00:00Z",
+  "score": 56.0,
+  "source_id": "hf-papers",
+  "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures.",
+  "tags": [
+   "Open source",
+   "Research"
+  ],
+  "title": "Non-penetrating World Models",
+  "url": "https://arxiv.org/abs/2611.27963"
+ },
+ {
+  "categories": [
    "genai-llm"
   ],
   "category_scores": {
@@ -2653,6 +3174,48 @@
  },
  {
   "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.331,
+   "computer-vision": 0.393,
+   "genai-llm": 0.45,
+   "mlops": 0.383,
+   "open-source": 0.383,
+   "research": 0.318,
+   "robotics": 0.28
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Haowei He",
+    "Ziwen Zhao",
+    "Chenshuo Pan",
+    "Gang Lin",
+    "Zhihao Yang",
+    "Chao Wang"
+   ],
+   "github": "https://github.com/Newiz430/cmHC",
+   "hf_url": "https://huggingface.co/papers/2611.27193",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27193.png",
+   "upvotes": 79
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "3e864e70bcb2",
+  "kind": "paper",
+  "published": "2026-11-20T00:00:00Z",
+  "score": 54.0,
+  "source_id": "hf-papers",
+  "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope.",
+  "tags": [
+   "Research"
+  ],
+  "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+  "url": "https://arxiv.org/abs/2611.27193"
+ },
+ {
+  "categories": [
    "tools-launches",
    "agents"
   ],
@@ -2680,6 +3243,45 @@
   ],
   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
   "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+ },
+ {
+  "categories": [
+   "nlp",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.268,
+   "genai-llm": 0.686,
+   "nlp": 0.986
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Jenitha Reddy Patel",
+    "Sameeksha Kini",
+    "Amulya Rayasam",
+    "Anisa Dye",
+    "Abhinav Sharma",
+    "Sai Karthik Navuluru"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.27211",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27211.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "0263b6cc996b",
+  "kind": "paper",
+  "published": "2026-11-20T00:00:00Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "Personalized long-form generation asks a language model to write new text the way a specific user would. The standard recipe, retrieval-augmented generation, places a few of the user's past texts in the prompt but leaves the model to decide what to take from them.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+  "url": "https://arxiv.org/abs/2611.27211"
  },
  {
   "categories": [
@@ -3647,14 +4249,15 @@
     "Yixuan Wang",
     "Zhanqiu Guo",
     "Yi Xu"
-   ]
+   ],
+   "upvotes": 3
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "1a282256fd31",
   "kind": "paper",
   "published": "2026-11-19T18:57:25Z",
-  "score": 10.0,
+  "score": 22.0,
   "source_id": "arxiv",
   "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail.",
   "tags": [
@@ -12394,6 +12997,52 @@
  },
  {
   "categories": [
+   "agents",
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.26,
+   "enterprise": 0.251,
+   "genai-llm": 0.426,
+   "mlops": 0.621,
+   "nlp": 0.27,
+   "open-source": 0.334,
+   "security": 0.31,
+   "tools-launches": 0.284
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Chiyu Chen",
+    "Pengzhou Cheng",
+    "Yuezhao Ma",
+    "Xiaocheng Li",
+    "Can Liu",
+    "Haonan Hu"
+   ],
+   "github": "https://github.com/cyChen2003/duopra",
+   "hf_url": "https://huggingface.co/papers/2611.25773",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25773.png",
+   "upvotes": 9
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "26f818677517",
+  "kind": "paper",
+  "published": "2026-11-19T00:00:00Z",
+  "score": 43.9,
+  "source_id": "hf-papers",
+  "summary": "Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions. However, completing tasks further requires task agency: timely tool invocation and argument revision following user corrections. Frontend-backend agents separate initiation from execution: the frontend decides whether and what to request, while the backend determines how.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+  "url": "https://arxiv.org/abs/2611.25773"
+ },
+ {
+  "categories": [
    "genai-llm",
    "nlp",
    "research"
@@ -18218,14 +18867,15 @@
    "arxiv_category": "cs.CL",
    "authors": [
     "DiffuSpace Technical Team"
-   ]
+   ],
+   "upvotes": 33
   },
   "fetched": "2026-11-19T11:51:12Z",
   "focus": "tech",
   "id": "9f83ba81afcd",
   "kind": "paper",
   "published": "2026-11-18T15:46:14Z",
-  "score": 8.0,
+  "score": 38.0,
   "source_id": "arxiv",
   "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block.",
   "tags": [
@@ -23965,6 +24615,48 @@
  },
  {
   "categories": [
+   "genai-llm",
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.91,
+   "ai-ml": 0.367,
+   "enterprise": 0.469,
+   "genai-llm": 1.0,
+   "mlops": 0.435,
+   "nlp": 0.307,
+   "open-source": 0.304,
+   "research": 0.427
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Zhenling Chen",
+    "Zhiguo Zeng",
+    "Anne Barros"
+   ],
+   "github": "https://github.com/JialingRichard/nextunit-bench",
+   "hf_url": "https://huggingface.co/papers/2611.25252",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25252.png",
+   "upvotes": 3
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "6212526ea335",
+  "kind": "paper",
+  "published": "2026-11-18T00:00:00Z",
+  "score": 41.0,
+  "source_id": "hf-papers",
+  "summary": "Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+  "url": "https://arxiv.org/abs/2611.25252"
+ },
+ {
+  "categories": [
    "computer-vision",
    "research"
   ],
@@ -24290,6 +24982,47 @@
  },
  {
   "categories": [
+   "agents",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "enterprise": 0.318,
+   "genai-llm": 0.656,
+   "open-source": 0.274,
+   "security": 0.335,
+   "tools-launches": 0.407
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Ziyuan Wang",
+    "Genliang Zhu",
+    "Xiaobo Chen",
+    "Chu Wang"
+   ],
+   "github": "https://github.com/zwang-devv/intent-contracts",
+   "hf_url": "https://huggingface.co/papers/2611.24025",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24025.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "26c2dc69409a",
+  "kind": "paper",
+  "published": "2026-11-18T00:00:00Z",
+  "score": 35.5,
+  "source_id": "hf-papers",
+  "summary": "Intent contracts are an authorization interface for tool-using LLM agents in which the planning model holds no tools. For each step it submits a short logged contract: a goal, a verbatim quotation of the user, and scope fields. Code validates the contract, and a small trusted model checks it against the user's words and writes the tool call itself.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Intent Contracts: Taking Tools Away from Agents",
+  "url": "https://arxiv.org/abs/2611.24025"
+ },
+ {
+  "categories": [
    "ai-ml"
   ],
   "category_scores": {
@@ -24312,6 +25045,45 @@
   "tags": [],
   "title": "Anthropic prices initial public offering",
   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 0.874,
+   "genai-llm": 0.45,
+   "nlp": 0.393
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Shiwei Wu",
+    "Yuwen Pan",
+    "Zhi Li",
+    "Yaowen Li",
+    "Yan Zhou",
+    "Xuemiao Xu"
+   ],
+   "github": "https://github.com/starsholic/AeroRSI",
+   "hf_url": "https://huggingface.co/papers/2611.24077",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24077.png",
+   "upvotes": 4
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "172f56aa72e9",
+  "kind": "paper",
+  "published": "2026-11-18T00:00:00Z",
+  "score": 37.9,
+  "source_id": "hf-papers",
+  "summary": "Vision-language-action (VLA) models enable unmanned aerial vehicles (UAVs) to follow natural-language instructions, yet still fail frequently in closed-loop flight. Correcting these failures requires repairs, i.e., actions that avoid them at the states the policy itself reaches, which human pilots cannot label at scale and rule-based planners cannot supply reliably.",
+  "tags": [
+   "Research"
+  ],
+  "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+  "url": "https://arxiv.org/abs/2611.24077"
  },
  {
   "categories": [
@@ -31808,6 +32580,44 @@
  },
  {
   "categories": [
+   "research",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "computer-vision": 0.45,
+   "genai-llm": 0.849,
+   "nlp": 0.368,
+   "research": 0.879
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Hengyu You",
+    "Xintong Wang",
+    "Jin Cao",
+    "Liang Ding"
+   ],
+   "github": "https://github.com/alibaba-multimodal-industrial-ai/PURE",
+   "hf_url": "https://huggingface.co/papers/2611.22343",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22343.png",
+   "upvotes": 4
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "e752da4ec0ef",
+  "kind": "paper",
+  "published": "2026-11-17T00:00:00Z",
+  "score": 40.9,
+  "source_id": "hf-papers",
+  "summary": "Identity matching asks whether two records denote the same identity, yet the answer depends on the target granularity. Two records may match at the base level but not at the variant level: they share an underlying design while differing in attributes such as color or size. Final matching accuracy does not separately characterize the capabilities involved.",
+  "tags": [
+   "Research"
+  ],
+  "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+  "url": "https://arxiv.org/abs/2611.22343"
+ },
+ {
+  "categories": [
    "genai-llm",
    "research"
   ],
@@ -32195,6 +33005,42 @@
  },
  {
   "categories": [
+   "security",
+   "research"
+  ],
+  "category_scores": {
+   "mlops": 0.288,
+   "open-source": 0.328,
+   "research": 0.531,
+   "security": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Cédric Bonhomme",
+    "Alexandre Dulaunoy"
+   ],
+   "github": "https://github.com/vulnerability-lookup/exploitation-patch-timeline-paper",
+   "hf_url": "https://huggingface.co/papers/2611.22479",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22479.png",
+   "upvotes": 2
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "79f0d3a501e3",
+  "kind": "paper",
+  "published": "2026-11-17T00:00:00Z",
+  "score": 33.5,
+  "source_id": "hf-papers",
+  "summary": "-05-X-03), Known Exploited Vulnerabilities (KEV) catalogs, and exploitation sightings. We introduce an evidence model implemented in Vulnerability-Lookup that selects the earliest evidence for each lifecycle event, distinguishes vulnerability-specific records, preserves date precision, and ensures traceability to original sources.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+  "url": "https://arxiv.org/abs/2611.22479"
+ },
+ {
+  "categories": [
    "agents",
    "computer-vision",
    "research"
@@ -32327,6 +33173,46 @@
   ],
   "title": "Introducing OpenAI for Chile",
   "url": "https://openai.com/index/introducing-openai-for-chile"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.349,
+   "computer-vision": 1.0,
+   "genai-llm": 0.448,
+   "open-source": 0.274,
+   "research": 0.607
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Li Li",
+    "Xiangbo Gao",
+    "Bo Ni",
+    "Samyadeep Basu",
+    "Viet Dac Lai",
+    "Jing Shi"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.22495",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22495.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "58ba6affb87e",
+  "kind": "paper",
+  "published": "2026-11-17T00:00:00Z",
+  "score": 30.0,
+  "source_id": "hf-papers",
+  "summary": "Reward models for instruction-guided video editing can favor temporal consistency at the expense of motion. We study this failure, termed motion collapse, using controlled motion-suppression variants of real edits. On VE-Bench, the evaluated composite reward prefers a motion-suppressed candidate in 97% of cases.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+  "url": "https://arxiv.org/abs/2611.22495"
  },
  {
   "categories": [
@@ -35421,14 +36307,15 @@
     "Rui Huang",
     "Yang Zhang",
     "Gao Huang"
-   ]
+   ],
+   "upvotes": 7
   },
   "fetched": "2026-11-17T16:11:59Z",
   "focus": "tech",
   "id": "a6c17341acce",
   "kind": "paper",
   "published": "2026-11-16T17:54:39Z",
-  "score": 8.0,
+  "score": 26.0,
   "source_id": "arxiv",
   "summary": "Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter. It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change. Yet existing evaluations often leave physical place identity across separated visits implicit.",
   "tags": [
@@ -47474,6 +48361,48 @@
   ],
   "title": "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
   "url": "https://arxiv.org/abs/2611.19244"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.808,
+   "computer-vision": 0.775,
+   "genai-llm": 0.725,
+   "open-source": 0.336,
+   "research": 0.279
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Bing He",
+    "Runze Wang",
+    "Fei Zha",
+    "Zhongyuan Wu",
+    "Ke Xu",
+    "Tao Zhuang"
+   ],
+   "github": "https://github.com/hebing-sjtu/GameWM",
+   "hf_url": "https://huggingface.co/papers/2611.19247",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19247.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-23T13:06:30Z",
+  "focus": "tech",
+  "id": "af405ac7b319",
+  "kind": "paper",
+  "published": "2026-11-14T00:00:00Z",
+  "score": 32.0,
+  "source_id": "hf-papers",
+  "summary": "For more than half a century, video games have pursued better graphics, more natural interaction, and more engaging gameplay. Generative video models (VMs) now bear on all three. Neural networks already draw most of the pixels in shipped games, and recent world models let a lightweight game engine keep the world state while a VM turns the engine's coarse proxy video into final frames.",
+  "tags": [
+   "Research"
+  ],
+  "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+  "url": "https://arxiv.org/abs/2611.19247"
  },
  {
   "categories": [
@@ -65047,14 +65976,15 @@
     "Jinwoo Kim",
     "Jinho Jeong",
     "Seon Joo Kim"
-   ]
+   ],
+   "upvotes": 20
   },
   "fetched": "2026-11-13T03:52:26Z",
   "focus": "tech",
   "id": "7df4d143f820",
   "kind": "paper",
   "published": "2026-11-11T13:19:01Z",
-  "score": 8.0,
+  "score": 34.4,
   "source_id": "arxiv",
   "summary": "Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone. Humans instead read it by reasoning over image context, logical patterns, and prior knowledge.",
   "tags": [
