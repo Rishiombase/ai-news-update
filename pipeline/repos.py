@@ -33,9 +33,14 @@ REPO_DIR = config.DATA_DIR / "repos"
 RECORDS = REPO_DIR / "repos.json"
 THEMES_FILE = REPO_DIR / "themes.json"
 PICKS_FILE = REPO_DIR / "newsletter_picks.json"
+HISTORY_FILE = REPO_DIR / "history.json"
+HISTORY_MAX = 4000            # permanent archive of every repo ever featured (newest kept if exceeded)
+HISTORY_REFRESH_PER_RUN = 200  # re-check this many older repos per day so their numbers stay current
+_HIST_KEYS = ("full", "name", "owner", "owner_type", "desc", "stars", "forks", "watchers", "created", "pushed", "archived",
+              "home", "lang", "license", "topics", "release", "quickstart", "why")
 API, GQL = "https://api.github.com", "https://api.github.com/graphql"
 REFRESH_HOURS = 20          # refresh repo data about once a day
-SECTION_SIZE = 30
+SECTION_SIZE = 60
 MAX_TRACKED = 1500
 
 # Discovery queries (GitHub search). {d14}/{d30}/{d90} are replaced by ISO dates.
@@ -351,12 +356,93 @@ def refresh(articles: dict[str, dict], state: dict, now: datetime, force: bool =
             r.pop("featured", None)
     log.info("repos: %d READMEs checked for quick-start commands", fetched)
 
+    hist = update_history(records, sections["sections"], today)
+    refreshed = refresh_history(gh, hist, records, today)
+    save_history(hist)
+    log.info("repos: history holds %d repos (%d re-checked today)", len(hist), refreshed)
+
     _save(RECORDS, records)
     themes_hist = _load(THEMES_FILE, {})
     themes_hist[today] = dict(_theme_weights(records, load_snapshots(), now).most_common(40))
     _save(THEMES_FILE, {d: v for d, v in themes_hist.items() if d >= (now - timedelta(days=30)).date().isoformat()})
     state["repos_last_refresh"] = to_utc_iso(now)
     return True
+
+
+# --------------------------------------------------------------------------- permanent history
+def load_history() -> dict[str, dict]:
+    return _load(HISTORY_FILE, {})
+
+
+def save_history(hist: dict[str, dict]) -> None:
+    """One repo per line, so daily changes show up as small diffs in git."""
+    keep = sorted(hist, key=lambda k: hist[k].get("last_featured", ""), reverse=True)[:HISTORY_MAX]
+    lines = [f"{json.dumps(k)}: {json.dumps(hist[k], ensure_ascii=False, sort_keys=True, separators=(',', ':'))}"
+             for k in sorted(keep)]
+    HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY_FILE.write_text("{\n" + ",\n".join(lines) + "\n}\n")
+
+
+def update_history(records: dict[str, dict], sections: dict[str, list], today: str) -> dict[str, dict]:
+    """Record every repo featured today. Entries never expire: this is the 'older repos' archive."""
+    hist = load_history()
+    for sec, entries in sections.items():
+        for e in entries:
+            k, rec = e["id"], records.get(e["id"])
+            if not rec:
+                continue
+            h = hist.get(k)
+            if h is None:
+                h = hist[k] = {"first_featured": today, "stars_then": rec["stars"], "days": 0, "sections": [],
+                               "first_reason": e["reason"], "first_section": sec}
+            if h.get("last_counted") != today:
+                h["days"] += 1
+                h["last_counted"] = today
+            h["last_featured"] = today
+            if sec not in h["sections"]:
+                h["sections"].append(sec)
+            h["last_reason"], h["last_section"] = e["reason"], sec
+            h["rec"] = {f: rec.get(f) for f in _HIST_KEYS if rec.get(f) is not None}
+            h["checked"] = today
+            h.pop("gone", None)
+    return hist
+
+
+def refresh_history(gh: "GitHub", hist: dict, records: dict, today: str) -> int:
+    """Re-check older archived repos (oldest check first) so star counts and releases stay current."""
+    stale = sorted((k for k, h in hist.items() if h.get("checked", "") < today and k not in records),
+                   key=lambda k: hist[k].get("checked", ""))[:HISTORY_REFRESH_PER_RUN]
+    if not stale:
+        return 0
+    details = gh.details([hist[k]["rec"]["full"] for k in stale])
+    for k in stale:
+        h, d = hist[k], details.get(k)
+        h["checked"] = today
+        if d is None:
+            h["gone"] = True   # renamed, deleted or made private
+            continue
+        _merge_details(h["rec"], d)
+    return len(stale)
+
+
+def archive_payload(now: datetime) -> dict | None:
+    """Every repo ever featured, newest first, for the History tab (loaded only when that tab opens)."""
+    hist = load_history()
+    if not hist:
+        return None
+    rows = []
+    for k, h in hist.items():
+        rec = h.get("rec")
+        if not rec or h.get("gone"):
+            continue
+        c = compact(k, rec, (None, False, None))
+        rows.append({"id": k, "first": h["first_featured"], "last": h["last_featured"], "days": h["days"],
+                     "sections": h["sections"], "reason": h.get("last_reason", ""), "stars_then": h["stars_then"],
+                     "gained": max(0, rec.get("stars", 0) - h["stars_then"]), "checked": h.get("checked"),
+                     "repo": c})
+    rows.sort(key=lambda x: (x["last"], x["repo"]["stars"]), reverse=True)
+    return {"generated": to_utc_iso(now), "count": len(rows), "since": min(h["first_featured"] for h in hist.values()),
+            "items": rows}
 
 
 # --------------------------------------------------------------------------- metrics & sections (offline)

@@ -477,6 +477,7 @@ const REPO_TABS = {
   recognized: ["\u{1F3C6} Getting recognized", "Broke through this week: in the news, code behind a top research paper, a star milestone, or a major release."],
   gems: ["\u{1F48E} Hidden gems", "Under 2,500 stars, actively developed, with releases and steady growth. Easy to miss, worth a look."],
   essentials: ["\u2705 Proven essentials", "Established projects that are still actively maintained: the safe choices for real products."],
+  history: ["\u{1F4DA} History", "Every repo this page has featured, kept permanently so older picks stay findable. Star counts are re-checked daily; \"+N\" is growth since the day it was first featured."],
   saved: ["\u{1F516} Saved", "Repos you saved. They are stored in this browser; use Export to move them to another device."],
 };
 const LANG_COLORS = { Python: "#3572A5", TypeScript: "#3178C6", JavaScript: "#E5B700", Rust: "#DEA584", Go: "#00ADD8", "C++": "#F34B7D", C: "#555555",
@@ -498,6 +499,9 @@ const ReposView = {
         <label class="search"><span class="visually-hidden">Search repos</span>${searchIcon}<input id="rq" type="search" placeholder="Search name, description or topic" autocomplete="off"></label>
         <div class="chips" id="ruse" role="group" aria-label="Use case"></div>
         <label class="check"><input type="checkbox" id="rcomm"> Commercial-friendly license</label>
+        <label class="sortbox" id="rsortbox" hidden><span class="visually-hidden">Sort</span><select class="select" id="rsort">
+          <option value="recent">Recently featured</option><option value="first">First featured (oldest first)</option>
+          <option value="gained">Most stars gained since featured</option><option value="stars">Most stars</option></select></label>
         <div class="seg" role="group" aria-label="Layout"><button type="button" data-view="cards">Cards</button><button type="button" data-view="list">List</button></div>
       </div>
       <p class="result-line" id="rline" aria-live="polite"></p>
@@ -509,12 +513,14 @@ const ReposView = {
     const q = main.querySelector("#rq"); let t;
     q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => this.set({ q: q.value.trim() }), 150); });
     main.querySelector("#rcomm").addEventListener("change", (e) => this.set({ comm: e.target.checked ? "1" : "" }));
+    main.querySelector("#rsort").addEventListener("change", (e) => this.set({ sort: e.target.value }));
     main.querySelector("#rexport").addEventListener("click", () => this.exportSaved());
     main.querySelector("#rimport").addEventListener("change", (e) => this.importSaved(e.target.files[0]));
     this.update(params);
   },
   set(patch, push = false) { this.params = { ...this.params, ...patch }; setParams("/repos", this.params, { push }); this.update(this.params); },
-  update(params) {
+  update(params, keepLimit = false) {
+    if (keepLimit !== true || !this.limit) this.limit = 30;
     this.params = { tab: "trending", ...params };
     const p = this.params, data = store.repos, saved = loadSaved();
     const tab = REPO_TABS[p.tab] ? p.tab : "trending";
@@ -525,6 +531,17 @@ const ReposView = {
     main.querySelector("#rcomm").checked = p.comm === "1";
     main.querySelector("#ruse").innerHTML = USE_FILTERS.map((u) => `<button type="button" data-use="${esc(u)}" aria-pressed="${p.use === u}">${esc(u)}</button>`).join("");
     main.querySelector("#rsavedtools").hidden = tab !== "saved";
+    main.querySelector("#rsortbox").hidden = tab !== "history";
+    main.querySelector("#rsort").value = p.sort || "recent";
+    if (tab === "history" && !store.reposArchive) {
+      if (!this.loadingArchive) {
+        this.loadingArchive = true;
+        getJSON("repos-archive.json").then((d) => { store.reposArchive = d; store.archiveById = new Map(d.items.map((x) => [x.id, x])); })
+          .catch(() => { store.reposArchive = { items: [], count: 0 }; store.archiveById = new Map(); })
+          .finally(() => { this.loadingArchive = false; if (current?.name === "repos") this.update(this.params, true); });
+      }
+      main.querySelector("#rgrid").innerHTML = `<p class="loading">Loading the history</p>`; return;
+    }
     if (data) {
       main.querySelector("#themes").innerHTML = data.themes.map((th) => `<button type="button" data-topic="${esc(th.topic)}" aria-pressed="${p.topic === th.topic}">
         ${esc(th.topic.replace(/-/g, " "))}<span class="c">${th.repos}</span>${th.rising ? `<span class="up" title="Growing faster than last week">&#9650;</span>` : ""}${th.new ? `<span class="badge-new">new</span>` : ""}</button>`).join("");
@@ -534,6 +551,13 @@ const ReposView = {
     if (tab === "saved") {
       list = Object.values(saved).sort((a, b) => b.savedAt.localeCompare(a.savedAt))
         .map((s) => ({ r: (data && data.repos[s.repo.id]) || s.repo, reason: `Saved ${relTime(s.savedAt)}`, saved: true }));
+    } else if (tab === "history") {
+      const sortBy = { recent: (a, b) => b.last.localeCompare(a.last) || b.repo.stars - a.repo.stars, first: (a, b) => a.first.localeCompare(b.first) || b.repo.stars - a.repo.stars,
+        gained: (a, b) => b.gained - a.gained, stars: (a, b) => b.repo.stars - a.repo.stars }[p.sort || "recent"];
+      const names = { trending: "Trending", new: "New & rising", recognized: "Getting recognized", gems: "Hidden gems", essentials: "Proven essentials" };
+      list = [...store.reposArchive.items].sort(sortBy).map((x) => ({ r: x.repo, saved: false,
+        reason: `Featured ${fmtDate(x.first + "T00:00:00Z", { day: "numeric", month: "short" })}${x.days > 1 ? `, ${x.days} days on the lists` : ""} in ${x.sections.map((k) => names[k]).join(", ")}`
+          + (x.gained > 0 ? `. +${kfmt(x.gained)} stars since` : "") }));
     } else if (!data) {
       list = [];
     } else if (p.topic) {
@@ -561,15 +585,17 @@ const ReposView = {
     const view = (() => { try { return localStorage.getItem("gap-repo-view") || "cards"; } catch (e) { return "cards"; } })();
     main.querySelectorAll("[data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
     grid.classList.toggle("list", view === "list");
-    const featured = view === "cards" && tab !== "saved" && !p.topic && !p.use && !p.q && p.comm !== "1" && list.length > 3;
+    const featured = view === "cards" && tab !== "saved" && tab !== "history" && !p.topic && !p.use && !p.q && p.comm !== "1" && list.length > 3;
     if (!data && tab !== "saved") { grid.innerHTML = `<p class="empty">Repo data has not been collected yet. It refreshes once a day.</p>`; return; }
-    grid.innerHTML = list.length ? list.map((x, i) => this.card(x.r, x.reason, saved, tab, featured && i === 0, view)).join("")
+    const shownList = list.slice(0, this.limit);
+    grid.innerHTML = list.length ? shownList.map((x, i) => this.card(x.r, x.reason, saved, tab, featured && i === 0, view)).join("")
+        + (list.length > this.limit ? `<button class="more repo-more" type="button" data-more>Show more repos (${list.length - this.limit} left)</button>` : "")
       : `<p class="empty">${tab === "saved" ? "Nothing saved yet. Use the bookmark on any repo card to save it here." : "No repos match these filters."}</p>`;
   },
   card(r, reason, saved, tab, top = false, view = "cards") {
     const [owner, name] = r.full.split("/");
     const isSaved = !!saved[r.id];
-    const icon = { trending: "\u{1F525}", new: "\u{1F680}", recognized: "\u{1F3C6}", gems: "\u{1F48E}", essentials: "✅", saved: "\u{1F516}" }[tab] || "";
+    const icon = { history: "\u{1F4DA}", trending: "\u{1F525}", new: "\u{1F680}", recognized: "\u{1F3C6}", gems: "\u{1F48E}", essentials: "✅", saved: "\u{1F516}" }[tab] || "";
     const avatar = `<img class="repo__avatar" src="https://github.com/${encodeURIComponent(owner)}.png?size=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`;
     const license = !r.license || r.license === "NOASSERTION" ? `<span class="lic warn" title="No standard license detected: check before using">License unclear</span>`
       : `<span class="lic ${r.permissive ? "ok" : ""}" title="${r.permissive ? "Permissive license: generally fine for commercial use" : "Check the license terms before commercial use"}">${esc(r.license)}${r.permissive ? " &#10003;" : ""}</span>`;
@@ -601,7 +627,8 @@ const ReposView = {
   click(e) {
     const tab = e.target.closest("[data-tab]"); if (tab) return this.set({ tab: tab.dataset.tab, topic: "" }, true);
     const view = e.target.closest("[data-view]");
-    if (view) { try { localStorage.setItem("gap-repo-view", view.dataset.view); } catch (err) {} return this.update(this.params); }
+    if (view) { try { localStorage.setItem("gap-repo-view", view.dataset.view); } catch (err) {} return this.update(this.params, true); }
+    if (e.target.closest("[data-more]")) { this.limit += 30; return this.update(this.params, true); }
     const use = e.target.closest("[data-use]"); if (use) return this.set({ use: this.params.use === use.dataset.use ? "" : use.dataset.use });
     const topic = e.target.closest("[data-topic]"); if (topic) { window.scrollTo({ top: 0 }); return this.set({ topic: this.params.topic === topic.dataset.topic ? "" : topic.dataset.topic }, true); }
     if (e.target.closest("[data-reset]")) return this.set({ q: "", use: "", topic: "", comm: "" });
@@ -612,7 +639,7 @@ const ReposView = {
       const id = save.dataset.save, saved = loadSaved();
       if (saved[id]) delete saved[id];
       else {
-        const r = store.repos?.repos[id] || null;
+        const r = store.repos?.repos[id] || store.archiveById?.get(id)?.repo || null;
         if (r) saved[id] = { repo: r, savedAt: new Date().toISOString() };
       }
       if (!writeSaved(saved)) alert("Saving needs browser storage, which is blocked in this window (for example in private browsing).");

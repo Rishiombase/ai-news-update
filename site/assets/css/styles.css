@@ -505,3 +505,7 @@ button.cov__row:hover .cov__label { text-decoration: underline; }
 .row__stats { display: flex; gap: 12px; align-items: center; font-size: var(--fs-xs); color: var(--slate); white-space: nowrap; }
 .row__stats .grow { color: #0B7A55; font-weight: 700; }
 @media (max-width: 760px) { .repo--row { grid-template-columns: 36px minmax(0, 1fr) auto; } .row__stats { grid-column: 2 / -1; grid-row: 2; flex-wrap: wrap; } }
+
+.sortbox[hidden] { display: none; }
+.sortbox .select { font-size: var(--fs-sm); }
+.repo-more { grid-column: 1 / -1; }

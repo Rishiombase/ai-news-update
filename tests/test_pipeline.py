@@ -263,3 +263,26 @@ def test_insights_skip_without_a_configured_service(monkeypatch):
     import pipeline.insights as ins
     monkeypatch.setattr(ins, "ENDPOINT", "")
     assert ins.run({}, {}, NOW) == 0
+
+
+def test_repo_history_keeps_repos_and_counts_days_once():
+    import pipeline.repos as rp
+    from pathlib import Path
+    import tempfile
+    with tempfile.TemporaryDirectory() as t:
+        rp.HISTORY_FILE = Path(t) / "history.json"
+        recs = {"org/a": _repo("a", 5000, 10), "org/b": _repo("b", 900, 60)}
+        sections = {"trending": [{"id": "org/a", "reason": "+100 stars this week"}],
+                    "gems": [{"id": "org/b", "reason": "small but healthy"}]}
+        h = rp.update_history(recs, sections, "2026-11-20")
+        rp.save_history(h)
+        h = rp.update_history(recs, sections, "2026-11-20")          # same day again: no double count
+        rp.save_history(h)
+        assert h["org/a"]["days"] == 1
+        recs["org/a"]["stars"] = 6000
+        h = rp.update_history(recs, {"trending": sections["trending"]}, "2026-11-21")
+        rp.save_history(h)
+        saved = rp.load_history()
+        assert saved["org/a"]["days"] == 2 and saved["org/a"]["first_featured"] == "2026-11-20"
+        assert saved["org/a"]["stars_then"] == 5000                    # growth is measured from first feature
+        assert "org/b" in saved                                         # not featured today, but never forgotten

@@ -113,4 +113,8 @@ def build(articles: dict[str, dict], state: dict, now: datetime) -> None:
     if repo_payload:
         _write(config.SITE_DATA_DIR / "repos.json", repo_payload)
         log.info("site data: %d repos across %d sections", len(repo_payload["repos"]), len(repo_payload["sections"]))
+    archive = repos.archive_payload(now)
+    if archive:
+        _write(config.SITE_DATA_DIR / "repos-archive.json", archive)
+        log.info("site data: %d repos in the history archive", archive["count"])
     log.info("site data: %d latest, %d papers, %d archive months", len(latest), len(recent_papers), len(months))
