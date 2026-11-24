@@ -1,4 +1,4 @@
-"""Gen AI Pulse PDF: an HTML/CSS layout printed to PDF by headless Chrome.
+"""AI News Update PDF: an HTML/CSS layout printed to PDF by headless Chrome.
 
 Every section is exactly one A4 page: cover, top stories, one page per chapter,
 research, then trends and sources. Headlines link to the original publications,
@@ -25,7 +25,7 @@ from . import config
 
 log = logging.getLogger(__name__)
 
-RENDER_VERSION = "html-7"   # bump when the layout changes so existing PDFs are re-rendered
+RENDER_VERSION = "html-8"   # bump when the layout changes so existing PDFs are re-rendered
 FONT_FILES = {
     ("Bricolage Grotesque", 400, "normal"): "BricolageGrotesque-Regular.ttf",
     ("Bricolage Grotesque", 600, "normal"): "BricolageGrotesque-SemiBold.ttf",
@@ -101,12 +101,12 @@ def _also(a: dict) -> str:
 
 
 def _header(page: int) -> str:
-    return (f'<header class="run"><div class="logo"><img src="{LOGO}" alt=""><b>GEN AI PULSE</b></div>'
-            f'<div class="run-r">GEN AI PULSE <i></i> {page:02d}</div></header>')
+    return (f'<header class="run"><div class="logo"><img src="{LOGO}" alt=""><b>AI NEWS UPDATE</b></div>'
+            f'<div class="run-r">AI NEWS UPDATE <i></i> {page:02d}</div></header>')
 
 
 def _footer(right: str) -> str:
-    return (f'<footer class="run-f"><span><i></i>GEN AI PULSE <em>/</em> AI TECHNOLOGY BRIEFING</span>'
+    return (f'<footer class="run-f"><span><i></i>AI NEWS UPDATE <em>/</em> AI TECHNOLOGY BRIEFING</span>'
             f'<span>{e(right)}</span></footer>')
 
 
@@ -146,7 +146,7 @@ def _cover(issue: dict) -> str:
     return f'''
 <section class="page cover"><div class="body">
   <header class="mast">
-    <div><div class="brand">Gen <span>AI</span> Pulse</div><div class="brand-sub">AI TECHNOLOGY BRIEFING FOR BUSINESS</div></div>
+    <div><div class="brand">AI <span>News</span> Update</div><div class="brand-sub">AI TECHNOLOGY BRIEFING FOR BUSINESS</div></div>
     <div class="mast-r"><div class="badge">ISSUE #{issue.get("issue_no", 1)} <em>/</em> {e(issue["title"].upper())}</div>
       <div class="logo big"><img src="{LOGO}" alt=""></div></div>
   </header>
@@ -307,7 +307,7 @@ def build_html(issue: dict) -> str:
         pages.append(repos_page)
         n += 1
     pages.append(_trends_page(issue, n))
-    title = f"Gen AI Pulse | Issue #{issue.get('issue_no', 1)} | {issue['title']}"
+    title = f"AI News Update | Issue #{issue.get('issue_no', 1)} | {issue['title']}"
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(title)}</title>
 <style>{_fonts_css()}{CSS}</style></head><body>{"".join(pages)}<script>{FIT_JS}</script></body></html>'''
 
@@ -463,7 +463,7 @@ em { font-style: normal; opacity: .55; padding: 0 2px; }
 
 /* cover */
 .mast { display: flex; justify-content: space-between; align-items: flex-start; }
-.brand { font-family: 'Literata', Georgia, serif; font-weight: 600; font-size: 40pt; line-height: 1; letter-spacing: -.02em; }
+.brand { font-family: 'Literata', Georgia, serif; font-weight: 600; font-size: 34pt; line-height: 1; letter-spacing: -.02em; }
 .brand span { color: #5B3DF5; }
 .brand-sub { margin-top: 6px; font-size: 7.5pt; letter-spacing: .3em; color: #7A84A3; font-weight: 600; }
 .mast-r { display: flex; flex-direction: column; align-items: flex-end; gap: 9px; }

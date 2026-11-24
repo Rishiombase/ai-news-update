@@ -18,13 +18,13 @@ SITE_NEWSLETTER_DIR = SITE_DIR / "newsletters"  # generated PDFs
 FONT_DIR = Path(__file__).resolve().parent / "assets" / "fonts"
 
 SITE = {
-    "name": os.environ.get("SITE_NAME", "Gen AI Pulse"),
+    "name": os.environ.get("SITE_NAME", "AI News Update"),
     "tagline": "The AI technology your business should know about.",
     # Used for links printed in the PDF newsletters. Set SITE_URL in CI.
-    "url": os.environ.get("SITE_URL", "https://example.github.io/gen-ai-pulse/"),
+    "url": os.environ.get("SITE_URL", "https://example.github.io/ai-news-update/"),
 }
 
-USER_AGENT = "Mozilla/5.0 (compatible; GenAIPulseBot/1.0)"
+USER_AGENT = "Mozilla/5.0 (compatible; AINewsUpdateBot/1.0)"
 HTTP_TIMEOUT = 20          # seconds per request
 MAX_WORKERS = 8            # concurrent source fetches
 

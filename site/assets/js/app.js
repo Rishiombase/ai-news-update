@@ -386,7 +386,7 @@ const NewslettersView = {
     const kindLabel = (i) => (i.type === "monthly" ? "Monthly" : "Quarterly");
     const cover = (i) => `<a class="cover" href="#/newsletters/${esc(i.id)}" aria-hidden="true" tabindex="-1">
         <span class="cover__top"><img src="assets/mark.svg" alt=""><b>ISSUE #${i.issue_no || 1}</b></span>
-        <span class="cover__title">Gen <em>AI</em> Pulse</span>
+        <span class="cover__title">AI <em>News</em> Update</span>
         <span class="cover__hero"><span>${esc(kindLabel(i).toUpperCase())}</span><strong>${esc(i.title)}</strong></span>
         <span class="cover__kpis"><i class="k0"></i><i class="k1"></i><i class="k2"></i><i class="k3"></i></span></a>`;
     const row = (i) => `<article class="issue">${cover(i)}<div class="issue__main">
@@ -398,7 +398,7 @@ const NewslettersView = {
         <a class="btn" href="#/newsletters/${esc(i.id)}">Read online</a></div></div>
     </article>`;
     const monthly = issues.filter((i) => i.type === "monthly"), quarterly = issues.filter((i) => i.type === "quarterly");
-    main.innerHTML = `<header class="page-head"><h1>Gen AI Pulse newsletters</h1>
+    main.innerHTML = `<header class="page-head"><h1>AI News Update newsletters</h1>
       <p>Each edition is a technology briefing for companies: the most important AI developments, organised into chapters, with quick stats, what is ready to use, and what it means for your business. Every headline links to its original source.</p></header>
       ${issues.length ? `<div class="editions">
         <section aria-labelledby="mh"><h2 id="mh">Monthly editions</h2><p>The current month updates as new stories arrive.</p>${monthly.map(row).join("")}</section>
@@ -446,7 +446,7 @@ const NewslettersView = {
     </section>`;
     const toc = [["top", "&#9733;", "Top stories", "#5B3DF5"], ...i.chapters.map((c) => [String(c.number), String(c.number).padStart(2, "0"), c.kicker, c.color]), ["trends", "&#8599;", "Trends and sources", "#0F1A3A"]];
     main.innerHTML = `<header class="page-head"><p class="crumb"><a href="#/newsletters">All editions</a></p>
-        <h1>Gen AI Pulse: ${esc(i.title)}</h1><p>Issue #${i.issue_no || 1}, ${i.type === "monthly" ? "monthly" : "quarterly"} edition covering ${esc(fmtDate(i.start))} to ${esc(fmtDate(i.end))}.${i.status === "in_progress" ? " This period is still under way; the edition updates as stories arrive." : ""}</p>
+        <h1>AI News Update: ${esc(i.title)}</h1><p>Issue #${i.issue_no || 1}, ${i.type === "monthly" ? "monthly" : "quarterly"} edition covering ${esc(fmtDate(i.start))} to ${esc(fmtDate(i.end))}.${i.status === "in_progress" ? " This period is still under way; the edition updates as stories arrive." : ""}</p>
         <div class="issue__actions" style="margin-top:16px"><a class="btn btn--primary" href="${esc(meta.pdf)}" download>${dlIcon}Download PDF (${kb(meta.pdf_bytes)})</a></div></header>
       <div class="reader"><div>
         <div class="issue-hero"><small>LEADING THIS ${unit.toUpperCase()}</small><h2>${esc(i.headline)}</h2><div class="pills">${(i.pills || []).map((p) => `<span>${esc(p)}</span>`).join("")}</div></div>
@@ -657,7 +657,7 @@ const SourcesView = {
 const AboutView = {
   mount() {
     const s = store.meta.stats;
-    main.innerHTML = `<header class="page-head"><h1>How Gen AI Pulse works</h1><p>A technology briefing for companies: new AI models, tools, research, and infrastructure, and how teams are putting them to use. No paid APIs, no ads, no tracking.</p></header>
+    main.innerHTML = `<header class="page-head"><h1>How AI News Update works</h1><p>A technology briefing for companies: new AI models, tools, research, and infrastructure, and how teams are putting them to use. No paid APIs, no ads, no tracking.</p></header>
     <div class="prose">
       <h2>Technology only</h2>
       <p>Stories that are mainly about people, politics, lawsuits, or money (executive moves, scandals, funding rounds, stock prices) are filtered out, so you see what changed in the technology and what you can do with it. A keyword check and the local language model make this call together. ${plural(s.hidden_non_technical || 0, "story has", "stories have")} been left out so far.</p>

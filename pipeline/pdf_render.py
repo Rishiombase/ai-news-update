@@ -177,7 +177,7 @@ class IssueDoc(BaseDocTemplate):
         c.drawPath(path, stroke=1, fill=0)
         c.setFillColor(INK)
         c.setFont("Sans-Heavy", 10)
-        c.drawString(x + 10 * mm, h - 18.5 * mm, "GEN AI PULSE")
+        c.drawString(x + 10 * mm, h - 18.5 * mm, "AI NEWS UPDATE")
         c.setFont("Sans", 10)
         kind = "Monthly edition" if issue["type"] == "monthly" else "Quarterly edition"
         c.drawRightString(w - x, h - 18 * mm, kind)

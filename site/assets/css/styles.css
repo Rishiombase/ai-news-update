@@ -1,4 +1,4 @@
-/* Gen AI Pulse: bright, glassy, purple + blue. */
+/* AI News Update: bright, glassy, purple + blue. */
 :root {
   --bg: #F6F8FD;
   --ink: #0F1A3A;
@@ -309,7 +309,7 @@ button.cov__row:hover .cov__label { text-decoration: underline; }
 .cover__top { padding: 8px 8px 4px; display: flex; justify-content: space-between; align-items: center; }
 .cover__top img { height: 12px; }
 .cover__top b { font-size: 0.42rem; background: var(--brand); color: #fff; padding: 1px 4px; border-radius: 3px; letter-spacing: 0.06em; }
-.cover__title { padding: 0 8px; font-family: var(--serif); font-weight: 700; font-size: 0.9rem; line-height: 1; }
+.cover__title { padding: 0 8px; font-family: var(--serif); font-weight: 700; font-size: 0.74rem; line-height: 1.05; }
 .cover__title em { font-style: normal; color: var(--brand); }
 .cover__hero { margin: 6px 8px; flex: 1; border-radius: 6px; padding: 6px; display: flex; flex-direction: column; justify-content: flex-end; color: #fff;
   background: radial-gradient(80% 90% at 100% 0%, rgba(30, 136, 240, 0.85), transparent 60%), linear-gradient(130deg, #24165E, #3B2AA8); }

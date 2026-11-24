@@ -1,4 +1,4 @@
-# Gen AI Pulse
+# AI News Update
 
 An automated AI news site. It collects news, research, and launches from 30 authoritative sources, removes duplicates, categorises everything with a local AI model, and publishes a fast static website with downloadable monthly and quarterly PDF newsletters.
 
@@ -17,7 +17,7 @@ It runs entirely on free resources: public RSS feeds and APIs, open-source Pytho
 | Duplicate removal | Canonical URLs merge exact duplicates. The same story from several outlets is grouped under its most authoritative report, with the others listed as "also reported by" |
 | Ranking | Source tier + number of independent outlets + launch/funding/regulation signals + community upvotes (papers) − noise (tutorials, podcasts, deals) |
 | Dashboard | Lead story, category filters, full-text search, time period and monthly archives, trending topics, top papers, newsletter downloads |
-| Newsletters | Monthly and quarterly *Gen AI Pulse* editions: cover with KPIs, top stories, one chapter page per theme (4 key developments, quick stats, ready-to-use list, "What this means for your business"), research, trends and sources. Laid out in HTML/CSS and printed to PDF by headless Chrome (`pipeline/pdf_html.py`); falls back to ReportLab if Chrome is missing. Also readable online |
+| Newsletters | Monthly and quarterly *AI News Update* editions: cover with KPIs, top stories, one chapter page per theme (4 key developments, quick stats, ready-to-use list, "What this means for your business"), research, trends and sources. Laid out in HTML/CSS and printed to PDF by headless Chrome (`pipeline/pdf_html.py`); falls back to ReportLab if Chrome is missing. Also readable online |
 | Automation | GitHub Actions runs every 3 hours: fetch, dedupe, classify, rebuild, commit the archive, deploy |
 
 ## Quick start (local)

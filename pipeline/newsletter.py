@@ -349,8 +349,8 @@ def build_all(articles: dict[str, dict], state: dict, now: datetime) -> list[dic
     for kind in ("monthly", "quarterly"):
         for n, p in enumerate(sorted((p for p in plist if p["type"] == kind), key=lambda p: p["start"]), 1):
             numbers[p["id"]] = n
-    for f in config.SITE_NEWSLETTER_DIR.glob("ait-*.pdf"):
-        if not f.name.startswith("gen-ai-pulse-"):
+    for f in config.SITE_NEWSLETTER_DIR.glob("*.pdf"):
+        if not f.name.startswith("ai-news-update-"):
             f.unlink()  # files from the previous naming scheme
     for period in plist:
         issue = build_issue(period, items, state, now)
@@ -361,7 +361,7 @@ def build_all(articles: dict[str, dict], state: dict, now: datetime) -> list[dic
         if picks:
             issue["repos"] = picks
             issue["hash"] = hashlib.sha1((issue["hash"] + json.dumps(picks, sort_keys=True)).encode()).hexdigest()[:16]
-        slug = f"gen-ai-pulse-{issue['type']}-{issue['id'].lower()}"
+        slug = f"ai-news-update-{issue['type']}-{issue['id'].lower()}"
         pdf_path = config.SITE_NEWSLETTER_DIR / f"{slug}.pdf"
         prev = previous.get(issue["id"])
         if prev and prev.get("hash") == issue["hash"] and pdf_path.exists():
