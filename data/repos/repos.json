@@ -219,7 +219,7 @@
   "name": "MaxKB",
   "owner": "1Panel-dev",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:32:50Z",
+  "pushed": "2026-11-24T03:45:52Z",
   "release": {
    "date": "2026-11-23T02:17:37Z",
    "tag": "v2.10.10-lts"
@@ -253,7 +253,7 @@
   "name": "bowel",
   "owner": "21stware",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:28:07Z",
+  "pushed": "2026-11-24T03:41:10Z",
   "release": {
    "date": "2026-11-23T04:09:49Z",
    "tag": "v0.4.7"
@@ -394,7 +394,7 @@
    "date": "2026-11-13T19:34:49Z",
    "tag": "v2.6.0"
   },
-  "stars": 33680,
+  "stars": 33681,
   "topics": [
    "chatbot",
    "esp32",
@@ -439,6 +439,7 @@
   "archived": false,
   "created": "2025-05-09T05:42:15Z",
   "desc": "Official Python SDK for the Agent2Agent (A2A) Protocol",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 556,
@@ -452,6 +453,8 @@
   "owner": "a2aproject",
   "owner_type": "Organization",
   "pushed": "2026-11-23T17:37:41Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-17T10:50:45Z",
    "tag": "v1.3.1"
@@ -520,7 +523,7 @@
    "date": "2026-11-23T19:31:23Z",
    "tag": "cli-v0.5.0"
   },
-  "stars": 18403,
+  "stars": 18406,
   "topics": [
    "a2ui",
    "generative-ui",
@@ -653,7 +656,7 @@
    "date": "2026-11-20T06:18:55Z",
    "tag": "v1.60.2"
   },
-  "stars": 56909,
+  "stars": 56910,
   "topics": [
    "mcp",
    "acp",
@@ -720,7 +723,7 @@
    "date": "2026-11-23T16:29:36Z",
    "tag": "v1.1.18"
   },
-  "stars": 620,
+  "stars": 621,
   "topics": [
    "agent",
    "ai",
@@ -1229,13 +1232,53 @@
   ],
   "watchers": 5
  },
+ "aetherlabsai/gameanything": {
+  "archived": false,
+  "created": "2026-11-23T19:56:40Z",
+  "desc": "Turn anything your like (photos, videos, novels, films, memories) into worlds you can play in games you love. Coding agents (Claude Code, Codex, Gemini CLI, OpenCode…) build, playtest and refine the mod while you just chat.",
+  "first_seen": "2026-11-24",
+  "fork": false,
+  "forks": 0,
+  "full": "AetherLabsAI/GameAnything",
+  "home": null,
+  "lang": "Python",
+  "last_seen": "2026-11-24",
+  "license": "Apache-2.0",
+  "mentions": [
+   {
+    "date": "2026-11-22T00:00:00Z",
+    "kind": "paper",
+    "source": "hf-papers",
+    "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
+    "upvotes": 3,
+    "url": "https://arxiv.org/abs/2611.29238"
+   }
+  ],
+  "name": "GameAnything",
+  "owner": "AetherLabsAI",
+  "owner_type": "Organization",
+  "pushed": "2026-11-24T03:15:50Z",
+  "release": null,
+  "stars": 2,
+  "topics": [
+   "ai-agents",
+   "claude-code",
+   "coding-agents",
+   "game-agent",
+   "game-content-generation",
+   "gamedev",
+   "gamemodding",
+   "generative-ai"
+  ],
+  "watchers": 0
+ },
  "affaan-m/ecc": {
   "archived": false,
   "created": "2026-01-18T00:51:51Z",
   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 45549,
+  "forks": 45550,
   "full": "affaan-m/ECC",
   "home": "https://ecc.tools",
   "lang": "JavaScript",
@@ -1250,7 +1293,7 @@
    "date": "2026-10-01T23:00:36Z",
    "tag": "v2.2.3"
   },
-  "stars": 309637,
+  "stars": 309645,
   "topics": [
    "ai-agents",
    "anthropic",
@@ -1407,7 +1450,7 @@
   "name": "agentes-chat",
   "owner": "agentes-chat",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:44Z",
+  "pushed": "2026-11-24T03:47:41Z",
   "quickstart": "curl -fsSL https://agentes.chat/install | sh",
   "readme_checked": "2026-11-24",
   "release": {
@@ -1443,7 +1486,7 @@
   "name": "mcp-gateway-registry",
   "owner": "agentic-community",
   "owner_type": "Organization",
-  "pushed": "2026-11-23T23:20:39Z",
+  "pushed": "2026-11-24T03:38:07Z",
   "release": {
    "date": "2026-11-23T20:02:18Z",
    "tag": "1.39.0"
@@ -1579,7 +1622,7 @@
   "name": "agentrq",
   "owner": "agentrq",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:22:57Z",
+  "pushed": "2026-11-24T03:45:19Z",
   "release": {
    "date": "2026-11-24T03:27:15Z",
    "tag": "v0.18.2"
@@ -1634,7 +1677,7 @@
   "desc": "Build and run agents you can see, understand and trust.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 3911,
+  "forks": 3912,
   "full": "agentscope-ai/agentscope",
   "home": "https://docs.agentscope.io/",
   "lang": "Python",
@@ -1644,7 +1687,7 @@
   "name": "agentscope",
   "owner": "agentscope-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:20:22Z",
+  "pushed": "2026-11-24T03:44:54Z",
   "release": {
    "date": "2026-11-16T07:00:31Z",
    "tag": "v2.0.12"
@@ -1687,7 +1730,7 @@
   "name": "Piccolo",
   "owner": "agentscope-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-23T06:45:40Z",
+  "pushed": "2026-11-24T03:37:18Z",
   "release": null,
   "stars": 64,
   "topics": [
@@ -1884,7 +1927,7 @@
    "date": "2026-11-17T17:05:45Z",
    "tag": "v3.2.1"
   },
-  "stars": 43274,
+  "stars": 43275,
   "topics": [
    "developer-tools",
    "python",
@@ -2063,7 +2106,7 @@
   "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 23405,
+  "forks": 23406,
   "full": "ai-job-search-dev/ai-job-search",
   "home": null,
   "lang": "Python",
@@ -2078,7 +2121,7 @@
    "date": "2026-11-23T06:04:19Z",
    "tag": "v2.1.0"
   },
-  "stars": 73154,
+  "stars": 73156,
   "topics": [
    "ai",
    "ai-agents",
@@ -2112,7 +2155,7 @@
    "date": "2026-11-18T10:15:44Z",
    "tag": "v0.1.9"
   },
-  "stars": 728,
+  "stars": 729,
   "topics": [
    "dsh",
    "dsh-plugin",
@@ -2214,7 +2257,7 @@
    "date": "2026-11-23T09:30:21Z",
    "tag": "v1.15.2"
   },
-  "stars": 5441,
+  "stars": 5442,
   "topics": [
    "caprover",
    "cover-letter",
@@ -2646,6 +2689,7 @@
   "archived": false,
   "created": "2026-10-06T04:49:37Z",
   "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 741,
@@ -2659,6 +2703,8 @@
   "owner": "alchaincyf",
   "owner_type": "User",
   "pushed": "2026-11-18T06:14:27Z",
+  "quickstart": "npx skills add alchaincyf/huashu-art-motion",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-15T07:28:46Z",
    "tag": "v1.3.1"
@@ -2697,7 +2743,7 @@
    "date": "2026-11-23T06:08:01Z",
    "tag": "v0.6.1"
   },
-  "stars": 3104,
+  "stars": 3105,
   "topics": [
    "agent-skills",
    "animation",
@@ -2762,7 +2808,7 @@
    "date": "2026-11-17T06:07:14Z",
    "tag": "v2.0.2"
   },
-  "stars": 38906,
+  "stars": 38905,
   "topics": [
    "deepseek-harness",
    "dsh-plugin",
@@ -2891,7 +2937,7 @@
    "date": "2026-10-31T11:44:19Z",
    "tag": "v0.10.1"
   },
-  "stars": 1988,
+  "stars": 1989,
   "topics": [
    "agent-skills",
    "animation",
@@ -2920,7 +2966,7 @@
   "name": "kwant",
   "owner": "alexsergivan",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:30:03Z",
+  "pushed": "2026-11-24T03:46:33Z",
   "release": {
    "date": "2026-11-23T20:23:11Z",
    "tag": "mac-v0.9.46"
@@ -3196,7 +3242,7 @@
    "date": "2026-09-06T07:46:41Z",
    "tag": "v1.12.4"
   },
-  "stars": 29743,
+  "stars": 29744,
   "topics": [
    "agent",
    "ai",
@@ -3225,7 +3271,7 @@
   "name": "rtp-llm",
   "owner": "alibaba",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:14Z",
+  "pushed": "2026-11-24T03:46:48Z",
   "release": {
    "date": "2025-10-31T07:54:08Z",
    "tag": "v0.2.0"
@@ -3376,7 +3422,6 @@
   "archived": false,
   "created": "2026-11-14T14:59:59Z",
   "desc": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 0,
@@ -3647,7 +3692,7 @@
   "owner_type": "User",
   "pushed": "2026-11-24T01:35:00Z",
   "release": null,
-  "stars": 601,
+  "stars": 602,
   "topics": [
    "ai",
    "fde",
@@ -3745,7 +3790,7 @@
    "date": "2026-11-23T13:31:20Z",
    "tag": "v2.4.1"
   },
-  "stars": 1993,
+  "stars": 1995,
   "topics": [
    "filemanager",
    "rust",
@@ -3912,7 +3957,7 @@
    "date": "2026-05-23T00:42:31Z",
    "tag": "v2.0.0"
   },
-  "stars": 36009,
+  "stars": 36010,
   "topics": [
    "ai-image-generation",
    "ai-video-generation",
@@ -4055,7 +4100,7 @@
   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 5009,
+  "forks": 5010,
   "full": "anthropics/claude-plugins-official",
   "home": "https://code.claude.com/docs/en/plugins",
   "lang": "Python",
@@ -4227,7 +4272,7 @@
    "date": "2026-11-06T13:08:22Z",
    "tag": "3.4.0"
   },
-  "stars": 47633,
+  "stars": 47635,
   "topics": [
    "airflow",
    "apache",
@@ -4397,7 +4442,7 @@
    "date": "2026-11-20T10:31:13Z",
    "tag": "v0.22.0"
   },
-  "stars": 17622,
+  "stars": 17623,
   "topics": [
    "agents",
    "ai",
@@ -4475,7 +4520,6 @@
   "archived": false,
   "created": "2026-11-03T16:27:53Z",
   "desc": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 37,
@@ -4501,7 +4545,7 @@
   "quickstart": null,
   "readme_checked": "2026-11-24",
   "release": null,
-  "stars": 622,
+  "stars": 623,
   "topics": [
    "depth-estimation",
    "metric-depth",
@@ -4515,7 +4559,6 @@
   "archived": false,
   "created": "2026-11-17T21:30:14Z",
   "desc": "FastFrames: Video Generation at Interactive Latency",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 17,
@@ -4582,6 +4625,7 @@
   "archived": false,
   "created": "2026-10-08T20:37:51Z",
   "desc": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 521,
@@ -4595,11 +4639,13 @@
   "owner": "ARahim3",
   "owner_type": "User",
   "pushed": "2026-10-26T20:44:04Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-10-21T18:32:07Z",
    "tag": "v0.6.2"
   },
-  "stars": 6506,
+  "stars": 6505,
   "topics": [
    "embeddinggemma",
    "embeddings",
@@ -4797,7 +4843,7 @@
   "owner_type": "User",
   "pushed": "2026-11-24T00:52:22Z",
   "release": null,
-  "stars": 72522,
+  "stars": 72524,
   "topics": [
    "ai",
    "anthropic",
@@ -4831,7 +4877,7 @@
    "date": "2026-11-22T20:53:16Z",
    "tag": "v1.3.4"
   },
-  "stars": 2389,
+  "stars": 2390,
   "topics": [
    "ai",
    "ai-tools",
@@ -5627,7 +5673,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 6676,
+  "forks": 6680,
   "full": "BaaRai/ARTEX",
   "home": null,
   "lang": "Go",
@@ -5644,7 +5690,7 @@
    "date": "2026-11-21T08:44:23Z",
    "tag": "v0.7.0"
   },
-  "stars": 17904,
+  "stars": 17922,
   "topics": [
    "rea",
    "ai",
@@ -5910,7 +5956,7 @@
   "name": "beta9",
   "owner": "beam-cloud",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:29:25Z",
+  "pushed": "2026-11-24T03:39:52Z",
   "release": {
    "date": "2026-11-23T16:49:26Z",
    "tag": "gateway-0.1.869"
@@ -5980,7 +6026,7 @@
   "owner_type": "User",
   "pushed": "2026-11-18T03:42:47Z",
   "release": null,
-  "stars": 602,
+  "stars": 603,
   "topics": [
    "ai",
    "deepseek",
@@ -6075,7 +6121,7 @@
   "name": "litellm",
   "owner": "BerriAI",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:15Z",
+  "pushed": "2026-11-24T03:45:26Z",
   "release": {
    "date": "2026-11-20T04:06:19Z",
    "tag": "v1.110.2"
@@ -6433,7 +6479,7 @@
    "date": "2026-11-10T01:35:15Z",
    "tag": "v4.0.0"
   },
-  "stars": 72784,
+  "stars": 72795,
   "topics": [
    "agent-skills",
    "ai-writing",
@@ -6532,7 +6578,7 @@
    "date": "2026-11-15T13:16:39Z",
    "tag": "v0.1.46.1794744340"
   },
-  "stars": 28798,
+  "stars": 28797,
   "topics": [
    "agent",
    "ai-agents",
@@ -6548,7 +6594,7 @@
   "desc": "Breakthrough Method for Agile Ai Driven Development",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 6206,
+  "forks": 6207,
   "full": "bmad-code-org/BMAD-METHOD",
   "home": null,
   "lang": "Python",
@@ -6563,7 +6609,7 @@
    "date": "2026-10-14T21:19:19Z",
    "tag": "v6.12.4"
   },
-  "stars": 55670,
+  "stars": 55669,
   "topics": [
    "agile",
    "ai",
@@ -6625,7 +6671,7 @@
    "date": "2026-11-22T15:45:06Z",
    "tag": "v3.1"
   },
-  "stars": 59668,
+  "stars": 59674,
   "topics": [
    "agent",
    "agent-memory",
@@ -6784,7 +6830,7 @@
   "name": "browser-harness",
   "owner": "browser-use",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:27:10Z",
+  "pushed": "2026-11-24T03:38:18Z",
   "release": {
    "date": "2026-09-04T02:52:52Z",
    "tag": "v0.1.13"
@@ -6826,7 +6872,7 @@
    "date": "2026-11-22T03:30:41Z",
    "tag": "1.0.8"
   },
-  "stars": 121877,
+  "stars": 121876,
   "topics": [
    "llm",
    "ai-agents",
@@ -7019,7 +7065,7 @@
   "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 12090,
+  "forks": 12091,
   "full": "bytedance/deer-flow",
   "home": "https://deerflow.tech",
   "lang": "Python",
@@ -7034,7 +7080,7 @@
    "date": "2026-11-04T12:56:57Z",
    "tag": "v2.2.0"
   },
-  "stars": 85713,
+  "stars": 85715,
   "topics": [
    "agent",
    "agentic",
@@ -7425,7 +7471,6 @@
   "archived": false,
   "created": "2026-11-18T05:29:00Z",
   "desc": "[arXiv] Jeveration: System One Models Now Generate. https://arxiv.org/abs/2611.24738",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 13,
@@ -7451,7 +7496,7 @@
   "quickstart": "pip install -r requirements.txt",
   "readme_checked": "2026-11-24",
   "release": null,
-  "stars": 150,
+  "stars": 151,
   "topics": [
    "dense-prediction",
    "image-generation",
@@ -7466,7 +7511,6 @@
   "archived": false,
   "created": "2026-11-01T05:35:12Z",
   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 161,
@@ -7534,7 +7578,6 @@
   "archived": false,
   "created": "2026-10-25T08:09:52Z",
   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1489,
@@ -7554,7 +7597,7 @@
    "date": "2026-11-20T20:04:40Z",
    "tag": "v1.3.0"
   },
-  "stars": 30858,
+  "stars": 30865,
   "topics": [
    "ai-agent",
    "android",
@@ -7573,7 +7616,7 @@
   "desc": "Open-source ManyChat alternative, built for AI. Omnichannel marketing across WhatsApp, TikTok, Facebook, Instagram, Telegram, Zalo, Email, API, and Webchat 🤖",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 368,
+  "forks": 369,
   "full": "ChatbotXIO/ChatbotX",
   "home": "https://chatbotx.io/docs",
   "lang": "TypeScript",
@@ -7607,7 +7650,7 @@
   "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 13944,
+  "forks": 13945,
   "full": "cheaper-inference/OmniRoute",
   "home": "https://omniroute.online",
   "lang": "TypeScript",
@@ -7617,12 +7660,12 @@
   "name": "OmniRoute",
   "owner": "cheaper-inference",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T02:38:42Z",
+  "pushed": "2026-11-24T03:40:56Z",
   "release": {
    "date": "2026-11-17T14:04:45Z",
    "tag": "v3.8.54"
   },
-  "stars": 89910,
+  "stars": 89916,
   "topics": [
    "a2a",
    "ai-agents",
@@ -7687,7 +7730,7 @@
   "owner_type": "User",
   "pushed": "2026-11-22T19:09:49Z",
   "release": null,
-  "stars": 12437,
+  "stars": 12439,
   "topics": [
    "figures",
    "python",
@@ -7750,12 +7793,12 @@
   "name": "cherry-studio",
   "owner": "CherryHQ",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:15Z",
+  "pushed": "2026-11-24T03:44:51Z",
   "release": {
    "date": "2026-11-19T15:07:11Z",
    "tag": "v2.2.3"
   },
-  "stars": 53795,
+  "stars": 53797,
   "topics": [
    "ai-agents",
    "agent-workspace",
@@ -8238,6 +8281,7 @@
   "archived": false,
   "created": "2026-11-11T11:32:46Z",
   "desc": "Official implementation of \"MemOnce: A Scalable Memory Architecture for Large Language Models\".",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 2,
@@ -8252,7 +8296,7 @@
     "kind": "paper",
     "source": "hf-papers",
     "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
-    "upvotes": 18,
+    "upvotes": 19,
     "url": "https://arxiv.org/abs/2611.27973"
    }
   ],
@@ -8260,6 +8304,8 @@
   "owner": "Clare-Nie",
   "owner_type": "User",
   "pushed": "2026-11-23T04:02:19Z",
+  "quickstart": "pip install -U huggingface_hub",
+  "readme_checked": "2026-11-24",
   "release": null,
   "stars": 20,
   "topics": [
@@ -8288,12 +8334,12 @@
   "name": "ClickHouse",
   "owner": "ClickHouse",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:16:18Z",
+  "pushed": "2026-11-24T03:46:22Z",
   "release": {
    "date": "2026-11-23T18:06:42Z",
    "tag": "v26.9.37.5-stable"
   },
-  "stars": 51086,
+  "stars": 51087,
   "topics": [
    "dbms",
    "olap",
@@ -8523,7 +8569,7 @@
    "date": "2026-11-21T16:42:47Z",
    "tag": "v0.22.0"
   },
-  "stars": 923,
+  "stars": 924,
   "topics": [
    "3d",
    "3d-engine",
@@ -8583,12 +8629,12 @@
   "name": "Codewhale",
   "owner": "codewhale-hq",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:22Z",
+  "pushed": "2026-11-24T03:45:33Z",
   "release": {
    "date": "2026-11-23T22:52:50Z",
    "tag": "v0.10.4"
   },
-  "stars": 41197,
+  "stars": 41198,
   "topics": [
    "cli",
    "rust",
@@ -8706,7 +8752,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 17671,
+  "forks": 17672,
   "full": "Comfy-Org/ComfyUI",
   "home": "https://www.comfy.org/",
   "lang": "Python",
@@ -8723,7 +8769,7 @@
    "date": "2026-11-18T22:55:32Z",
    "tag": "v0.46.0"
   },
-  "stars": 148312,
+  "stars": 148315,
   "topics": [
    "stable-diffusion",
    "pytorch",
@@ -8750,7 +8796,7 @@
   "name": "ComfyUI_frontend",
   "owner": "Comfy-Org",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:54Z",
+  "pushed": "2026-11-24T03:44:53Z",
   "release": {
    "date": "2026-11-23T06:02:43Z",
    "tag": "v1.61.7"
@@ -8817,7 +8863,7 @@
    "date": "2026-11-19T12:10:46Z",
    "tag": "motion-showreel-v0.2.1"
   },
-  "stars": 15707,
+  "stars": 15709,
   "topics": [
    "agent",
    "claude",
@@ -8979,7 +9025,7 @@
    "date": "2026-11-23T21:01:10Z",
    "tag": "v2.14.28"
   },
-  "stars": 62283,
+  "stars": 62285,
   "topics": [
    "claude",
    "codex",
@@ -9074,7 +9120,7 @@
   "name": "crewAI",
   "owner": "crewAIInc",
   "owner_type": "Organization",
-  "pushed": "2026-11-23T19:53:36Z",
+  "pushed": "2026-11-24T03:45:05Z",
   "release": {
    "date": "2026-11-19T17:59:49Z",
    "tag": "1.15.44"
@@ -9274,7 +9320,7 @@
    "date": "2026-11-15T14:29:37Z",
    "tag": "v4.3.3"
   },
-  "stars": 11015,
+  "stars": 11016,
   "topics": [
    "sam",
    "yolo",
@@ -9314,7 +9360,7 @@
   "owner_type": "User",
   "pushed": "2026-11-20T15:25:31Z",
   "release": null,
-  "stars": 53,
+  "stars": 54,
   "topics": [
    "full-duplex",
    "full-duplex-voice",
@@ -9329,7 +9375,7 @@
   "desc": "Tracekit records what your AI agents do, decides each tool call before it runs, and gives you a signed record anyone can verify offline: tamper-evident tracing, policy gates and cross-checks for AI agents.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 136,
+  "forks": 137,
   "full": "Cygnux-Labs/Tracekit",
   "home": "https://cygnuxlabs.com/tracekit",
   "lang": "Python",
@@ -9341,10 +9387,10 @@
   "owner_type": "Organization",
   "pushed": "2026-11-24T02:56:02Z",
   "release": {
-   "date": "2026-11-18T06:56:06Z",
-   "tag": "v1.7.2"
+   "date": "2026-11-24T03:42:41Z",
+   "tag": "v1.7.3"
   },
-  "stars": 851,
+  "stars": 855,
   "topics": [
    "agent-security",
    "ai-agents",
@@ -9419,7 +9465,6 @@
   "archived": false,
   "created": "2024-10-13T20:29:53Z",
   "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 11023,
@@ -9439,7 +9484,7 @@
    "date": "2026-11-04T20:29:16Z",
    "tag": "v0.5.1"
   },
-  "stars": 105328,
+  "stars": 105333,
   "topics": [
    "crawler",
    "crawling",
@@ -9846,7 +9891,7 @@
   "name": "bisheng",
   "owner": "dataelement",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:27:58Z",
+  "pushed": "2026-11-24T03:35:28Z",
   "release": {
    "date": "2026-11-17T09:31:30Z",
    "tag": "v3.0.2"
@@ -9902,7 +9947,6 @@
   "archived": false,
   "created": "2026-10-13T11:07:11Z",
   "desc": "1M param OCR model - runs on CPU, 15x faster than tesseract, close to 1B+ param models in accuracy",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 200,
@@ -10106,7 +10150,7 @@
   "desc": "Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 3088,
+  "forks": 3089,
   "full": "DataTalksClub/mlops-zoomcamp",
   "home": "https://courses.datatalks.club/register/mlops-zoomcamp/",
   "lang": "Jupyter Notebook",
@@ -10146,7 +10190,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-16T11:47:34Z",
   "release": null,
-  "stars": 13307,
+  "stars": 13308,
   "topics": [
    "embedding",
    "kimi-k2",
@@ -10165,7 +10209,7 @@
   "desc": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 10963,
+  "forks": 10964,
   "full": "datawhalechina/hello-agents",
   "home": "https://hello-agents.datawhale.cc",
   "lang": "Python",
@@ -10180,7 +10224,7 @@
    "date": "2026-07-17T09:29:47Z",
    "tag": "V1.0.3"
   },
-  "stars": 87776,
+  "stars": 87777,
   "topics": [
    "agent",
    "tutorial",
@@ -10300,7 +10344,7 @@
    "date": "2026-11-12T09:47:41Z",
    "tag": "pdf-2026-11-12"
   },
-  "stars": 2354,
+  "stars": 2355,
   "topics": [
    "infra",
    "llm",
@@ -10484,7 +10528,7 @@
   "desc": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 4106,
+  "forks": 4107,
   "full": "davila7/claude-code-templates",
   "home": "https://www.aitmpl.com",
   "lang": "Python",
@@ -10651,10 +10695,9 @@
   "archived": false,
   "created": "2026-04-09T21:40:26Z",
   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 13075,
+  "forks": 13076,
   "full": "debpalash/VoiceStudio",
   "home": "https://voicestudio.sh",
   "lang": "Python",
@@ -10671,7 +10714,7 @@
    "date": "2026-11-12T08:53:29Z",
    "tag": "v0.5.8"
   },
-  "stars": 117244,
+  "stars": 117251,
   "topics": [
    "tts",
    "voice-cloning",
@@ -10682,7 +10725,7 @@
    "mlx",
    "huggingface"
   ],
-  "watchers": 377
+  "watchers": 378
  },
  "decolua/9router": {
   "archived": false,
@@ -10705,7 +10748,7 @@
    "date": "2026-07-16T11:14:39Z",
    "tag": "v0.5.35"
   },
-  "stars": 32795,
+  "stars": 32794,
   "topics": [
    "claude-code",
    "cursor",
@@ -10900,7 +10943,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-22T11:00:05Z",
   "release": null,
-  "stars": 286168,
+  "stars": 286174,
   "topics": [
    "cordis",
    "dsh",
@@ -11152,6 +11195,7 @@
   "archived": false,
   "created": "2026-10-25T10:05:56Z",
   "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 284,
@@ -11165,11 +11209,13 @@
   "owner": "DenisSergeevitch",
   "owner_type": "User",
   "pushed": "2026-11-23T21:16:28Z",
+  "quickstart": "npx skills add https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-23T21:16:28Z",
    "tag": "v1.53.0"
   },
-  "stars": 2751,
+  "stars": 2752,
   "topics": [
    "agent-skills",
    "archives",
@@ -11487,7 +11533,7 @@
    "date": "2026-10-29T03:11:08Z",
    "tag": "v5.3.3"
   },
-  "stars": 197578,
+  "stars": 197582,
   "topics": [
    "agent-skills",
    "ai-agents",
@@ -11931,6 +11977,7 @@
   "archived": false,
   "created": "2024-12-26T10:15:44Z",
   "desc": "Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude. REST API + knowledge graph + autonomous consolidation.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 433,
@@ -11944,6 +11991,8 @@
   "owner": "doobidoo",
   "owner_type": "User",
   "pushed": "2026-11-22T17:34:43Z",
+  "quickstart": "pip install \"mcp-memory-service[sqlite]\"",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-20T13:23:29Z",
    "tag": "v13.0.0"
@@ -12047,7 +12096,7 @@
    "date": "2026-11-07T01:56:37Z",
    "tag": "engine-v2.11"
   },
-  "stars": 2017,
+  "stars": 2019,
   "topics": [
    "ai-agents",
    "ai-education",
@@ -12110,7 +12159,7 @@
   "name": "dramaclaw",
   "owner": "dramaclaw",
   "owner_type": "Organization",
-  "pushed": "2026-11-23T11:31:48Z",
+  "pushed": "2026-11-24T03:40:28Z",
   "release": {
    "date": "2026-10-29T14:09:26Z",
    "tag": "v2.1.3"
@@ -12149,7 +12198,7 @@
    "date": "2026-11-01T17:54:52Z",
    "tag": "v1.9.0"
   },
-  "stars": 40373,
+  "stars": 40374,
   "topics": [
    "database-schema",
    "editor",
@@ -12235,7 +12284,7 @@
   "desc": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 3179,
+  "forks": 3180,
   "full": "DuarteSantos8/openGym",
   "home": "https://opengym.ch",
   "lang": "JavaScript",
@@ -12250,7 +12299,7 @@
    "date": "2026-11-14T18:17:45Z",
    "tag": "v1.4.5"
   },
-  "stars": 23726,
+  "stars": 23728,
   "topics": [
    "bodyweight",
    "docker",
@@ -12281,7 +12330,7 @@
   "owner_type": "User",
   "pushed": "2026-11-20T10:30:13Z",
   "release": null,
-  "stars": 2235,
+  "stars": 2236,
   "topics": [
    "agent-skills",
    "claude-code",
@@ -12510,12 +12559,12 @@
   "name": "text-to-cad",
   "owner": "earthtojake",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:29:14Z",
+  "pushed": "2026-11-24T03:36:07Z",
   "release": {
    "date": "2026-11-23T17:28:51Z",
    "tag": "v0.11.17"
   },
-  "stars": 27260,
+  "stars": 27262,
   "topics": [
    "agents",
    "ai-agents",
@@ -12566,7 +12615,6 @@
   "archived": false,
   "created": "2026-09-24T16:17:19Z",
   "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 2395,
@@ -12586,7 +12634,7 @@
    "date": "2026-11-22T08:47:49Z",
    "tag": "v2.9.0"
   },
-  "stars": 85193,
+  "stars": 85210,
   "topics": [
    "ai-agents",
    "deepseek",
@@ -12651,7 +12699,7 @@
   "owner_type": "User",
   "pushed": "2026-11-21T13:48:46Z",
   "release": null,
-  "stars": 2125,
+  "stars": 2126,
   "topics": [
    "2d-animation",
    "ai-agents",
@@ -12845,7 +12893,7 @@
    "date": "2026-11-21T14:35:51Z",
    "tag": "v1.3.3"
   },
-  "stars": 2797,
+  "stars": 2798,
   "topics": [
    "3d",
    "agent-skills",
@@ -12865,7 +12913,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 211,
+  "forks": 213,
   "full": "EL4CTEO/fast-anything",
   "home": "https://www.npmjs.com/package/@el4cteo/fast-anything",
   "lang": "Rust",
@@ -12882,7 +12930,7 @@
    "date": "2026-11-24T00:12:14Z",
    "tag": "v0.8.6"
   },
-  "stars": 3212,
+  "stars": 3220,
   "topics": [
    "agent-skills",
    "ai-agents",
@@ -12911,7 +12959,7 @@
   "name": "eliza",
   "owner": "elizaOS",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:19:58Z",
+  "pushed": "2026-11-24T03:41:31Z",
   "release": {
    "date": "2026-11-11T22:16:26Z",
    "tag": "v2.0.5"
@@ -13228,7 +13276,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 712,
+  "forks": 713,
   "full": "erkamyaman/rust-anything",
   "home": "https://www.npmjs.com/package/rust-anything",
   "lang": "Rust",
@@ -13245,7 +13293,7 @@
    "date": "2026-11-23T16:22:53Z",
    "tag": "v3.4.0"
   },
-  "stars": 8794,
+  "stars": 8798,
   "topics": [
    "agent-skills",
    "claude-code",
@@ -13296,7 +13344,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 682,
+  "forks": 683,
   "full": "ersinkoc/phonebox",
   "home": "https://ersinkoc.github.io/phonebox/",
   "lang": "JavaScript",
@@ -13313,7 +13361,7 @@
    "date": "2026-11-23T14:56:37Z",
    "tag": "v0.9.29"
   },
-  "stars": 5513,
+  "stars": 5516,
   "topics": [
    "android",
    "claude-code",
@@ -13612,7 +13660,7 @@
    "date": "2026-11-23T22:43:31Z",
    "tag": "v0.1.32"
   },
-  "stars": 28729,
+  "stars": 28731,
   "topics": [
    "backlink-analysis",
    "keyword-research",
@@ -13744,11 +13792,11 @@
   "name": "exact",
   "owner": "expo",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:25:54Z",
+  "pushed": "2026-11-24T03:44:16Z",
   "quickstart": null,
   "readme_checked": "2026-11-24",
   "release": null,
-  "stars": 4975,
+  "stars": 4976,
   "topics": [
    "ai-agents",
    "appkit",
@@ -13759,7 +13807,7 @@
    "linux",
    "macos"
   ],
-  "watchers": 13
+  "watchers": 14
  },
  "f/prompts.chat": {
   "archived": false,
@@ -13779,7 +13827,7 @@
   "owner_type": "User",
   "pushed": "2026-11-24T03:13:00Z",
   "release": null,
-  "stars": 178336,
+  "stars": 178335,
   "topics": [
    "chatgpt",
    "ai",
@@ -13895,6 +13943,7 @@
   "archived": false,
   "created": "2025-03-30T13:33:06Z",
   "desc": "Implementation of all RL algorithms in a simpler way",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 382,
@@ -13908,6 +13957,8 @@
   "owner": "FareedKhan-dev",
   "owner_type": "User",
   "pushed": "2026-11-16T09:52:08Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-16T09:50:53Z",
    "tag": "v1.0.0"
@@ -13964,6 +14015,7 @@
   "archived": false,
   "created": "2025-12-18T03:20:12Z",
   "desc": "Core 7 layers of production grade agentic system",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 241,
@@ -13977,6 +14029,8 @@
   "owner": "FareedKhan-dev",
   "owner_type": "User",
   "pushed": "2026-11-16T12:55:34Z",
+  "quickstart": "pip install uv",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-16T12:54:53Z",
    "tag": "v1.0.0"
@@ -14049,7 +14103,7 @@
    "date": "2026-11-23T12:42:26Z",
    "tag": "v4.0.40"
   },
-  "stars": 156694,
+  "stars": 156695,
   "topics": [
    "ai-tools",
    "claude-code",
@@ -14500,7 +14554,7 @@
   "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 10871,
+  "forks": 10872,
   "full": "firecrawl/firecrawl",
   "home": "https://firecrawl.dev",
   "lang": "TypeScript",
@@ -14510,12 +14564,12 @@
   "name": "firecrawl",
   "owner": "firecrawl",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T01:32:29Z",
+  "pushed": "2026-11-24T03:35:41Z",
   "release": {
    "date": "2026-06-19T15:09:30Z",
    "tag": "v2.11.0"
   },
-  "stars": 208044,
+  "stars": 208050,
   "topics": [
    "ai",
    "crawler",
@@ -14549,7 +14603,7 @@
    "date": "2026-11-19T22:26:58Z",
    "tag": "v2.1.1"
   },
-  "stars": 75572,
+  "stars": 75573,
   "topics": [
    "spec",
    "ai",
@@ -14598,7 +14652,7 @@
   "desc": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 662,
+  "forks": 663,
   "full": "FlashML-org/FreeVideo",
   "home": null,
   "lang": "Python",
@@ -14613,7 +14667,7 @@
    "date": "2026-11-24T00:11:38Z",
    "tag": "v0.6.9"
   },
-  "stars": 4737,
+  "stars": 4740,
   "topics": [
    "diffusion-models",
    "inference",
@@ -14739,7 +14793,7 @@
   "owner_type": "User",
   "pushed": "2026-11-23T15:13:26Z",
   "release": null,
-  "stars": 947,
+  "stars": 948,
   "topics": [
    "animation",
    "components",
@@ -15066,7 +15120,7 @@
    "date": "2026-11-24T01:22:52Z",
    "tag": "v0.3.71"
   },
-  "stars": 3099,
+  "stars": 3102,
   "topics": [
    "electron",
    "linux",
@@ -15221,7 +15275,7 @@
   "name": "future-agi",
   "owner": "future-agi",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:27:30Z",
+  "pushed": "2026-11-24T03:37:40Z",
   "release": {
    "date": "2026-11-19T13:59:26Z",
    "tag": "v1.59.1"
@@ -15307,6 +15361,7 @@
   "archived": false,
   "created": "2026-10-29T03:22:51Z",
   "desc": "Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1,
@@ -15329,6 +15384,8 @@
   "owner": "game2player",
   "owner_type": "Organization",
   "pushed": "2026-11-21T22:38:27Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": null,
   "stars": 27,
   "topics": [],
@@ -15376,10 +15433,9 @@
   "archived": false,
   "created": "2026-10-17T08:12:35Z",
   "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 7966,
+  "forks": 7967,
   "full": "Gathin23/cleanyourtv",
   "home": "https://cleanyour.tv",
   "lang": "Python",
@@ -15396,7 +15452,7 @@
    "date": "2026-11-20T12:55:09Z",
    "tag": "v3.6.0"
   },
-  "stars": 60614,
+  "stars": 60615,
   "topics": [
    "adb",
    "android-tv",
@@ -15810,7 +15866,7 @@
   "name": "LangAlpha",
   "owner": "ginlix-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T02:51:27Z",
+  "pushed": "2026-11-24T03:46:00Z",
   "release": {
    "date": "2026-11-24T02:39:04Z",
    "tag": "desktop-v0.4.0"
@@ -15914,7 +15970,7 @@
    "date": "2026-11-16T23:30:46Z",
    "tag": "v2.2.0"
   },
-  "stars": 34698,
+  "stars": 34697,
   "topics": [
    "github",
    "mcp",
@@ -15926,7 +15982,6 @@
   "archived": false,
   "created": "2025-08-21T22:54:31Z",
   "desc": "💫 Toolkit to help you get started with SDD or any other process!",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 13582,
@@ -15946,7 +16001,7 @@
    "date": "2026-11-23T18:07:31Z",
    "tag": "v1.4.4"
   },
-  "stars": 151176,
+  "stars": 151178,
   "topics": [
    "ai",
    "copilot",
@@ -16170,14 +16225,14 @@
   "name": "gemini-cli",
   "owner": "google-gemini",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:16:19Z",
+  "pushed": "2026-11-24T03:42:48Z",
   "quickstart": "npx @google/gemini-cli",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-24T01:16:44Z",
    "tag": "v0.71.0"
   },
-  "stars": 109030,
+  "stars": 109032,
   "topics": [
    "gemini",
    "gemini-api",
@@ -16443,7 +16498,7 @@
    "date": "2026-11-06T21:50:31Z",
    "tag": "v0.1.1"
   },
-  "stars": 22450,
+  "stars": 22452,
   "topics": [
    "agent-skills",
    "spec-driven-development",
@@ -16511,7 +16566,7 @@
    "date": "2026-04-24T14:51:08Z",
    "tag": "cli/v1.1.0"
   },
-  "stars": 18854,
+  "stars": 18853,
   "topics": [
    "deep-learning",
    "filetype",
@@ -16635,7 +16690,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-23T15:31:05Z",
   "release": null,
-  "stars": 17987,
+  "stars": 17988,
   "topics": [
    "generative-ai",
    "llm",
@@ -16867,7 +16922,7 @@
    "date": "2026-11-23T13:38:45Z",
    "tag": "v0.9.118"
   },
-  "stars": 152580,
+  "stars": 152584,
   "topics": [
    "claude-code",
    "graphrag",
@@ -17187,7 +17242,7 @@
   "name": "openagent",
   "owner": "Haohao-end",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:36:05Z",
+  "pushed": "2026-11-24T03:46:32Z",
   "release": {
    "date": "2026-06-15T08:54:49Z",
    "tag": "v1.1.4"
@@ -17221,7 +17276,7 @@
   "name": "happier",
   "owner": "happier-dev",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:13:26Z",
+  "pushed": "2026-11-24T03:44:53Z",
   "release": {
    "date": "2026-11-17T01:27:51Z",
    "tag": "ui-web-v0.2.22"
@@ -17275,7 +17330,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 23367,
+  "forks": 23368,
   "full": "harry0703/MoneyPrinterTurbo",
   "home": null,
   "lang": "Python",
@@ -17292,7 +17347,7 @@
    "date": "2026-11-23T06:29:51Z",
    "tag": "v1.3.11"
   },
-  "stars": 145265,
+  "stars": 145271,
   "topics": [
    "python",
    "tiktok",
@@ -17394,7 +17449,7 @@
    "date": "2026-11-18T04:37:16Z",
    "tag": "floorplan--v0.11.0"
   },
-  "stars": 6483,
+  "stars": 6484,
   "topics": [
    "ai-coding",
    "architecture-diagram",
@@ -17413,7 +17468,7 @@
   "desc": "短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 4127,
+  "forks": 4129,
   "full": "HBAI-Ltd/Toonflow-app",
   "home": "https://toonflow.net",
   "lang": "TypeScript",
@@ -17496,7 +17551,7 @@
    "date": "2026-11-22T01:25:35Z",
    "tag": "v0.45.0"
   },
-  "stars": 80681,
+  "stars": 80679,
   "topics": [
    "agent",
    "ai",
@@ -17621,7 +17676,7 @@
   "name": "helix-db",
   "owner": "HelixDB",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:30:17Z",
+  "pushed": "2026-11-24T03:36:15Z",
   "release": {
    "date": "2026-11-11T17:38:51Z",
    "tag": "v3.7.0"
@@ -17759,7 +17814,7 @@
    "date": "2026-11-23T12:34:35Z",
    "tag": "v0.2.12"
   },
-  "stars": 2331,
+  "stars": 2334,
   "topics": [
    "computer-use",
    "deepseek-harness",
@@ -17778,7 +17833,7 @@
   "desc": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 1130,
+  "forks": 1131,
   "full": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
   "home": null,
   "lang": "Python",
@@ -17790,7 +17845,7 @@
   "owner_type": "User",
   "pushed": "2026-10-18T06:48:08Z",
   "release": null,
-  "stars": 1423,
+  "stars": 1425,
   "topics": [
    "ai-agents",
    "cross-border-ecommerce",
@@ -17973,7 +18028,7 @@
   "desc": "华尔街式财经/科技解读短片 skill：设计思路、风格语言，以及找片、截图、配音、渲染和混音工具。",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 205,
+  "forks": 206,
   "full": "HeyChengC/wallstreet-explainer",
   "home": null,
   "lang": "JavaScript",
@@ -17985,7 +18040,7 @@
   "owner_type": "User",
   "pushed": "2026-11-20T12:35:00Z",
   "release": null,
-  "stars": 1189,
+  "stars": 1193,
   "topics": [
    "agent-skills",
    "ai-video",
@@ -18004,7 +18059,7 @@
   "desc": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 8302,
+  "forks": 8303,
   "full": "heygen-com/hyperframes",
   "home": "https://hyperframes.heygen.com",
   "lang": "TypeScript",
@@ -18014,12 +18069,12 @@
   "name": "hyperframes",
   "owner": "heygen-com",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:19Z",
+  "pushed": "2026-11-24T03:45:33Z",
   "release": {
    "date": "2026-11-24T02:20:30Z",
    "tag": "v0.9.87"
   },
-  "stars": 89030,
+  "stars": 89035,
   "topics": [
    "ai",
    "animation",
@@ -18223,7 +18278,7 @@
    "date": "2026-11-20T09:35:43Z",
    "tag": "v1.7.4"
   },
-  "stars": 61987,
+  "stars": 61988,
   "topics": [
    "ai-tutor",
    "deepresearch",
@@ -18286,7 +18341,7 @@
   "name": "nanobot",
   "owner": "HKUDS",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:32:16Z",
+  "pushed": "2026-11-24T03:42:33Z",
   "release": {
    "date": "2026-11-21T13:21:17Z",
    "tag": "v0.4.2"
@@ -18357,7 +18412,7 @@
    "date": "2026-11-05T11:38:28Z",
    "tag": "v0.1.19"
   },
-  "stars": 38744,
+  "stars": 38743,
   "topics": [
    "backtesting",
    "multi-agent",
@@ -18405,7 +18460,6 @@
   "archived": false,
   "created": "2026-11-08T15:41:12Z",
   "desc": "SO-Arena: benchmarking System One competence and reliability across 2,919 tasks and 11 domains.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 0,
@@ -18620,7 +18674,7 @@
   "owner_type": "User",
   "pushed": "2026-11-18T13:43:17Z",
   "release": null,
-  "stars": 707,
+  "stars": 708,
   "topics": [
    "agent-skills",
    "ai",
@@ -18711,7 +18765,7 @@
   "name": "diffusers",
   "owner": "huggingface",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:18:41Z",
+  "pushed": "2026-11-24T03:36:44Z",
   "release": {
    "date": "2026-11-12T05:22:22Z",
    "tag": "v0.43.0"
@@ -18780,14 +18834,14 @@
   "name": "transformers",
   "owner": "huggingface",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T00:17:32Z",
+  "pushed": "2026-11-24T03:43:35Z",
   "quickstart": "pip install \"transformers[torch]\"",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-21T12:28:26Z",
    "tag": "v5.24.0"
   },
-  "stars": 169273,
+  "stars": 169274,
   "topics": [
    "nlp",
    "natural-language-processing",
@@ -18967,6 +19021,7 @@
   "archived": false,
   "created": "2025-01-30T09:52:51Z",
   "desc": "Cross-platform desktop application for content-aware file organization and renaming. Supports local and remote LLMs, preview-based workflows, and fully user-controlled changes.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 193,
@@ -18980,6 +19035,8 @@
   "owner": "hyperfield",
   "owner_type": "User",
   "pushed": "2026-11-21T22:19:22Z",
+  "quickstart": "brew install qt curl jsoncpp sqlite openssl fmt spdlog mediainfo cmake git pkgconfig libffi",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-19T20:38:17Z",
    "tag": "v2.0.0"
@@ -19182,7 +19239,7 @@
    "date": "2026-11-21T22:39:28Z",
    "tag": "v1.1.0"
   },
-  "stars": 2315,
+  "stars": 2317,
   "topics": [
    "clipping",
    "ffmpeg",
@@ -19312,7 +19369,7 @@
    "date": "2026-11-10T13:46:57Z",
    "tag": "v1.1.1"
   },
-  "stars": 4879,
+  "stars": 4880,
   "topics": [
    "agents",
    "ai",
@@ -19346,7 +19403,7 @@
    "date": "2026-11-20T04:51:45Z",
    "tag": "v4.4.0"
   },
-  "stars": 46997,
+  "stars": 46998,
   "topics": [
    "ai",
    "diagnostic-tool",
@@ -19652,6 +19709,7 @@
   "archived": false,
   "created": "2023-12-12T06:13:13Z",
   "desc": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 11375,
@@ -19665,11 +19723,13 @@
   "owner": "infiniflow",
   "owner_type": "Organization",
   "pushed": "2026-11-24T03:31:50Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-06T12:31:31Z",
    "tag": "v1.0.0"
   },
-  "stars": 94611,
+  "stars": 94612,
   "topics": [
    "ai",
    "ai-agents",
@@ -19698,7 +19758,7 @@
   "name": "infisical",
   "owner": "Infisical",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:26:37Z",
+  "pushed": "2026-11-24T03:43:24Z",
   "release": {
    "date": "2026-11-20T23:00:17Z",
    "tag": "v0.167.14"
@@ -19774,7 +19834,7 @@
    "date": "2026-11-23T14:40:36Z",
    "tag": "v0.3.0"
   },
-  "stars": 806,
+  "stars": 808,
   "topics": [
    "antigravity",
    "developer-tools",
@@ -19837,7 +19897,7 @@
    "date": "2026-11-23T19:53:41Z",
    "tag": "v1.108.1"
   },
-  "stars": 859,
+  "stars": 860,
   "topics": [
    "ai-agents",
    "artifacts",
@@ -20262,12 +20322,12 @@
   "name": "SculptForge",
   "owner": "islandmed",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:23:11Z",
+  "pushed": "2026-11-24T03:44:06Z",
   "release": {
    "date": "2026-11-23T23:33:19Z",
    "tag": "v0.13.13"
   },
-  "stars": 771,
+  "stars": 772,
   "topics": [
    "3d",
    "cpp",
@@ -20425,7 +20485,7 @@
   "name": "DSH-Android",
   "owner": "jackwener",
   "owner_type": "User",
-  "pushed": "2026-11-06T01:20:48Z",
+  "pushed": "2026-11-24T03:36:09Z",
   "release": {
    "date": "2026-11-06T01:20:47Z",
    "tag": "v0.3.11"
@@ -20525,7 +20585,7 @@
   "owner_type": "User",
   "pushed": "2026-09-27T13:20:07Z",
   "release": null,
-  "stars": 1599,
+  "stars": 1600,
   "topics": [
    "arena",
    "claude-code",
@@ -20543,7 +20603,7 @@
   "desc": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 627,
+  "forks": 628,
   "full": "Jakeschincariol/founder-skill",
   "home": null,
   "lang": "Python",
@@ -20555,7 +20615,7 @@
   "owner_type": "User",
   "pushed": "2026-10-07T01:07:17Z",
   "release": null,
-  "stars": 4790,
+  "stars": 4791,
   "topics": [
    "business-plan",
    "claude-code",
@@ -20584,7 +20644,7 @@
   "owner_type": "User",
   "pushed": "2026-09-17T11:27:52Z",
   "release": null,
-  "stars": 3896,
+  "stars": 3897,
   "topics": [
    "agent-skills",
    "ai-humanizer",
@@ -20651,7 +20711,7 @@
    "date": "2026-11-21T11:17:49Z",
    "tag": "v0.6.0"
   },
-  "stars": 61219,
+  "stars": 61220,
   "topics": [
    "ai",
    "voice-clone",
@@ -20736,6 +20796,7 @@
   "archived": false,
   "created": "2026-02-07T12:39:26Z",
   "desc": "Discover inspiration and create images and videos with the latest AI models. Works with ChatGPT, Claude, Cursor, and other MCP clients.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 237,
@@ -20749,6 +20810,8 @@
   "owner": "jau123",
   "owner_type": "User",
   "pushed": "2026-11-17T10:29:18Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-11T03:47:33Z",
    "tag": "v4.0.0"
@@ -20872,6 +20935,7 @@
   "archived": false,
   "created": "2026-09-21T11:12:53Z",
   "desc": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1356,
@@ -20885,6 +20949,8 @@
   "owner": "jev-chat",
   "owner_type": "Organization",
   "pushed": "2026-11-05T17:34:41Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-10-05T16:12:03Z",
    "tag": "v1.7"
@@ -21028,7 +21094,7 @@
     "kind": "paper",
     "source": "hf-papers",
     "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
-    "upvotes": 28,
+    "upvotes": 37,
     "url": "https://arxiv.org/abs/2611.26954"
    }
   ],
@@ -21047,7 +21113,7 @@
   "desc": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 3779,
+  "forks": 3780,
   "full": "jiwoochris/artex-global",
   "home": null,
   "lang": "Go",
@@ -21062,7 +21128,7 @@
    "date": "2026-10-13T15:30:54Z",
    "tag": "v0.3.15-global.1"
   },
-  "stars": 4722,
+  "stars": 4724,
   "topics": [
    "ai-agent",
    "autonomous-agents",
@@ -21260,7 +21326,7 @@
    "date": "2026-06-16T17:58:53Z",
    "tag": "v1.2.6"
   },
-  "stars": 22284,
+  "stars": 22285,
   "topics": [
    "ai-agents",
    "chinese",
@@ -21328,7 +21394,7 @@
    "date": "2026-11-19T14:12:11Z",
    "tag": "v0.33.0"
   },
-  "stars": 2295,
+  "stars": 2296,
   "topics": [
    "appetize-alternative",
    "android",
@@ -21453,7 +21519,7 @@
   "name": "poki",
   "owner": "JosssphZhou",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:33:35Z",
+  "pushed": "2026-11-24T03:35:53Z",
   "quickstart": null,
   "readme_checked": "2026-11-24",
   "release": {
@@ -21579,7 +21645,7 @@
   "name": "julia",
   "owner": "JuliaLang",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:06:21Z",
+  "pushed": "2026-11-24T03:42:26Z",
   "release": {
    "date": "2026-11-13T20:43:32Z",
    "tag": "v1.13.4"
@@ -21652,7 +21718,7 @@
    "date": "2026-11-22T07:10:51Z",
    "tag": "v4.2.0"
   },
-  "stars": 122447,
+  "stars": 122448,
   "topics": [
    "ai",
    "anthropic",
@@ -21757,7 +21823,7 @@
    "date": "2026-11-11T17:48:35Z",
    "tag": "v0.1.0"
   },
-  "stars": 12727,
+  "stars": 12730,
   "topics": [
    "agent-skills",
    "ai-video",
@@ -21934,6 +22000,7 @@
   "archived": false,
   "created": "2026-10-10T18:01:10Z",
   "desc": "Desktop app for designing parametric 3D models in CadQuery together with the coding agent of your choice",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 63,
@@ -21947,6 +22014,8 @@
   "owner": "Kai-Jungsthoefel",
   "owner_type": "User",
   "pushed": "2026-11-22T20:07:14Z",
+  "quickstart": "npm install\nnpm start",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-22T20:40:15Z",
    "tag": "v1.0.0"
@@ -22035,6 +22104,7 @@
   "archived": false,
   "created": "2026-09-03T14:33:38Z",
   "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 899,
@@ -22048,11 +22118,13 @@
   "owner": "kajisho5",
   "owner_type": "User",
   "pushed": "2026-11-24T03:32:42Z",
+  "quickstart": "npx ffmpeg-skill",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-23T20:57:09Z",
    "tag": "v4.7.1"
   },
-  "stars": 10289,
+  "stars": 10293,
   "topics": [
    "audio-processing",
    "captions",
@@ -22105,7 +22177,7 @@
   "desc": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 14+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 1358,
+  "forks": 1360,
   "full": "kaomei/stickman-video-director",
   "home": "https://telegram.me/stickmanskill",
   "lang": "JavaScript",
@@ -22120,7 +22192,7 @@
    "date": "2026-11-22T12:58:53Z",
    "tag": "v2026.11.22.1"
   },
-  "stars": 7748,
+  "stars": 7753,
   "topics": [
    "ai-animation-generator",
    "ai-video-production",
@@ -22139,7 +22211,7 @@
   "desc": "9,000+ Claude Code mods, with what each one can access before you install it. Context and usage meters, prompt cache warmers, status lines, guards and more, with install hints.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 215,
+  "forks": 216,
   "full": "karanb192/awesome-claude-code-mods",
   "home": "https://mods.aidojo.si/",
   "lang": "JavaScript",
@@ -22253,7 +22325,7 @@
    "date": "2026-11-23T15:34:55Z",
    "tag": "v0.103.1"
   },
-  "stars": 1173,
+  "stars": 1174,
   "topics": [
    "acp",
    "agent-orchestration",
@@ -22488,7 +22560,7 @@
    "date": "2026-07-29T22:19:46Z",
    "tag": "v3.12.4"
   },
-  "stars": 64445,
+  "stars": 64446,
   "topics": [
    "deep-learning",
    "tensorflow",
@@ -22692,7 +22764,7 @@
    "date": "2026-11-24T01:25:16Z",
    "tag": "v1.10.1"
   },
-  "stars": 6413,
+  "stars": 6414,
   "topics": [
    "ai-agents",
    "automation",
@@ -22777,6 +22849,7 @@
   "archived": false,
   "created": "2026-11-13T03:42:13Z",
   "desc": "Video-language models that read dynamics: frozen V-JEPA 2.1 encoder + counterfactual supervision, 1B-8B on Qwen3 and Llama",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 0,
@@ -22799,6 +22872,8 @@
   "owner": "kkt94",
   "owner_type": "User",
   "pushed": "2026-11-19T05:41:56Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": null,
   "stars": 6,
   "topics": [
@@ -22923,12 +22998,12 @@
   "name": "worldmonitor",
   "owner": "koala73",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:31:53Z",
+  "pushed": "2026-11-24T03:37:50Z",
   "release": {
    "date": "2026-11-04T19:23:59Z",
    "tag": "v2.11.8"
   },
-  "stars": 91118,
+  "stars": 91119,
   "topics": [
    "ai",
    "dashboard",
@@ -23124,7 +23199,7 @@
   "name": "CompanyOS",
   "owner": "kortix-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:22:17Z",
+  "pushed": "2026-11-24T03:34:40Z",
   "release": {
    "date": "2026-11-22T01:41:05Z",
    "tag": "v0.16.4"
@@ -23724,7 +23799,7 @@
   "name": "lance",
   "owner": "lance-format",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:36Z",
+  "pushed": "2026-11-24T03:40:02Z",
   "release": {
    "date": "2026-11-15T06:27:21Z",
    "tag": "v14.0.3"
@@ -23823,12 +23898,12 @@
   "name": "deepagents",
   "owner": "langchain-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:11:07Z",
+  "pushed": "2026-11-24T03:46:53Z",
   "release": {
    "date": "2026-11-20T02:07:20Z",
    "tag": "deepagents==0.7.41"
   },
-  "stars": 31539,
+  "stars": 31540,
   "topics": [
    "deepagents",
    "langchain",
@@ -23859,7 +23934,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-23T21:25:28Z",
   "release": null,
-  "stars": 708,
+  "stars": 709,
   "topics": [
    "ai-agent",
    "deepagents",
@@ -23915,7 +23990,7 @@
   "desc": "Build resilient agents.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 7838,
+  "forks": 7839,
   "full": "langchain-ai/langgraph",
   "home": "https://docs.langchain.com/oss/python/langgraph/",
   "lang": "Python",
@@ -23930,7 +24005,7 @@
    "date": "2026-11-20T01:10:26Z",
    "tag": "1.2.24"
   },
-  "stars": 45327,
+  "stars": 45328,
   "topics": [
    "agents",
    "ai",
@@ -24000,7 +24075,7 @@
    "date": "2026-11-17T21:22:27Z",
    "tag": "v1.13.3"
   },
-  "stars": 156888,
+  "stars": 156889,
   "topics": [
    "react-flow",
    "chatgpt",
@@ -24032,7 +24107,7 @@
    "date": "2026-11-23T12:22:31Z",
    "tag": "v4.84.0"
   },
-  "stars": 37768,
+  "stars": 37769,
   "topics": [
    "analytics",
    "llm",
@@ -24062,14 +24137,14 @@
   "name": "dify",
   "owner": "langgenius",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:52Z",
+  "pushed": "2026-11-24T03:46:09Z",
   "quickstart": null,
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-18T09:55:28Z",
    "tag": "1.20.0"
   },
-  "stars": 161780,
+  "stars": 161781,
   "topics": [
    "ai",
    "gpt",
@@ -24171,7 +24246,7 @@
    "date": "2026-11-18T07:06:31Z",
    "tag": "v0.5.1"
   },
-  "stars": 852,
+  "stars": 853,
   "topics": [
    "ai",
    "ai-agent",
@@ -24320,7 +24395,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 2602,
+  "forks": 2603,
   "full": "lemomo-ai/lemo-opuscar",
   "home": "https://lemomo-ai.github.io/lemo-opuscar/",
   "lang": "JavaScript",
@@ -24337,7 +24412,7 @@
    "date": "2026-11-12T08:07:11Z",
    "tag": "v2.0.0"
   },
-  "stars": 20342,
+  "stars": 20348,
   "topics": [
    "ai-agents",
    "ai-video",
@@ -24406,7 +24481,7 @@
    "date": "2026-11-20T21:33:07Z",
    "tag": "v1.0.0"
   },
-  "stars": 5649,
+  "stars": 5650,
   "topics": [
    "ai-agents",
    "audio",
@@ -24425,7 +24500,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 8103,
+  "forks": 8105,
   "full": "Leonxlnx/taste-skill",
   "home": "https://tasteskill.dev",
   "lang": "JavaScript",
@@ -24442,7 +24517,7 @@
    "date": "2026-11-07T12:34:31Z",
    "tag": "v2.5.1"
   },
-  "stars": 120727,
+  "stars": 120730,
   "topics": [
    "claude-code",
    "codex",
@@ -24570,6 +24645,7 @@
   "archived": false,
   "created": "2026-10-28T13:34:16Z",
   "desc": "The world's law in git: any provision, any country, any date, and the law that wrote each word.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 204,
@@ -24583,6 +24659,8 @@
   "owner": "lexifina",
   "owner_type": "Organization",
   "pushed": "2026-11-24T03:27:29Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": null,
   "stars": 2230,
   "topics": [
@@ -24611,12 +24689,12 @@
   "name": "moli",
   "owner": "lexmount",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:55Z",
+  "pushed": "2026-11-24T03:45:51Z",
   "release": {
    "date": "2026-11-20T11:08:30Z",
    "tag": "v1.1.27"
   },
-  "stars": 24375,
+  "stars": 24378,
   "topics": [
    "browser",
    "rust",
@@ -24645,7 +24723,7 @@
   "name": "LibreChat",
   "owner": "LibreChat-AI",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:31:34Z",
+  "pushed": "2026-11-24T03:42:00Z",
   "release": null,
   "stars": 47464,
   "topics": [
@@ -24938,7 +25016,7 @@
   "name": "ling-stack",
   "owner": "ling-stack-org",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:24:27Z",
+  "pushed": "2026-11-24T03:43:52Z",
   "release": {
    "date": "2026-11-18T04:13:14Z",
    "tag": "v0.6.1"
@@ -25011,7 +25089,7 @@
    "date": "2026-11-23T15:55:35Z",
    "tag": "v2.16.2"
   },
-  "stars": 42325,
+  "stars": 42326,
   "topics": [
    "llm",
    "prompt",
@@ -25124,6 +25202,7 @@
   "archived": false,
   "created": "2026-11-11T06:46:35Z",
   "desc": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 0,
@@ -25146,6 +25225,8 @@
   "owner": "Livioni",
   "owner_type": "User",
   "pushed": "2026-11-18T04:45:03Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": null,
   "stars": 25,
   "topics": [
@@ -25389,7 +25470,7 @@
   "name": "lobehub",
   "owner": "lobehub",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:24:11Z",
+  "pushed": "2026-11-24T03:41:56Z",
   "release": {
    "date": "2026-11-22T09:47:39Z",
    "tag": "v2.3.5"
@@ -25536,6 +25617,7 @@
   "archived": false,
   "created": "2026-09-27T21:54:12Z",
   "desc": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1228,
@@ -25549,6 +25631,8 @@
   "owner": "Louis-CFM",
   "owner_type": "User",
   "pushed": "2026-11-23T01:07:56Z",
+  "quickstart": "brew install --cask coucou",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-19T12:05:34Z",
    "tag": "v0.6.1"
@@ -25711,7 +25795,7 @@
   "name": "lumibot",
   "owner": "Lumiwealth",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:27:00Z",
+  "pushed": "2026-11-24T03:36:55Z",
   "release": {
    "date": "2026-11-22T20:07:27Z",
    "tag": "v4.6.95"
@@ -25767,7 +25851,6 @@
   "archived": false,
   "created": "2026-11-15T05:45:18Z",
   "desc": "Hand-controlled video world models with full-sequence and three-step causal generation.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 2,
@@ -25845,7 +25928,7 @@
   "desc": "AirLLM 2.8T LLM inference with single 4GB GPU",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 4478,
+  "forks": 4480,
   "full": "lyogavin/airllm",
   "home": null,
   "lang": "Jupyter Notebook",
@@ -25860,7 +25943,7 @@
    "date": "2026-11-23T16:58:47Z",
    "tag": "v4.0.1"
   },
-  "stars": 43215,
+  "stars": 43218,
   "topics": [
    "chinese-nlp",
    "finetune",
@@ -25976,6 +26059,7 @@
   "archived": false,
   "created": "2026-11-14T09:48:23Z",
   "desc": "Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 49,
@@ -25989,6 +26073,8 @@
   "owner": "mankidev",
   "owner_type": "User",
   "pushed": "2026-11-20T17:08:35Z",
+  "quickstart": "npx skills add mankidev/antialgorithm",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-20T16:39:24Z",
    "tag": "v1.0.0"
@@ -26126,7 +26212,7 @@
    "date": "2026-11-23T10:00:50Z",
    "tag": "v2.14.2"
   },
-  "stars": 6263,
+  "stars": 6264,
   "topics": [
    "document-parser",
    "embeddings",
@@ -26217,7 +26303,7 @@
   "name": "mastra",
   "owner": "mastra-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:24Z",
+  "pushed": "2026-11-24T03:40:38Z",
   "release": {
    "date": "2026-11-18T10:36:18Z",
    "tag": "@mastra/core@1.84.0"
@@ -26313,7 +26399,7 @@
   "name": "inspector",
   "owner": "MCPJam",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:32:47Z",
+  "pushed": "2026-11-24T03:36:15Z",
   "release": {
    "date": "2026-11-23T22:41:29Z",
    "tag": "v3.24.1"
@@ -26355,7 +26441,7 @@
    "date": "2026-11-19T12:36:24Z",
    "tag": "v1.13.19"
   },
-  "stars": 7081,
+  "stars": 7087,
   "topics": [
    "agent-harness",
    "agent-orchestration",
@@ -26457,7 +26543,7 @@
    "date": "2026-09-25T17:36:35Z",
    "tag": "ts-v3.3.1"
   },
-  "stars": 69397,
+  "stars": 69396,
   "topics": [
    "ai",
    "chatgpt",
@@ -26527,7 +26613,7 @@
    "date": "2026-11-12T10:24:35Z",
    "tag": "v3.12.0"
   },
-  "stars": 60678,
+  "stars": 60677,
   "topics": [
    "ai",
    "chromadb",
@@ -26624,7 +26710,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-20T09:36:17Z",
   "release": null,
-  "stars": 575,
+  "stars": 576,
   "topics": [
    "ai-agents",
    "deepseek",
@@ -26752,7 +26838,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-17T09:24:01Z",
   "release": null,
-  "stars": 80872,
+  "stars": 80873,
   "topics": [
    "agentic-ai",
    "agentic-framework",
@@ -26783,7 +26869,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-15T19:46:34Z",
   "release": null,
-  "stars": 71213,
+  "stars": 71215,
   "topics": [
    "deep-learning",
    "artificial-intelligence",
@@ -26802,7 +26888,7 @@
   "desc": "A programming framework for agentic AI",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 9409,
+  "forks": 9410,
   "full": "microsoft/autogen",
   "home": "https://microsoft.github.io/autogen/",
   "lang": "Python",
@@ -26848,7 +26934,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-19T03:43:07Z",
   "release": null,
-  "stars": 124095,
+  "stars": 124096,
   "topics": [
    "ai",
    "chatgpt",
@@ -26911,7 +26997,7 @@
    "date": "2026-10-08T18:28:43Z",
    "tag": "v3.3.0"
   },
-  "stars": 36730,
+  "stars": 36729,
   "topics": [
    "graphrag",
    "rag",
@@ -26940,7 +27026,7 @@
   "name": "intelligent-terminal",
   "owner": "microsoft",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:13:04Z",
+  "pushed": "2026-11-24T03:42:50Z",
   "quickstart": null,
   "readme_checked": "2026-11-24",
   "release": {
@@ -27283,7 +27369,7 @@
   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 3875,
+  "forks": 3876,
   "full": "milind-soni/OpenMausBot",
   "home": "https://www.mausbot.com/",
   "lang": "TypeScript",
@@ -27293,12 +27379,12 @@
   "name": "OpenMausBot",
   "owner": "milind-soni",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:29:59Z",
+  "pushed": "2026-11-24T03:46:04Z",
   "release": {
    "date": "2026-11-23T23:43:31Z",
    "tag": "v0.1.178"
   },
-  "stars": 27224,
+  "stars": 27230,
   "topics": [
    "ai-agents",
    "claude-code",
@@ -27383,7 +27469,6 @@
   "archived": false,
   "created": "2026-11-12T03:32:44Z",
   "desc": "Official repository for Mind2Act World",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1,
@@ -27412,7 +27497,7 @@
    "date": "2026-11-23T13:35:11Z",
    "tag": "v1.0.2"
   },
-  "stars": 45,
+  "stars": 46,
   "topics": [
    "benchmark",
    "embodied-ai",
@@ -27620,7 +27705,7 @@
   "desc": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 7739,
+  "forks": 7740,
   "full": "Mintplex-Labs/anything-llm",
   "home": "https://anythingllm.com",
   "lang": "JavaScript",
@@ -27768,7 +27853,7 @@
    "date": "2026-11-22T18:19:09Z",
    "tag": "v2.2.2"
   },
-  "stars": 34425,
+  "stars": 34426,
   "topics": [
    "claude",
    "claude-code",
@@ -28110,7 +28195,7 @@
   "name": "nexent",
   "owner": "ModelEngine-Group",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:24:18Z",
+  "pushed": "2026-11-24T03:35:58Z",
   "release": {
    "date": "2026-11-13T06:20:33Z",
    "tag": "v2.8.5"
@@ -28248,7 +28333,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-24T01:20:37Z",
   "release": null,
-  "stars": 529,
+  "stars": 530,
   "topics": [
    "ai-agents",
    "cookbook",
@@ -28277,7 +28362,7 @@
   "name": "SurfSense",
   "owner": "MODSetter",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:24:24Z",
+  "pushed": "2026-11-24T03:41:43Z",
   "release": {
    "date": "2026-11-03T17:01:30Z",
    "tag": "v2.3.1"
@@ -28350,7 +28435,7 @@
    "date": "2026-10-22T18:21:28Z",
    "tag": "max/v26.7.0"
   },
-  "stars": 30189,
+  "stars": 30190,
   "topics": [
    "ai",
    "language",
@@ -28567,7 +28652,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 115929,
+  "forks": 115928,
   "full": "morluto/rea",
   "home": "https://rea.tools",
   "lang": "TypeScript",
@@ -28577,14 +28662,14 @@
   "name": "rea",
   "owner": "morluto",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:31:25Z",
+  "pushed": "2026-11-24T03:46:38Z",
   "quickstart": "npx rea-agents setup",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-20T05:30:51Z",
    "tag": "rea-agents-6.10.1"
   },
-  "stars": 475767,
+  "stars": 475783,
   "topics": [
    "cli",
    "mcp",
@@ -28613,7 +28698,7 @@
   "name": "morphik-core",
   "owner": "morphik-org",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:28:24Z",
+  "pushed": "2026-11-24T03:42:53Z",
   "release": null,
   "stars": 3722,
   "topics": [
@@ -28712,7 +28797,7 @@
   "name": "otari",
   "owner": "mozilla-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:23:59Z",
+  "pushed": "2026-11-24T03:45:34Z",
   "release": {
    "date": "2026-11-23T13:47:15Z",
    "tag": "v0.55.1"
@@ -29019,7 +29104,7 @@
    "date": "2026-11-23T08:34:00Z",
    "tag": "n8n@2.48.8"
   },
-  "stars": 211864,
+  "stars": 211865,
   "topics": [
    "automation",
    "ipaas",
@@ -29030,7 +29115,7 @@
    "integrations",
    "workflow-automation"
   ],
-  "watchers": 1204
+  "watchers": 1205
  },
  "n8n-io/nod": {
   "archived": false,
@@ -29053,7 +29138,7 @@
    "date": "2026-11-23T21:39:14Z",
    "tag": "nod-v0.9.5"
   },
-  "stars": 3287,
+  "stars": 3288,
   "topics": [
    "agents",
    "ai-agent",
@@ -29259,7 +29344,7 @@
    "date": "2026-11-20T18:45:10Z",
    "tag": "v2026.11.0"
   },
-  "stars": 31151,
+  "stars": 31150,
   "topics": [
    "ai-agents",
    "ai-assistant",
@@ -29293,7 +29378,7 @@
    "date": "2026-08-02T18:53:49Z",
    "tag": "v1.231.0"
   },
-  "stars": 31768,
+  "stars": 31767,
   "topics": [
    "algorithmic-trading-engine",
    "trading-platform",
@@ -29759,6 +29844,7 @@
   "archived": false,
   "created": "2026-09-18T08:16:30Z",
   "desc": "[2611.27193] cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 0,
@@ -29781,6 +29867,8 @@
   "owner": "Newiz430",
   "owner_type": "User",
   "pushed": "2026-11-23T06:38:48Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": null,
   "stars": 1,
   "topics": [
@@ -29840,12 +29928,12 @@
   "name": "openmotion",
   "owner": "nexu-io",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:12Z",
+  "pushed": "2026-11-24T03:47:17Z",
   "release": {
    "date": "2026-11-21T10:30:45Z",
    "tag": "v0.2.1"
   },
-  "stars": 15770,
+  "stars": 15777,
   "topics": [
    "agent-skills",
    "ai-agents",
@@ -29951,7 +30039,7 @@
   "quickstart": "npx skills add NiazMorshed2007/reanimate -g",
   "readme_checked": "2026-11-24",
   "release": null,
-  "stars": 2406,
+  "stars": 2404,
   "topics": [
    "agent-skills",
    "animation",
@@ -30277,7 +30365,7 @@
   "name": "nocobase",
   "owner": "nocobase",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:21Z",
+  "pushed": "2026-11-24T03:44:58Z",
   "release": {
    "date": "2026-11-22T12:34:15Z",
    "tag": "v2.2.51"
@@ -30407,7 +30495,7 @@
   "name": "notte",
   "owner": "nottelabs",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:20:50Z",
+  "pushed": "2026-11-24T03:45:55Z",
   "release": {
    "date": "2026-11-21T04:18:34Z",
    "tag": "v1.10.15"
@@ -30432,7 +30520,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 60136,
+  "forks": 60137,
   "full": "NousResearch/hermes-agent",
   "home": "https://hermes-agent.nousresearch.com",
   "lang": "Python",
@@ -30449,7 +30537,7 @@
    "date": "2026-11-20T00:34:38Z",
    "tag": "v0.23.3"
   },
-  "stars": 265694,
+  "stars": 265695,
   "topics": [
    "ai",
    "ai-agent",
@@ -30468,7 +30556,7 @@
   "desc": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 199,
+  "forks": 200,
   "full": "NousResearch/hermes-official-plugins",
   "home": "https://hermes-agent.nousresearch.com/docs/plugins",
   "lang": "Python",
@@ -30577,7 +30665,7 @@
   "name": "nuphos",
   "owner": "nuphos",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:35:21Z",
+  "pushed": "2026-11-24T03:43:34Z",
   "release": {
    "date": "2026-11-23T14:44:37Z",
    "tag": "v0.134.0"
@@ -30904,7 +30992,7 @@
   "desc": "CUDA Templates and Python DSLs for High-Performance Linear Algebra",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 2192,
+  "forks": 2191,
   "full": "NVIDIA/cutlass",
   "home": "https://docs.nvidia.com/cutlass/index.html",
   "lang": "C++",
@@ -31044,7 +31132,7 @@
   "name": "NemoClaw",
   "owner": "NVIDIA",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:19Z",
+  "pushed": "2026-11-24T03:37:41Z",
   "release": null,
   "stars": 23079,
   "topics": [
@@ -31065,7 +31153,7 @@
   "desc": "Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 553,
+  "forks": 554,
   "full": "NVIDIA/skills",
   "home": "https://docs.nvidia.com/skills",
   "lang": "Python",
@@ -31077,7 +31165,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-24T03:11:10Z",
   "release": null,
-  "stars": 4126,
+  "stars": 4127,
   "topics": [
    "agent-skills",
    "agentic-ai",
@@ -31096,7 +31184,7 @@
   "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 2446,
+  "forks": 2447,
   "full": "NVIDIA/SkillSpector",
   "home": "https://docs.nvidia.com/skills/scanning-agent-skills",
   "lang": "Python",
@@ -31159,7 +31247,6 @@
   "archived": false,
   "created": "2026-05-13T13:16:39Z",
   "desc": "Decoder-only View Synthesis Model",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 5,
@@ -31307,7 +31394,7 @@
    "date": "2026-11-23T04:26:56Z",
    "tag": "v0.34.9"
   },
-  "stars": 3935,
+  "stars": 3934,
   "topics": [
    "agent-skills",
    "ai-design",
@@ -31425,7 +31512,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 19158,
+  "forks": 19159,
   "full": "ollama/ollama",
   "home": "https://ollama.com",
   "lang": "Go",
@@ -31442,7 +31529,7 @@
    "date": "2026-11-10T22:25:00Z",
    "tag": "v0.40.17"
   },
-  "stars": 187928,
+  "stars": 187931,
   "topics": [
    "llama",
    "llm",
@@ -31615,7 +31702,7 @@
    "date": "2026-11-08T16:44:29Z",
    "tag": "cli-v0.1.4"
   },
-  "stars": 5285,
+  "stars": 5286,
   "topics": [
    "ai-agent",
    "airplay",
@@ -31678,7 +31765,7 @@
   "name": "ongrid",
   "owner": "ongridio",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:32:10Z",
+  "pushed": "2026-11-24T03:37:13Z",
   "release": {
    "date": "2026-11-23T04:08:41Z",
    "tag": "v0.22.0"
@@ -31876,7 +31963,7 @@
   "name": "open-mercato",
   "owner": "open-mercato",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:24:47Z",
+  "pushed": "2026-11-24T03:46:06Z",
   "release": {
    "date": "2026-11-23T08:29:32Z",
    "tag": "v0.10.0"
@@ -32015,7 +32102,7 @@
   "name": "OpenAdapt",
   "owner": "OpenAdaptAI",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:25:47Z",
+  "pushed": "2026-11-24T03:44:59Z",
   "release": {
    "date": "2026-11-24T00:29:50Z",
    "tag": "openadapt-desktop-v0.32.2"
@@ -32049,7 +32136,7 @@
   "name": "openai-agents-python",
   "owner": "openai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:23:17Z",
+  "pushed": "2026-11-24T03:46:25Z",
   "release": {
    "date": "2026-11-24T03:15:47Z",
    "tag": "v0.26.0"
@@ -32152,7 +32239,7 @@
    "date": "2026-09-30T01:47:43Z",
    "tag": "ODP"
   },
-  "stars": 75680,
+  "stars": 75681,
   "topics": [
    "python",
    "machine-learning",
@@ -32181,7 +32268,7 @@
   "name": "openchoreo",
   "owner": "openchoreo",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T02:07:57Z",
+  "pushed": "2026-11-24T03:46:48Z",
   "release": {
    "date": "2026-10-29T06:42:58Z",
    "tag": "v1.3.3"
@@ -32216,14 +32303,14 @@
   "name": "openclaw",
   "owner": "openclaw",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:58Z",
+  "pushed": "2026-11-24T03:46:41Z",
   "quickstart": "curl -fsSL https://openclaw.ai/install.sh | bash",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-23T01:33:51Z",
    "tag": "v2026.11.7"
   },
-  "stars": 395126,
+  "stars": 395125,
   "topics": [
    "ai",
    "assistant",
@@ -32273,9 +32360,10 @@
   "archived": false,
   "created": "2012-07-19T09:40:17Z",
   "desc": "Open Source Computer Vision Library",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 57126,
+  "forks": 57127,
   "full": "opencv/opencv",
   "home": "https://opencv.org",
   "lang": "C++",
@@ -32286,6 +32374,8 @@
   "owner": "opencv",
   "owner_type": "Organization",
   "pushed": "2026-11-23T19:51:22Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-06T09:58:19Z",
    "tag": "5.1.0"
@@ -32341,7 +32431,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 923,
+  "forks": 924,
   "full": "openfilm/openfilm",
   "home": "https://openfilm.dev",
   "lang": "TypeScript",
@@ -32358,7 +32448,7 @@
    "date": "2026-11-20T00:55:44Z",
    "tag": "v0.4.1"
   },
-  "stars": 9157,
+  "stars": 9158,
   "topics": [
    "ai-video",
    "claude-code",
@@ -32375,6 +32465,7 @@
   "archived": false,
   "created": "2024-03-13T03:33:31Z",
   "desc": "🙌 OpenHands: AI-Driven Development",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 12607,
@@ -32388,11 +32479,13 @@
   "owner": "OpenHands",
   "owner_type": "Organization",
   "pushed": "2026-11-24T00:59:38Z",
+  "quickstart": "npm install -g @openhands/agent-canvas",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-23T15:29:47Z",
    "tag": "v1.44.0"
   },
-  "stars": 94178,
+  "stars": 94180,
   "topics": [
    "agent",
    "artificial-intelligence",
@@ -32490,7 +32583,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-16T06:55:27Z",
   "release": null,
-  "stars": 82775,
+  "stars": 82781,
   "topics": [
    "agent",
    "agentic-ai",
@@ -32795,7 +32888,7 @@
    "date": "2026-10-01T13:45:59Z",
    "tag": "2026.4.1"
   },
-  "stars": 12312,
+  "stars": 12313,
   "topics": [
    "inference",
    "deep-learning",
@@ -32812,7 +32905,6 @@
   "archived": false,
   "created": "2026-08-12T10:02:28Z",
   "desc": "Open Vision Banana is a fully open recipe for adapting pretrained image-to-image generators into unified models for visual perception, generation, and editing.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 12,
@@ -32928,7 +33020,7 @@
    "date": "2026-10-19T17:30:43Z",
    "tag": "v2.1.0"
   },
-  "stars": 31651,
+  "stars": 31652,
   "topics": [
    "agent",
    "ai",
@@ -33027,7 +33119,7 @@
    "date": "2026-09-24T13:20:25Z",
    "tag": "v3.0.0"
   },
-  "stars": 7911,
+  "stars": 7912,
   "topics": [
    "ai-agents",
    "llm",
@@ -33162,7 +33254,7 @@
    "date": "2026-11-23T12:06:58Z",
    "tag": "v0.1.34"
   },
-  "stars": 781,
+  "stars": 782,
   "topics": [
    "ai-agents",
    "evals",
@@ -33215,7 +33307,7 @@
   "desc": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 5345,
+  "forks": 5346,
   "full": "p-e-w/heretic",
   "home": "https://heretic-project.org",
   "lang": "Python",
@@ -33399,7 +33491,7 @@
    "date": "2026-11-01T07:24:15Z",
    "tag": "v1.6.1"
   },
-  "stars": 114295,
+  "stars": 114294,
   "topics": [
    "agent-infrastructure",
    "ai-agent",
@@ -33460,7 +33552,7 @@
   "name": "paperclip",
   "owner": "paperclipai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:27:06Z",
+  "pushed": "2026-11-24T03:44:11Z",
   "quickstart": "npx paperclipai@latest onboard --yes",
   "readme_checked": "2026-11-24",
   "release": {
@@ -33501,7 +33593,7 @@
    "date": "2026-11-18T05:22:01Z",
    "tag": "v3.5.1"
   },
-  "stars": 48545,
+  "stars": 48546,
   "topics": [
    "angular",
    "archiving",
@@ -33535,7 +33627,7 @@
    "date": "2026-11-20T19:35:05Z",
    "tag": "desktop-v2.0.11"
   },
-  "stars": 16527,
+  "stars": 16528,
   "topics": [
    "claude-code",
    "codex",
@@ -33603,7 +33695,7 @@
    "date": "2026-11-17T18:56:45Z",
    "tag": "@pascal-app/cli@1.1.6"
   },
-  "stars": 25702,
+  "stars": 25703,
   "topics": [
    "3d",
    "bim",
@@ -33722,7 +33814,7 @@
   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 6895,
+  "forks": 6896,
   "full": "pbakaus/impeccable",
   "home": "https://impeccable.style",
   "lang": "Rust",
@@ -33737,7 +33829,7 @@
    "date": "2026-11-23T12:48:35Z",
    "tag": "loop-v0.2.2"
   },
-  "stars": 115706,
+  "stars": 115711,
   "topics": [
    "agent-skills",
    "ai",
@@ -34047,7 +34139,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 146,
+  "forks": 147,
   "full": "pierridotite/mobile-agent-testers",
   "home": null,
   "lang": "Python",
@@ -34064,7 +34156,7 @@
    "date": "2026-11-19T15:03:54Z",
    "tag": "v0.1.0"
   },
-  "stars": 1513,
+  "stars": 1516,
   "topics": [
    "ai-agents",
    "android-emulator",
@@ -34148,7 +34240,7 @@
   "desc": "The best way to control Claude Code, Codex and more from any computer or phone",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 12454,
+  "forks": 12458,
   "full": "pingdotgg/t3code",
   "home": "https://t3.codes",
   "lang": "TypeScript",
@@ -34158,12 +34250,12 @@
   "name": "t3code",
   "owner": "pingdotgg",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:13Z",
+  "pushed": "2026-11-24T03:42:32Z",
   "release": {
    "date": "2026-11-20T07:38:08Z",
    "tag": "v0.1.11"
   },
-  "stars": 75217,
+  "stars": 75250,
   "topics": [
    "agent-orchestration",
    "agents",
@@ -34192,7 +34284,7 @@
   "name": "pipeshub-ai",
   "owner": "pipeshub-ai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:01Z",
+  "pushed": "2026-11-24T03:42:21Z",
   "release": {
    "date": "2026-11-22T01:24:13Z",
    "tag": "v1.3.0"
@@ -34563,7 +34655,7 @@
   "name": "fastmcp",
   "owner": "PrefectHQ",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:19:36Z",
+  "pushed": "2026-11-24T03:42:40Z",
   "release": {
    "date": "2026-11-23T07:28:57Z",
    "tag": "v4.2.5"
@@ -34930,7 +35022,7 @@
   "owner_type": "User",
   "pushed": "2026-11-24T02:35:41Z",
   "release": null,
-  "stars": 98437,
+  "stars": 98439,
   "topics": [
    "ai",
    "mcp"
@@ -34955,7 +35047,7 @@
   "owner_type": "User",
   "pushed": "2026-11-23T19:59:28Z",
   "release": null,
-  "stars": 3907,
+  "stars": 3908,
   "topics": [
    "mcp"
   ],
@@ -35039,14 +35131,14 @@
   "name": "pytorch",
   "owner": "pytorch",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:18Z",
+  "pushed": "2026-11-24T03:45:36Z",
   "quickstart": "pip install --group dev",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-10-28T17:09:49Z",
    "tag": "v2.15.0"
   },
-  "stars": 105700,
+  "stars": 105701,
   "topics": [
    "neural-network",
    "autograd",
@@ -35159,7 +35251,6 @@
   "archived": false,
   "created": "2020-10-09T10:04:21Z",
   "desc": "A better-looking desktop music player for local files, media servers, and plugins. For macOS, Windows and Linux.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 4671,
@@ -35179,7 +35270,7 @@
    "date": "2026-11-23T19:01:44Z",
    "tag": "v3.0.0"
   },
-  "stars": 33672,
+  "stars": 33671,
   "topics": [
    "music",
    "javascript",
@@ -35208,10 +35299,10 @@
   "name": "answer-me-with-html",
   "owner": "QingYunA",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:32:17Z",
+  "pushed": "2026-11-24T03:35:29Z",
   "release": {
-   "date": "2026-11-20T01:48:51Z",
-   "tag": "v0.6.2"
+   "date": "2026-11-24T03:35:30Z",
+   "tag": "v0.6.3"
   },
   "stars": 6631,
   "topics": [
@@ -35368,7 +35459,7 @@
   "desc": "3,516 curated Figure 1 / teasers from ICLR, ICML, NeurIPS, CVPR, ACL, AAAI (2023-2026), with tier badges and FigureForge retrieval-augmented figure drafting",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 97,
+  "forks": 98,
   "full": "qwdwqfwq/topconf-paper-figure-gallery",
   "home": "https://qwdwqfwq.github.io/topconf-paper-figure-gallery/",
   "lang": "JavaScript",
@@ -35383,7 +35474,7 @@
    "date": "2026-09-23T16:05:58Z",
    "tag": "v0.5.0"
   },
-  "stars": 2111,
+  "stars": 2114,
   "topics": [
    "aaai",
    "acl",
@@ -35412,7 +35503,7 @@
   "name": "qwen-code",
   "owner": "QwenLM",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:32:03Z",
+  "pushed": "2026-11-24T03:44:23Z",
   "release": {
    "date": "2026-11-22T12:04:21Z",
    "tag": "v0.28.4"
@@ -35454,7 +35545,7 @@
    "date": "2026-11-23T16:33:44Z",
    "tag": "bla-agents-3.5.9"
   },
-  "stars": 6601,
+  "stars": 6602,
   "topics": [
    "adversarial-ai",
    "claude-code",
@@ -35722,7 +35813,7 @@
   "owner_type": "User",
   "pushed": "2026-11-24T02:51:37Z",
   "release": null,
-  "stars": 108934,
+  "stars": 108937,
   "topics": [
    "gpt",
    "large-language-models",
@@ -35756,7 +35847,7 @@
    "date": "2026-05-18T15:27:27Z",
    "tag": "v1.0"
   },
-  "stars": 5895,
+  "stars": 5896,
   "topics": [
    "ai",
    "artificial-intelligence",
@@ -35889,7 +35980,7 @@
    "date": "2026-10-18T05:39:52Z",
    "tag": "v2026.10.18"
   },
-  "stars": 1196,
+  "stars": 1197,
   "topics": [
    "agent-evaluation",
    "agentic-ai",
@@ -36539,7 +36630,7 @@
   "desc": "Stop writing prompts from scratch — a searchable prompt library for ChatGPT, Claude, Gemini and Cursor · Русский 한국어 العربية हिन्दी ไทย ｜ 别再从头写提示词：现成的拿来就用，好用的收进自己的库",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 976,
+  "forks": 977,
   "full": "rockbenben/ChatGPT-Shortcut",
   "home": "https://www.aishort.top/en",
   "lang": "TypeScript",
@@ -36583,7 +36674,7 @@
   "name": "rocketride-server",
   "owner": "rocketride-org",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:07Z",
+  "pushed": "2026-11-24T03:45:05Z",
   "release": {
    "date": "2026-11-05T00:07:43Z",
    "tag": "client-typescript-v1.6.0"
@@ -36617,7 +36708,7 @@
   "name": "FastFlowLM",
   "owner": "ROCm",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T00:53:33Z",
+  "pushed": "2026-11-24T03:42:31Z",
   "release": {
    "date": "2026-11-13T23:49:01Z",
    "tag": "v1.0.13"
@@ -36638,7 +36729,7 @@
   "desc": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 14295,
+  "forks": 14296,
   "full": "rohitg00/ai-engineering-from-scratch",
   "home": "https://aiengineeringfromscratch.com",
   "lang": "Python",
@@ -36653,7 +36744,7 @@
    "date": "2026-11-18T06:12:04Z",
    "tag": "v2026.11.4"
   },
-  "stars": 79960,
+  "stars": 79961,
   "topics": [
    "agents",
    "ai",
@@ -36773,7 +36864,7 @@
   "desc": "Your agent team, in one group chat.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 1833,
+  "forks": 1834,
   "full": "rowboatlabs/rowboat",
   "home": "https://www.rowboatlabs.com",
   "lang": "TypeScript",
@@ -36882,7 +36973,7 @@
   "name": "TTS-WebUI",
   "owner": "rsxdalv",
   "owner_type": "User",
-  "pushed": "2026-11-24T02:25:44Z",
+  "pushed": "2026-11-24T03:37:06Z",
   "release": {
    "date": "2026-08-31T21:03:01Z",
    "tag": "v1.5.2"
@@ -36954,7 +37045,7 @@
    "date": "2026-11-19T17:49:33Z",
    "tag": "v1.2.1"
   },
-  "stars": 87624,
+  "stars": 87623,
   "topics": [
    "agentic-coding",
    "ai-coding",
@@ -37116,7 +37207,7 @@
    "date": "2026-11-13T22:38:15Z",
    "tag": "v0.14.26"
   },
-  "stars": 52987,
+  "stars": 52986,
   "topics": [
    "agents",
    "application",
@@ -37343,7 +37434,7 @@
    "date": "2026-11-22T20:35:58Z",
    "tag": "digest-2026-11-22"
   },
-  "stars": 1598,
+  "stars": 1599,
   "topics": [
    "agent-framework",
    "agent-harness",
@@ -38134,7 +38225,7 @@
    "date": "2026-09-11T09:38:12Z",
    "tag": "1.9.1"
   },
-  "stars": 68299,
+  "stars": 68300,
   "topics": [
    "machine-learning",
    "python",
@@ -38160,7 +38251,7 @@
   "name": "screenpipe",
   "owner": "screenpipe",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:26:06Z",
+  "pushed": "2026-11-24T03:38:54Z",
   "release": {
    "date": "2026-11-23T21:52:44Z",
    "tag": "app-v2.7.153"
@@ -38250,7 +38341,6 @@
   "archived": false,
   "created": "2026-10-26T20:28:54Z",
   "desc": "Your Own TV Home Screen - Faster, nicer, removes spyware and tonnes more features.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 262,
@@ -38270,7 +38360,7 @@
    "date": "2026-11-24T02:47:52Z",
    "tag": "v0.13.13"
   },
-  "stars": 1656,
+  "stars": 1657,
   "topics": [
    "android-tv",
    "claude-code",
@@ -38329,7 +38419,7 @@
   "name": "InferenceX",
   "owner": "SemiAnalysisAI",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:21:26Z",
+  "pushed": "2026-11-24T03:45:50Z",
   "release": {
    "date": "2026-11-07T01:31:07Z",
    "tag": "h3-v2-release-v1-references"
@@ -38419,7 +38509,7 @@
   "desc": "SGLang is a high-performance serving framework for large language models and multimodal models.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 10799,
+  "forks": 10800,
   "full": "sgl-project/sglang",
   "home": "https://sglang.io",
   "lang": "Python",
@@ -38519,10 +38609,9 @@
   "archived": false,
   "created": "2023-01-04T12:43:27Z",
   "desc": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 11446,
+  "forks": 11447,
   "full": "shadcn-ui/ui",
   "home": "https://ui.shadcn.com",
   "lang": "TypeScript",
@@ -38539,7 +38628,7 @@
    "date": "2026-10-27T12:31:47Z",
    "tag": "shadcn@4.23.0"
   },
-  "stars": 128880,
+  "stars": 128881,
   "topics": [
    "components",
    "nextjs",
@@ -38602,7 +38691,7 @@
   "name": "claude-code-best-practice",
   "owner": "shanraisshan",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:11:06Z",
+  "pushed": "2026-11-24T03:43:41Z",
   "release": null,
   "stars": 69364,
   "topics": [
@@ -38687,7 +38776,7 @@
   "desc": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 12891,
+  "forks": 12892,
   "full": "shareAI-lab/learn-claude-code",
   "home": "https://learn.shareai.run",
   "lang": "Python",
@@ -38699,7 +38788,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-15T13:41:46Z",
   "release": null,
-  "stars": 80804,
+  "stars": 80805,
   "topics": [
    "agent",
    "claude-code",
@@ -38831,7 +38920,7 @@
   "name": "sheprd",
   "owner": "sheprd-labs",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T02:47:50Z",
+  "pushed": "2026-11-24T03:44:07Z",
   "quickstart": "brew install sheprd-labs/tap/sheprd",
   "readme_checked": "2026-11-24",
   "release": {
@@ -38905,7 +38994,7 @@
    "date": "2026-11-22T22:15:17Z",
    "tag": "v0.1.9"
   },
-  "stars": 4728,
+  "stars": 4729,
   "topics": [
    "agent-skills",
    "bevy",
@@ -38939,7 +39028,7 @@
    "date": "2026-11-16T04:26:15Z",
    "tag": "v0.75.0"
   },
-  "stars": 1898,
+  "stars": 1899,
   "topics": [
    "agent",
    "ai-assistant",
@@ -39070,7 +39159,7 @@
   "owner_type": "User",
   "pushed": "2026-11-18T05:25:32Z",
   "release": null,
-  "stars": 145540,
+  "stars": 145542,
   "topics": [
    "llms",
    "rag",
@@ -39085,7 +39174,7 @@
   "desc": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 7284,
+  "forks": 7286,
   "full": "sickn33/agentic-awesome-skills",
   "home": "https://aaskills.tech/",
   "lang": "Python",
@@ -39100,7 +39189,7 @@
    "date": "2026-11-23T07:52:25Z",
    "tag": "v21.2.0"
   },
-  "stars": 50216,
+  "stars": 50217,
   "topics": [
    "agentic-skills",
    "ai-agents",
@@ -39164,14 +39253,14 @@
   "name": "AutoGPT",
   "owner": "Significant-Gravitas",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:32:06Z",
+  "pushed": "2026-11-24T03:39:04Z",
   "quickstart": "docker run -d \\",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-19T18:03:33Z",
    "tag": "autogpt-platform-beta-v0.12.0"
   },
-  "stars": 188156,
+  "stars": 188155,
   "topics": [
    "ai",
    "openai",
@@ -39205,7 +39294,7 @@
    "date": "2026-11-19T22:25:06Z",
    "tag": "1.19.1"
   },
-  "stars": 35999,
+  "stars": 36001,
   "topics": [
    "ai",
    "chat",
@@ -39217,7 +39306,6 @@
   "archived": false,
   "created": "2026-10-19T19:29:01Z",
   "desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1201,
@@ -39271,7 +39359,7 @@
    "date": "2026-11-24T00:32:18Z",
    "tag": "v0.2.20-poly.4-hotfix"
   },
-  "stars": 1449,
+  "stars": 1451,
   "topics": [
    "anthropic-api",
    "cuda",
@@ -39371,7 +39459,7 @@
   "name": "shell-rs",
   "owner": "since2006",
   "owner_type": "User",
-  "pushed": "2026-11-23T15:09:44Z",
+  "pushed": "2026-11-24T03:46:25Z",
   "release": {
    "date": "2026-11-11T08:16:26Z",
    "tag": "v0.1.19"
@@ -39634,7 +39722,7 @@
   "name": "happy",
   "owner": "slopus",
   "owner_type": "Organization",
-  "pushed": "2026-11-22T19:55:57Z",
+  "pushed": "2026-11-24T03:40:26Z",
   "release": {
    "date": "2026-09-22T10:11:19Z",
    "tag": "cli-1.2.5"
@@ -40092,7 +40180,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 8606,
+  "forks": 8607,
   "full": "stablyai/orca",
   "home": "https://orca.dev",
   "lang": "TypeScript",
@@ -40102,14 +40190,14 @@
   "name": "orca",
   "owner": "stablyai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:17Z",
+  "pushed": "2026-11-24T03:46:06Z",
   "quickstart": "brew install --cask stablyai/orca/orca",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-23T12:35:31Z",
    "tag": "v1.4.272"
   },
-  "stars": 134677,
+  "stars": 134694,
   "topics": [
    "claude-code",
    "codex",
@@ -40451,7 +40539,7 @@
    "date": "2026-11-13T19:29:59Z",
    "tag": "v1.1.0"
   },
-  "stars": 702,
+  "stars": 703,
   "topics": [
    "ai",
    "context-library",
@@ -40482,7 +40570,7 @@
    "date": "2026-09-20T15:14:58Z",
    "tag": "v3.1.0-artifacts"
   },
-  "stars": 22014,
+  "stars": 22015,
   "topics": [
    "machine-learning",
    "trading",
@@ -40566,7 +40654,7 @@
   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 6482,
+  "forks": 6483,
   "full": "storytold/artcraft",
   "home": "https://getartcraft.com",
   "lang": "Rust",
@@ -40581,7 +40669,7 @@
    "date": "2026-11-07T02:49:42Z",
    "tag": "artcraft-v0.41.1"
   },
-  "stars": 42112,
+  "stars": 42113,
   "topics": [
    "3d-graphics",
    "ai",
@@ -40612,7 +40700,7 @@
    "date": "2026-11-23T16:19:33Z",
    "tag": "v0.3.0"
   },
-  "stars": 573,
+  "stars": 574,
   "topics": [
    "agentic-ai",
    "agents",
@@ -40767,7 +40855,7 @@
   "desc": "Streamlit — The agent-native framework for data apps and dashboards.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 4460,
+  "forks": 4461,
   "full": "streamlit/streamlit",
   "home": "https://streamlit.io",
   "lang": "Python",
@@ -40969,7 +41057,7 @@
   "name": "supabase",
   "owner": "supabase",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:33:37Z",
+  "pushed": "2026-11-24T03:46:08Z",
   "release": {
    "date": "2026-08-07T13:57:57Z",
    "tag": "v1.26.08"
@@ -41003,7 +41091,7 @@
   "name": "docx-editor",
   "owner": "superdoc",
   "owner_type": "Organization",
-  "pushed": "2026-11-23T01:14:50Z",
+  "pushed": "2026-11-24T03:39:53Z",
   "release": {
    "date": "2026-11-21T02:31:14Z",
    "tag": "v2.34.0"
@@ -41400,7 +41488,7 @@
    "date": "2026-11-23T20:07:15Z",
    "tag": "v0.6.73"
   },
-  "stars": 31249,
+  "stars": 31252,
   "topics": [
    "clickhouse",
    "database",
@@ -41497,14 +41585,14 @@
   "name": "solidcraft",
   "owner": "tangency-labs",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:28:06Z",
+  "pushed": "2026-11-24T03:46:39Z",
   "quickstart": null,
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-24T02:13:34Z",
    "tag": "v0.48.0"
   },
-  "stars": 17946,
+  "stars": 17947,
   "topics": [
    "3d-modeling",
    "brep",
@@ -41668,7 +41756,7 @@
   "name": "commonly",
   "owner": "Team-Commonly",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:34:32Z",
+  "pushed": "2026-11-24T03:45:13Z",
   "release": {
    "date": "2026-11-24T03:21:11Z",
    "tag": "v3.1.0"
@@ -41788,7 +41876,7 @@
   "desc": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 12,
+  "forks": 13,
   "full": "Tencent-Hunyuan/Prism",
   "home": "https://francis-rings.github.io/Prism",
   "lang": "Python",
@@ -41861,7 +41949,7 @@
    "date": "2026-10-20T03:40:10Z",
    "tag": "20261020"
   },
-  "stars": 24095,
+  "stars": 24094,
   "topics": [
    "inference",
    "high-preformance",
@@ -41880,7 +41968,7 @@
   "desc": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 5332,
+  "forks": 5333,
   "full": "Tencent/WeKnora",
   "home": "https://weknora.weixin.qq.com",
   "lang": "Go",
@@ -41895,7 +41983,7 @@
    "date": "2026-10-29T06:59:12Z",
    "tag": "v0.9.0"
   },
-  "stars": 38093,
+  "stars": 38092,
   "topics": [
    "agent",
    "agentic",
@@ -42102,12 +42190,12 @@
   "name": "tensorflow",
   "owner": "tensorflow",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:32:25Z",
+  "pushed": "2026-11-24T03:37:39Z",
   "release": {
    "date": "2026-03-06T19:48:15Z",
    "tag": "v2.21.0"
   },
-  "stars": 201709,
+  "stars": 201707,
   "topics": [
    "tensorflow",
    "machine-learning",
@@ -42242,7 +42330,7 @@
    "date": "2026-11-16T15:26:50Z",
    "tag": "v2.0.3"
   },
-  "stars": 39653,
+  "stars": 39654,
   "topics": [
    "ai",
    "llm",
@@ -42313,7 +42401,7 @@
    "date": "2026-11-23T23:19:53Z",
    "tag": "v16.1.1"
   },
-  "stars": 119350,
+  "stars": 119352,
   "topics": [
    "ai",
    "ai-agents",
@@ -42457,6 +42545,7 @@
   "archived": false,
   "created": "2026-11-20T00:06:24Z",
   "desc": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 117,
@@ -42470,11 +42559,13 @@
   "owner": "ThreatDefence",
   "owner_type": "Organization",
   "pushed": "2026-11-23T23:32:15Z",
+  "quickstart": "pip install -r tools/requirements.txt",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-23T07:23:25Z",
    "tag": "v2.10.0"
   },
-  "stars": 572,
+  "stars": 573,
   "topics": [
    "agentic-ai",
    "ai-security",
@@ -42568,7 +42659,7 @@
    "date": "2026-10-05T22:14:26Z",
    "tag": "v0.11.0"
   },
-  "stars": 1342,
+  "stars": 1343,
   "topics": [
    "ai-agents",
    "benchmark",
@@ -42599,7 +42690,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-17T08:54:35Z",
   "release": null,
-  "stars": 693,
+  "stars": 694,
   "topics": [
    "benchmark",
    "harbor",
@@ -42766,7 +42857,7 @@
    "date": "2026-10-09T05:08:30Z",
    "tag": "v0.64.15"
   },
-  "stars": 42832,
+  "stars": 42831,
   "topics": [
    "ai-agents",
    "llm",
@@ -43192,7 +43283,7 @@
    "date": "2026-03-31T05:06:44Z",
    "tag": "3.67.1"
   },
-  "stars": 15997,
+  "stars": 15998,
   "topics": [
    "data-science",
    "machine-learning",
@@ -43407,7 +43498,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 6783,
+  "forks": 6784,
   "full": "tt-a1i/archify",
   "home": "https://archify.si",
   "lang": "JavaScript",
@@ -43424,7 +43515,7 @@
    "date": "2026-11-22T18:04:07Z",
    "tag": "v3.3.0"
   },
-  "stars": 99175,
+  "stars": 99177,
   "topics": [
    "architecture-diagram",
    "developer-tools",
@@ -43760,7 +43851,7 @@
    "date": "2026-11-22T19:37:59Z",
    "tag": "v0.15.0"
   },
-  "stars": 891,
+  "stars": 892,
   "topics": [
    "calendar",
    "egui",
@@ -43859,7 +43950,7 @@
    "date": "2022-11-22T15:29:09Z",
    "tag": "v7.0"
   },
-  "stars": 58304,
+  "stars": 58303,
   "topics": [
    "yolov5",
    "object-detection",
@@ -43924,7 +44015,7 @@
    "date": "2026-11-20T09:46:52Z",
    "tag": "v0.9.6"
   },
-  "stars": 87733,
+  "stars": 87735,
   "topics": [
    "ai",
    "ai-agents",
@@ -43986,7 +44077,7 @@
   "owner_type": "User",
   "pushed": "2026-11-23T17:16:46Z",
   "release": null,
-  "stars": 2792,
+  "stars": 2793,
   "topics": [
    "agent-skills",
    "ai-short-drama",
@@ -44189,7 +44280,7 @@
   "name": "unsloth",
   "owner": "unslothai",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:30:24Z",
+  "pushed": "2026-11-24T03:39:08Z",
   "release": {
    "date": "2026-11-23T15:40:51Z",
    "tag": "v0.1.923-beta"
@@ -44330,7 +44421,7 @@
    "date": "2026-11-17T13:51:10Z",
    "tag": "@upstash/context7-opencode@0.2.2"
   },
-  "stars": 65353,
+  "stars": 65351,
   "topics": [
    "llm",
    "mcp",
@@ -44552,7 +44643,7 @@
   "desc": "Buyer-controlled client for x402 API payments in USDC on Base.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 191,
+  "forks": 192,
   "full": "vAPI-Network/vapi-network",
   "home": "https://vapinetwork.ai",
   "lang": "TypeScript",
@@ -44567,7 +44658,7 @@
    "date": "2026-11-19T20:43:12Z",
    "tag": "v0.15.0"
   },
-  "stars": 5679,
+  "stars": 5682,
   "topics": [
    "agent-payments",
    "ai-agents",
@@ -44746,7 +44837,6 @@
   "archived": false,
   "created": "2026-10-26T17:39:27Z",
   "desc": "A library of behaviors for agents to build the next generation of user interfaces.",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 241,
@@ -44763,7 +44853,7 @@
   "quickstart": "npm install @ui-sdk/react @ui-sdk/core",
   "readme_checked": "2026-11-24",
   "release": null,
-  "stars": 6868,
+  "stars": 6871,
   "topics": [
    "agent",
    "component",
@@ -45127,7 +45217,7 @@
    "date": "2026-11-19T15:07:37Z",
    "tag": "v2026.11.19"
   },
-  "stars": 896,
+  "stars": 897,
   "topics": [
    "ai",
    "design-resources",
@@ -45161,7 +45251,7 @@
    "date": "2026-11-21T17:50:20Z",
    "tag": "v0.6.2"
   },
-  "stars": 1424,
+  "stars": 1425,
   "topics": [
    "ai-agents",
    "animation",
@@ -45192,7 +45282,7 @@
   "owner_type": "User",
   "pushed": "2026-11-21T15:08:15Z",
   "release": null,
-  "stars": 3586,
+  "stars": 3587,
   "topics": [
    "agent-skills",
    "ai-agents",
@@ -45226,7 +45316,7 @@
    "date": "2026-09-01T16:47:16Z",
    "tag": "showcase-media"
   },
-  "stars": 22300,
+  "stars": 22301,
   "topics": [
    "agent-skills",
    "ai-agents",
@@ -45311,9 +45401,10 @@
   "archived": false,
   "created": "2023-02-09T11:23:20Z",
   "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 25195,
+  "forks": 25196,
   "full": "vllm-project/vllm",
   "home": "https://vllm.ai",
   "lang": "Python",
@@ -45323,12 +45414,14 @@
   "name": "vllm",
   "owner": "vllm-project",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:21:34Z",
+  "pushed": "2026-11-24T03:38:09Z",
+  "quickstart": "uv pip install vllm",
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-16T23:22:00Z",
    "tag": "v0.34.0"
   },
-  "stars": 97431,
+  "stars": 97432,
   "topics": [
    "gpt",
    "llm",
@@ -45866,7 +45959,7 @@
    "date": "2026-10-05T06:59:50Z",
    "tag": "v2.2.0"
   },
-  "stars": 34887,
+  "stars": 34888,
   "topics": [
    "ai-agents",
    "ai-security-tool",
@@ -45962,7 +46055,7 @@
   "owner_type": "Organization",
   "pushed": "2026-11-21T05:34:15Z",
   "release": null,
-  "stars": 25968,
+  "stars": 25967,
   "topics": [
    "agent",
    "harness",
@@ -46027,7 +46120,7 @@
   "owner_type": "User",
   "pushed": "2026-11-06T09:43:12Z",
   "release": null,
-  "stars": 665,
+  "stars": 666,
   "topics": [
    "agent-memory",
    "agentic-ai",
@@ -46095,7 +46188,7 @@
    "date": "2026-11-20T17:37:45Z",
    "tag": "v0.1.50"
   },
-  "stars": 9793,
+  "stars": 9795,
   "topics": [
    "accessibility",
    "ai-agent",
@@ -46148,7 +46241,7 @@
   "desc": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 1575,
+  "forks": 1576,
   "full": "wanshuiyin/Auto-claude-code-research-in-sleep",
   "home": null,
   "lang": "Python",
@@ -46512,7 +46605,7 @@
   "desc": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 1170,
+  "forks": 1171,
   "full": "windmill-labs/windmill",
   "home": "https://windmill.dev",
   "lang": "Rust",
@@ -46538,7 +46631,7 @@
    "internal-tools",
    "orchestration"
   ],
-  "watchers": 51
+  "watchers": 52
  },
  "wing900/manimcat": {
   "archived": false,
@@ -46658,7 +46751,7 @@
   "name": "labelme",
   "owner": "wkentaro",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:14:59Z",
+  "pushed": "2026-11-24T03:47:04Z",
   "release": {
    "date": "2026-11-14T09:20:09Z",
    "tag": "v7.11.0"
@@ -46714,7 +46807,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 428,
+  "forks": 430,
   "full": "wquguru/cicada",
   "home": "https://cicada.indaloop.app",
   "lang": "Swift",
@@ -46731,7 +46824,7 @@
    "date": "2026-11-14T15:15:02Z",
    "tag": "v1.10.1"
   },
-  "stars": 2690,
+  "stars": 2699,
   "topics": [
    "live-captions",
    "macos",
@@ -46762,7 +46855,7 @@
   "owner_type": "User",
   "pushed": "2026-11-24T01:41:04Z",
   "release": null,
-  "stars": 42847,
+  "stars": 42848,
   "topics": [
    "anthropic",
    "agent-skills",
@@ -46812,7 +46905,7 @@
   "desc": "Reliable AI Skill + MCP toolkit for agent-driven desktop CAD automation.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 222,
+  "forks": 223,
   "full": "wzyn20051216/solidworks-automation-skill",
   "home": null,
   "lang": "Python",
@@ -46827,7 +46920,7 @@
    "date": "2026-11-22T01:30:28Z",
    "tag": "v2.2.0"
   },
-  "stars": 2433,
+  "stars": 2436,
   "topics": [
    "autocad",
    "cad",
@@ -46878,6 +46971,7 @@
   "archived": false,
   "created": "2026-10-15T00:48:13Z",
   "desc": "Universal toolkits for linting, viewing and managing i18n for any frameworks.",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 17,
@@ -46891,6 +46985,8 @@
   "owner": "x18n-dev",
   "owner_type": "Organization",
   "pushed": "2026-11-18T03:48:11Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-10T08:40:29Z",
    "tag": "v0.1.14"
@@ -47188,7 +47284,7 @@
    "date": "2026-10-01T05:19:24Z",
    "tag": "v0.1.4"
   },
-  "stars": 7730,
+  "stars": 7729,
   "topics": [
    "ai-agents",
    "chatgpt",
@@ -47298,7 +47394,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 343,
+  "forks": 345,
   "full": "XinaTian/MROffice",
   "home": "https://mroffice.ai",
   "lang": "TypeScript",
@@ -47315,7 +47411,7 @@
    "date": "2026-11-23T21:58:48Z",
    "tag": "v0.1.8"
   },
-  "stars": 2972,
+  "stars": 2984,
   "topics": [
    "document-editor",
    "excel",
@@ -47326,7 +47422,7 @@
    "word",
    "ai"
   ],
-  "watchers": 176
+  "watchers": 177
  },
  "xinxuxin/keystone-bench": {
   "archived": false,
@@ -47416,7 +47512,7 @@
    "date": "2026-11-09T16:50:17Z",
    "tag": "v1.0.4"
   },
-  "stars": 18429,
+  "stars": 18430,
   "topics": [
    "llm",
    "chat-history",
@@ -47758,7 +47854,6 @@
   "archived": false,
   "created": "2026-11-20T07:03:29Z",
   "desc": "Posterior Matching Distillation",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1,
@@ -47795,7 +47890,7 @@
   "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 3721,
+  "forks": 3722,
   "full": "yetone/magpie",
   "home": "https://usemagpie.ai",
   "lang": "Go",
@@ -47805,14 +47900,14 @@
   "name": "magpie",
   "owner": "yetone",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:01:35Z",
+  "pushed": "2026-11-24T03:40:26Z",
   "quickstart": "curl -fsSL https://usemagpie.ai/install.sh | sh",
   "readme_checked": "2026-11-24",
   "release": {
    "date": "2026-11-24T03:14:45Z",
    "tag": "v0.1.4735"
   },
-  "stars": 40591,
+  "stars": 40600,
   "topics": [
    "claude-code",
    "codex",
@@ -48269,7 +48364,6 @@
   "archived": false,
   "created": "2026-11-20T09:26:09Z",
   "desc": "Non-penetrating World Models",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 2,
@@ -48284,7 +48378,7 @@
     "kind": "paper",
     "source": "hf-papers",
     "title": "Non-penetrating World Models",
-    "upvotes": 54,
+    "upvotes": 55,
     "url": "https://arxiv.org/abs/2611.27963"
    }
   ],
@@ -48349,7 +48443,6 @@
   "archived": false,
   "created": "2026-11-12T11:09:33Z",
   "desc": "π^4: A Foundation Model for 4D Scene Geometry and Motion",
-  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 19,
@@ -48532,7 +48625,7 @@
   "name": "passenger",
   "owner": "Zaneris",
   "owner_type": "User",
-  "pushed": "2026-11-24T03:25:19Z",
+  "pushed": "2026-11-24T03:46:08Z",
   "quickstart": null,
   "readme_checked": "2026-11-24",
   "release": {
@@ -48776,7 +48869,7 @@
   "owner_type": "User",
   "pushed": "2026-11-14T21:49:27Z",
   "release": null,
-  "stars": 233,
+  "stars": 234,
   "topics": [],
   "watchers": 11
  },
@@ -48798,7 +48891,7 @@
   "owner_type": "User",
   "pushed": "2026-11-01T02:53:40Z",
   "release": null,
-  "stars": 1018,
+  "stars": 1019,
   "topics": [
    "ai-skills",
    "ai-video",
@@ -48854,7 +48947,7 @@
   "name": "CowAgent",
   "owner": "zhayujie",
   "owner_type": "User",
-  "pushed": "2026-11-24T02:32:30Z",
+  "pushed": "2026-11-24T03:45:32Z",
   "release": {
    "date": "2026-10-30T02:48:05Z",
    "tag": "2.2.2"
@@ -49007,6 +49100,7 @@
   "archived": false,
   "created": "2026-11-16T04:20:58Z",
   "desc": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+  "featured": true,
   "first_seen": "2026-11-24",
   "fork": false,
   "forks": 1,
@@ -49029,6 +49123,8 @@
   "owner": "ZhouTimeMachine",
   "owner_type": "User",
   "pushed": "2026-11-17T05:21:16Z",
+  "quickstart": null,
+  "readme_checked": "2026-11-24",
   "release": null,
   "stars": 47,
   "topics": [],
@@ -49040,7 +49136,7 @@
   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 58252,
+  "forks": 58254,
   "full": "ZhuLinsen/daily_stock_analysis",
   "home": "https://dsa.zhulinsen.tech",
   "lang": "Python",
@@ -49055,7 +49151,7 @@
    "date": "2026-11-16T13:21:05Z",
    "tag": "v3.35.0"
   },
-  "stars": 74046,
+  "stars": 74051,
   "topics": [
    "aigc",
    "llm",
@@ -49122,7 +49218,7 @@
    "date": "2026-11-22T02:59:35Z",
    "tag": "v0.7.1"
   },
-  "stars": 2217,
+  "stars": 2218,
   "topics": [
    "ai",
    "aisa",
@@ -49172,7 +49268,7 @@
   "desc": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
   "first_seen": "2026-11-24",
   "fork": false,
-  "forks": 1128,
+  "forks": 1130,
   "full": "ZiChuanLan/agent-purge",
   "home": null,
   "lang": "JavaScript",
@@ -49187,7 +49283,7 @@
    "date": "2026-11-22T10:45:52Z",
    "tag": "v0.2.39"
   },
-  "stars": 2095,
+  "stars": 2096,
   "topics": [
    "claude-code",
    "codex",
@@ -49481,7 +49577,7 @@
   "name": "SAG-Wiki",
   "owner": "Zleap-AI",
   "owner_type": "Organization",
-  "pushed": "2026-11-24T03:35:34Z",
+  "pushed": "2026-11-24T03:47:50Z",
   "quickstart": "npm install -g @zleap-ai/sag",
   "readme_checked": "2026-11-24",
   "release": {
