@@ -51,6 +51,10 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}/
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub API access for the daily repo refresh
+          # Optional "why it matters" lines: any OpenAI-compatible chat API. Unset = skipped.
+          INSIGHT_ENDPOINT: ${{ vars.INSIGHT_ENDPOINT }}
+          INSIGHT_MODEL: ${{ vars.INSIGHT_MODEL }}
+          INSIGHT_API_KEY: ${{ secrets.INSIGHT_API_KEY }}
         run: python -m pipeline.run ${{ inputs.reclassify && '--reclassify' || '' }}
 
       - name: Run tests

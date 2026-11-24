@@ -22,6 +22,8 @@ def compact(a: dict, now: datetime | None = None) -> dict:
     }
     if a.get("tags"):
         out["tags"] = a["tags"]
+    if a.get("why"):
+        out["why"] = a["why"]
     if a.get("coverage"):
         out["coverage"] = [{"source": c["source_id"], "url": c["url"], "title": c["title"]} for c in a["coverage"]]
     extra = a.get("extra", {})

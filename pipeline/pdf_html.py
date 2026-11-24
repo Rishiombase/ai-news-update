@@ -25,7 +25,7 @@ from . import config
 
 log = logging.getLogger(__name__)
 
-RENDER_VERSION = "html-6"   # bump when the layout changes so existing PDFs are re-rendered
+RENDER_VERSION = "html-7"   # bump when the layout changes so existing PDFs are re-rendered
 FONT_FILES = {
     ("Bricolage Grotesque", 400, "normal"): "BricolageGrotesque-Regular.ttf",
     ("Bricolage Grotesque", 600, "normal"): "BricolageGrotesque-SemiBold.ttf",
@@ -115,6 +115,10 @@ def _banner(kicker: str, title: str, sub: str, color: str, number: str) -> str:
             f'<h2>{e(title)}</h2><p>{e(sub)}</p><div class="num">{e(number)}</div>{NETWORK_SVG}</div>')
 
 
+def _why(a: dict) -> str:
+    return f'<p class="why"><b>Why it matters</b> {e(a["why"])}</p>' if a.get("why") else ""
+
+
 def _dev_card(a: dict) -> str:
     meta = f'{e(_src(a["source"]))}, {_d(a["date"], "%-d %b")}'
     if a.get("upvotes"):
@@ -122,7 +126,7 @@ def _dev_card(a: dict) -> str:
     return (f'<article class="dev glass" style="--c:{_cat(a["cats"][0])["color"]}">'
             f'<div class="dev-top">{_thumb(a, "sm")}<div><h3><a href="{e(a["url"])}">{e(a["title"])}</a></h3>'
             f'<div class="meta">{meta}</div></div></div>'
-            f'<p>{e(a.get("summary", ""))}</p><div class="dev-foot">{_tags(a)}</div></article>')
+            f'<p>{e(a.get("summary", ""))}</p>{_why(a)}<div class="dev-foot">{_tags(a)}</div></article>')
 
 
 # --------------------------------------------------------------------------- pages
@@ -180,7 +184,7 @@ def _top_page(issue: dict, page: int) -> str:
   <article class="feature glass" style="--c:{_cat(f["cats"][0])["color"]}">{_thumb(f, "feat-img")}
     <div class="feat-body"><span class="chip">{e(_cat(f["cats"][0])["name"])}</span>
       <h3><a href="{e(f["url"])}">{e(f["title"])}</a></h3>
-      <div class="meta">{e(_src(f["source"]))}, {_d(f["date"])}</div><p>{e(f.get("summary", ""))}</p>
+      <div class="meta">{e(_src(f["source"]))}, {_d(f["date"])}</div><p>{e(f.get("summary", ""))}</p>{_why(f)}
       <div class="dev-foot">{_tags(f)}</div>{_also(f)}</div></article>
   <div class="ts-grid">{rest}</div></div>
   {_footer("TOP STORIES")}
@@ -412,7 +416,7 @@ FIT_JS = r"""
   const steps = [drop(".more li", 2), drop(".ready li", 3), drop(".callout li", 1), clamp(".dev p", 3), drop(".srcs li", 16),
                  drop(".more li", 1), drop(".ready li", 2), clamp(".dev p", 2), drop(".callout li", 0), clamp(".ts p", 1),
                  drop(".whatsnew p", 3), drop(".srcs li", 12), drop(".tt tbody tr", 6), drop(".srcs li", 8),
-                 clamp(".rc-desc", 1), drop(".rc code", 0), dropEven(".mcol", "li", 2), dropEven(".mcol", "li", 1), clamp(".dev p", 1), drop(".ready li", 1), drop(".more li", 0)];
+                 clamp(".rc-desc", 1), drop(".dev .why", 2), drop(".rc code", 0), dropEven(".mcol", "li", 2), dropEven(".mcol", "li", 1), clamp(".dev p", 1), drop(".ready li", 1), drop(".more li", 0)];
   function fit() {
     document.querySelectorAll(".page .body").forEach((b) => {
       for (const step of steps) { let guard = 0; while (!fits(b) && guard++ < 40 && step(b)) {} if (fits(b)) break; }
@@ -568,6 +572,10 @@ em { font-style: normal; opacity: .55; padding: 0 2px; }
 .rc code { font-family: ui-monospace, Menlo, monospace; font-size: 6.8pt; background: #0F1A3A; color: #E6EAFF; border-radius: 4px; padding: 1mm 1.6mm;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
 .rc-meta { font-size: 7.2pt; color: #7A84A3; } .rc-meta .up { color: #0B7A55; } .rc-meta span { margin-left: 2mm; }
+.why { margin: 0 !important; font-family: 'Bricolage Grotesque', Arial, sans-serif !important; font-size: 7.8pt !important; line-height: 1.4 !important;
+  color: #2D3757 !important; background: #F3F0FF; border-left: 2.5px solid #5B3DF5; border-radius: 4px; padding: 1.2mm 2mm;
+  display: -webkit-box !important; -webkit-line-clamp: 2 !important; -webkit-box-orient: vertical; overflow: hidden; }
+.why b { color: #5B3DF5; margin-right: 1mm; }
 .mgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
 .mhead { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #5B3DF5; padding-bottom: 1.5mm; margin-bottom: 2mm; }
 .mhead b { font-family: 'Literata', Georgia, serif; font-size: 11pt; } .mhead span { font-size: 7.4pt; color: #7A84A3; }

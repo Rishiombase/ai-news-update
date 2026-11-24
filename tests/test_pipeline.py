@@ -248,3 +248,18 @@ def test_new_repo_growth_and_hidden_gem():
     trending = built["sections"]["trending"]
     assert trending[0]["id"] == "org/brand-new" and "+3,000 stars this week" in trending[0]["reason"]
     assert [e["id"] for e in built["sections"]["gems"]] == ["org/gem"]
+
+
+def test_why_it_matters_guard_rails():
+    from pipeline.insights import accept
+    src = "OpenAI releases GPT-6.2 with a 1M token context window for the API"
+    assert accept("Long-context work on 1M tokens becomes practical via the API", src).endswith(".")
+    assert accept("Cuts costs by 40% for long documents.", src) is None       # number not in the source
+    assert accept("A revolutionary leap for every team.", src) is None         # hype
+    assert accept("", src) is None
+
+
+def test_insights_skip_without_a_configured_service(monkeypatch):
+    import pipeline.insights as ins
+    monkeypatch.setattr(ins, "ENDPOINT", "")
+    assert ins.run({}, {}, NOW) == 0

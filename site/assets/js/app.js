@@ -107,6 +107,7 @@ function thumb(a, cls = "") {
   return `<span class="thumb ${cls}" style="--cat:${c?.color || "#2B47D9"}"><span class="thumb__fb" aria-hidden="true"><b>${esc(src(a.source).name)}</b></span>${a.img
     ? `<img src="${esc(a.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}</span>`;
 }
+const whyHTML = (a) => (a.why ? `<p class="why"><b>Why it matters</b> ${esc(a.why)} <span class="ai-tag" title="Written by an AI model from the article's own text. Check the source for details.">AI</span></p>` : "");
 const tagsHTML = (a) => (a.tags?.length ? `<span class="tags">${a.tags.map((t) => `<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join("")}</span>` : "");
 function catStyle(id) { const c = cat(id); return c ? `--cat:${c.color}` : ""; }
 function storyHTML(a) {
@@ -119,6 +120,7 @@ function storyHTML(a) {
     </div>
     <h3 class="story__title"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
     ${a.summary ? `<p class="story__summary">${esc(a.summary)}</p>` : ""}
+    ${whyHTML(a)}
     <div class="story__foot">${tagsHTML(a)}${coverage(a)}</div></div>
     <a class="story__thumb" href="${esc(a.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${thumb(a)}</a>
   </article>`;
@@ -237,6 +239,7 @@ const LatestView = {
           <span class="pill">${esc(c?.name)}</span>
           <h1 class="lead__title"><a href="${esc(lead.url)}" target="_blank" rel="noopener">${esc(lead.title)}</a></h1>
           ${lead.summary ? `<p class="lead__summary">${esc(lead.summary)}</p>` : ""}
+          ${whyHTML(lead)}
           ${tagsHTML(lead)}
           <div class="lead__meta"><strong>${esc(src(lead.source).name)}</strong><time datetime="${esc(lead.date)}">${esc(relTime(lead.date))}</time>${coverage(lead)}</div>
         </div>
@@ -410,7 +413,7 @@ const NewslettersView = {
         <a href="${esc(a.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${thumb(a)}</a>
         <div><h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
         <div class="story__meta"><span class="story__src">${esc(src(a.source).name)}</span><span>${esc(fmtDate(a.date))}</span>${a.upvotes ? `<span>${a.upvotes} upvotes</span>` : ""}</div></div></div>
-        ${a.summary ? `<p>${esc(a.summary)}</p>` : ""}${tagsHTML(a)}</article>`;
+        ${a.summary ? `<p>${esc(a.summary)}</p>` : ""}${whyHTML(a)}${tagsHTML(a)}</article>`;
     const chapter = (c) => {
       const st = c.stats, lab = c.stat_labels || {};
       const stats = [[st.stories, lab.stories || "Stories"], [st.sources, "Sources"], [st.available, lab.available || "Available now"], [st.open_source, "Open source"]];
@@ -469,13 +472,16 @@ function writeSaved(obj) { try { localStorage.setItem(SAVED_KEY, JSON.stringify(
 const kfmt = (n) => (n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : n >= 1e4 ? Math.round(n / 1e3) + "k" : n >= 1e3 ? (n / 1e3).toFixed(1) + "k" : String(n));
 const bookmark = (on) => `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1Z" fill="${on ? "currentColor" : "none"}" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`;
 const REPO_TABS = {
-  trending: ["Trending", "Most stars gained in the last 7 days across open-source AI."],
-  new: ["New & rising", "Created in the last 90 days and growing fast for their age."],
-  recognized: ["Getting recognized", "Broke through this week: in the news, code behind a top research paper, a star milestone, or a major release."],
-  gems: ["Hidden gems", "Under 2,500 stars, actively developed, with releases and steady growth. Easy to miss, worth a look."],
-  essentials: ["Proven essentials", "Established projects that are still actively maintained: the safe choices for real products."],
-  saved: ["Saved", "Repos you saved. They are stored in this browser; use Export to move them to another device."],
+  trending: ["\u{1F525} Trending", "Most stars gained in the last 7 days across open-source AI."],
+  new: ["\u{1F680} New & rising", "Created in the last 90 days and growing fast for their age."],
+  recognized: ["\u{1F3C6} Getting recognized", "Broke through this week: in the news, code behind a top research paper, a star milestone, or a major release."],
+  gems: ["\u{1F48E} Hidden gems", "Under 2,500 stars, actively developed, with releases and steady growth. Easy to miss, worth a look."],
+  essentials: ["\u2705 Proven essentials", "Established projects that are still actively maintained: the safe choices for real products."],
+  saved: ["\u{1F516} Saved", "Repos you saved. They are stored in this browser; use Export to move them to another device."],
 };
+const LANG_COLORS = { Python: "#3572A5", TypeScript: "#3178C6", JavaScript: "#E5B700", Rust: "#DEA584", Go: "#00ADD8", "C++": "#F34B7D", C: "#555555",
+  Java: "#B07219", Kotlin: "#A97BFF", Swift: "#F05138", "Jupyter Notebook": "#DA5B0B", Shell: "#4EAA25", Ruby: "#701516", "C#": "#178600", Zig: "#EC915C", Dart: "#00B4AB" };
+const langColor = (l) => LANG_COLORS[l] || "#9AA3BF";
 const USE_FILTERS = ["Agents", "MCP", "RAG", "Local & inference", "Coding tools", "Fine-tuning", "Multimodal"];
 
 const ReposView = {
@@ -492,6 +498,7 @@ const ReposView = {
         <label class="search"><span class="visually-hidden">Search repos</span>${searchIcon}<input id="rq" type="search" placeholder="Search name, description or topic" autocomplete="off"></label>
         <div class="chips" id="ruse" role="group" aria-label="Use case"></div>
         <label class="check"><input type="checkbox" id="rcomm"> Commercial-friendly license</label>
+        <div class="seg" role="group" aria-label="Layout"><button type="button" data-view="cards">Cards</button><button type="button" data-view="list">List</button></div>
       </div>
       <p class="result-line" id="rline" aria-live="polite"></p>
       <div class="repo-grid" id="rgrid"></div>
@@ -551,34 +558,50 @@ const ReposView = {
       line += ` <span class="warm">Tracking started ${esc(fmtDate(data.tracking_since + "T00:00:00Z"))}. Weekly growth for older projects appears after 7 days of history; until then this list favours new projects, whose growth is known from launch.</span>`;
     main.querySelector("#rline").innerHTML = line;
     const grid = main.querySelector("#rgrid");
+    const view = (() => { try { return localStorage.getItem("gap-repo-view") || "cards"; } catch (e) { return "cards"; } })();
+    main.querySelectorAll("[data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
+    grid.classList.toggle("list", view === "list");
+    const featured = view === "cards" && tab !== "saved" && !p.topic && !p.use && !p.q && p.comm !== "1" && list.length > 3;
     if (!data && tab !== "saved") { grid.innerHTML = `<p class="empty">Repo data has not been collected yet. It refreshes once a day.</p>`; return; }
-    grid.innerHTML = list.length ? list.map((x) => this.card(x.r, x.reason, saved)).join("")
+    grid.innerHTML = list.length ? list.map((x, i) => this.card(x.r, x.reason, saved, tab, featured && i === 0, view)).join("")
       : `<p class="empty">${tab === "saved" ? "Nothing saved yet. Use the bookmark on any repo card to save it here." : "No repos match these filters."}</p>`;
   },
-  card(r, reason, saved) {
+  card(r, reason, saved, tab, top = false, view = "cards") {
     const [owner, name] = r.full.split("/");
     const isSaved = !!saved[r.id];
+    const icon = { trending: "\u{1F525}", new: "\u{1F680}", recognized: "\u{1F3C6}", gems: "\u{1F48E}", essentials: "✅", saved: "\u{1F516}" }[tab] || "";
+    const avatar = `<img class="repo__avatar" src="https://github.com/${encodeURIComponent(owner)}.png?size=80" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`;
     const license = !r.license || r.license === "NOASSERTION" ? `<span class="lic warn" title="No standard license detected: check before using">License unclear</span>`
       : `<span class="lic ${r.permissive ? "ok" : ""}" title="${r.permissive ? "Permissive license: generally fine for commercial use" : "Check the license terms before commercial use"}">${esc(r.license)}${r.permissive ? " &#10003;" : ""}</span>`;
-    return `<article class="repo">
-      <button class="save" type="button" data-save="${esc(r.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? "Remove from saved" : "Save"} ${esc(r.full)}" title="${isSaved ? "Saved: click to remove" : "Save this repo"}">${bookmark(isSaved)}</button>
-      <h3 class="repo__name"><a href="${esc(r.url)}" target="_blank" rel="noopener"><span>${esc(owner)}/</span>${esc(name)}</a></h3>
+    const saveBtn = `<button class="save" type="button" data-save="${esc(r.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? "Remove from saved" : "Save"} ${esc(r.full)}" title="${isSaved ? "Saved: click to remove" : "Save this repo"}">${bookmark(isSaved)}</button>`;
+    const lang = r.lang ? `<span class="lang"><i style="background:${langColor(r.lang)}"></i>${esc(r.lang)}</span>` : "";
+    const growth = r.week ? `<span class="grow" title="${r.est ? "Average weekly pace since launch" : "Stars gained in the last 7 days"}">&#9650; ${kfmt(r.week)}/wk${r.est ? "*" : ""}</span>` : "";
+    if (view === "list") {
+      return `<article class="repo repo--row">${avatar}
+        <div class="row__main"><h3 class="repo__name"><a href="${esc(r.url)}" target="_blank" rel="noopener"><span>${esc(owner)}/</span>${esc(name)}</a></h3>
+          <p class="row__desc">${esc(r.why || r.desc)}</p><p class="row__reason">${icon} ${esc(reason || "")}</p></div>
+        <div class="row__stats"><span>&#9733; ${kfmt(r.stars)}</span>${growth}${lang}${license}</div>${saveBtn}</article>`;
+    }
+    return `<article class="repo${top ? " repo--top" : ""}">
+      ${top ? `<span class="toppick">Top pick</span>` : ""}
+      <header class="repo__head">${avatar}<div class="repo__title">
+        <h3 class="repo__name"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(name)}</a></h3>
+        <span class="repo__owner">${esc(owner)}${r.owner_type === "Organization" ? ` <span class="org" title="Owned by an organization">org</span>` : ""}</span></div>${saveBtn}</header>
+      <p class="repo__reason"><span aria-hidden="true">${icon}</span> ${esc(reason || "")}</p>
       <p class="repo__desc">${esc(r.desc)}</p>
-      <p class="repo__why"><b>${reason && reason.startsWith("Saved") ? "" : "Why it's here: "}</b>${esc(reason || "")}</p>
+      ${r.why ? `<p class="why"><b>Why it matters</b> ${esc(r.why)} <span class="ai-tag" title="Written by an AI model from the repo's own description">AI</span></p>` : ""}
       ${r.quickstart ? `<div class="qs"><code>${esc(r.quickstart)}</code><button type="button" data-copy="${esc(r.quickstart)}">Copy</button></div>` : ""}
-      <div class="repo__stats">
-        <span title="Stars">&#9733; ${kfmt(r.stars)}</span>
-        ${r.week ? `<span class="grow" title="${r.est ? "Average weekly pace since launch" : "Stars gained in the last 7 days"}">&#9650; ${kfmt(r.week)}/week${r.est ? "*" : ""}</span>` : ""}
-        ${r.pushed ? `<span>Updated ${esc(relTime(r.pushed))}</span>` : ""}
-        ${r.lang ? `<span>${esc(r.lang)}</span>` : ""}
-        ${license}
-      </div>
+      <div class="repo__stats"><span title="Stars">&#9733; ${kfmt(r.stars)}</span>${growth}
+        ${r.forks ? `<span title="Forks">&#5833; ${kfmt(r.forks)}</span>` : ""}${lang}
+        ${r.pushed ? `<span>Updated ${esc(relTime(r.pushed))}</span>` : ""}${license}</div>
       ${(r.topics || []).length ? `<div class="repo__topics">${r.topics.map((tp) => `<button type="button" data-topic="${esc(tp)}">${esc(tp)}</button>`).join("")}</div>` : ""}
       <div class="repo__links"><a href="${esc(r.url)}" target="_blank" rel="noopener">GitHub</a>${r.home ? `<a href="${esc(r.home)}" target="_blank" rel="noopener">Website</a>` : ""}${r.release ? `<a href="${esc(r.url)}/releases" target="_blank" rel="noopener">Release ${esc(r.release.tag)}</a>` : ""}<a href="${esc(r.url)}" target="_blank" rel="noopener" title="Opens the repo on GitHub, where you can star it">Star on GitHub</a></div>
     </article>`;
   },
   click(e) {
     const tab = e.target.closest("[data-tab]"); if (tab) return this.set({ tab: tab.dataset.tab, topic: "" }, true);
+    const view = e.target.closest("[data-view]");
+    if (view) { try { localStorage.setItem("gap-repo-view", view.dataset.view); } catch (err) {} return this.update(this.params); }
     const use = e.target.closest("[data-use]"); if (use) return this.set({ use: this.params.use === use.dataset.use ? "" : use.dataset.use });
     const topic = e.target.closest("[data-topic]"); if (topic) { window.scrollTo({ top: 0 }); return this.set({ topic: this.params.topic === topic.dataset.topic ? "" : topic.dataset.topic }, true); }
     if (e.target.closest("[data-reset]")) return this.set({ q: "", use: "", topic: "", comm: "" });

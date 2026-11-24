@@ -463,3 +463,45 @@ button.cov__row:hover .cov__label { text-decoration: underline; }
 .repo__links a:hover { text-decoration: underline; }
 .saved-tools { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
 .saved-tools[hidden] { display: none; }
+
+/* ------------------------------------------------------------------ why it matters */
+.why { margin: 8px 0 0; font-size: 0.92rem; line-height: 1.5; color: var(--ink); background: linear-gradient(120deg, rgba(241, 237, 255, 0.9), rgba(234, 243, 255, 0.9));
+  border: 1px solid #E2DAFF; border-radius: 10px; padding: 8px 11px; max-width: 70ch; }
+.why b { color: var(--brand-ink); margin-right: 4px; }
+.ai-tag { display: inline-block; margin-left: 4px; font-size: 0.64rem; font-weight: 800; letter-spacing: 0.04em; color: var(--brand-ink);
+  border: 1px solid #CFC3FF; border-radius: 5px; padding: 0 5px; vertical-align: 1px; cursor: help; }
+.lead .why { font-size: 1rem; margin-bottom: 12px; }
+
+/* ------------------------------------------------------------------ repos v2 */
+.repo-tools .seg { justify-self: start; }
+@media (min-width: 980px) { .repo-tools { grid-template-columns: minmax(240px, 320px) minmax(0, 1fr) auto auto; } }
+.repo-tabs { position: sticky; top: 66px; z-index: 5; }
+.repo__head { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+.repo__avatar { width: 44px; height: 44px; border-radius: 12px; background: #EEF1F8; object-fit: cover; box-shadow: 0 0 0 1px rgba(15, 26, 58, 0.06); }
+.repo__title { min-width: 0; }
+.repo__head .repo__name { margin: 0; font-size: 1.12rem; }
+.repo__owner { font-size: var(--fs-xs); color: var(--slate); }
+.org { font-size: 0.64rem; font-weight: 800; color: var(--brand-ink); background: rgba(91, 61, 245, 0.1); border-radius: 5px; padding: 0 5px; }
+.repo .save { position: static; }
+.repo__reason { margin: 0; font-size: var(--fs-xs); font-weight: 700; color: #6D3FD6; }
+.repo__why { display: none; }
+.lang { display: inline-flex; align-items: center; gap: 5px; }
+.lang i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.repo--top { grid-column: 1 / -1; padding: 22px 24px 16px; border: 1px solid transparent;
+  background: linear-gradient(var(--glass-strong), var(--glass-strong)) padding-box, linear-gradient(120deg, #5B3DF5, #1E88F0) border-box; }
+.repo--top .repo__desc { -webkit-line-clamp: 4; font-size: 1.02rem; max-width: 90ch; }
+.repo--top .repo__head .repo__name { font-size: 1.4rem; font-family: var(--serif); }
+.repo--top .repo__avatar { width: 52px; height: 52px; }
+.repo--top .repo__head { grid-template-columns: 52px minmax(0, 1fr) auto; }
+.toppick { align-self: flex-start; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.06em; color: #fff; background: var(--grad); border-radius: 999px; padding: 3px 10px; }
+/* list view */
+.repo-grid.list { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+.repo--row { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto auto; gap: 14px; align-items: center; padding: 12px 14px; flex-direction: row; }
+.repo--row .repo__avatar { width: 40px; height: 40px; border-radius: 10px; }
+.repo--row .repo__name { margin: 0; font-size: 1rem; }
+.row__main { min-width: 0; }
+.row__desc { margin: 2px 0 0; font-size: var(--fs-sm); color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.row__reason { margin: 2px 0 0; font-size: var(--fs-xs); color: #6D3FD6; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.row__stats { display: flex; gap: 12px; align-items: center; font-size: var(--fs-xs); color: var(--slate); white-space: nowrap; }
+.row__stats .grow { color: #0B7A55; font-weight: 700; }
+@media (max-width: 760px) { .repo--row { grid-template-columns: 36px minmax(0, 1fr) auto; } .row__stats { grid-column: 2 / -1; grid-row: 2; flex-wrap: wrap; } }

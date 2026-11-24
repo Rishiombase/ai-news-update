@@ -534,7 +534,7 @@ def compact(k: str, r: dict, g: tuple) -> dict:
         "home": r.get("home"), "stars": r["stars"], "forks": r.get("forks", 0), "week": week, "est": est, "day": day,
         "lang": r.get("lang"), "license": r.get("license"), "permissive": r.get("license") in PERMISSIVE,
         "created": r.get("created"), "pushed": r.get("pushed"), "release": r.get("release"),
-        "quickstart": clean_command(r.get("quickstart")), "topics": [t for t in r.get("topics", []) if t not in GENERIC_TOPICS][:5],
+        "quickstart": clean_command(r.get("quickstart")), "why": r.get("why") or None, "topics": [t for t in r.get("topics", []) if t not in GENERIC_TOPICS][:5],
         "uses": uses(r), "unverified": low_engagement(r), "owner_type": r.get("owner_type"),
     }
 
