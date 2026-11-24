@@ -2886,6 +2886,37 @@
  },
  {
   "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "research": 0.27,
+   "robotics": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Hyung Gon Shin",
+    "Sanghoon Jung"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "8d8b39a5f3b5",
+  "kind": "paper",
+  "published": "2026-11-21T08:51:48Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Anthropomorphic robotic hands offer the potential to manipulate objects designed for human hands in environments adapted to human use. However, developing a robotic hand that replicates the human hand in terms of morphology, degrees of freedom, force output, durability, and sensing capabilities remains a formidable challenge, as these requirements inherently involve trade-offs.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Doing More with Less: Complex Manipulation with a Contact-Adaptive Robotic Hand",
+  "url": "http://arxiv.org/abs/2611.28675v1"
+ },
+ {
+  "categories": [
    "agents",
    "research"
   ],
@@ -2923,6 +2954,73 @@
   ],
   "title": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
   "url": "http://arxiv.org/abs/2611.28671v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.654,
+   "genai-llm": 1.0,
+   "nlp": 0.456,
+   "research": 0.284
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Maohao Ran",
+    "Yanting Zhang",
+    "Chendong Ma",
+    "Jun Song"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "f98205dd962d",
+  "kind": "paper",
+  "published": "2026-11-21T08:49:09Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Large language models (LLMs) are increasingly employed for scientific computing across the Earth and environmental sciences, but problems in these fields often involve distinct physical regimes. LLMs may fail to recognize these regime-dependent constraints, applying formulas outside their domains of validity and producing plausible but physically incorrect results.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Physical regime changes expose formula misuse in large language models",
+  "url": "http://arxiv.org/abs/2611.28669v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.283,
+   "genai-llm": 0.45,
+   "nlp": 0.416,
+   "research": 0.312
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Chenhao Zhang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "b5bce08082bf",
+  "kind": "paper",
+  "published": "2026-11-21T08:45:39Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Asking a vision-language model (VLM) to think step by step often makes it worse at spatial questions, even though the image stays in context. We show that short chain-of-thought (CoT) turns a perception problem into a transcription problem.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA",
+  "url": "http://arxiv.org/abs/2611.28665v1"
  },
  {
   "categories": [
@@ -2992,6 +3090,866 @@
  },
  {
   "categories": [
+   "mlops",
+   "security",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.349,
+   "ai-ml": 0.257,
+   "computer-vision": 0.581,
+   "enterprise": 0.525,
+   "genai-llm": 0.261,
+   "mlops": 0.874,
+   "research": 0.594,
+   "security": 0.725
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Yiwei Li",
+    "Qiyang Chen",
+    "Zheming Yang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "27b72c9283c6",
+  "kind": "paper",
+  "published": "2026-11-21T08:35:29Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Industrial anomaly inspection requires not only accurate anomaly discrimination but also trustworthy explanations for operators, while satisfying the strict latency constraints of online inspection. Existing methods, however, typically apply a fixed computational path to all samples, making it difficult to strike a good balance among detection accuracy, inference efficiency, and interpretability.",
+  "tags": [
+   "Research"
+  ],
+  "title": "UACR: Uncertainty-Aware Collaborative Routing for Explainable Industrial Anomaly Inspection",
+  "url": "http://arxiv.org/abs/2611.28655v1"
+ },
+ {
+  "categories": [
+   "mlops",
+   "research",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 0.798,
+   "computer-vision": 0.337,
+   "genai-llm": 0.718,
+   "mlops": 0.957,
+   "open-source": 0.345,
+   "research": 0.78,
+   "tools-launches": 0.275
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Youheng Zhu",
+    "Chenyang Wang",
+    "Minshuo Chen",
+    "Yiping Lu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "d66b77d6c3a0",
+  "kind": "paper",
+  "published": "2026-11-21T08:34:28Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Reward-guided diffusion requires effective steering and correction of the bias introduced by approximate value functions. A Brownian example shows that SMC with full multinomial resampling at every step can require particle counts to grow linearly with guidance depth to maintain accuracy. We propose Stein Guidance, which combines derivative-free guidance with whole-path independence Metropolis-Hastings correction.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Stein Guidance without Gradients: Discretization Uniform Diffusion Inference Time Scaling beyond Particle SMC",
+  "url": "http://arxiv.org/abs/2611.28654v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.789,
+   "genai-llm": 1.0,
+   "nlp": 0.723,
+   "open-source": 0.335
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.AI",
+   "authors": [
+    "Ming Cheung"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "357ef653c41b",
+  "kind": "paper",
+  "published": "2026-11-21T08:27:17Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Large Language Models are trained on diverse corpora containing outputs from proprietary teacher models and provider-curated sources. Models subsequently inherit embedded self-identity traits, persistently asserting specific proprietary names.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Unlearning Model Identity: Ablating LoRA Weights from Question-Based Identity Tuning",
+  "url": "http://arxiv.org/abs/2611.28650v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.263,
+   "ai-ml": 0.346,
+   "computer-vision": 1.106,
+   "genai-llm": 0.953,
+   "mlops": 0.274,
+   "nlp": 0.339,
+   "research": 0.374,
+   "robotics": 0.268
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Muxin Fu",
+    "Peike Yu",
+    "Guibin Zhang",
+    "Wenrui Zhou",
+    "Runze Liu",
+    "Lang Feng"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "4417d88ed3eb",
+  "kind": "paper",
+  "published": "2026-11-21T08:22:21Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds.",
+  "tags": [
+   "Research"
+  ],
+  "title": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+  "url": "http://arxiv.org/abs/2611.28649v1"
+ },
+ {
+  "categories": [
+   "research",
+   "security",
+   "nlp"
+  ],
+  "category_scores": {
+   "ai-ml": 0.592,
+   "enterprise": 0.369,
+   "genai-llm": 0.424,
+   "nlp": 0.634,
+   "research": 0.78,
+   "security": 0.758
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Bowen Han",
+    "Chengwei Cao",
+    "Runxin Zhang",
+    "Yuyang Jiang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "b219be0b7836",
+  "kind": "paper",
+  "published": "2026-11-21T08:09:46Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Collecting self-reported risk information and maintaining continuity between assessment, explanation, and follow-up are practical components of a lung cancer screening workflow. We present Aegis, a browser-based research prototype that combines a conversational questionnaire, rule-based risk categorization, downloadable reports, retrieval-augmented health information, and doctor-user communication.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Aegis: A Conversational Prototype for Lung Cancer Risk Information and Follow-up",
+  "url": "http://arxiv.org/abs/2611.28642v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.463,
+   "genai-llm": 0.625,
+   "nlp": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Qingsen Ma",
+    "Dianyun Wang",
+    "Jiahong Liu",
+    "Irwin King"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "184a4b645bd0",
+  "kind": "paper",
+  "published": "2026-11-21T07:55:44Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Retrieval-augmented language models answer well when the relevant document comes first or last and poorly when it sits in the middle. Some fine-tuning recipes lift the middle by lowering the start. We show how training contexts teach positional bias. With a uniform answer slot and shuffled distractors, the optimal reader ignores position.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Make Position Uninformative: Exchangeable Self-Distillation Flattens the Lost-in-the-Middle Curve",
+  "url": "http://arxiv.org/abs/2611.28638v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.289,
+   "computer-vision": 1.35,
+   "genai-llm": 0.417,
+   "nlp": 0.462,
+   "open-source": 0.262,
+   "research": 0.293
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Enhao Cui",
+    "Junzhi Yang",
+    "Yaoshun Lin",
+    "Yuhan Feng",
+    "Zijian Chen"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "6706ea8e7c45",
+  "kind": "paper",
+  "published": "2026-11-21T07:42:26Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Grounded vision-language models write boxes as text, and the mean probability of their coordinate tokens says little about whether a box is right. We study a single-pass signal for boxes on another object, which matter when only the object counts. A linear map, fitted per model to its own answers without labels, reads a box from the hidden state before writing.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Self-prediction residuals improve single-pass detection of wrong-object boxes in grounded vision-language models",
+  "url": "http://arxiv.org/abs/2611.28632v1"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 1.35,
+   "genai-llm": 0.306,
+   "open-source": 0.291,
+   "research": 0.314
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Asha Barua",
+    "Sajad Khodadadian"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "8087fa1a68dc",
+  "kind": "paper",
+  "published": "2026-11-21T07:31:10Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "A fundamental question in reinforcement learning is how many sampled transitions are needed to learn a near-optimal policy, and whether direct policy optimization can attain this statistical limit. To answer this question, we consider natural policy gradient (NPG), a widely used policy optimization method.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Nearly Minimax-Optimal Sample Complexity of Natural Policy Gradient with a Matching Information-Theoretic Lower Bound",
+  "url": "http://arxiv.org/abs/2611.28628v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.27,
+   "ai-ml": 0.359,
+   "genai-llm": 0.939,
+   "open-source": 0.354,
+   "research": 0.897,
+   "robotics": 0.297
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "math.OC",
+   "authors": [
+    "Yan-Han Chen",
+    "Abhishek Halder",
+    "Hailiang Liu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "1809e62b69a8",
+  "kind": "paper",
+  "published": "2026-11-21T07:17:00Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "We propose a novel neural solver for inferring the continuous state evolution of the Schrödinger bridge problem. The proposed solver builds on a saddle point formulation involving the Yasue action functional. This allows us to realize the continuous state evolution by learning the optimal velocity for an ordinary differential equation, as opposed to learning the optimal drift for a stochastic differential equation.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Neural Schrödinger Bridge via Yasue Action with Applications to Generative Modeling",
+  "url": "http://arxiv.org/abs/2611.28623v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.716,
+   "computer-vision": 0.405,
+   "genai-llm": 0.78,
+   "nlp": 0.975,
+   "open-source": 0.31,
+   "research": 0.493
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Yukinori Yamamoto",
+    "Kotaro Yoshida",
+    "Ryotaro Shimizu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "24990939a93b",
+  "kind": "paper",
+  "published": "2026-11-21T07:16:06Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Interpreting the intermediate activations of diffusion models (DMs) is key to understanding how they generate images. Existing interpretability methods for DMs provide limited support for open-ended interrogation, making it difficult to extract human-interpretable insights. We extend LatentQA, the task of answering natural-language questions about Large Language Model activations, to DM activations.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Interpreting Diffusion Model Activations in Natural Language",
+  "url": "http://arxiv.org/abs/2611.28621v1"
+ },
+ {
+  "categories": [
+   "mlops",
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.419,
+   "ai-ml": 0.936,
+   "genai-llm": 0.42,
+   "mlops": 0.839,
+   "open-source": 0.45,
+   "research": 0.307,
+   "robotics": 0.718,
+   "security": 0.282
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Jiangtao Kong",
+    "Yuchen Wang",
+    "Yandong Luo",
+    "Rongchao Xu",
+    "Guang Wang",
+    "Yanbing Mao"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "aedb0e63107a",
+  "kind": "paper",
+  "published": "2026-11-21T07:04:22Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Model Predictive Path Integral (MPPI) control is central to online planning for model-based reinforcement learning (MBRL), but its iterative refinement incurs planning latency. Reducing refinement iterations often degrades performance, motivating stronger policy guidance learned from the planner.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Fast World Planner: Advantage-Aware Action-Chunk Policy for Online Planning",
+  "url": "http://arxiv.org/abs/2611.28616v1"
+ },
+ {
+  "categories": [
+   "security",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.477,
+   "genai-llm": 0.45,
+   "mlops": 0.271,
+   "nlp": 0.408,
+   "open-source": 0.564,
+   "research": 0.331,
+   "security": 0.83
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CY",
+   "authors": [
+    "David Gamba",
+    "Seura Ha",
+    "Daniel M. Romero",
+    "Grant Schoenebeck"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "c5f97f69ae28",
+  "kind": "paper",
+  "published": "2026-11-21T06:59:33Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "To surface \"objective\" fact-check notes, X's Community Notes uses Biased Matrix Factorization (BMF) on crowd-sourced ratings to separate note quality from reviewer ideology. We show that for any correctly specified model that decomposes ratings into quality and ideological alignment, this separation requires fixing an ideological anchor: a reference point for what counts as neutral.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Can Ideologues Agree on Quality? From Non-identifiable Latent Factors to Collective Outcomes",
+  "url": "http://arxiv.org/abs/2611.28615v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.281,
+   "genai-llm": 0.928,
+   "nlp": 1.167,
+   "research": 0.428
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Yifei Cheng",
+    "Xiaolin Zhang",
+    "Yu-Xuan Qiu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "ca0057fab0e6",
+  "kind": "paper",
+  "published": "2026-11-21T06:48:17Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "In this paper, we conduct a systematic study on improving permutation robustness while preserving accuracy. First, we categorize permutation bias phenomena into four representative scenarios. Then, we take the multiple-choice question answering (MCQA) dataset as an example under text-option reordering scenario to analyze the root cause of permutation bias.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Reducing Permutation Sensitivity in Multimodal Large Language Models via Shared Positions and Attention-Only Distillation",
+  "url": "http://arxiv.org/abs/2611.28612v1"
+ },
+ {
+  "categories": [
+   "agents",
+   "open-source",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.699,
+   "ai-ml": 1.274,
+   "genai-llm": 0.321,
+   "open-source": 0.45,
+   "research": 0.408,
+   "security": 0.307
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Emil Mittag",
+    "Richard Dazeley",
+    "Peter Vamplew"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "2df3e11fde5c",
+  "kind": "paper",
+  "published": "2026-11-21T06:47:24Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Reinforcement-learning agents shape the observations they encounter; consequently, detecting out-of-distribution (OOD) states requires analysing action-conditioned trajectories rather than treating inputs as independent samples.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Action-Conditioned Transition Irreversibility for Out-of-Distribution Detection in Reinforcement Learning",
+  "url": "http://arxiv.org/abs/2611.28611v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.646,
+   "computer-vision": 0.266,
+   "genai-llm": 1.0,
+   "mlops": 0.472,
+   "nlp": 0.476,
+   "open-source": 0.296
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Qiuyu Ren",
+    "Sudipta Paria",
+    "Aritra Dasgupta",
+    "Swarup Bhunia"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "542edbe6b68e",
+  "kind": "paper",
+  "published": "2026-11-21T06:36:41Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Decoding with large language models at small batch sizes is limited by memory bandwidth, so the bits stored per weight largely set its cost. Group-wise integer quantization stores every weight of a group at the same precision, although the input channels of a group differ in sensitivity.",
+  "tags": [
+   "Research"
+  ],
+  "title": "BitShare: Sensitivity-Aware Binning and Bit Sharing for Compacting LLM Weight Storage",
+  "url": "http://arxiv.org/abs/2611.28607v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.764,
+   "genai-llm": 0.974,
+   "mlops": 0.287,
+   "nlp": 0.725,
+   "research": 0.353
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Zeyi Huang",
+    "Jiuxiang Gu",
+    "Eli Shechtman",
+    "Yong Jae Lee",
+    "Zongze Wu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "b64f6715e5ad",
+  "kind": "paper",
+  "published": "2026-11-21T06:28:23Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Knowledge distillation transfers capabilities from large language models to smaller students, yet stronger teachers do not always yield better students. Recent studies report diminishing or even negative returns from teacher scaling. We hypothesize that these limitations arise in part from insufficient student capacity to absorb the teacher's knowledge.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Bridging Teacher-Student Capability Gaps with Recurrent Computation",
+  "url": "http://arxiv.org/abs/2611.28603v1"
+ },
+ {
+  "categories": [
+   "research",
+   "enterprise"
+  ],
+  "category_scores": {
+   "ai-ml": 0.7,
+   "computer-vision": 0.308,
+   "enterprise": 0.557,
+   "genai-llm": 0.403,
+   "mlops": 0.45,
+   "open-source": 0.25,
+   "research": 0.815
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Haomin Bai",
+    "Dingzhi Yu",
+    "Xuling Zhao",
+    "Sifan Yang",
+    "Yibo Wang",
+    "Lijun Zhang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "18228bd008d8",
+  "kind": "paper",
+  "published": "2026-11-21T06:01:30Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Memory-efficient Muon methods aim to reduce storage overhead while preserving strong performance, yet existing approaches compromise either convergence guarantees or practical efficiency. In this paper, we focus on subspace optimization for Muon, where the choice of subspace determines the gradient information retained for updating.",
+  "tags": [
+   "Research"
+  ],
+  "title": "DRAM: Memory-Efficient Muon via Rank Reallocation in Principal-Random Subspaces",
+  "url": "http://arxiv.org/abs/2611.28595v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.266,
+   "computer-vision": 1.35,
+   "genai-llm": 0.394,
+   "nlp": 0.395,
+   "open-source": 0.299,
+   "security": 0.399
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Zhaoxi Wang",
+    "Jiahao Lai"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "6dd3e32a2cc6",
+  "kind": "paper",
+  "published": "2026-11-21T05:43:32Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Vision-language models frequently describe objects absent from the image because of language priors. Yet the model itself is already a strong judge of its own output: asked separately whether an object is present, it rejects 44%-62% of its hallucinations, and its yes probability reaches an AUROC of 0.90-0.95 without training.",
+  "tags": [
+   "Research"
+  ],
+  "title": "CLOSE: A Calibrated Label-free Online Self-Evaluating Verifier for Object Hallucination in Vision-Language Models",
+  "url": "http://arxiv.org/abs/2611.28589v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "genai-llm": 0.42,
+   "mlops": 0.328,
+   "nlp": 1.35,
+   "research": 0.396
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Yishan Zhong",
+    "Jieru Li",
+    "Xuanzhe Ding",
+    "Shaunna Wang",
+    "Yanxin Yang",
+    "Micky C. Nnamdi"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "5aec5d12ba25",
+  "kind": "paper",
+  "published": "2026-11-21T05:38:20Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Biomedical question answering often requires multi-step reasoning under limited inference budgets. While test-time search methods such as Tree-of-Thought can improve reasoning performance, directly searching over free-form language is computationally expensive and highly redundant, as many reasoning trajectories contain semantically equivalent intermediate steps expressed in different surface forms.",
+  "tags": [
+   "Research"
+  ],
+  "title": "MedCoast: Semantic Abstraction of Reasoning Trajectories for Test-Time Biomedical Question Answering",
+  "url": "http://arxiv.org/abs/2611.28586v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.319,
+   "computer-vision": 0.521,
+   "genai-llm": 0.45,
+   "nlp": 0.341,
+   "robotics": 1.236
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Tamoghno Das",
+    "Keyon Jazayeri",
+    "Yerin Cho",
+    "Nazmul Takbir",
+    "Arshia Aravinthan",
+    "Nikil Dutt"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "e648a24f017d",
+  "kind": "paper",
+  "published": "2026-11-21T05:37:57Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Vision-language-action (VLA) models translate visual observations and language instructions into robot actions, enabling general-purpose robotic control. However, environmental perturbations, such as objects moving during execution, can undermine their reliability. Different policies exhibit complementary failures under mid-rollout perturbations, motivating selective switching between policies for recovery.",
+  "tags": [
+   "Research"
+  ],
+  "title": "AsyncMixVLA: Runtime Asynchronous Robot Policy Switching for Adaptation to Dynamic Environments",
+  "url": "http://arxiv.org/abs/2611.28585v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.306,
+   "ai-ml": 1.278,
+   "genai-llm": 1.0,
+   "mlops": 0.287,
+   "nlp": 0.821,
+   "research": 0.335
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Rongyi Zhu",
+    "Tanqiu Jiang",
+    "Fenglong Ma",
+    "Ting Wang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "cdbecfd2b67d",
+  "kind": "paper",
+  "published": "2026-11-21T05:27:32Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Self-rewarding optimization (SRO) promises to improve language models by enabling them to generate their own reward signals. Yet when and how SRO succeeds or fails remains poorly understood. We reveal that SRO is fundamentally fragile: even seemingly benign perturbations to training prompts can corrupt the self-generated preference signal and trigger iterative collapse.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Understanding and Mitigating the Fragility of Self-Rewarding Optimization",
+  "url": "http://arxiv.org/abs/2611.28582v1"
+ },
+ {
+  "categories": [
+   "tools-launches",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.79,
+   "genai-llm": 0.45,
+   "mlops": 0.342,
+   "open-source": 0.321,
+   "research": 0.604,
+   "security": 0.343,
+   "tools-launches": 0.584
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Moïse Blanchard",
+    "Ezra Edelman",
+    "Surbhi Goel",
+    "Shyam Narayanan",
+    "Jialin Yu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "ca414422e53e",
+  "kind": "paper",
+  "published": "2026-11-21T05:23:38Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "We study the sequential prediction problem introduced by Goel et al. (2023), where an adversary can inject arbitrarily many corrupted instances in an i.i.d. stream from a clean distribution $μ$, while the learner is allowed to abstain from making a prediction at no cost if the current instance was indeed injected.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Tight Mistake-Abstention Tradeoffs for Sequential Prediction under Adversarial Injections",
+  "url": "http://arxiv.org/abs/2611.28579v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 0.545,
+   "genai-llm": 1.0,
+   "nlp": 0.32,
+   "research": 0.359
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Ziaullah Khan",
+    "Rashadul Islam Sumon",
+    "Md Ariful Islam Mozumder",
+    "Duc-Son Pham",
+    "Moon-Il Joo",
+    "Hee-Cheol"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "9186ad877d4d",
+  "kind": "paper",
+  "published": "2026-11-21T05:16:33Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Whole-slide pathology report generation has advanced through stronger slide encoders, retrieved knowledge, and, recently, slide-level multimodal LLMs. However, these generators leave every report-level choice to the decoder: how long the report is, how it is organised, and which findings it states and where.",
+  "tags": [
+   "Research"
+  ],
+  "title": "CLASP: Deciding Structure and Claims Before Decoding for Whole-Slide Pathology Report Generation",
+  "url": "http://arxiv.org/abs/2611.28576v1"
+ },
+ {
+  "categories": [
    "computer-vision",
    "research"
   ],
@@ -3033,6 +3991,338 @@
  },
  {
   "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.331,
+   "computer-vision": 0.397,
+   "genai-llm": 0.293,
+   "open-source": 0.326,
+   "research": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "stat.ML",
+   "authors": [
+    "Rahul Agarwal",
+    "Ankit Agarwal"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "f3f6c755d696",
+  "kind": "paper",
+  "published": "2026-11-21T05:12:13Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Detected photons and electrons land at positions drawn from $|ψ|^2$, yet it is $ψ$, phase included, that a wave equation propagates, and the state that produced the particles is often known only in part. A density estimator can recover $|ψ|^2$ directly from the positions, without any wave equation, but it discards the phase, and with it the state.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Complex band-limited maximum likelihood: estimating the wave behind detected quanta",
+  "url": "http://arxiv.org/abs/2611.28572v1"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.45,
+   "genai-llm": 0.365,
+   "mlops": 0.26,
+   "nlp": 0.375,
+   "open-source": 0.287,
+   "research": 0.361
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "stat.ML",
+   "authors": [
+    "Huiling Yuan",
+    "Yize Wang",
+    "Guodong Li"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "3206f5a59157",
+  "kind": "paper",
+  "published": "2026-11-21T04:50:24Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Related sources can improve multivariate time series forecasting when the target history is short, but their usefulness varies across source groups and historical periods. A key challenge is to identify informative historical contexts from the sources.",
+  "tags": [
+   "Research"
+  ],
+  "title": "When and Where to Transfer: Learning Transferable Historical Contexts for Short-History Multivariate Time Series Forecasting",
+  "url": "http://arxiv.org/abs/2611.28567v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 0.312,
+   "genai-llm": 0.45,
+   "nlp": 0.725
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Ziyu Zhang",
+    "Satoshi Nakamura"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "26a3be228074",
+  "kind": "paper",
+  "published": "2026-11-21T04:47:20Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Simultaneous interpreting requires interpreters to convey the source accurately while keeping pace with it in real time. Timing measures such as segment-onset delay capture part of this requirement, but may not fully reflect how professional evaluators judge promptness. We investigate whether these judgments can be explained by timing alone or whether the interpreted output provides additional information.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Modeling Perceived Promptness in Simultaneous Interpreting from Quality, Structure, and Timing Signals",
+  "url": "http://arxiv.org/abs/2611.28566v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.721,
+   "computer-vision": 0.92,
+   "enterprise": 0.276,
+   "genai-llm": 0.45,
+   "mlops": 0.779,
+   "nlp": 0.577,
+   "open-source": 0.32
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Jin Cui",
+    "Hao Dong",
+    "Xinyue Long",
+    "Boran Zhao",
+    "Pengju Ren"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "ca555569cf1b",
+  "kind": "paper",
+  "published": "2026-11-21T04:38:15Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Vision-language models (VLMs) increasingly rely on external visual tools to access fine-grained visual evidence, but repeated tool execution incurs substantial inference overhead and deployment dependencies. Moreover, conventional tool-use RL can improve visual-task performance, yet the resulting tool gains are often unstable.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Tool-to-Self: Internalizing Visual Tool Capabilities via Scaffolded Reinforcement Learning",
+  "url": "http://arxiv.org/abs/2611.28564v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "genai-llm": 1.0,
+   "mlops": 0.453,
+   "robotics": 1.082
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Boxiang Song",
+    "Zhihong Chen",
+    "Xiaoyu Hao",
+    "Jinhong Huang",
+    "Chengkai Zhu",
+    "Jiaqi Yang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "e183453c7829",
+  "kind": "paper",
+  "published": "2026-11-21T04:33:57Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Edge robots increasingly use large language models (LLMs) for complex tasks, demanding efficient inference alongside timely control. Limited memory capacity constrains model deployment, while repeated weight transfers during decoding compete with activations and KV cache for external bandwidth. Sequential generation of robot actions further delays decisions and periodic control on shared hardware.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Selective ROM Weight Storage for Responsive LLM Control on Edge Robots",
+  "url": "http://arxiv.org/abs/2611.28563v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research",
+   "security"
+  ],
+  "category_scores": {
+   "agents": 0.253,
+   "ai-ml": 0.89,
+   "computer-vision": 0.261,
+   "genai-llm": 0.979,
+   "mlops": 0.438,
+   "nlp": 0.318,
+   "open-source": 0.45,
+   "research": 0.904,
+   "security": 0.842
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Yeo Jin Jung",
+    "Yating Liu",
+    "Lalchand Pandia",
+    "Claire Donnat"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "b9db19965f1f",
+  "kind": "paper",
+  "published": "2026-11-21T04:26:49Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "We propose SAFE-DRIFT, a data-selection framework for supervised fine-tuning that improves a target capability while controlling unwanted drift in the model's other behaviors. We formalize this as a constrained optimization problem that maximizes alignment with the target gradient, subject to a budget on off-target drift which we quantify using the Fisher information of a reference distribution.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "SAFE-DRIFT: Data Selection for Supervised Fine-tuning with Controllable Off-Target Drifts",
+  "url": "http://arxiv.org/abs/2611.28560v1"
+ },
+ {
+  "categories": [
+   "agents",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.843,
+   "ai-ml": 0.58,
+   "genai-llm": 0.656,
+   "nlp": 0.427,
+   "research": 0.256
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Jin Cui",
+    "Xinyue Long",
+    "Jiepeng Zhou",
+    "Boran Zhao",
+    "Pengju Ren",
+    "Hao Dong"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "692eff360152",
+  "kind": "paper",
+  "published": "2026-11-21T04:24:24Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Multimodal large language models (MLLMs) increasingly use external visual tools to acquire evidence during reasoning, yet learning when to invoke these tools remains challenging. Existing tool-use reinforcement learning (RL) methods often rely on call-contingent rewards to encourage beneficial tool use, but such reward engineering can distort the task objective and lead to degenerate calling behaviors.",
+  "tags": [
+   "Research"
+  ],
+  "title": "From Reward Engineering to Data-Centric Reinforcement Learning for Effective Agentic Visual Tool Use",
+  "url": "http://arxiv.org/abs/2611.28558v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 0.576,
+   "genai-llm": 0.447,
+   "open-source": 0.322,
+   "robotics": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Junjie Li",
+    "Dawei Yan",
+    "Guoting Wei",
+    "Ruike Song",
+    "Lu Wang",
+    "Qingguo Chen"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "8b2dbbc821ce",
+  "kind": "paper",
+  "published": "2026-11-21T04:18:08Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Vision-language-action (VLA) models have advanced robotic manipulation, yet complex tasks requiring both precise 3D contact and long-horizon coordination remain challenging. Most existing studies enhance spatial perception or temporal reasoning in VLAs separately.",
+  "tags": [
+   "Research"
+  ],
+  "title": "PhysPPF: Learning Robotic Manipulation with Past, Present, and Future Physical Representations",
+  "url": "http://arxiv.org/abs/2611.28551v1"
+ },
+ {
+  "categories": [
+   "mlops",
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.314,
+   "mlops": 0.743,
+   "open-source": 0.257,
+   "research": 0.45,
+   "robotics": 0.642
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Philip Byrne",
+    "John Drazan",
+    "Nidhi Seethapathi"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "1b6c2cef4a59",
+  "kind": "paper",
+  "published": "2026-11-21T04:09:02Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "The split-belt treadmill is an important tool for studying human locomotor adaptation. Physics-based simulations complement such experiments by allowing hypotheses about the mechanisms of adaptation to be tested directly, and high-throughput simulation is increasingly needed as these models grow in complexity.",
+  "tags": [
+   "Research"
+  ],
+  "title": "SBTenv: A Literature-Validated Split-Belt Treadmill Simulation Environment",
+  "url": "http://arxiv.org/abs/2611.28547v1"
+ },
+ {
+  "categories": [
    "open-source"
   ],
   "category_scores": {
@@ -3063,6 +4353,187 @@
   ],
   "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
   "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/"
+ },
+ {
+  "categories": [
+   "nlp",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.384,
+   "enterprise": 0.277,
+   "genai-llm": 0.863,
+   "mlops": 0.437,
+   "nlp": 0.926,
+   "open-source": 0.378,
+   "research": 0.838
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Davin Hill",
+    "Pawan Chorasiya",
+    "Bhawani S. Leelar",
+    "Oren Avram",
+    "Robert E. Tillman",
+    "Tamer Soliman"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "94a5db131d91",
+  "kind": "paper",
+  "published": "2026-11-21T03:58:15Z",
+  "score": 11.0,
+  "source_id": "arxiv",
+  "summary": "Production text-to-code systems use large language models to turn natural-language analytics requests into executable SQL and pandas code. Existing benchmarks cover both tasks but do not isolate when performance diverges between them.",
+  "tags": [
+   "Research"
+  ],
+  "title": "BIRD-Persona: A Persona-Aware Benchmark for SQL and pandas Analytics Code Generation",
+  "url": "http://arxiv.org/abs/2611.28542v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.411,
+   "genai-llm": 1.0,
+   "nlp": 0.89,
+   "research": 0.309
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Aadithya Chandramouli",
+    "Jeremy M. Gernand"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "123c7750b5cd",
+  "kind": "paper",
+  "published": "2026-11-21T03:21:55Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "A risky choice can be described by what will be saved or what will be lost, and people often choose differently depending on that wording. We test whether six large language models (LLMs) show this gain-loss framing effect, and whether it shrinks when they can first",
+  "tags": [
+   "Research"
+  ],
+  "title": "Information Access and Gain-Loss Framing in Six Large Language Models and Human Decision Makers",
+  "url": "http://arxiv.org/abs/2611.28525v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.641,
+   "computer-vision": 0.294,
+   "genai-llm": 1.0,
+   "mlops": 0.762,
+   "nlp": 0.329,
+   "open-source": 0.254
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Nurlan Nazaraliyev",
+    "Elaheh Sadredini",
+    "Nael Abu-Ghazaleh"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "c3ca453c2b2b",
+  "kind": "paper",
+  "published": "2026-11-21T03:18:37Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Long-context LLM inference is bottlenecked by the memory demands of the key-value (KV) cache, whose size scales linearly with context length. Dynamic sparse attention reduces this bottleneck by fetching and attending only to a critical subset of tokens.",
+  "tags": [
+   "Research"
+  ],
+  "title": "DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving",
+  "url": "http://arxiv.org/abs/2611.28522v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.254,
+   "computer-vision": 0.368,
+   "open-source": 0.293,
+   "research": 0.285,
+   "robotics": 1.35,
+   "security": 0.443
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Aedan Mangan",
+    "Spencer Teetaert",
+    "Chengnan Shentu",
+    "Michael G. Brandel",
+    "Jeremy J. Heit",
+    "Alexander Norbash"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "4e8a288639a7",
+  "kind": "paper",
+  "published": "2026-11-21T03:14:44Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Continuum robots are compliant along their entire length, making them well suited to navigating confined environments where contact with surrounding structures is often unavoidable. However, this compliance makes their modeling more complex compared to rigid robots, especially under contact, so their state must often be estimated from information available during operation.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Environment-Aware Probabilistic State Estimation of Continuum Robots from Planar Imaging",
+  "url": "http://arxiv.org/abs/2611.28521v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "genai-llm": 0.514,
+   "nlp": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Zhexi Gu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "3ba0f8877b44",
+  "kind": "paper",
+  "published": "2026-11-21T03:11:17Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Strong results in multi-hop retrieval-augmented question answering come from graph indexes read by models of 70B parameters or more, and building such an index calls a large language model over the whole corpus.",
+  "tags": [
+   "Research"
+  ],
+  "title": "SupportChain: Trace-Calibrated Aggregation of Quote-Grounded Reasoning Chains for Multi-Hop RAG with Small Readers",
+  "url": "http://arxiv.org/abs/2611.28519v1"
  },
  {
   "categories": [
@@ -3099,6 +4570,404 @@
  },
  {
   "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.304,
+   "ai-ml": 0.252,
+   "genai-llm": 0.262,
+   "open-source": 0.256,
+   "research": 0.32,
+   "robotics": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Wei-Chen Li",
+    "Glen Chou"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "1d3f668bc20d",
+  "kind": "paper",
+  "published": "2026-11-21T02:57:57Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Planning through contact requires accounting for the coupled dynamics of a robot and its environment, including inertial effects, contact forces, and friction. However, the non-smoothness and multimodality of contact dynamics and contact geometry makes gradient-based optimization challenging.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Lifted Multiple Shooting for Parallel-in-Time Contact-Rich Trajectory Optimization",
+  "url": "http://arxiv.org/abs/2611.28512v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.461,
+   "ai-ml": 0.26,
+   "computer-vision": 0.8,
+   "genai-llm": 0.45,
+   "mlops": 0.275,
+   "nlp": 0.306,
+   "robotics": 1.047,
+   "security": 0.576
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Qiren Wang",
+    "Mingyu Guo",
+    "Weisong Shi"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "4eaf6f0acd51",
+  "kind": "paper",
+  "published": "2026-11-21T02:54:46Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Reasoning-based driving vision-language-action (VLA) models propose multiple candidate trajectories at each decision, yet only one is executed. Standard evaluation scores the best candidate, assuming an oracle selector that deployment lacks, and leaves the risk of the executed candidate unexamined.",
+  "tags": [
+   "Research"
+  ],
+  "title": "AlpaSafe: Risk-Aware Trajectory Selection for Vision-Language-Action Models in Autonomous Driving",
+  "url": "http://arxiv.org/abs/2611.28509v1"
+ },
+ {
+  "categories": [
+   "research",
+   "genai-llm"
+  ],
+  "category_scores": {
+   "ai-ml": 1.27,
+   "genai-llm": 0.412,
+   "open-source": 0.353,
+   "research": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Yuxiang Wei",
+    "Zundong Wu",
+    "Weiyu Sun",
+    "Qizhen Lan",
+    "Yanteng Zhang",
+    "Vince D. Calhoun"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "bacd9595cd99",
+  "kind": "paper",
+  "published": "2026-11-21T02:52:31Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Understanding naturalistic brain activity requires going beyond the stimulus alone, as external inputs continuously interact with an individual's evolving brain state. A world model captures such dynamics in a latent state by inferring it from neural observations, predicting stimulus-driven evolution, and updating with new observations.",
+  "tags": [
+   "Research"
+  ],
+  "title": "State of Mind: Learning and Evaluating World Models of Naturalistic Brain Dynamics",
+  "url": "http://arxiv.org/abs/2611.28508v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.262,
+   "ai-ml": 0.28,
+   "genai-llm": 0.45,
+   "mlops": 0.363,
+   "nlp": 0.981,
+   "open-source": 0.421
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.DB",
+   "authors": [
+    "Madhulatha Mandarapu",
+    "Sandeep Kunkunuru"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "a1c5fbfbbcbe",
+  "kind": "paper",
+  "published": "2026-11-21T02:36:49Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Coupling a property-graph database to an external language-model server imposes a three-part socket tax: serialization overhead dwarfing microsecond graph reads, repeated prefill of verbose schemas, and blind decoding divorced from the live catalog and multi-version concurrency control (MVCC) engine.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Shoonya: Zero-Socket In-Process Small Language Models for Graph Databases with Schema-Epoch KV Caching, Live Catalog Logit Masking, and Verifier-Advantage Distillation",
+  "url": "http://arxiv.org/abs/2611.28502v1"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.372,
+   "genai-llm": 0.26,
+   "mlops": 0.552,
+   "open-source": 0.361,
+   "research": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "physics.chem-ph",
+   "authors": [
+    "Bingqing Cheng"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "1e54bcc0f997",
+  "kind": "paper",
+  "published": "2026-11-21T02:36:30Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Predicting the combined effects of ionic packing and long-range electrostatics at complex interfaces is technologically important, but remains challenging without atomistic simulations. Here we present a machine-learned classical density functional for ionic fluids that combines a symmetry-adapted neural free energy for short-range correlations with explicit long-range electrostatics.",
+  "tags": [
+   "Research"
+  ],
+  "title": "An equivariant classical density functional for ionic fluids at complex interfaces",
+  "url": "http://arxiv.org/abs/2611.28501v1"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.306,
+   "genai-llm": 0.403,
+   "mlops": 0.307,
+   "open-source": 0.358,
+   "research": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "physics.comp-ph",
+   "authors": [
+    "Haoran Sun",
+    "Tao Shan",
+    "Hongyu Zhou",
+    "Rui Guo",
+    "Shenheng Xu",
+    "Fan Yang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "741dcd45bc31",
+  "kind": "paper",
+  "published": "2026-11-21T02:32:45Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Wave-scattering simulation requires solving a dense boundary-element system for every frequency, incidence and design. Krylov solvers build each search space from scratch, and it grows with problem size. Here we present BEMFormer, a solver that learns to generate search directions across systems of one integral equation and supplies geometry-specific directions through a coarse-grid correction.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Accelerating wave-scattering simulations with learned search directions",
+  "url": "http://arxiv.org/abs/2611.28499v1"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.288,
+   "ai-ml": 0.816,
+   "genai-llm": 0.309,
+   "mlops": 0.298,
+   "open-source": 0.371,
+   "security": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CR",
+   "authors": [
+    "Zhuotao Lian",
+    "Qingkui Zeng",
+    "Weiyu Wang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "d68c0f3bb716",
+  "kind": "paper",
+  "published": "2026-11-21T02:20:30Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Distributed backdoor attacks split a trigger among several federated learning clients, so that the backdoor appears only in the aggregated model. Since DBA, a line of work has reported that such attacks are stronger, more persistent, and stealthier than a single attacker with the full trigger. We systematize this literature and test this belief.",
+  "tags": [
+   "Research"
+  ],
+  "title": "SoK: Splitting the Trigger or Adding Attackers? Disentangling Distributed Backdoor Attacks in Federated Learning",
+  "url": "http://arxiv.org/abs/2611.28491v1"
+ },
+ {
+  "categories": [
+   "research",
+   "enterprise",
+   "open-source"
+  ],
+  "category_scores": {
+   "ai-ml": 0.888,
+   "computer-vision": 0.289,
+   "enterprise": 0.613,
+   "genai-llm": 0.266,
+   "mlops": 0.308,
+   "open-source": 0.45,
+   "research": 0.697
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Hong-Phuc Phan",
+    "Tuan-Anh Vu",
+    "Tung Kieu",
+    "Son Ha Xuan",
+    "Sean Bin Yang",
+    "Bin Yang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "e5e289ebd83b",
+  "kind": "paper",
+  "published": "2026-11-21T02:09:03Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Outlier detection is often deployed in fully unsupervised settings, where labels are unavailable and practitioners must choose a detector without direct performance feedback. Existing unsupervised outlier model selection methods predict detector quality from static meta-features and historical performance on meta-datasets, but they commit before observing how any detector behaves on the target dataset.",
+  "tags": [
+   "Research"
+  ],
+  "title": "AMP-OD: Active Model Probing for Unsupervised Outlier Model Selection--Extended Version",
+  "url": "http://arxiv.org/abs/2611.28488v1"
+ },
+ {
+  "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.902,
+   "ai-ml": 0.797,
+   "genai-llm": 0.45,
+   "nlp": 0.528,
+   "open-source": 0.29
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Santiago Rivadeneira Quintero"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "a438f60d920a",
+  "kind": "paper",
+  "published": "2026-11-21T02:00:37Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "We show that an AI agent can write new capabilities into a pretrained language model by adding gated attention heads and MLP neurons inside its existing layers, without backpropagation and without fitting any weight to the answers of task examples. It has a budget of 50 model passes and sees no validation or test instance.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Don't Train It, Write It: An AI Agent Writes New Capabilities into Language Model Weights",
+  "url": "http://arxiv.org/abs/2611.28483v1"
+ },
+ {
+  "categories": [
+   "agents",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.949,
+   "ai-ml": 0.315,
+   "genai-llm": 0.725,
+   "nlp": 0.841,
+   "open-source": 0.358,
+   "research": 0.279
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Niuniu Zhang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "df214511f9cc",
+  "kind": "paper",
+  "published": "2026-11-21T01:59:39Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Social simulations often use language model agents to represent people who differ on several measurable traits. However, describing a trait profile in a prompt does not guarantee the agent will express each trait at its intended level.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Digital Knockoffs",
+  "url": "http://arxiv.org/abs/2611.28482v1"
+ },
+ {
+  "categories": [
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.385,
+   "computer-vision": 0.277,
+   "genai-llm": 0.355,
+   "mlops": 0.45,
+   "research": 0.72,
+   "robotics": 0.419,
+   "security": 0.36
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "eess.SY",
+   "authors": [
+    "Anisha Mohapatra",
+    "Prasanna Ramamurthy",
+    "Shridhar Velhal",
+    "M. Sethumadhavan",
+    "Suresh Sundaram"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "cd1ee84f4f75",
+  "kind": "paper",
+  "published": "2026-11-21T01:25:31Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "This paper proposes a real-time, priority-aware UAS arrival-planning framework for multi-layer UTM terminal airspace represented as a funnel of concentric rings, discrete holding slots, connecting edges, and a landing pad. Managing dense arrivals is challenging because terminal resources are limited and UAS must remain spatially and temporally separated throughout their approaches.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "Real-time Priority-aware UAS Arrival Planning Framework for Multi-layer UTM",
+  "url": "http://arxiv.org/abs/2611.28459v1"
+ },
+ {
+  "categories": [
    "agents",
    "tools-launches"
   ],
@@ -3129,6 +4998,87 @@
   "tags": [],
   "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
   "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/"
+ },
+ {
+  "categories": [
+   "agents",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.955,
+   "ai-ml": 0.35,
+   "enterprise": 0.325,
+   "genai-llm": 0.913,
+   "nlp": 0.664,
+   "open-source": 0.319,
+   "security": 0.261
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Yuwei Zhang",
+    "Ian Miao",
+    "Wentao Zhang",
+    "Chen Qu",
+    "Bill Bi",
+    "Jingbo Shang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "9dec87cdd3c3",
+  "kind": "paper",
+  "published": "2026-11-21T00:50:35Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "On-policy distillation (OPD) is commonly adopted as one of the components in post-training of large language models (LLMs), but in multi-turn agentic tasks we find that the student model increases their reasoning lengths after training. Our empirical analysis shows that the reasoning token lengths is affected by how much the student can distract the teacher's scores.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Muted Distillation: Sealing Reasoning from Teacher Unlocks Token-Efficient Agents",
+  "url": "http://arxiv.org/abs/2611.28445v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.29,
+   "computer-vision": 0.607,
+   "genai-llm": 0.262,
+   "mlops": 0.293,
+   "open-source": 0.325,
+   "research": 0.488,
+   "robotics": 1.35,
+   "tools-launches": 0.344
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Guillermo Gil-Garcia",
+    "J. A. Cobano",
+    "L. Merino",
+    "F. Caballero"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "6fa35416d90c",
+  "kind": "paper",
+  "published": "2026-11-21T00:24:35Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "This paper introduces LoKiTO, a 3D local kinodynamic trajectory optimizer that combines a Chebyshev polynomial parameterization with an online neural Euclidean Signed Distance Field (ESDF) representation for aerial robotics.",
+  "tags": [
+   "Available now",
+   "Research"
+  ],
+  "title": "LoKiTO: Local Kinodynamic Trajectory Optimization for UAVs based on Memory-Efficient Neural Distance Fields",
+  "url": "http://arxiv.org/abs/2611.28438v1"
  },
  {
   "categories": [
@@ -3166,6 +5116,41 @@
  },
  {
   "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.366,
+   "ai-ml": 0.253,
+   "genai-llm": 0.25,
+   "research": 0.434,
+   "robotics": 1.35,
+   "security": 0.398
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Murtuza Lemonwala",
+    "Laxima Niure Kandel"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "8b892c814c77",
+  "kind": "paper",
+  "published": "2026-11-20T23:40:58Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Autonomous vehicles increasingly need to navigate without satellite positioning. Magnetic anomaly navigation (Mag-Nav) with quantum magnetometers offers a passive, unjammable fix, but the low size-weight-and-power (SWaP) sensors that small drones can carry are weak, and they are operated open loop at a fixed setting.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Belief-Driven Quantum Magnetometer Control for GPS-Denied Navigation",
+  "url": "http://arxiv.org/abs/2611.28416v1"
+ },
+ {
+  "categories": [
    "genai-llm",
    "enterprise",
    "research"
@@ -3196,6 +5181,48 @@
   ],
   "title": "How Google Duplex evolved to also call businesses for you in Gemini",
   "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"
+ },
+ {
+  "categories": [
+   "robotics",
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.863,
+   "ai-ml": 0.312,
+   "genai-llm": 0.389,
+   "mlops": 0.311,
+   "open-source": 0.39,
+   "research": 0.646,
+   "robotics": 1.309,
+   "security": 0.71
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Amitoj Sandhu",
+    "Ethan Sick",
+    "Omkaar Buddhikot",
+    "Nadia Laswi",
+    "Wesley Durbano",
+    "Nadun Ranawaka"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "90a2c9580812",
+  "kind": "paper",
+  "published": "2026-11-20T23:30:00Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Real-world evaluation of generalist robot policies is bottlenecked by manual resets, human grading, and small fixed task suites with limited diagnostic coverage. We present ScaleEvals, a scalable reset-free protocol that evaluates policies through continuous physical play across a robot fleet.",
+  "tags": [
+   "Research"
+  ],
+  "title": "ScaleEvals: Scaling Generalist Policy Evaluation through Reset-Free Autonomous Play",
+  "url": "http://arxiv.org/abs/2611.28411v1"
  },
  {
   "categories": [
@@ -3231,6 +5258,82 @@
  },
  {
   "categories": [
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.991,
+   "ai-ml": 0.548,
+   "enterprise": 0.283,
+   "genai-llm": 0.43,
+   "open-source": 0.372,
+   "research": 0.587,
+   "security": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "q-bio.NC",
+   "authors": [
+    "Marc-Andre Schulz",
+    "Pauline Scheuber"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "ea3fafce82d4",
+  "kind": "paper",
+  "published": "2026-11-20T23:15:10Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Language models and AI agents are increasingly described in psychiatric terms, such as anxious, depressed, addicted or helpless. A recent study even proposed language models as experimental systems for psychiatry and as a platform for piloting psychological treatments. We ask when an experiment on an AI agent can provide evidence about a specified human psychiatric process. A claim to such evidence has three parts.",
+  "tags": [
+   "Preview",
+   "Research"
+  ],
+  "title": "When Can an AI Agent Serve as a Model of Human Psychopathology?",
+  "url": "http://arxiv.org/abs/2611.28405v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.667,
+   "computer-vision": 0.45,
+   "open-source": 0.304,
+   "research": 0.252,
+   "robotics": 0.516
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Jiahao Wang",
+    "Chaehyeon Song",
+    "Dongjiao He",
+    "Jan Quenzel",
+    "Lintong Zhang",
+    "Ayoung Kim"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "421aedff8d77",
+  "kind": "paper",
+  "published": "2026-11-20T23:10:00Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Online surface reconstruction from LiDAR scans requires observation models that respect the sensor's physical measurement geometry. Unlike unordered point sets, LiDAR returns carry anisotropic range noise along known rays, which also implicitly identify free space.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Occupancy Planar Patch: Incremental Probabilistic Bounded-Plane Reconstruction from LiDAR Data",
+  "url": "http://arxiv.org/abs/2611.28403v1"
+ },
+ {
+  "categories": [
    "mlops",
    "tools-launches"
   ],
@@ -3263,6 +5366,115 @@
  },
  {
   "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.778,
+   "robotics": 0.8
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Damla Leblebicioğlu",
+    "Ege Özgül",
+    "Taşkın Padır"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "c4ab4d86551c",
+  "kind": "paper",
+  "published": "2026-11-20T23:01:09Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Autonomous powered wheelchairs (PWs) operating in human-centered environments must combine efficient multi-destination path planning with continuous collision avoidance strategies in the presence of static and dynamic obstacles.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "A Hybrid Multi-Goal Path Planning Framework for Powered Wheelchairs in Dynamic Environments: From Simulation to Real-World Validation",
+  "url": "http://arxiv.org/abs/2611.28394v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.409,
+   "ai-ml": 0.368,
+   "enterprise": 0.274,
+   "genai-llm": 0.301,
+   "mlops": 0.576,
+   "open-source": 0.351,
+   "research": 0.394,
+   "robotics": 1.35,
+   "security": 0.31,
+   "tools-launches": 0.257
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Yicheng Zhu",
+    "Linfeng Tian",
+    "Yang Chen",
+    "Tao Li",
+    "Zilin Bian"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "d1c808cc37fa",
+  "kind": "paper",
+  "published": "2026-11-20T22:44:56Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Payload-carrying robots, such as delivery robots and autonomous trucks, must choose motions that keep them and their payload safe, so their planners predict the outcome of each candidate motion. Modern planners compare thousands of candidates per step on a GPU, using world models such as batched simulators or learned predictors.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Knowing What You Carry: Scalable Physics-Anchored World Models for Robotic Planning with Liquid Payloads",
+  "url": "http://arxiv.org/abs/2611.28387v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.369,
+   "genai-llm": 1.0,
+   "nlp": 0.906,
+   "open-source": 0.313
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Adolfo Ignacio Fuentes-Jofre",
+    "Cristian Candia"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "530b77baacfd",
+  "kind": "paper",
+  "published": "2026-11-20T22:42:01Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Large language models are increasingly used to construct synthetic publics. Prior work has documented errors in individual responses, population heterogeneity, and prompt robustness, but whether these failures reflect a common loss of fidelity or distinct properties of synthetic populations remains unclear.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Language models compress human preference geometry while political structure remains prompt-sensitive",
+  "url": "http://arxiv.org/abs/2611.28383v1"
+ },
+ {
+  "categories": [
    "mlops"
   ],
   "category_scores": {
@@ -3291,6 +5503,45 @@
   ],
   "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/"
+ },
+ {
+  "categories": [
+   "enterprise",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.564,
+   "enterprise": 1.0,
+   "genai-llm": 0.299,
+   "mlops": 0.324,
+   "nlp": 0.611,
+   "open-source": 0.254,
+   "research": 0.365
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Jiexin Ding",
+    "Lin Ai",
+    "Adam Davies",
+    "Scott Counts"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "81bce0c61984",
+  "kind": "paper",
+  "published": "2026-11-20T22:32:23Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Enterprise agents must maintain an up-to-date understanding of work distributed across heterogeneous artifacts, evolving over time, and unevenly visible to different collaborators. We formulate this challenge as persistent project-state understanding (PPSU) and introduce PULSE, a benchmark of 1,573 questions over 30 enterprise project histories.",
+  "tags": [
+   "Enterprise",
+   "Research"
+  ],
+  "title": "Taking the PULSE of Enterprise Workflows: Evaluating Persistent Project-State Understanding",
+  "url": "http://arxiv.org/abs/2611.28374v1"
  },
  {
   "categories": [
@@ -3327,6 +5578,44 @@
   ],
   "title": "How a Prediction Dies: A Challenge-Driven, Rule-Bound Self-Refutation in an LLM Agent Society",
   "url": "http://arxiv.org/abs/2611.28371v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.474,
+   "genai-llm": 0.817,
+   "nlp": 0.407,
+   "open-source": 0.325,
+   "research": 0.922,
+   "security": 0.31
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Zhibo Hou",
+    "Fan Zhao",
+    "Yiping Li",
+    "Zhiyu An",
+    "Wan Du"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "2585da288779",
+  "kind": "paper",
+  "published": "2026-11-20T22:16:32Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "For on-policy distillation (OPD), more capable models are a natural choice as teachers. However, higher task performance does not necessarily imply greater teachability. A controlled token intervention study suggests that even a model weaker than the student can serve as an informative contrastive reference.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Contrastive On-Policy Distillation via Dual-Branch Supervision",
+  "url": "http://arxiv.org/abs/2611.28359v1"
  },
  {
   "categories": [
@@ -3369,6 +5658,112 @@
  },
  {
   "categories": [
+   "genai-llm",
+   "research",
+   "nlp"
+  ],
+  "category_scores": {
+   "genai-llm": 0.817,
+   "nlp": 0.712,
+   "research": 0.763
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "John Zhang",
+    "Silky Arora"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "76ce40f500cc",
+  "kind": "paper",
+  "published": "2026-11-20T22:00:38Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Under structured outputs (JSON schemas, regexes, tool calls), speculative drafters do not see the grammar constraint and repeatedly propose invalid keys, delimiters, and indentation, while the grammar engine already knows which tokens must come next. We present Grammar-as-a-Draft (GaaD), which treats the grammar as a second drafter.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Grammar-as-a-Draft: More Tokens per Speculative Decoding Step on Grammar-Constrained Structured Outputs",
+  "url": "http://arxiv.org/abs/2611.28349v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.278,
+   "computer-vision": 0.935,
+   "genai-llm": 0.45,
+   "nlp": 0.32,
+   "open-source": 0.307,
+   "robotics": 0.822,
+   "security": 0.46
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Jiahao Wang",
+    "Ming F. Li",
+    "Han Xu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "43a591e927fd",
+  "kind": "paper",
+  "published": "2026-11-20T21:58:32Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Vision-Language-Action (VLA) models have demonstrated strong capabilities in a wide range of robotic tasks. However, adversarial attacks in VLA models have shown strong transferability across robotic tasks, posing significant threats to robotic systems.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Defending Vision-Language-Action Models against Transferable Attacks via Visual-Proprioceptive Consistency",
+  "url": "http://arxiv.org/abs/2611.28346v1"
+ },
+ {
+  "categories": [
+   "agents",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 1.0,
+   "ai-ml": 0.51,
+   "genai-llm": 0.937,
+   "security": 0.346
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.AI",
+   "authors": [
+    "Gün Kaynar",
+    "Boshen Yan",
+    "Carl Kingsford"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "b01ac4be12d4",
+  "kind": "paper",
+  "published": "2026-11-20T21:47:43Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Tool-using LLM agents must recover when a tool call fails, by retrying, switching tools, or revising their plan.",
+  "tags": [
+   "Research"
+  ],
+  "title": "When Tools Fail, Agents Fabricate: Silent Failure and Verification-First Oversight in Tool-Using LLM Agents",
+  "url": "http://arxiv.org/abs/2611.28341v1"
+ },
+ {
+  "categories": [
    "mlops"
   ],
   "category_scores": {
@@ -3400,6 +5795,83 @@
   "tags": [],
   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.292,
+   "ai-ml": 0.517,
+   "computer-vision": 0.492,
+   "genai-llm": 0.42,
+   "mlops": 0.342,
+   "open-source": 0.422,
+   "research": 0.45,
+   "robotics": 1.339
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Inkyu Sa",
+    "Gaurav Kuppa",
+    "Steve Van der Hoeven",
+    "Konstantin Stulov",
+    "Rajat Bhageria",
+    "Luis Rayas"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "0044c645335c",
+  "kind": "paper",
+  "published": "2026-11-20T21:15:30Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Food assembly robots pick ingredients from a pan, and every pick must deliver a target weight. We learn a world model of food picking from 61,773 production picks, labeled automatically by a camera and a scale (self-supervised learning).",
+  "tags": [
+   "Research"
+  ],
+  "title": "Learning a Food World Model That Predicts the Next State from Production Data",
+  "url": "http://arxiv.org/abs/2611.28319v1"
+ },
+ {
+  "categories": [
+   "security",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.502,
+   "genai-llm": 0.885,
+   "nlp": 0.328,
+   "security": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.AI",
+   "authors": [
+    "Ivan Brugere",
+    "Junqi Jiang",
+    "Saumitra Mishra",
+    "Sumitra Ganesh"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "61971d01de4d",
+  "kind": "paper",
+  "published": "2026-11-20T21:06:00Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Abliteration is a widely used white-box attack against the safety alignment of large language models (LLMs). It elicits harmful behavior by estimating a refusal direction in the model's activation space and projecting that direction out of the residual-stream write-out matrices.",
+  "tags": [
+   "Research"
+  ],
+  "title": "INSEP: Refusal-Direction Inseparability as a Defense Against Abliteration",
+  "url": "http://arxiv.org/abs/2611.28314v1"
  },
  {
   "categories": [
@@ -3467,6 +5939,46 @@
   ],
   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
   "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+ },
+ {
+  "categories": [
+   "robotics",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.354,
+   "computer-vision": 0.923,
+   "genai-llm": 0.403,
+   "open-source": 0.266,
+   "research": 0.292,
+   "robotics": 1.167,
+   "tools-launches": 0.291
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Jie Liu",
+    "Hui Xie",
+    "Qinfeng Feng",
+    "Joaquin Vanschoren"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "501f30ddfa85",
+  "kind": "paper",
+  "published": "2026-11-20T20:51:55Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Visuomotor policies such as vision-language-action models (VLAs) and world action models (WAMs) are increasingly deployed on robots whose cameras and controllers differ from those used to collect their training data. Such deployment introduces two kinds of shifts.",
+  "tags": [
+   "Available now",
+   "Research"
+  ],
+  "title": "Probing Invisible Actuation Shifts for Test-time Calibration of Visuomotor Policies",
+  "url": "http://arxiv.org/abs/2611.28308v1"
  },
  {
   "categories": [
@@ -3539,6 +6051,42 @@
  },
  {
   "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.621,
+   "ai-ml": 0.861,
+   "enterprise": 0.363,
+   "genai-llm": 0.45,
+   "nlp": 1.04,
+   "open-source": 0.307
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Alex L. Zhang",
+    "Souradip Chakraborty",
+    "Omar Khattab"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "4a8621c7d805",
+  "kind": "paper",
+  "published": "2026-11-20T20:31:19Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Modern language models (LMs) are post-trained and deployed as agents inside a \"harness\", but standard harness designs accumulate context that the neural network is forced to generalize to, making training for long-horizon tasks expensive and time-consuming.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Language Model Harnesses can be Compositional Generalizers",
+  "url": "http://arxiv.org/abs/2611.28298v1"
+ },
+ {
+  "categories": [
    "genai-llm",
    "enterprise"
   ],
@@ -3566,6 +6114,117 @@
   "tags": [],
   "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.273,
+   "ai-ml": 0.88,
+   "genai-llm": 1.0,
+   "research": 0.485
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.AI",
+   "authors": [
+    "Josh Dean",
+    "Karan Patel",
+    "Gaurangi Raul",
+    "Yu-Zheng Lin",
+    "Jesus Pacheco",
+    "Sicong Shao"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "3fc6176696b2",
+  "kind": "paper",
+  "published": "2026-11-20T20:20:32Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Contribution: This study has shown that a shared prompt-refinement procedure, guided by distinct affective and cognitive feedback signals, can improve held-out reference agreement and multi-label classification while reducing affective-generation variability without executor parameter updates.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification",
+  "url": "http://arxiv.org/abs/2611.28293v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "genai-llm": 0.396,
+   "nlp": 1.0,
+   "open-source": 0.298
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "eess.AS",
+   "authors": [
+    "Kevin Everson",
+    "Mari Ostendorf"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "f99341f5327e",
+  "kind": "paper",
+  "published": "2026-11-20T20:14:17Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Effective prosody modeling is essential in natural speech generation applications, but complications arise in speaker anonymization, since speaker attributes are present in acoustic correlates of prosody. Our work aims to improve previous reported tradeoffs between effective speaker obfuscation and preservation of prosodic content.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Preserving Prosody in Speaker Anonymization",
+  "url": "http://arxiv.org/abs/2611.28290v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "security",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.262,
+   "computer-vision": 0.676,
+   "enterprise": 0.344,
+   "genai-llm": 0.45,
+   "mlops": 0.296,
+   "open-source": 0.31,
+   "robotics": 1.151,
+   "security": 0.741
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Tzu-Yuan Huang",
+    "Shao-Hsuan Chang",
+    "Dai-Jie Wu",
+    "Ralf Römer",
+    "Yung-Hui Li",
+    "Stefan Sosnowski"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "1bb7cda610f4",
+  "kind": "paper",
+  "published": "2026-11-20T20:12:56Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Vision-Language-Action models (VLAs) have shown strong potential for learning complex robotic behaviors from demonstrations. However, learning safe behavior directly from data requires extensive coverage of safety-critical situations, which is often impractical in real-world settings.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Intervention-Robust VLA: Diverse Demonstrations for Robot Deployment with Safety Filters",
+  "url": "http://arxiv.org/abs/2611.28289v1"
  },
  {
   "categories": [
@@ -3602,6 +6261,42 @@
   ],
   "title": "New approach enables physically consistent AI models of chaotic systems",
   "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.261,
+   "ai-ml": 0.575,
+   "genai-llm": 0.303,
+   "mlops": 0.262,
+   "open-source": 0.371,
+   "research": 0.361,
+   "robotics": 1.225
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Youwei Yu",
+    "Lantao Liu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "dca42b68b2db",
+  "kind": "paper",
+  "published": "2026-11-20T19:55:23Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Deep reinforcement learning (RL) can transfer agile robot skills from simulation to the real world, but closing the sim-to-real gap by domain randomization requires expert physics knowledge, and simulator calibration from real data typically targets a few hand-picked parameters.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Neural Fidelity Calibration for Informative Sim-to-Real Adaptation",
+  "url": "http://arxiv.org/abs/2611.28274v1"
  },
  {
   "categories": [
@@ -3668,6 +6363,83 @@
   "tags": [],
   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
   "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.328,
+   "computer-vision": 0.303,
+   "genai-llm": 0.723,
+   "mlops": 0.251,
+   "open-source": 0.344,
+   "research": 0.45,
+   "robotics": 1.211,
+   "security": 0.271
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Youwei Yu",
+    "Lantao Liu"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "648f58ab74df",
+  "kind": "paper",
+  "published": "2026-11-20T19:46:28Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "A policy that transfers from simulation to a lab robot often fails in the field. Calibrating a simulator from real-world data typically targets only a few hand-picked parameters, and even calibrated simulators fail to capture unmodeled dynamics, while environments reconstructed via onboard perception inherit sensing noise and artifacts.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Neural Fidelity Calibration: Turning Field Anomalies into Simulation Fine-Tuning",
+  "url": "http://arxiv.org/abs/2611.28260v1"
+ },
+ {
+  "categories": [
+   "mlops",
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.277,
+   "computer-vision": 0.578,
+   "genai-llm": 0.508,
+   "mlops": 0.787,
+   "open-source": 0.407,
+   "robotics": 0.648
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Jintao Cheng",
+    "Yipu Zhang",
+    "Haozhe Wang",
+    "Lin Jiang",
+    "Jiang Xu",
+    "Wei Zhang"
+   ]
+  },
+  "fetched": "2026-11-24T03:01:06Z",
+  "focus": "tech",
+  "id": "bbf864bcfdfe",
+  "kind": "paper",
+  "published": "2026-11-20T19:43:40Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied AI, yet their high inference latency and memory footprint remain major barriers to edge deployment. Existing training-free acceleration techniques, such as visual token pruning and action caching, typically rely on static resource allocation.",
+  "tags": [
+   "Research"
+  ],
+  "title": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
+  "url": "http://arxiv.org/abs/2611.28256v1"
  },
  {
   "categories": [
@@ -9703,14 +12475,14 @@
    "github": "https://github.com/Clare-Nie/MemOnce",
    "hf_url": "https://huggingface.co/papers/2611.27973",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27973.png",
-   "upvotes": 18
+   "upvotes": 19
   },
   "fetched": "2026-11-23T13:06:30Z",
   "focus": "tech",
   "id": "9965f17ee5bc",
   "kind": "paper",
   "published": "2026-11-20T00:00:00Z",
-  "score": 51.5,
+  "score": 51.9,
   "source_id": "hf-papers",
   "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands.",
   "tags": [
@@ -9746,7 +12518,7 @@
    "github": "https://github.com/yuhangdai427/NoPeWorld",
    "hf_url": "https://huggingface.co/papers/2611.27963",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27963.png",
-   "upvotes": 54
+   "upvotes": 55
   },
   "fetched": "2026-11-23T13:06:30Z",
   "focus": "tech",
@@ -9911,14 +12683,14 @@
    "github": "https://github.com/Jingchensun/future-opsd",
    "hf_url": "https://huggingface.co/papers/2611.26954",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26954.png",
-   "upvotes": 28
+   "upvotes": 33
   },
   "fetched": "2026-11-24T02:18:58Z",
   "focus": "tech",
   "id": "1a984fa9a1bd",
   "kind": "paper",
   "published": "2026-11-20T00:00:00Z",
-  "score": 53.1,
+  "score": 54.0,
   "source_id": "hf-papers",
   "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability.",
   "tags": [
@@ -12135,14 +14907,15 @@
     "Jiahong Wu",
     "Xiangxiang Chu",
     "Chuanxia Zheng"
-   ]
+   ],
+   "upvotes": 15
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "becdfde17ebf",
   "kind": "paper",
   "published": "2026-11-19T17:59:02Z",
-  "score": 8.0,
+  "score": 32.0,
   "source_id": "arxiv",
   "summary": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling.",
   "tags": [
@@ -16550,14 +19323,15 @@
     "Mengran Li",
     "Chengyang Zhang",
     "Yang Zhang"
-   ]
+   ],
+   "upvotes": 6
   },
   "fetched": "2026-11-20T02:24:02Z",
   "focus": "tech",
   "id": "e380e4009534",
   "kind": "paper",
   "published": "2026-11-19T04:04:29Z",
-  "score": 8.0,
+  "score": 24.8,
   "source_id": "arxiv",
   "summary": "Neural networks encode learned capabilities in their weights, yet extending those capabilities with explicit task knowledge remains a fundamental challenge. Here we show that Weight-Space Programming (WSP), in which executable programs read, construct or modify a network's weights directly, can install new capabilities within trained neural networks.",
   "tags": [
