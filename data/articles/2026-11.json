@@ -1830,6 +1830,81 @@
  },
  {
   "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.651,
+   "computer-vision": 1.35,
+   "genai-llm": 0.295,
+   "research": 0.416
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Siavash Taremi",
+    "Mahmoud Heidari",
+    "Seyed Mohammad Hossein Hashemi",
+    "Mohsen Hooshmand"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "a39be6980e6b",
+  "kind": "paper",
+  "published": "2026-11-22T21:50:14Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Accurate glioma segmentation is vital for diagnosis and follow-up, but manual segmentation is time-consuming, subjective, and variable across interpreters. Gliomas are heterogeneous in size, shape, and location. Deep learning has therefore emerged as a potential solution.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "A Cascaded Framework with a Cross-Attention-Guided Mamba-CNN Model for Pre- and Post-Treatment Glioma Segmentation",
+  "url": "http://arxiv.org/abs/2611.29792v1"
+ },
+ {
+  "categories": [
+   "nlp",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.398,
+   "computer-vision": 0.784,
+   "enterprise": 0.573,
+   "genai-llm": 0.431,
+   "mlops": 0.276,
+   "nlp": 0.865,
+   "research": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Rui Zuo",
+    "Qinyue Tong",
+    "Ziqian Lu",
+    "Zheming Lu"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "10c841907038",
+  "kind": "paper",
+  "published": "2026-11-22T21:32:18Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Accurate chest X-ray radiology report generation (RRG) requires recognizing clinically relevant abnormalities and accurately describing them. Although Group Relative Policy Optimization (GRPO) improves the clinical accuracy of generated reports, our analyses suggest limited improvements in visual representations for abnormality recognition.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Beyond Language Optimization: Enhancing Visual Representations for Radiology Report Generation",
+  "url": "http://arxiv.org/abs/2611.29783v1"
+ },
+ {
+  "categories": [
    "research"
   ],
   "category_scores": {
@@ -1862,6 +1937,428 @@
   ],
   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.258,
+   "ai-ml": 0.374,
+   "computer-vision": 0.564,
+   "genai-llm": 1.0,
+   "nlp": 0.48,
+   "research": 0.255
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Lang Lin",
+    "Tianyu Chen",
+    "Yi Gu",
+    "Yang Zhao",
+    "Xinran Song",
+    "Xinyang Liu"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "30e7955cb109",
+  "kind": "paper",
+  "published": "2026-11-22T21:08:30Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Perception systems often make discrete decisions: flag a hateful meme, predict whether a pedestrian will cross, detect a spoofed voice, or select the next move in a game. System-1 models, such as OneJev and Jev-Omni, read the media and return probabilities over the options in a single forward pass, while multimodal large language models (MLLMs) generate text.",
+  "tags": [
+   "Research"
+  ],
+  "title": "S1Arena-MM: Which Multimodal Decisions Can Be Left to System 1?",
+  "url": "http://arxiv.org/abs/2611.29773v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.488,
+   "computer-vision": 1.246,
+   "genai-llm": 0.428,
+   "open-source": 0.45,
+   "research": 0.429,
+   "security": 0.367
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Mert Onur Cakiroglu",
+    "Elham Buxton",
+    "Mehmet Dalkilic",
+    "Hasan Kurban"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "022eacad07ce",
+  "kind": "paper",
+  "published": "2026-11-22T20:56:51Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "AI-generated video of politicians can pass for real footage, and once such fakes are common, real footage can be dismissed as fake. Platforms address both problems with detectors, but whoever uploads a clip controls its pixels. Existing datasets of political video are small, show real politicians, and test no attacks.",
+  "tags": [
+   "Research"
+  ],
+  "title": "CivicBench: Robust Detection of AI-Generated Political Video",
+  "url": "http://arxiv.org/abs/2611.29766v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.27,
+   "genai-llm": 0.45,
+   "nlp": 0.289,
+   "open-source": 0.435,
+   "research": 0.711,
+   "tools-launches": 0.258
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Ometz Shmidman",
+    "Yonah Taurog",
+    "Aryeh Sanders",
+    "Shlomo Bluth",
+    "Moshe Koppel",
+    "Joshua Geudalia"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "3d81b5aa487e",
+  "kind": "paper",
+  "published": "2026-11-22T20:49:18Z",
+  "score": 13.0,
+  "source_id": "arxiv",
+  "summary": "We release DictaRashi, a Tesseract OCR model for scanned Hebrew books printed in the so-called \"Rashi\" font. We trained DictaRashi on over one million manually corrected lines of text from over 100 different books of Rabbinic and post-Rabbinic literature.",
+  "tags": [
+   "Available now",
+   "Research"
+  ],
+  "title": "DictaRashi: A State-of-the-Art OCR Model For Rashi Script",
+  "url": "http://arxiv.org/abs/2611.29760v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.346,
+   "computer-vision": 1.35,
+   "robotics": 0.798
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Sriram Mandalika",
+    "Athira Nambiar"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "92c88634db45",
+  "kind": "paper",
+  "published": "2026-11-22T20:34:27Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Autonomous driving systems must not only interpret the current scene but also anticipate perceptual challenges such as occlusions, sparse observations, and recurring failure patterns. However, most existing LiDAR semantic segmentation methods operate in a frame-centric manner, processing each scan independently and discarding past contextual experience, which limits robustness under dynamic scene changes.",
+  "tags": [
+   "Research"
+  ],
+  "title": "DREAM: Dual-Memory Reasoning for Anticipatory 3D Perception in Autonomous Driving",
+  "url": "http://arxiv.org/abs/2611.29753v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.911,
+   "ai-ml": 0.294,
+   "computer-vision": 1.35,
+   "enterprise": 0.461,
+   "genai-llm": 0.486,
+   "open-source": 0.338,
+   "research": 0.344,
+   "robotics": 0.262,
+   "security": 0.266
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Delin An",
+    "Mingqi Xu",
+    "Jian-Xun Wang",
+    "Pengfei Gu"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "f7d3b228d2e5",
+  "kind": "paper",
+  "published": "2026-11-22T20:10:04Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Despite the strong performance of modern medical image segmentation models, their predictions can still contain localized errors that compromise segmentation quality. Identifying and correcting these errors is therefore essential for improving the reliability of existing segmentation results.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "MISeg-Agent: A Human-in-the-Loop Agentic Framework for Error Diagnosis and Executable Prompt Review in 3D Medical Image Segmentation",
+  "url": "http://arxiv.org/abs/2611.29741v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.35,
+   "genai-llm": 0.322,
+   "nlp": 0.515
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Behraj Khan",
+    "Shabir Ahmad",
+    "Tahir Qasim Syed",
+    "Syed Ahmad Chan Bukhari"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "fd2766db7d68",
+  "kind": "paper",
+  "published": "2026-11-22T20:03:26Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "A zero-shot vision-language classifier is highly sensitive to the class names it receives. Even when images remain unchanged, replacing familiar labels with synonyms, abbreviations, or ontology terms can significantly alter predictions. We investigate this \\emph{vocabulary shift} using a leakage-free evaluation protocol across Tiny ImageNet, ImageNet-R, ImageNet-A, and ImageNetV2.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Seeing Beyond Names: Image-Grounded Concept Linking for Robust Vision-Language Recognition",
+  "url": "http://arxiv.org/abs/2611.29735v1"
+ },
+ {
+  "categories": [
+   "security",
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.766,
+   "enterprise": 0.395,
+   "genai-llm": 0.285,
+   "mlops": 0.832,
+   "open-source": 0.303,
+   "research": 0.254,
+   "security": 1.0
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CR",
+   "authors": [
+    "Soumita Chatterjee",
+    "Sudip Ghosh",
+    "Tamal Ghosh",
+    "Bhargab B. Bhattacharya",
+    "Hafizur Rahaman"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "fea549f5050d",
+  "kind": "paper",
+  "published": "2026-11-22T20:03:21Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Backdoor attacks pose a significant security threat to deep neural networks (DNNs) deployed on AI inference engines and hardware accelerators. By embedding hidden triggers during training, these attacks induce malicious behavior while maintaining high accuracy on benign inputs.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Lightweight Spectral Subspace Filtering for Trojan-Resilient AI Inference Engines",
+  "url": "http://arxiv.org/abs/2611.29734v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.27,
+   "computer-vision": 0.949,
+   "enterprise": 0.26,
+   "genai-llm": 1.0,
+   "mlops": 0.284,
+   "open-source": 0.587,
+   "research": 0.28
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Junzhou Chen",
+    "Jindong Wang",
+    "Gang Zhou"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "a808515a97eb",
+  "kind": "paper",
+  "published": "2026-11-22T19:47:22Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Reasoning distillation offers a promising approach to transfer temporal reasoning capabilities of powerful Video-LLMs to open-source student models. However, teacher and student Video-LLMs may construct different temporal observations from the same video due to the adoption of distinct video sampling pipelines.",
+  "tags": [
+   "Open source",
+   "Research"
+  ],
+  "title": "Reasoning Beyond Imitation: Observation Conditioned Distillation for Video LLMs",
+  "url": "http://arxiv.org/abs/2611.29728v1"
+ },
+ {
+  "categories": [
+   "research",
+   "computer-vision",
+   "enterprise"
+  ],
+  "category_scores": {
+   "agents": 0.366,
+   "ai-ml": 0.382,
+   "computer-vision": 0.791,
+   "enterprise": 0.598,
+   "genai-llm": 0.45,
+   "mlops": 0.415,
+   "open-source": 0.417,
+   "research": 0.953,
+   "security": 0.301
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Seifeldin Elkerdany",
+    "Mohamed ElBassat",
+    "Gamal Abouelhamd",
+    "Assem Elkady",
+    "Jana Ghoneim",
+    "Matin Mahmood"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "fafe375807e6",
+  "kind": "paper",
+  "published": "2026-11-22T19:42:33Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Animal re-identification (Re-ID) must distinguish individuals across species and capture conditions. We introduce ApexID, a hierarchical SphereFace2-based loss that integrates global identity discrimination with balanced animal-category supervision.",
+  "tags": [
+   "Research"
+  ],
+  "title": "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
+  "url": "http://arxiv.org/abs/2611.29723v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "genai-llm",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.295,
+   "computer-vision": 1.13,
+   "genai-llm": 0.886,
+   "open-source": 0.315,
+   "research": 0.682
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Swakshar Deb",
+    "Tonmoy Hossain",
+    "Tom Fletcher",
+    "Miaomiao Zhang"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "9e39185c96e4",
+  "kind": "paper",
+  "published": "2026-11-22T19:25:49Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "This paper presents a novel framework, Unified Diffusion modeling and Registration (UniDR), which learns to generate arbitrary anatomical deformations from images with preserved topology. Existing approaches often model the generative process separately from registration-based deformation estimation; hence making them prone to propagated errors from the registration stage.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "UniDR: Learning To Generate Anatomical Deformations From Images via Unified Diffusion Modeling and Registration",
+  "url": "http://arxiv.org/abs/2611.29712v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.241,
+   "genai-llm": 0.45,
+   "open-source": 0.372,
+   "research": 0.6,
+   "robotics": 0.261
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Chaoyang Zhang",
+    "Shaohao Rui",
+    "Xiaofeng Mao",
+    "Yuanxun Xu",
+    "Haoyuan Xia",
+    "Xiaohong Liu"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "0b834de5ff98",
+  "kind": "paper",
+  "published": "2026-11-22T18:55:46Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Hand-driven egocentric interactive video generation aims to generate dynamic scenes with realistic interaction responses conditioned on hand movements and camera motion. However, existing egocentric video datasets struggle to provide scene diversity, meaningful hand-object interactions, and reliable motion annotations simultaneously.",
+  "tags": [
+   "Research"
+  ],
+  "title": "HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation",
+  "url": "http://arxiv.org/abs/2611.29693v1"
  },
  {
   "categories": [
@@ -1904,6 +2401,114 @@
  },
  {
   "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.35,
+   "genai-llm": 0.376,
+   "open-source": 0.289
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Hanzhong Zhang",
+    "Haoyang Wang",
+    "Siyang Song"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "af6763a76037",
+  "kind": "paper",
+  "published": "2026-11-22T18:32:33Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Animating character illustrations on light-field displays demands coherent binocular parallax, real-time pose articulation, and fine-grained expression control. However, existing 2D animation and 3D reconstruction pipelines cannot combine these with rapid character switching.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Ref2Light: From One Image to Interactive Glasses-Free 3D Characters",
+  "url": "http://arxiv.org/abs/2611.29678v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "mlops",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 0.922,
+   "genai-llm": 0.287,
+   "mlops": 0.851
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Xinrui Gong",
+    "Yao Rong",
+    "Chuangtao Chen",
+    "Daniel Ochs",
+    "Ulf Schlichtmann",
+    "Bing Li"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "9775d2246a1d",
+  "kind": "paper",
+  "published": "2026-11-22T18:27:56Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Vision Transformers achieve remarkable recognition performance but incur substantial computational cost during inference, limiting their use in latency- and compute-constrained deployment scenarios. Early-exit inference offers a promising solution by allowing easy samples to terminate at intermediate layers.",
+  "tags": [
+   "Research"
+  ],
+  "title": "DeclareViT: Decoupling Early Classification from Feature Refinement with Exit Query for Efficient ViTs",
+  "url": "http://arxiv.org/abs/2611.29674v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.35,
+   "genai-llm": 0.407,
+   "open-source": 0.296,
+   "research": 0.302,
+   "tools-launches": 0.255
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Xiangzhao Hao",
+    "Dianyi Wang",
+    "Keyan Zhou",
+    "Yiqian Zhang",
+    "Zefeng Zhang",
+    "Bailin Li"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "086c84df2076",
+  "kind": "paper",
+  "published": "2026-11-22T18:13:31Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Many generation tasks draw the next image from a visual history, such as storyboards, illustrated stories and multi-turn editing. A new request often states what happens next without restating how earlier objects look. Instead of recovering an object's current look from the history, generators often redraw it from the request alone or bring back an outdated look, and the error can carry into later steps.",
+  "tags": [
+   "Research"
+  ],
+  "title": "PROPS: Can Visual Generators Keep the Current Look of a Prop?",
+  "url": "http://arxiv.org/abs/2611.29665v1"
+ },
+ {
+  "categories": [
    "mlops"
   ],
   "category_scores": {
@@ -1935,6 +2540,113 @@
   "tags": [],
   "title": "Why data centers are at the center of the Big Tech backlash",
   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+ },
+ {
+  "categories": [
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.309,
+   "computer-vision": 0.599,
+   "genai-llm": 0.45,
+   "nlp": 1.168,
+   "security": 0.419
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CL",
+   "authors": [
+    "Annette Rios",
+    "Lukas Fischer",
+    "Sarah Ebling"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "fd2e7725812c",
+  "kind": "paper",
+  "published": "2026-11-22T18:01:37Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Audio description (AD) makes visual media, such as video, accessible to blind or low-vision (BLV) audiences, but the high cost of professional production limits coverage. Due to recent advances in AI, numerous approaches to automatically generate intermediate AD scripts and/or final AD audios have been proposed.",
+  "tags": [
+   "Research"
+  ],
+  "title": "How Reliable is AI-Generated Audio Description? A Multilingual Expert Evaluation",
+  "url": "http://arxiv.org/abs/2611.29658v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.35,
+   "genai-llm": 0.26,
+   "research": 0.433
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Lihan Li",
+    "Junwei Zhou",
+    "Yu-wing Tai"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "1cb8cae925b2",
+  "kind": "paper",
+  "published": "2026-11-22T17:28:05Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "High-resolution images contain rich visual details that require fine geometric structures for faithful 3D reconstruction. However, generating extremely detailed 3D geometry from images requires substantial computational resources and training data, making high-resolution geometry generation challenging for existing state-of-the-art models.",
+  "tags": [
+   "Research"
+  ],
+  "title": "SuperFine3D: Efficient Global-Local Recursive Refinement for Extremely Detailed 3D Geometry Generation",
+  "url": "http://arxiv.org/abs/2611.29630v1"
+ },
+ {
+  "categories": [
+   "research",
+   "computer-vision",
+   "enterprise"
+  ],
+  "category_scores": {
+   "ai-ml": 0.479,
+   "computer-vision": 0.731,
+   "enterprise": 0.595,
+   "genai-llm": 0.27,
+   "open-source": 0.374,
+   "research": 0.82,
+   "security": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Fu Dai",
+    "Kamal Taha",
+    "Naoufel Werghi",
+    "Maregu Assefa"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "6c6e40b4c78a",
+  "kind": "paper",
+  "published": "2026-11-22T17:26:37Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Face verification systems are deployed by selecting a decision threshold that achieves a target false match rate (FMR); performance is then reported as the corresponding false non-match rate (FNMR). In practice, deployed systems operate at FMR $\\le 10^{-6}$, but widely used benchmarks can share identities with the models' training corpora.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Contamination at the Operating Point: Train-Test Identity Overlap Inflates Low-FMR Face Recognition Accuracy by an Order of Magnitude",
+  "url": "http://arxiv.org/abs/2611.29629v1"
  },
  {
   "categories": [
@@ -1973,6 +2685,197 @@
  },
  {
   "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.468,
+   "computer-vision": 1.233,
+   "genai-llm": 0.725,
+   "mlops": 0.302,
+   "open-source": 0.429,
+   "research": 0.285
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Yiyu Li",
+    "Fei Wei",
+    "Yong Wang",
+    "Zaiquan Yang",
+    "Gerhard Petrus Hancke",
+    "Xiangxiang Chu"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "ad560434d550",
+  "kind": "paper",
+  "published": "2026-11-22T17:14:59Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Distribution Matching Distillation (DMD) has emerged as a promising paradigm for real-time video synthesis, distilling pretrained diffusion models into few-step autoregressive generators.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Mass Forcing: On-Policy Mass-Aware Distillation for Autoregressive Video Generation",
+  "url": "http://arxiv.org/abs/2611.29618v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Hanglei Jin",
+    "Chenglu Sun",
+    "Junchen Ge",
+    "Yuchao Wang",
+    "Siqi Chen",
+    "Yuzhi Huang"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "e9f8eba9fb72",
+  "kind": "paper",
+  "published": "2026-11-22T17:12:01Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Recovering globally consistent 3D human motion from monocular videos remains challenging under dynamic camera motion. Although SLAM and human mesh recovery (HMR) provide complementary camera and body estimates, directly combining them often leads to inconsistent orientations and accumulated trajectory drift.",
+  "tags": [
+   "Research"
+  ],
+  "title": "GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame",
+  "url": "http://arxiv.org/abs/2611.29614v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.561,
+   "computer-vision": 0.356,
+   "genai-llm": 0.409,
+   "research": 0.34,
+   "robotics": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Haoxiang Zhan",
+    "Haoqin Hong",
+    "Congcong Zhu",
+    "Jingrun Chen"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "b357378d98ad",
+  "kind": "paper",
+  "published": "2026-11-22T15:38:04Z",
+  "score": 11.0,
+  "source_id": "arxiv",
+  "summary": "Vision-language model (VLM) agents have surpassed learned-policy baselines on existing robotic manipulation benchmarks. However, these agents still struggle with time-sensitive everyday tasks that existing benchmarks for VLM agents cover only partially. In these tasks, evolving physical processes create finite windows for successful intervention.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Action Windows Are Inherently Temporal: A Benchmark for Time-Sensitive Robotic Manipulation",
+  "url": "http://arxiv.org/abs/2611.29558v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.433,
+   "computer-vision": 0.788,
+   "genai-llm": 0.997,
+   "mlops": 0.36,
+   "nlp": 0.414,
+   "open-source": 0.277,
+   "research": 0.45
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Peng Chen",
+    "Chao Huang",
+    "Yangyang Liu",
+    "Maodong Wu",
+    "Jinyi Xu",
+    "Mingbo Yang"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "e53b4aa7691f",
+  "kind": "paper",
+  "published": "2026-11-22T15:29:05Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Recent advances in multimodal large language models (MLLMs) have demonstrated remarkable potential for industrial anomaly detection and understanding. However, reliably identifying subtle anomalies remains challenging, as existing approaches often struggle to acquire and verify fine-grained visual evidence beyond global observations.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Inspect Before You Decide: Evidence-Guided Visual Search for Industrial Anomaly Detection",
+  "url": "http://arxiv.org/abs/2611.29551v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "security",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.469,
+   "computer-vision": 0.885,
+   "genai-llm": 0.588,
+   "nlp": 0.272,
+   "open-source": 0.364,
+   "research": 0.389,
+   "security": 0.652
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Mingxiao Li",
+    "Xuantuo Huang",
+    "Encheng Su",
+    "Aoran Wang",
+    "Han Zhang",
+    "Jinouwen Zhang"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "22283c7ce7ce",
+  "kind": "paper",
+  "published": "2026-11-22T15:18:17Z",
+  "score": 11.0,
+  "source_id": "arxiv",
+  "summary": "Representation alignment markedly accelerates diffusion training, but one-step generators raise a question that diffusion does not: \\emph{which training path should receive the loss?} A one-step generator sees two kinds of inputs. Corrupted real images come with their clean counterpart, which provides an instance-paired target.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
+  "url": "http://arxiv.org/abs/2611.29547v1"
+ },
+ {
+  "categories": [
    "agents"
   ],
   "category_scores": {
@@ -2004,6 +2907,151 @@
   ],
   "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
   "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.35,
+   "genai-llm": 0.253,
+   "nlp": 0.37
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Peng Chen",
+    "Chao Huang",
+    "Wenqiang Wang",
+    "Mingbo Yang",
+    "Yannan Chen",
+    "Yunkang Cao"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "b4bb28a12a17",
+  "kind": "paper",
+  "published": "2026-11-22T15:13:27Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Recent advances in vision-language models have facilitated zero-shot anomaly detection (ZSAD) through transferable visual-semantic representations. However, detecting fine-grained anomalies remains challenging due to inadequate modeling of diverse anomaly patterns and their spatial context.",
+  "tags": [
+   "Research"
+  ],
+  "title": "SCRA-CLIP: Spherical-Contextual Representation Adaptation for Zero-Shot Anomaly Detection",
+  "url": "http://arxiv.org/abs/2611.29545v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.35
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Jian Zahng",
+    "Zhijun Zhang"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "856c53092494",
+  "kind": "paper",
+  "published": "2026-11-22T15:12:00Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Rotating, translating, or rescaling an object in a photograph requires revealing unseen surfaces, preserving visible appearance, and updating shadows and reflections.",
+  "tags": [
+   "Research"
+  ],
+  "title": "Seeing vs. Knowing: Counterfactual Supervision and Correction for 3D-Aware Object Editing",
+  "url": "http://arxiv.org/abs/2611.29542v1"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "nlp",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.339,
+   "computer-vision": 1.212,
+   "genai-llm": 0.34,
+   "nlp": 0.956,
+   "open-source": 0.272,
+   "research": 0.406,
+   "security": 0.523
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Yihang Zou",
+    "Ruixi Liang",
+    "Chunmei Qing",
+    "Junpeng Tan",
+    "Haichuan Wei",
+    "Wanxiang Luo"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "3d0f21325fb8",
+  "kind": "paper",
+  "published": "2026-11-22T15:08:20Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Cross-subject brain-to-image retrieval aims to identify viewed images from unseen subjects' brain signals. However, inter-subject variability hinders alignment of brain-image representations, while independent query ranking tends to concentrate predictions on a few candidates, making accurate retrieval difficult without target labels.",
+  "tags": [
+   "Research"
+  ],
+  "title": "STAGE: Structured Test-Time Adaptation with Global Entropic Soft-coupling for Cross-Subject Brain-to-Image Retrieval",
+  "url": "http://arxiv.org/abs/2611.29538v1"
+ },
+ {
+  "categories": [
+   "robotics",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.332,
+   "enterprise": 0.264,
+   "open-source": 0.273,
+   "robotics": 0.8,
+   "security": 0.322
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.RO",
+   "authors": [
+    "Anubhav Pandey",
+    "Harshit Nagpal",
+    "Aditya Agarwal",
+    "Tejasvi Alladi",
+    "Fei Richard Yu"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "3cfe2e779854",
+  "kind": "paper",
+  "published": "2026-11-22T14:25:55Z",
+  "score": 10.0,
+  "source_id": "arxiv",
+  "summary": "Existing Unmanned Aerial Vehicle (UAV) autonomy frameworks lack human contextual awareness, limiting real-time adaptability in unstructured Search and Rescue (SAR) environments.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "A ROS2 based Human-In-The-Loop Framework for UAV Search and Rescue Operations",
+  "url": "http://arxiv.org/abs/2611.29507v1"
  },
  {
   "categories": [
@@ -2039,6 +3087,85 @@
   ],
   "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
   "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/"
+ },
+ {
+  "categories": [
+   "research",
+   "security"
+  ],
+  "category_scores": {
+   "ai-ml": 0.376,
+   "computer-vision": 0.284,
+   "genai-llm": 0.419,
+   "research": 0.747,
+   "robotics": 0.45,
+   "security": 0.628
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.LG",
+   "authors": [
+    "Ewsey Obzherin",
+    "Samira Atlangirieva",
+    "Anastasia Antsiferova",
+    "Valentin Khrulkov",
+    "Art Prosvetov",
+    "Andrey Kuznetsov"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "47cc19787bc1",
+  "kind": "paper",
+  "published": "2026-11-22T14:02:51Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "We introduce CoHABIT, a framework for evaluating furniture layouts through complementary spatial rules and household routines. Static assessment captures geometric validity, ergonomic access, functional organization, and configurable design preferences, including Feng Shui.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "CoHABIT: Complementary Evaluation of Furniture Layouts through Spatial Rules and Household Routines",
+  "url": "http://arxiv.org/abs/2611.29494v1"
+ },
+ {
+  "categories": [
+   "genai-llm",
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "ai-ml": 0.274,
+   "computer-vision": 0.649,
+   "genai-llm": 1.0,
+   "mlops": 0.255,
+   "nlp": 0.468,
+   "open-source": 0.254
+  },
+  "coverage": [],
+  "extra": {
+   "arxiv_category": "cs.CV",
+   "authors": [
+    "Xixi Jiang",
+    "Pingcheng Dong",
+    "Chen Yang",
+    "Xin Yang",
+    "Kwang-Ting Cheng"
+   ]
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "416580ac5aaa",
+  "kind": "paper",
+  "published": "2026-11-22T13:49:32Z",
+  "score": 8.0,
+  "source_id": "arxiv",
+  "summary": "Visual token pruning is an effective way to accelerate multimodal large language models (MLLMs). However, existing methods degrade substantially under aggressive pruning, especially on visual grounding (VG).",
+  "tags": [
+   "Research"
+  ],
+  "title": "CAR: Reducing Decoder Output Shift in Visual Token Pruning via Coverage Selection and Attention Reallocation",
+  "url": "http://arxiv.org/abs/2611.29489v1"
  },
  {
   "categories": [
@@ -15256,6 +16383,45 @@
  },
  {
   "categories": [
+   "computer-vision",
+   "research"
+  ],
+  "category_scores": {
+   "computer-vision": 1.0,
+   "genai-llm": 0.338,
+   "nlp": 0.438,
+   "research": 0.263
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Akshata A Bhat",
+    "Sharath Naganna",
+    "Saiful Haq",
+    "Prashant Khatri",
+    "Krishna Chaitanya Reddy Tamataam",
+    "Neha Arun"
+   ],
+   "hf_url": "https://huggingface.co/papers/2611.27319",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27319.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-24T04:21:42Z",
+  "focus": "tech",
+  "id": "a2c0e9a48b02",
+  "kind": "paper",
+  "published": "2026-11-20T00:00:00Z",
+  "score": 32.0,
+  "source_id": "hf-papers",
+  "summary": "Optical Character Recognition (OCR) pipelines and vision-language models exhibit high accuracy on standard OCR and document-understanding benchmarks, yet they systematically underperform on document patterns that are operationally critical in financial workflows.",
+  "tags": [
+   "Research"
+  ],
+  "title": "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
+  "url": "https://arxiv.org/abs/2611.27319"
+ },
+ {
+  "categories": [
    "genai-llm",
    "mlops",
    "research"
@@ -15394,14 +16560,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.28202",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28202.png",
-   "upvotes": 13
+   "upvotes": 21
   },
   "fetched": "2026-11-24T03:43:15Z",
   "focus": "tech",
   "id": "50bbe0428a67",
   "kind": "paper",
   "published": "2026-11-20T00:00:00Z",
-  "score": 48.8,
+  "score": 52.8,
   "source_id": "hf-papers",
   "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time.",
   "tags": [
@@ -15531,7 +16697,7 @@
    "github": "https://github.com/Jingchensun/future-opsd",
    "hf_url": "https://huggingface.co/papers/2611.26954",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26954.png",
-   "upvotes": 37
+   "upvotes": 39
   },
   "fetched": "2026-11-24T02:18:58Z",
   "focus": "tech",
@@ -17756,14 +18922,14 @@
     "Xiangxiang Chu",
     "Chuanxia Zheng"
    ],
-   "upvotes": 23
+   "upvotes": 25
   },
   "fetched": "2026-11-20T11:52:00Z",
   "focus": "tech",
   "id": "becdfde17ebf",
   "kind": "paper",
   "published": "2026-11-19T17:59:02Z",
-  "score": 35.5,
+  "score": 36.2,
   "source_id": "arxiv",
   "summary": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling.",
   "tags": [
