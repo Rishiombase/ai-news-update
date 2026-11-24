@@ -210,3 +210,41 @@ def test_quarterly_selection_spreads_across_months():
     first_four = _spread(oct_items + nov_items)[:4]
     months = {a["published"][:7] for a in first_four}
     assert len(months) == 2, "equal scores must not let the newest month crowd out the others"
+
+
+# ------------------------------------------------------------------ repos
+def _repo(name, stars, days_old, desc="An AI agent framework", **kw):
+    created = to_utc_iso(NOW - timedelta(days=days_old))
+    return {"full": f"org/{name}", "name": name, "owner": "org", "desc": desc, "stars": stars, "forks": stars // 8,
+            "watchers": stars // 150, "created": created, "pushed": to_utc_iso(NOW - timedelta(days=1)),
+            "topics": ["ai-agents"], "license": "MIT", "owner_type": "Organization", **kw}
+
+
+def test_quickstart_extraction_and_cleanup():
+    from pipeline.repos import clean_command, quickstart
+    readme = "# Tool\n```bash\npip install -r requirements.txt\n```\n```bash\n$ pip install mytool  # latest\n```"
+    assert quickstart(readme) == "pip install mytool"
+    assert clean_command("curl -LsSf https://astral.sh/uv/install.sh | sh") is None   # installer for another tool
+    assert clean_command("docker run -d \\") is None                                    # cut off mid-command
+
+
+def test_inflated_and_non_ai_repos_are_excluded():
+    from pipeline.repos import build_sections, is_ai_project, low_engagement
+    fake = _repo("fake", 80000, 40, watchers=60, forks=1500)
+    assert low_engagement(fake)
+    assert not is_ai_project(_repo("tv-debloat", 500, 40, desc="Debloat your Android TV", topics=["claude-code"]))
+    records = {"org/fake": fake, "org/real": _repo("real", 9000, 20)}
+    built = build_sections(records, {}, NOW)
+    shown = {e["id"] for sec in built["sections"].values() for e in sec}
+    assert "org/real" in shown and "org/fake" not in shown
+
+
+def test_new_repo_growth_and_hidden_gem():
+    from pipeline.repos import build_sections
+    records = {"org/brand-new": _repo("brand-new", 3000, 3),
+               "org/gem": _repo("gem", 800, 120, release={"tag": "v0.9.0", "date": to_utc_iso(NOW - timedelta(days=5))},
+                                home="https://example.com", topics=["ai-agents", "rag", "mcp"])}
+    built = build_sections(records, {}, NOW)
+    trending = built["sections"]["trending"]
+    assert trending[0]["id"] == "org/brand-new" and "+3,000 stars this week" in trending[0]["reason"]
+    assert [e["id"] for e in built["sections"]["gems"]] == ["org/gem"]

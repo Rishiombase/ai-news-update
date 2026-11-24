@@ -50,6 +50,7 @@ jobs:
       - name: Run pipeline
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}/
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub API access for the daily repo refresh
         run: python -m pipeline.run ${{ inputs.reclassify && '--reclassify' || '' }}
 
       - name: Run tests

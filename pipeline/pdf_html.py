@@ -25,7 +25,7 @@ from . import config
 
 log = logging.getLogger(__name__)
 
-RENDER_VERSION = "html-5"   # bump when the layout changes so existing PDFs are re-rendered
+RENDER_VERSION = "html-6"   # bump when the layout changes so existing PDFs are re-rendered
 FONT_FILES = {
     ("Bricolage Grotesque", 400, "normal"): "BricolageGrotesque-Regular.ttf",
     ("Bricolage Grotesque", 600, "normal"): "BricolageGrotesque-SemiBold.ttf",
@@ -219,6 +219,36 @@ def _chapter_page(ch: dict, page: int, unit: str) -> str:
 </section>'''
 
 
+def _repo_card(x: dict) -> str:
+    owner, name = x["full"].split("/", 1)
+    lic = x.get("license") or "license unclear"
+    week = f' <b class="up">+{x["week"]:,}/week</b>' if x.get("week") else ""
+    qs = f'<code>{e(x["quickstart"])}</code>' if x.get("quickstart") else ""
+    return (f'<article class="rc glass"><h4><a href="{e(x["url"])}"><span>{e(owner)}/</span>{e(name)}</a></h4>'
+            f'<p class="rc-why">{e(x.get("reason", ""))}</p><p class="rc-desc">{e(x["desc"])}</p>{qs}'
+            f'<div class="rc-meta">&#9733; {x["stars"]:,}{week} <span>{e(lic)}</span></div></article>')
+
+
+def _repos_page(issue: dict, page: int) -> str:
+    picks = issue.get("repos")
+    if not picks:
+        return ""
+    as_of = _d(picks["as_of"])
+    groups = [("TRENDING", "Most stars gained this week", picks["trending"]),
+              ("NEW AND RISING", "Launched in the last 90 days and growing fast", picks["new"]),
+              ("HIDDEN GEMS", "Small, active, and worth a look", picks["gems"])]
+    body = "".join(f'<div class="rg"><div class="rg-h"><b>{e(t)}</b><span>{e(sub)}</span></div>'
+                   f'<div class="rg-grid">{"".join(_repo_card(x) for x in items[:4])}</div></div>'
+                   for t, sub, items in groups if items)
+    return f'''
+<section class="page" id="repos">
+  {_header(page)}<div class="body">
+  {_banner("OPEN SOURCE", "Repos to watch", f"Open-source AI projects developers are starring on GitHub, as of {as_of}. Each links to its repository.", "#0F766E", "{ }")}
+  {body}</div>
+  {_footer("REPOS TO WATCH")}
+</section>'''
+
+
 def _trends_page(issue: dict, page: int) -> str:
     rising = "".join(
         f'<tr><td>{e(r["topic"])}</td><td class="n">{r["mentions"]}</td><td class="n">{r["previous"]}</td>'
@@ -267,6 +297,10 @@ def build_html(issue: dict) -> str:
         n += 1
     for ch in issue["chapters"]:
         pages.append(_chapter_page(ch, n, unit))
+        n += 1
+    repos_page = _repos_page(issue, n)
+    if repos_page:
+        pages.append(repos_page)
         n += 1
     pages.append(_trends_page(issue, n))
     title = f"Gen AI Pulse | Issue #{issue.get('issue_no', 1)} | {issue['title']}"
@@ -378,7 +412,7 @@ FIT_JS = r"""
   const steps = [drop(".more li", 2), drop(".ready li", 3), drop(".callout li", 1), clamp(".dev p", 3), drop(".srcs li", 16),
                  drop(".more li", 1), drop(".ready li", 2), clamp(".dev p", 2), drop(".callout li", 0), clamp(".ts p", 1),
                  drop(".whatsnew p", 3), drop(".srcs li", 12), drop(".tt tbody tr", 6), drop(".srcs li", 8),
-                 dropEven(".mcol", "li", 2), dropEven(".mcol", "li", 1), clamp(".dev p", 1), drop(".ready li", 1), drop(".more li", 0)];
+                 clamp(".rc-desc", 1), drop(".rc code", 0), dropEven(".mcol", "li", 2), dropEven(".mcol", "li", 1), clamp(".dev p", 1), drop(".ready li", 1), drop(".more li", 0)];
   function fit() {
     document.querySelectorAll(".page .body").forEach((b) => {
       for (const step of steps) { let guard = 0; while (!fits(b) && guard++ < 40 && step(b)) {} if (fits(b)) break; }
@@ -523,6 +557,17 @@ em { font-style: normal; opacity: .55; padding: 0 2px; }
 .callout ul { margin: 1.5mm 0 0; padding-left: 4mm; font-size: 8.2pt; color: #2D3757; }
 .callout li { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .more li, .ready li a { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.rg-h { display: flex; align-items: baseline; gap: 3mm; margin-bottom: 2mm; }
+.rg-h b { font-size: 8pt; letter-spacing: .16em; color: #0F766E; } .rg-h span { font-size: 7.6pt; color: #7A84A3; }
+.rg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+.rc { padding: 3mm 3.6mm; display: flex; flex-direction: column; gap: 1.2mm; border-top: 3px solid #0F766E; }
+.rc h4 { margin: 0; font-size: 9.4pt; line-height: 1.2; } .rc h4 span { font-weight: 400; color: #7A84A3; }
+.rc-why { margin: 0; font-size: 7.4pt; color: #5B3DF5; font-weight: 600; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+.rc-desc { margin: 0; font-family: 'Literata', Georgia, serif; font-size: 7.9pt; line-height: 1.4; color: #39425F;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.rc code { font-family: ui-monospace, Menlo, monospace; font-size: 6.8pt; background: #0F1A3A; color: #E6EAFF; border-radius: 4px; padding: 1mm 1.6mm;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+.rc-meta { font-size: 7.2pt; color: #7A84A3; } .rc-meta .up { color: #0B7A55; } .rc-meta span { margin-left: 2mm; }
 .mgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
 .mhead { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #5B3DF5; padding-bottom: 1.5mm; margin-bottom: 2mm; }
 .mhead b { font-family: 'Literata', Georgia, serif; font-size: 11pt; } .mhead span { font-size: 7.4pt; color: #7A84A3; }

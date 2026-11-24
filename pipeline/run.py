@@ -13,7 +13,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timedelta
 
-from . import build_site, config, newsletter, store
+from . import build_site, config, newsletter, repos, store
 from .classify import Classifier, is_ai_relevant
 from .dedupe import cluster, merge_exact
 from .embeddings import Embedder
@@ -91,6 +91,8 @@ def main(argv: list[str] | None = None) -> None:
     ap.add_argument("--no-cache", action="store_true", help="ignore ETag/Last-Modified cache")
     ap.add_argument("--sources", help="comma-separated source ids to fetch (default: all)")
     ap.add_argument("--no-newsletters", action="store_true", help="skip newsletter generation")
+    ap.add_argument("--repos", action="store_true", help="refresh GitHub repos now (normally once a day)")
+    ap.add_argument("--no-repos", action="store_true", help="skip the GitHub repo refresh")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
@@ -153,6 +155,13 @@ def main(argv: list[str] | None = None) -> None:
         log.info("focus: %d of %d new stories hidden as non-technical", hidden, len(to_classify))
         log.info("new: %d primary, %d folded into existing stories, %d updated", len(to_classify), merged, updated)
         state["last_fetch"] = to_utc_iso(now_utc())  # when the data was actually collected
+
+    if not args.no_fetch and not args.no_repos:
+        try:
+            if repos.refresh(articles, state, now, force=args.repos):
+                log.info("repos: refreshed")
+        except Exception:
+            log.exception("repos: refresh failed; keeping the previous repo data")
 
     if args.reclassify:
         log.info("reclassifying %d articles…", len(articles))

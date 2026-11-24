@@ -330,7 +330,9 @@ def build_all(articles: dict[str, dict], state: dict, now: datetime) -> list[dic
     from .pdf_html import render_pdf_html
     from .pdf_render import render_pdf  # ReportLab fallback when Chrome is unavailable
 
+    from . import repos
     items = sorted((a for a in articles.values() if is_tech(a)), key=lambda a: (a["published"], a["id"]))
+    repo_payload = repos.site_payload(now)
     tracking = parse_iso(state.get("tracking_since") or to_utc_iso(now - timedelta(days=config.BACKFILL_DAYS)))
     out_json = config.SITE_DATA_DIR / "newsletters"
     out_json.mkdir(parents=True, exist_ok=True)
@@ -355,6 +357,10 @@ def build_all(articles: dict[str, dict], state: dict, now: datetime) -> list[dic
         if issue is None:
             continue
         issue["issue_no"] = numbers[period["id"]]
+        picks = repos.newsletter_picks(period["id"], period["status"] == "in_progress", repo_payload)
+        if picks:
+            issue["repos"] = picks
+            issue["hash"] = hashlib.sha1((issue["hash"] + json.dumps(picks, sort_keys=True)).encode()).hexdigest()[:16]
         slug = f"gen-ai-pulse-{issue['type']}-{issue['id'].lower()}"
         pdf_path = config.SITE_NEWSLETTER_DIR / f"{slug}.pdf"
         prev = previous.get(issue["id"])

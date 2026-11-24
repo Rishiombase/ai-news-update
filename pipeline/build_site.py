@@ -6,7 +6,7 @@ import logging
 from collections import Counter
 from datetime import datetime, timedelta
 
-from . import config, store
+from . import config, repos, store
 from .focus import is_tech
 from .scoring import category_stats, hotness, trending
 from .textutil import parse_iso, to_utc_iso
@@ -107,4 +107,8 @@ def build(articles: dict[str, dict], state: dict, now: datetime) -> None:
                                  key=lambda r: r["month"], reverse=True),
     }
     _write(config.SITE_DATA_DIR / "meta.json", meta)
+    repo_payload = repos.site_payload(now)
+    if repo_payload:
+        _write(config.SITE_DATA_DIR / "repos.json", repo_payload)
+        log.info("site data: %d repos across %d sections", len(repo_payload["repos"]), len(repo_payload["sections"]))
     log.info("site data: %d latest, %d papers, %d archive months", len(latest), len(recent_papers), len(months))

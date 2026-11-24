@@ -70,7 +70,7 @@ async function route() {
   document.querySelectorAll(".nav a").forEach((a) => {
     if (a.dataset.route === name) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
-  const views = { latest: LatestView, research: ResearchView, newsletters: NewslettersView, sources: SourcesView, about: AboutView };
+  const views = { latest: LatestView, research: ResearchView, repos: ReposView, newsletters: NewslettersView, sources: SourcesView, about: AboutView };
   const View = views[name];
   try {
     if (!View) { main.innerHTML = `<div class="empty">This page does not exist. <a href="#/">See the latest stories</a>.</div>`; return; }
@@ -462,6 +462,160 @@ const NewslettersView = {
 };
 
 // ------------------------------------------------------------------ Sources
+// ------------------------------------------------------------------ Repos
+const SAVED_KEY = "gap-saved-repos";
+function loadSaved() { try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "{}"); } catch (e) { return {}; } }
+function writeSaved(obj) { try { localStorage.setItem(SAVED_KEY, JSON.stringify(obj)); return true; } catch (e) { return false; } }
+const kfmt = (n) => (n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : n >= 1e4 ? Math.round(n / 1e3) + "k" : n >= 1e3 ? (n / 1e3).toFixed(1) + "k" : String(n));
+const bookmark = (on) => `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1Z" fill="${on ? "currentColor" : "none"}" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`;
+const REPO_TABS = {
+  trending: ["Trending", "Most stars gained in the last 7 days across open-source AI."],
+  new: ["New & rising", "Created in the last 90 days and growing fast for their age."],
+  recognized: ["Getting recognized", "Broke through this week: in the news, code behind a top research paper, a star milestone, or a major release."],
+  gems: ["Hidden gems", "Under 2,500 stars, actively developed, with releases and steady growth. Easy to miss, worth a look."],
+  essentials: ["Proven essentials", "Established projects that are still actively maintained: the safe choices for real products."],
+  saved: ["Saved", "Repos you saved. They are stored in this browser; use Export to move them to another device."],
+};
+const USE_FILTERS = ["Agents", "MCP", "RAG", "Local & inference", "Coding tools", "Fine-tuning", "Multimodal"];
+
+const ReposView = {
+  async mount(params) {
+    if (!store.repos) {
+      try { store.repos = await getJSON("repos.json"); } catch (e) { store.repos = null; }
+    }
+    main.innerHTML = `<header class="page-head"><h1>Open-source AI repos</h1>
+        <p>What AI developers are building and starring on GitHub, updated daily: trending projects, fast-rising newcomers, hidden gems and the proven essentials. Save the ones you like to come back to them.</p></header>
+      ${store.repos ? `<section class="themes" aria-label="Emerging use cases"><h2>Emerging use cases</h2><div class="themes__list" id="themes"></div></section>` : ""}
+      <div class="repo-tabs" role="tablist" id="rtabs"></div>
+      <p class="tab-desc" id="rdesc"></p>
+      <div class="repo-tools">
+        <label class="search"><span class="visually-hidden">Search repos</span>${searchIcon}<input id="rq" type="search" placeholder="Search name, description or topic" autocomplete="off"></label>
+        <div class="chips" id="ruse" role="group" aria-label="Use case"></div>
+        <label class="check"><input type="checkbox" id="rcomm"> Commercial-friendly license</label>
+      </div>
+      <p class="result-line" id="rline" aria-live="polite"></p>
+      <div class="repo-grid" id="rgrid"></div>
+      <div class="saved-tools" id="rsavedtools" hidden>
+        <button class="btn" type="button" id="rexport">Export saved list</button>
+        <label class="btn"><input type="file" id="rimport" accept="application/json" hidden>Import saved list</label>
+      </div>`;
+    const q = main.querySelector("#rq"); let t;
+    q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => this.set({ q: q.value.trim() }), 150); });
+    main.querySelector("#rcomm").addEventListener("change", (e) => this.set({ comm: e.target.checked ? "1" : "" }));
+    main.querySelector("#rexport").addEventListener("click", () => this.exportSaved());
+    main.querySelector("#rimport").addEventListener("change", (e) => this.importSaved(e.target.files[0]));
+    this.update(params);
+  },
+  set(patch, push = false) { this.params = { ...this.params, ...patch }; setParams("/repos", this.params, { push }); this.update(this.params); },
+  update(params) {
+    this.params = { tab: "trending", ...params };
+    const p = this.params, data = store.repos, saved = loadSaved();
+    const tab = REPO_TABS[p.tab] ? p.tab : "trending";
+    main.querySelector("#rtabs").innerHTML = Object.entries(REPO_TABS).map(([k, [label]]) =>
+      `<button type="button" role="tab" data-tab="${k}" aria-selected="${k === tab}">${esc(label)}${k === "saved" ? ` <span class="count">${Object.keys(saved).length}</span>` : ""}</button>`).join("");
+    main.querySelector("#rdesc").textContent = REPO_TABS[tab][1];
+    main.querySelector("#rq").value = p.q || "";
+    main.querySelector("#rcomm").checked = p.comm === "1";
+    main.querySelector("#ruse").innerHTML = USE_FILTERS.map((u) => `<button type="button" data-use="${esc(u)}" aria-pressed="${p.use === u}">${esc(u)}</button>`).join("");
+    main.querySelector("#rsavedtools").hidden = tab !== "saved";
+    if (data) {
+      main.querySelector("#themes").innerHTML = data.themes.map((th) => `<button type="button" data-topic="${esc(th.topic)}" aria-pressed="${p.topic === th.topic}">
+        ${esc(th.topic.replace(/-/g, " "))}<span class="c">${th.repos}</span>${th.rising ? `<span class="up" title="Growing faster than last week">&#9650;</span>` : ""}${th.new ? `<span class="badge-new">new</span>` : ""}</button>`).join("");
+    }
+    // Build the list for this tab.
+    let list;
+    if (tab === "saved") {
+      list = Object.values(saved).sort((a, b) => b.savedAt.localeCompare(a.savedAt))
+        .map((s) => ({ r: (data && data.repos[s.repo.id]) || s.repo, reason: `Saved ${relTime(s.savedAt)}`, saved: true }));
+    } else if (!data) {
+      list = [];
+    } else if (p.topic) {
+      // A theme spans all sections: show every tracked repo carrying that topic.
+      const seen = new Set(); list = [];
+      for (const sec of Object.keys(data.sections)) for (const e of data.sections[sec]) {
+        const r = data.repos[e.id]; if (!seen.has(e.id) && r.topics.concat([]).includes(p.topic)) { seen.add(e.id); list.push({ r, reason: e.reason }); }
+      }
+    } else {
+      list = data.sections[tab].map((e) => ({ r: data.repos[e.id], reason: e.reason }));
+    }
+    const terms = fold(p.q || "").split(/\s+/).filter(Boolean);
+    list = list.filter(({ r }) => (!p.use || (r.uses || []).includes(p.use)) && (p.comm !== "1" || r.permissive)
+      && (!terms.length || terms.every((w) => fold(`${r.full} ${r.desc} ${(r.topics || []).join(" ")}`).includes(w))));
+    const bits = [];
+    if (p.topic) bits.push(`about "${p.topic.replace(/-/g, " ")}" across all sections`);
+    if (p.use) bits.push(`for ${p.use}`);
+    if (p.comm === "1") bits.push("with commercial-friendly licenses");
+    let line = `${plural(list.length, "repo")}${bits.length ? " " + bits.join(", ") : ""}.`;
+    if (p.topic || p.use || p.q || p.comm) line += ` <button type="button" data-reset>Clear filters</button>`;
+    if (data && data.history_days < 8 && (tab === "trending" || tab === "recognized") && !p.topic)
+      line += ` <span class="warm">Tracking started ${esc(fmtDate(data.tracking_since + "T00:00:00Z"))}. Weekly growth for older projects appears after 7 days of history; until then this list favours new projects, whose growth is known from launch.</span>`;
+    main.querySelector("#rline").innerHTML = line;
+    const grid = main.querySelector("#rgrid");
+    if (!data && tab !== "saved") { grid.innerHTML = `<p class="empty">Repo data has not been collected yet. It refreshes once a day.</p>`; return; }
+    grid.innerHTML = list.length ? list.map((x) => this.card(x.r, x.reason, saved)).join("")
+      : `<p class="empty">${tab === "saved" ? "Nothing saved yet. Use the bookmark on any repo card to save it here." : "No repos match these filters."}</p>`;
+  },
+  card(r, reason, saved) {
+    const [owner, name] = r.full.split("/");
+    const isSaved = !!saved[r.id];
+    const license = !r.license || r.license === "NOASSERTION" ? `<span class="lic warn" title="No standard license detected: check before using">License unclear</span>`
+      : `<span class="lic ${r.permissive ? "ok" : ""}" title="${r.permissive ? "Permissive license: generally fine for commercial use" : "Check the license terms before commercial use"}">${esc(r.license)}${r.permissive ? " &#10003;" : ""}</span>`;
+    return `<article class="repo">
+      <button class="save" type="button" data-save="${esc(r.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? "Remove from saved" : "Save"} ${esc(r.full)}" title="${isSaved ? "Saved: click to remove" : "Save this repo"}">${bookmark(isSaved)}</button>
+      <h3 class="repo__name"><a href="${esc(r.url)}" target="_blank" rel="noopener"><span>${esc(owner)}/</span>${esc(name)}</a></h3>
+      <p class="repo__desc">${esc(r.desc)}</p>
+      <p class="repo__why"><b>${reason && reason.startsWith("Saved") ? "" : "Why it's here: "}</b>${esc(reason || "")}</p>
+      ${r.quickstart ? `<div class="qs"><code>${esc(r.quickstart)}</code><button type="button" data-copy="${esc(r.quickstart)}">Copy</button></div>` : ""}
+      <div class="repo__stats">
+        <span title="Stars">&#9733; ${kfmt(r.stars)}</span>
+        ${r.week ? `<span class="grow" title="${r.est ? "Average weekly pace since launch" : "Stars gained in the last 7 days"}">&#9650; ${kfmt(r.week)}/week${r.est ? "*" : ""}</span>` : ""}
+        ${r.pushed ? `<span>Updated ${esc(relTime(r.pushed))}</span>` : ""}
+        ${r.lang ? `<span>${esc(r.lang)}</span>` : ""}
+        ${license}
+      </div>
+      ${(r.topics || []).length ? `<div class="repo__topics">${r.topics.map((tp) => `<button type="button" data-topic="${esc(tp)}">${esc(tp)}</button>`).join("")}</div>` : ""}
+      <div class="repo__links"><a href="${esc(r.url)}" target="_blank" rel="noopener">GitHub</a>${r.home ? `<a href="${esc(r.home)}" target="_blank" rel="noopener">Website</a>` : ""}${r.release ? `<a href="${esc(r.url)}/releases" target="_blank" rel="noopener">Release ${esc(r.release.tag)}</a>` : ""}<a href="${esc(r.url)}" target="_blank" rel="noopener" title="Opens the repo on GitHub, where you can star it">Star on GitHub</a></div>
+    </article>`;
+  },
+  click(e) {
+    const tab = e.target.closest("[data-tab]"); if (tab) return this.set({ tab: tab.dataset.tab, topic: "" }, true);
+    const use = e.target.closest("[data-use]"); if (use) return this.set({ use: this.params.use === use.dataset.use ? "" : use.dataset.use });
+    const topic = e.target.closest("[data-topic]"); if (topic) { window.scrollTo({ top: 0 }); return this.set({ topic: this.params.topic === topic.dataset.topic ? "" : topic.dataset.topic }, true); }
+    if (e.target.closest("[data-reset]")) return this.set({ q: "", use: "", topic: "", comm: "" });
+    const copy = e.target.closest("[data-copy]");
+    if (copy) { navigator.clipboard?.writeText(copy.dataset.copy).then(() => { copy.textContent = "Copied"; setTimeout(() => (copy.textContent = "Copy"), 1400); }); return; }
+    const save = e.target.closest("[data-save]");
+    if (save) {
+      const id = save.dataset.save, saved = loadSaved();
+      if (saved[id]) delete saved[id];
+      else {
+        const r = store.repos?.repos[id] || null;
+        if (r) saved[id] = { repo: r, savedAt: new Date().toISOString() };
+      }
+      if (!writeSaved(saved)) alert("Saving needs browser storage, which is blocked in this window (for example in private browsing).");
+      this.update(this.params);
+    }
+  },
+  exportSaved() {
+    const blob = new Blob([JSON.stringify(loadSaved(), null, 2)], { type: "application/json" });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "saved-repos.json"; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  },
+  async importSaved(file) {
+    if (!file) return;
+    try {
+      const incoming = JSON.parse(await file.text());
+      const merged = { ...loadSaved() };
+      for (const [id, v] of Object.entries(incoming)) if (v && v.repo && v.savedAt) merged[id] = merged[id] || v;
+      writeSaved(merged);
+      this.update(this.params);
+    } catch (err) { alert("That file is not a saved-repos export."); }
+  },
+};
+
+// One listener for the Repos page, routed to whichever Repos view is current.
+main.addEventListener("click", (e) => { if (current?.name === "repos") current.click(e); });
+
 const SourcesView = {
   mount() {
     const groups = Object.entries(store.meta.tiers).map(([t, info]) => {
@@ -495,6 +649,8 @@ const AboutView = {
       <ul>${store.meta.categories.map((c) => `<li><span style="color:${c.color}">●</span> ${esc(c.name)}</li>`).join("")}</ul>
       <h2>Ranking</h2>
       <p>Importance combines the source's authority, the number of independent outlets covering the story, signals that something is usable (launches, releases, APIs, open-source code, benchmark results), and for papers, community upvotes. The front page also weighs recency, so the lead story is the most significant development of the last few days.</p>
+      <h2>Repos</h2>
+      <p>Once a day the GitHub API is searched for open-source AI projects. Star counts are saved daily so weekly growth is measured, not guessed. Projects whose popularity looks inflated (very few watchers and forks for their stars) or that are not about AI are left out. Saved repos stay in your browser; export them to move them to another device.</p>
       <h2>Newsletters</h2>
       <p>Monthly and quarterly editions are compiled from the same archive and typeset as PDFs with clickable links to every original source. The current period's edition is refreshed as new stories arrive.</p>
       <h2>Accuracy</h2>
