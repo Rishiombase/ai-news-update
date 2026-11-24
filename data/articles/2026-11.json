@@ -7901,14 +7901,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.28833",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28833.png",
-   "upvotes": 5
+   "upvotes": 7
   },
   "fetched": "2026-11-24T03:43:15Z",
   "focus": "tech",
   "id": "22fa138dc240",
   "kind": "paper",
   "published": "2026-11-21T00:00:00Z",
-  "score": 41.5,
+  "score": 44.0,
   "source_id": "hf-papers",
   "summary": "Frontier language models can now read and edit the weights of a neural network much like code and thereby improve a small model, an approach known as Weight-Space Programming (WSP). We further explore applying WSP to a language model itself, which we call Self-WSP. Specifically, Qwen3.5-0.8B reads its own weights, proposes an edit, and then continues with the edited weights as both problem solver and editor.",
   "tags": [
@@ -15278,14 +15278,14 @@
    "github": "https://github.com/Clare-Nie/MemOnce",
    "hf_url": "https://huggingface.co/papers/2611.27973",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27973.png",
-   "upvotes": 19
+   "upvotes": 20
   },
   "fetched": "2026-11-23T13:06:30Z",
   "focus": "tech",
   "id": "9965f17ee5bc",
   "kind": "paper",
   "published": "2026-11-20T00:00:00Z",
-  "score": 51.9,
+  "score": 52.4,
   "source_id": "hf-papers",
   "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands.",
   "tags": [
@@ -15394,14 +15394,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.28202",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28202.png",
-   "upvotes": 8
+   "upvotes": 13
   },
   "fetched": "2026-11-24T03:43:15Z",
   "focus": "tech",
   "id": "50bbe0428a67",
   "kind": "paper",
   "published": "2026-11-20T00:00:00Z",
-  "score": 45.0,
+  "score": 48.8,
   "source_id": "hf-papers",
   "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time.",
   "tags": [
