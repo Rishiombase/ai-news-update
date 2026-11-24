@@ -1,4 +1,4 @@
-# Gen AI Pulse by AIT Global
+# Gen AI Pulse
 
 An automated AI news site. It collects news, research, and launches from 30 authoritative sources, removes duplicates, categorises everything with a local AI model, and publishes a fast static website with downloadable monthly and quarterly PDF newsletters.
 
@@ -16,7 +16,7 @@ It runs entirely on free resources: public RSS feeds and APIs, open-source Pytho
 | Duplicate removal | Canonical URLs merge exact duplicates. The same story from several outlets is grouped under its most authoritative report, with the others listed as "also reported by" |
 | Ranking | Source tier + number of independent outlets + launch/funding/regulation signals + community upvotes (papers) − noise (tutorials, podcasts, deals) |
 | Dashboard | Lead story, category filters, full-text search, time period and monthly archives, trending topics, top papers, newsletter downloads |
-| Newsletters | Monthly and quarterly *Gen AI Pulse* editions: cover with KPIs, top stories, one chapter page per theme (4 key developments, quick stats, ready-to-use list, "What this means for AIT Global"), research, trends and sources. Laid out in HTML/CSS and printed to PDF by headless Chrome (`pipeline/pdf_html.py`); falls back to ReportLab if Chrome is missing. Also readable online |
+| Newsletters | Monthly and quarterly *Gen AI Pulse* editions: cover with KPIs, top stories, one chapter page per theme (4 key developments, quick stats, ready-to-use list, "What this means for your business"), research, trends and sources. Laid out in HTML/CSS and printed to PDF by headless Chrome (`pipeline/pdf_html.py`); falls back to ReportLab if Chrome is missing. Also readable online |
 | Automation | GitHub Actions runs every 3 hours: fetch, dedupe, classify, rebuild, commit the archive, deploy |
 
 ## Quick start (local)
@@ -109,7 +109,7 @@ Types are `rss`, `sitemap` (with `include` URL patterns, for sites without a fee
 
 **Newsletter layout:** the PDF design lives in [`pipeline/pdf_html.py`](pipeline/pdf_html.py) (HTML + CSS). After changing it, bump `RENDER_VERSION` so existing PDFs are regenerated. Chapter advice text is in `CHAPTER_COPY` in [`pipeline/newsletter.py`](pipeline/newsletter.py). Set `CHROME_PATH` if Chrome is installed somewhere unusual; GitHub's Ubuntu runners include it.
 
-**Branding:** the AIT Global mark is `site/assets/ait-global-mark.png` (also copied to `pipeline/assets/` for PDFs).
+**Branding:** the logo mark is `site/assets/mark.svg` (copied to `pipeline/assets/mark.svg` for the PDFs). Replace both files to change it.
 
 ## Project layout
 

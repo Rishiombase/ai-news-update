@@ -22,7 +22,7 @@ from reportlab.platypus import (BaseDocTemplate, CondPageBreak, Flowable, Frame,
 
 from . import config
 
-RENDER_VERSION = "3"  # bump when the layout changes so existing PDFs are re-rendered
+RENDER_VERSION = "4"  # bump when the layout changes so existing PDFs are re-rendered
 
 # --------------------------------------------------------------------------- palette & fonts
 INK = colors.HexColor("#141B34")
@@ -164,11 +164,20 @@ class IssueDoc(BaseDocTemplate):
         x = 20 * mm
         c.setFillColor(colors.white)
         c.roundRect(x - 2 * mm, h - 22.5 * mm, 40 * mm, 11 * mm, 2 * mm, stroke=0, fill=1)
-        c.drawImage(str(config.ROOT / "pipeline" / "assets" / "ait-global-mark.png"), x, h - 21.5 * mm,
-                    width=8 * mm, height=8.9 * mm, mask="auto")
+        c.setFillColor(COBALT)
+        c.roundRect(x, h - 21.5 * mm, 8 * mm, 8 * mm, 2 * mm, stroke=0, fill=1)
+        c.setStrokeColor(colors.white)
+        c.setLineWidth(1.3)
+        c.setLineJoin(1)
+        pts = [(1.1, 3.6), (2.6, 3.6), (3.3, 5.4), (4.4, 2.2), (5.2, 4.4), (5.7, 3.6), (7.0, 3.6)]
+        path = c.beginPath()
+        path.moveTo(x + pts[0][0] * mm, h - 21.5 * mm + pts[0][1] * mm)
+        for px, py in pts[1:]:
+            path.lineTo(x + px * mm, h - 21.5 * mm + py * mm)
+        c.drawPath(path, stroke=1, fill=0)
         c.setFillColor(INK)
         c.setFont("Sans-Heavy", 10)
-        c.drawString(x + 10 * mm, h - 18.5 * mm, "AIT GLOBAL")
+        c.drawString(x + 10 * mm, h - 18.5 * mm, "GEN AI PULSE")
         c.setFont("Sans", 10)
         kind = "Monthly edition" if issue["type"] == "monthly" else "Quarterly edition"
         c.drawRightString(w - x, h - 18 * mm, kind)

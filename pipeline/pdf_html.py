@@ -25,7 +25,7 @@ from . import config
 
 log = logging.getLogger(__name__)
 
-RENDER_VERSION = "html-4"   # bump when the layout changes so existing PDFs are re-rendered
+RENDER_VERSION = "html-5"   # bump when the layout changes so existing PDFs are re-rendered
 FONT_FILES = {
     ("Bricolage Grotesque", 400, "normal"): "BricolageGrotesque-Regular.ttf",
     ("Bricolage Grotesque", 600, "normal"): "BricolageGrotesque-SemiBold.ttf",
@@ -101,12 +101,12 @@ def _also(a: dict) -> str:
 
 
 def _header(page: int) -> str:
-    return (f'<header class="run"><div class="logo"><img src="{LOGO}" alt=""><b>AIT GLOBAL</b></div>'
+    return (f'<header class="run"><div class="logo"><img src="{LOGO}" alt=""><b>GEN AI PULSE</b></div>'
             f'<div class="run-r">GEN AI PULSE <i></i> {page:02d}</div></header>')
 
 
 def _footer(right: str) -> str:
-    return (f'<footer class="run-f"><span><i></i>AIT GLOBAL <em>/</em> GEN AI PULSE</span>'
+    return (f'<footer class="run-f"><span><i></i>GEN AI PULSE <em>/</em> AI TECHNOLOGY BRIEFING</span>'
             f'<span>{e(right)}</span></footer>')
 
 
@@ -142,9 +142,9 @@ def _cover(issue: dict) -> str:
     return f'''
 <section class="page cover"><div class="body">
   <header class="mast">
-    <div><div class="brand">Gen <span>AI</span> Pulse</div><div class="brand-sub">AIT GLOBAL <em>/</em> AI TECHNOLOGY BRIEFING</div></div>
+    <div><div class="brand">Gen <span>AI</span> Pulse</div><div class="brand-sub">AI TECHNOLOGY BRIEFING FOR BUSINESS</div></div>
     <div class="mast-r"><div class="badge">ISSUE #{issue.get("issue_no", 1)} <em>/</em> {e(issue["title"].upper())}</div>
-      <div class="logo big"><img src="{LOGO}" alt=""><b>AIT GLOBAL</b></div></div>
+      <div class="logo big"><img src="{LOGO}" alt=""></div></div>
   </header>
   <div class="hero">{NETWORK_SVG}
     <div class="eyebrow">{kind.upper()} REVIEW <em>/</em> {e(period.upper())}{e(status.upper())}</div>
@@ -213,7 +213,7 @@ def _chapter_page(ch: dict, page: int, unit: str) -> str:
       <div class="stats" style="--c:{ch["color"]}">{stat_html}</div><div class="box-t">More this {unit}</div><ul class="more">{more}</ul></div>
     {ready_box}
   </div>
-  <div class="callout"><div class="ico">&#10148;</div><div><h4>WHAT THIS MEANS FOR AIT GLOBAL</h4>
+  <div class="callout"><div class="ico">&#10148;</div><div><h4>WHAT THIS MEANS FOR YOUR BUSINESS</h4>
     <p>{e(ch["advice"])}</p>{f"<ul>{actions}</ul>" if actions else ""}</div></div></div>
   {_footer(f"CHAPTER {ch['number']:02d} / {ch['kicker'].upper()}")}
 </section>'''
@@ -269,7 +269,7 @@ def build_html(issue: dict) -> str:
         pages.append(_chapter_page(ch, n, unit))
         n += 1
     pages.append(_trends_page(issue, n))
-    title = f"AIT Global | Gen AI Pulse | Issue #{issue.get('issue_no', 1)} | {issue['title']}"
+    title = f"Gen AI Pulse | Issue #{issue.get('issue_no', 1)} | {issue['title']}"
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(title)}</title>
 <style>{_fonts_css()}{CSS}</style></head><body>{"".join(pages)}<script>{FIT_JS}</script></body></html>'''
 
@@ -391,7 +391,7 @@ FIT_JS = r"""
 })();
 """
 
-LOGO = _data_uri(Path(__file__).resolve().parent / "assets" / "ait-global-mark.png", "image/png")
+LOGO = _data_uri(Path(__file__).resolve().parent / "assets" / "mark.svg", "image/svg+xml")
 
 NETWORK_SVG = '''<svg class="net" viewBox="0 0 600 200" preserveAspectRatio="none" aria-hidden="true"><g stroke="rgba(255,255,255,.35)" stroke-width="1" fill="none"><path d="M20 160 L110 40 L230 120 L330 30 L450 110 L580 50"/><path d="M110 40 L170 180 L330 30"/><path d="M230 120 L400 190 L450 110"/><path d="M450 110 L520 180"/></g><g fill="rgba(255,255,255,.75)"><circle cx="20" cy="160" r="3"/><circle cx="110" cy="40" r="4"/><circle cx="230" cy="120" r="3"/><circle cx="330" cy="30" r="5"/><circle cx="450" cy="110" r="4"/><circle cx="580" cy="50" r="3"/><circle cx="170" cy="180" r="3"/><circle cx="400" cy="190" r="3"/><circle cx="520" cy="180" r="3"/></g></svg>'''
 

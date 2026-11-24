@@ -382,7 +382,7 @@ const NewslettersView = {
     if (id) return this.reader(issues.find((i) => i.id === id), id);
     const kindLabel = (i) => (i.type === "monthly" ? "Monthly" : "Quarterly");
     const cover = (i) => `<a class="cover" href="#/newsletters/${esc(i.id)}" aria-hidden="true" tabindex="-1">
-        <span class="cover__top"><img src="assets/ait-global-mark.png" alt=""><b>ISSUE #${i.issue_no || 1}</b></span>
+        <span class="cover__top"><img src="assets/mark.svg" alt=""><b>ISSUE #${i.issue_no || 1}</b></span>
         <span class="cover__title">Gen <em>AI</em> Pulse</span>
         <span class="cover__hero"><span>${esc(kindLabel(i).toUpperCase())}</span><strong>${esc(i.title)}</strong></span>
         <span class="cover__kpis"><i class="k0"></i><i class="k1"></i><i class="k2"></i><i class="k3"></i></span></a>`;
@@ -396,7 +396,7 @@ const NewslettersView = {
     </article>`;
     const monthly = issues.filter((i) => i.type === "monthly"), quarterly = issues.filter((i) => i.type === "quarterly");
     main.innerHTML = `<header class="page-head"><h1>Gen AI Pulse newsletters</h1>
-      <p>Each edition is a technology briefing for AIT Global: the most important AI developments, organised into chapters, with quick stats, what is ready to use, and what it means for our work. Every headline links to its original source.</p></header>
+      <p>Each edition is a technology briefing for companies: the most important AI developments, organised into chapters, with quick stats, what is ready to use, and what it means for your business. Every headline links to its original source.</p></header>
       ${issues.length ? `<div class="editions">
         <section aria-labelledby="mh"><h2 id="mh">Monthly editions</h2><p>The current month updates as new stories arrive.</p>${monthly.map(row).join("")}</section>
         <section aria-labelledby="qh"><h2 id="qh">Quarterly editions</h2><p>A wider view across three months.</p>${quarterly.map(row).join("")}</section>
@@ -424,7 +424,7 @@ const NewslettersView = {
             ${more ? `<strong>More this ${unit}</strong><ul class="mlist" style="margin-top:8px">${more}</ul>` : ""}</div>
           <div class="box"><span class="box-h red">${ready ? "READY TO USE" : "WATCH LIST"}</span>${ready ? `<ul class="rlist">${ready}</ul>` : `<p class="result-line">Nothing here is generally available yet. Worth tracking.</p>`}</div>
         </div>
-        <div class="callout"><div class="ico" aria-hidden="true">&#10148;</div><div><h4>WHAT THIS MEANS FOR AIT GLOBAL</h4><p>${esc(c.advice)}</p>
+        <div class="callout"><div class="ico" aria-hidden="true">&#10148;</div><div><h4>WHAT THIS MEANS FOR YOUR BUSINESS</h4><p>${esc(c.advice)}</p>
           ${c.actions.length ? `<ul>${c.actions.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</div></div>
       </section>`;
     };

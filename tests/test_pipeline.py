@@ -174,7 +174,8 @@ def test_build_issue_and_render_pdf(tmp_path):
     from pipeline.pdf_html import build_html
     page = build_html(issue)
     assert page.count('class="page') == 2 + len(issue["chapters"]) + 1
-    assert "data:image/png;base64," in page and 'href="https://example.com/' in page
+    assert "data:image/svg+xml;base64," in page and 'href="https://example.com/' in page
+    assert "AIT GLOBAL" not in page.upper()
 
 
 # ------------------------------------------------------------------ editorial focus

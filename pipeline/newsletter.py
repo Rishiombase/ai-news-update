@@ -22,7 +22,7 @@ SIZES = {  # top stories, chapters, research papers
 }
 CHAPTER_ITEMS, CHAPTER_MORE, CHAPTER_READY = 4, 4, 5
 
-# Chapter headings and the standing advice behind "What this means for AIT Global".
+# Chapter headings and the standing advice behind "What this means for your business".
 CHAPTER_COPY = {
     "genai-llm": ("Frontier models", "Re-run model benchmarks on representative client tasks. Routing work across models by "
                   "cost, latency and quality is now a design decision, not a procurement detail."),
@@ -348,14 +348,14 @@ def build_all(articles: dict[str, dict], state: dict, now: datetime) -> list[dic
         for n, p in enumerate(sorted((p for p in plist if p["type"] == kind), key=lambda p: p["start"]), 1):
             numbers[p["id"]] = n
     for f in config.SITE_NEWSLETTER_DIR.glob("ait-*.pdf"):
-        if not f.name.startswith("ait-gen-ai-pulse-"):
+        if not f.name.startswith("gen-ai-pulse-"):
             f.unlink()  # files from the previous naming scheme
     for period in plist:
         issue = build_issue(period, items, state, now)
         if issue is None:
             continue
         issue["issue_no"] = numbers[period["id"]]
-        slug = f"ait-gen-ai-pulse-{issue['type']}-{issue['id'].lower()}"
+        slug = f"gen-ai-pulse-{issue['type']}-{issue['id'].lower()}"
         pdf_path = config.SITE_NEWSLETTER_DIR / f"{slug}.pdf"
         prev = previous.get(issue["id"])
         if prev and prev.get("hash") == issue["hash"] and pdf_path.exists():
