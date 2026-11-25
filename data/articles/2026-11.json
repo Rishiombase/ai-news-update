@@ -6449,6 +6449,87 @@
  },
  {
   "categories": [
+   "research",
+   "computer-vision"
+  ],
+  "category_scores": {
+   "computer-vision": 0.45,
+   "research": 0.684
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Sirui Liang",
+    "Xuanlong Yu",
+    "Longfei Liu",
+    "Xiaodong Cun",
+    "Xi Shen"
+   ],
+   "github": "https://github.com/Intellindust-AI-Lab/LoopDVR",
+   "hf_url": "https://huggingface.co/papers/2611.32067",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32067.png",
+   "upvotes": 4
+  },
+  "fetched": "2026-11-25T04:20:46Z",
+  "focus": "tech",
+  "id": "d48a6befd475",
+  "kind": "paper",
+  "published": "2026-11-24T00:00:00Z",
+  "score": 37.9,
+  "source_id": "hf-papers",
+  "summary": "We propose LoopDVR, a framework for converting pretrained Transformer-based dense visual recognition models into parameter-efficient looped networks. Rather than reducing the network width or depth directly, LoopDVR reuses Transformer blocks across layers in both the ViT backbone and Transformer decoder, reducing the number of parameters while retaining the original computational structure.",
+  "tags": [
+   "For developers",
+   "Research"
+  ],
+  "title": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
+  "url": "https://arxiv.org/abs/2611.32067"
+ },
+ {
+  "categories": [
+   "computer-vision",
+   "agents",
+   "research"
+  ],
+  "category_scores": {
+   "agents": 0.771,
+   "computer-vision": 0.991,
+   "enterprise": 0.428,
+   "genai-llm": 0.304,
+   "open-source": 0.309,
+   "robotics": 0.294
+  },
+  "coverage": [],
+  "extra": {
+   "authors": [
+    "Yang Cao",
+    "Zhe Zhu",
+    "Yiheng Zhang",
+    "Zhengqiang Zhang",
+    "Haoyuan Li",
+    "Le Wan"
+   ],
+   "github": "https://github.com/yangcaoai/PartAgent_Agent_for_3D_Part_Seg",
+   "hf_url": "https://huggingface.co/papers/2611.32554",
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32554.png",
+   "upvotes": 1
+  },
+  "fetched": "2026-11-25T04:20:46Z",
+  "focus": "tech",
+  "id": "a7e535c8332e",
+  "kind": "paper",
+  "published": "2026-11-24T00:00:00Z",
+  "score": 30.0,
+  "source_id": "hf-papers",
+  "summary": "Segmenting a 3D object into semantically meaningful parts requires joint reasoning about geometric structure and semantic context. Pretrained 3D experts provide spatially grounded region proposals, while 2D experts provide semantic cues for identifying object parts.",
+  "tags": [
+   "Research"
+  ],
+  "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+  "url": "https://arxiv.org/abs/2611.32554"
+ },
+ {
+  "categories": [
    "genai-llm"
   ],
   "category_scores": {
@@ -6528,14 +6609,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.32100",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32100.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "2c534ceefb54",
   "kind": "paper",
   "published": "2026-11-24T00:00:00Z",
-  "score": 29.0,
+  "score": 35.0,
   "source_id": "hf-papers",
   "summary": "A single electroencephalographic (EEG) recording can support multiple decoding tasks. Fixed-label tests cannot show how EEG foundation models handle changing questions or options. We introduce EEGJev, a fast decision model that scores candidate answers in one pass. Our benchmark, EEGJev-Bench, covers six question types across 19 public EEG sources.",
   "tags": [
@@ -7396,14 +7477,14 @@
     "Cheonbok Park",
     "Shinyoung Joo"
    ],
-   "upvotes": 2
+   "upvotes": 4
   },
   "fetched": "2026-11-24T16:21:18Z",
   "focus": "tech",
   "id": "e0099f885462",
   "kind": "paper",
   "published": "2026-11-23T18:59:32Z",
-  "score": 19.5,
+  "score": 23.9,
   "source_id": "arxiv",
   "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to visual generation remains nontrivial.",
   "tags": [
@@ -7837,14 +7918,14 @@
     "Zhi Hou",
     "Xingang Pan"
    ],
-   "upvotes": 10
+   "upvotes": 14
   },
   "fetched": "2026-11-24T16:21:18Z",
   "focus": "tech",
   "id": "ec2cbd010c71",
   "kind": "paper",
   "published": "2026-11-23T18:52:19Z",
-  "score": 30.8,
+  "score": 33.4,
   "source_id": "arxiv",
   "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents.",
   "tags": [
@@ -8097,14 +8178,14 @@
     "Matheus Gadelha",
     "Zezhou Cheng"
    ],
-   "upvotes": 4
+   "upvotes": 6
   },
   "fetched": "2026-11-24T16:21:18Z",
   "focus": "tech",
   "id": "f3ab0d96c639",
   "kind": "paper",
   "published": "2026-11-23T18:38:20Z",
-  "score": 21.9,
+  "score": 24.8,
   "source_id": "arxiv",
   "summary": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet most of these tokens carry redundant spatiotemporal information.",
   "tags": [
@@ -11093,14 +11174,14 @@
     "Quan Nguyen",
     "Yuzhang Shang"
    ],
-   "upvotes": 3
+   "upvotes": 5
   },
   "fetched": "2026-11-24T16:21:18Z",
   "focus": "tech",
   "id": "b70b3fda4745",
   "kind": "paper",
   "published": "2026-11-23T16:02:19Z",
-  "score": 20.0,
+  "score": 23.5,
   "source_id": "arxiv",
   "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However, most of them encode a sample of past frames again at every decision and are trained on isolated decisions, so computation is redundant and the usable history is short. They also learn from their own mistakes through outcome rewards that give one scalar to a whole episode.",
   "tags": [
@@ -13291,14 +13372,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.30157",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30157.png",
-   "upvotes": 14
+   "upvotes": 16
   },
   "fetched": "2026-11-24T13:54:29Z",
   "focus": "tech",
   "id": "9fcd779a166d",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 47.4,
+  "score": 48.5,
   "source_id": "hf-papers",
   "summary": "Effective real-time, full-duplex multimodal interaction requires systems to understand not only what users say, but also the communicative needs conveyed through prosody, facial expressions, gestures, and context, and to generate audiovisual responses that appropriately address those needs.",
   "tags": [
@@ -13569,7 +13650,7 @@
    "github": "https://github.com/xyangzhou/WorldLeague",
    "hf_url": "https://huggingface.co/papers/2611.30989",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30989.png",
-   "upvotes": 113
+   "upvotes": 116
   },
   "fetched": "2026-11-24T13:54:29Z",
   "focus": "tech",
@@ -13610,14 +13691,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.30962",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30962.png",
-   "upvotes": 7
+   "upvotes": 10
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "7ab15d97806c",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 44.0,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value.",
   "tags": [
@@ -13915,14 +13996,14 @@
    "github": "https://github.com/3dlg-hcvc/RoomToken",
    "hf_url": "https://huggingface.co/papers/2611.30219",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30219.png",
-   "upvotes": 8
+   "upvotes": 9
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "40045b159f69",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 43.0,
+  "score": 43.9,
   "source_id": "hf-papers",
   "summary": "Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry.",
   "tags": [
@@ -14285,14 +14366,14 @@
    "github": "https://github.com/Caiyun-AI/LoomFormer",
    "hf_url": "https://huggingface.co/papers/2611.30634",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30634.png",
-   "upvotes": 8
+   "upvotes": 13
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "025f3cd20286",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 43.0,
+  "score": 46.8,
   "source_id": "hf-papers",
   "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens.",
   "tags": [
@@ -15543,14 +15624,14 @@
     "Han Zhang",
     "Jinouwen Zhang"
    ],
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-24T04:21:42Z",
   "focus": "tech",
   "id": "22283c7ce7ce",
   "kind": "paper",
   "published": "2026-11-22T15:18:17Z",
-  "score": 17.0,
+  "score": 20.5,
   "source_id": "arxiv",
   "summary": "Representation alignment markedly accelerates diffusion training, but one-step generators raise a question that diffusion does not: \\emph{which training path should receive the loss?} A one-step generator sees two kinds of inputs. Corrupted real images come with their clean counterpart, which provides an instance-paired target.",
   "tags": [
@@ -16581,14 +16662,14 @@
     "Xingsong Ye",
     "Ya Gao"
    ],
-   "upvotes": 7
+   "upvotes": 10
   },
   "fetched": "2026-11-24T03:43:15Z",
   "focus": "tech",
   "id": "7b15cdc03280",
   "kind": "paper",
   "published": "2026-11-22T03:22:04Z",
-  "score": 26.0,
+  "score": 28.8,
   "source_id": "arxiv",
   "summary": "Physical counterfactual video editing turns a source video and a language-specified physical edit at a given execution frame into a counterfactual video that shows how the scene would evolve after the edit.",
   "tags": [
@@ -17009,14 +17090,14 @@
     "Zhongxing Xu",
     "Lingfei Qian"
    ],
-   "upvotes": 1
+   "upvotes": 2
   },
   "fetched": "2026-11-24T03:43:15Z",
   "focus": "tech",
   "id": "9a74cda2fdbf",
   "kind": "paper",
   "published": "2026-11-22T02:10:25Z",
-  "score": 16.0,
+  "score": 19.5,
   "source_id": "arxiv",
   "summary": "Visual agents navigate whole-slide images through magnified observations associated with claimed locations. However, a visually plausible observation does not necessarily originate from its claimed location, particularly across magnifications and in regions with similar tissue structures.",
   "tags": [
@@ -19031,14 +19112,14 @@
     "Long-Kai Huang",
     "Haiyan Yin"
    ],
-   "upvotes": 0
+   "upvotes": 2
   },
   "fetched": "2026-11-24T03:43:15Z",
   "focus": "tech",
   "id": "da684a9caaef",
   "kind": "paper",
   "published": "2026-11-21T17:31:05Z",
-  "score": 10.0,
+  "score": 19.5,
   "source_id": "arxiv",
   "summary": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own.",
   "tags": [
@@ -20114,14 +20195,14 @@
     "Runze Liu",
     "Lang Feng"
    ],
-   "upvotes": 13
+   "upvotes": 19
   },
   "fetched": "2026-11-24T03:01:06Z",
   "focus": "tech",
   "id": "4417d88ed3eb",
   "kind": "paper",
   "published": "2026-11-21T08:22:21Z",
-  "score": 30.8,
+  "score": 33.9,
   "source_id": "arxiv",
   "summary": "Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds.",
   "tags": [
@@ -22106,14 +22187,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.28719",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28719.png",
-   "upvotes": 8
+   "upvotes": 11
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "e2fcf3c27df3",
   "kind": "paper",
   "published": "2026-11-21T00:00:00Z",
-  "score": 43.0,
+  "score": 45.5,
   "source_id": "hf-papers",
   "summary": "We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because improving one kind of task can lower performance on another. We attribute this to differences between tasks in expected output and available feedback.",
   "tags": [
@@ -39848,14 +39929,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25403",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25403.png",
-   "upvotes": 14
+   "upvotes": 16
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "4e4690a77ae9",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 49.4,
+  "score": 50.5,
   "source_id": "hf-papers",
   "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route.",
   "tags": [
@@ -40126,14 +40207,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25848",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25848.png",
-   "upvotes": 0
+   "upvotes": 1
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "37f7ab2e6513",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 24.0,
+  "score": 30.0,
   "source_id": "hf-papers",
   "summary": "Data-driven weather forecasting requires distinguishing local states and their temporal evolution. However, learned patterns remain implicit in neural forecasters, making their influence difficult to interpret. Failing to distinguish local evolution can lead to similar forecasts for locations that develop differently, increasing prediction error.",
   "tags": [
@@ -40378,14 +40459,14 @@
    "github": "https://github.com/anhdao69/LoopedWAM",
    "hf_url": "https://huggingface.co/papers/2611.25595",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25595.png",
-   "upvotes": 2
+   "upvotes": 3
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "16e5ebc046d1",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 35.5,
+  "score": 38.0,
   "source_id": "hf-papers",
   "summary": "World action models (WAMs) couple generative video modeling with robotic action prediction but typically require large video and action transformers, limiting deployment efficiency. We present LoopedWAM, a compact WAM that recurrently applies a shared six-block core in each expert, executing 30 transformer layers while storing only 12 blocks per expert.",
   "tags": [
@@ -51418,14 +51499,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.24249",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24249.png",
-   "upvotes": 8
+   "upvotes": 9
   },
   "fetched": "2026-11-24T02:18:58Z",
   "focus": "tech",
   "id": "c7022bc03aca",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 43.0,
+  "score": 43.9,
   "source_id": "hf-papers",
   "summary": "Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how real-world mechanics (e.g., impact, friction, and force transfer) unfold over time. While multimodal aligners seek to capture these interactions by matching multi-sensor streams, prevailing architectures compress each temporal sequence into a single pooled embedding.",
   "tags": [
@@ -52060,14 +52141,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.28123",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28123.png",
-   "upvotes": 8
+   "upvotes": 9
   },
   "fetched": "2026-11-24T02:18:58Z",
   "focus": "tech",
   "id": "66b7712529c5",
   "kind": "paper",
   "published": "2026-11-18T00:00:00Z",
-  "score": 45.0,
+  "score": 45.9,
   "source_id": "hf-papers",
   "summary": "Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are invisible to the lens, yet their strength is governed by the buildings and streets an image does show. Given only these visible structures, can vision-language models (VLMs) infer the invisible radio field they shape?",
   "tags": [

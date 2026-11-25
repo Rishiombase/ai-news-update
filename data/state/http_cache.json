@@ -5,7 +5,7 @@
  },
  "https://aws.amazon.com/blogs/machine-learning/feed/": {
   "etag": null,
-  "last_modified": "Tue, 24 Nov 2026 20:39:10 GMT"
+  "last_modified": "Tue, 24 Nov 2026 20:39:11 GMT"
  },
  "https://bair.berkeley.edu/blog/feed.xml": {
   "etag": "\"572e3-65fdb8cdc7a80-gzip\"",
@@ -20,7 +20,7 @@
   "last_modified": "Mon, 23 Nov 2026 18:13:00 GMT"
  },
  "https://deepmind.google/blog/rss.xml": {
-  "etag": "\"UmAscw\"",
+  "etag": "\"kHr98A\"",
   "last_modified": null
  },
  "https://developer.nvidia.com/blog/feed": {
@@ -40,11 +40,11 @@
   "last_modified": null
  },
  "https://importai.substack.com/feed": {
-  "etag": "W/\"6941a-UinTJXcZYm/McWRpC7OSD42UHmI\"",
+  "etag": "W/\"6941a-TMvcvt19CCenB0y6GcChvWi59WU\"",
   "last_modified": null
  },
  "https://lastweekin.ai/feed": {
-  "etag": "W/\"433a8-GtFLNwZyNdP+cGciXbEaiA4F7Fs\"",
+  "etag": "W/\"433a8-fAZ5KtSuyjBVboVc3RlxSZIe4dc\"",
   "last_modified": null
  },
  "https://machinelearning.apple.com/rss.xml": {
@@ -56,8 +56,8 @@
   "last_modified": "Tue, 24 Nov 2026 20:00:12 GMT"
  },
  "https://news.mit.edu/rss/topic/artificial-intelligence2": {
-  "etag": "\"1795578002\"",
-  "last_modified": "Wed, 25 Nov 2026 03:40:02 GMT"
+  "etag": "\"1795579804\"",
+  "last_modified": "Wed, 25 Nov 2026 04:10:04 GMT"
  },
  "https://openai.com/news/rss.xml": {
   "etag": null,
