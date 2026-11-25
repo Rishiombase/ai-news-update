@@ -5,7 +5,7 @@
  },
  "https://aws.amazon.com/blogs/machine-learning/feed/": {
   "etag": null,
-  "last_modified": "Tue, 24 Nov 2026 20:39:10 GMT"
+  "last_modified": "Tue, 24 Nov 2026 20:39:11 GMT"
  },
  "https://bair.berkeley.edu/blog/feed.xml": {
   "etag": "\"572e3-65fdb8cdc7a80-gzip\"",
@@ -20,7 +20,7 @@
   "last_modified": "Mon, 23 Nov 2026 18:13:00 GMT"
  },
  "https://deepmind.google/blog/rss.xml": {
-  "etag": "\"kHr98A\"",
+  "etag": "\"DpEuRw\"",
   "last_modified": null
  },
  "https://developer.nvidia.com/blog/feed": {
@@ -44,7 +44,7 @@
   "last_modified": null
  },
  "https://lastweekin.ai/feed": {
-  "etag": "W/\"433a8-fAZ5KtSuyjBVboVc3RlxSZIe4dc\"",
+  "etag": "W/\"433a8-GrpmQ/EGAxn+qJQGumwvwdZ916s\"",
   "last_modified": null
  },
  "https://machinelearning.apple.com/rss.xml": {
@@ -56,8 +56,8 @@
   "last_modified": "Tue, 24 Nov 2026 20:00:12 GMT"
  },
  "https://news.mit.edu/rss/topic/artificial-intelligence2": {
-  "etag": "\"1795579804\"",
-  "last_modified": "Wed, 25 Nov 2026 04:10:04 GMT"
+  "etag": "\"1795595125\"",
+  "last_modified": "Wed, 25 Nov 2026 08:25:25 GMT"
  },
  "https://openai.com/news/rss.xml": {
   "etag": null,
@@ -88,16 +88,16 @@
   "last_modified": "Tue, 24 Nov 2026 20:43:06 GMT"
  },
  "https://www.marktechpost.com/feed/": {
-  "etag": "W/\"6b61497ac3b3d615efe965eea4a3e45c\"",
-  "last_modified": "Tue, 24 Nov 2026 23:06:19 GMT"
+  "etag": "W/\"5ca867e59913850108df8f38ea4e0d60\"",
+  "last_modified": "Wed, 25 Nov 2026 05:42:06 GMT"
  },
  "https://www.microsoft.com/en-us/research/feed/": {
-  "etag": "\"ef863cd5fc9a545cc994d4b89cd3f47b\"",
-  "last_modified": "Wed, 25 Nov 2026 02:09:57 GMT"
+  "etag": "\"d472fa3409ff25166860b8f95b4b703d\"",
+  "last_modified": "Wed, 25 Nov 2026 06:03:08 GMT"
  },
  "https://www.technologyreview.com/topic/artificial-intelligence/feed": {
-  "etag": "W/\"68f7d90ac4762049e0954f195d91fcb2\"",
-  "last_modified": "Tue, 24 Nov 2026 15:15:16 GMT"
+  "etag": "W/\"8d81dd9cbfc0844677c640dc66cca6b5\"",
+  "last_modified": "Wed, 25 Nov 2026 08:08:56 GMT"
  },
  "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
   "etag": "W/\"f4131f883fa0cc0dcc970e5e1924ace5\"",
