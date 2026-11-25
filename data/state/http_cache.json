@@ -20,7 +20,7 @@
   "last_modified": "Mon, 23 Nov 2026 18:13:00 GMT"
  },
  "https://deepmind.google/blog/rss.xml": {
-  "etag": "\"F5b9fw\"",
+  "etag": "\"UmAscw\"",
   "last_modified": null
  },
  "https://developer.nvidia.com/blog/feed": {
@@ -44,7 +44,7 @@
   "last_modified": null
  },
  "https://lastweekin.ai/feed": {
-  "etag": "W/\"433a8-0kIaru7gBkgOzxtIK74HzuKG16U\"",
+  "etag": "W/\"433a8-GtFLNwZyNdP+cGciXbEaiA4F7Fs\"",
   "last_modified": null
  },
  "https://machinelearning.apple.com/rss.xml": {
@@ -56,8 +56,8 @@
   "last_modified": "Tue, 24 Nov 2026 20:00:12 GMT"
  },
  "https://news.mit.edu/rss/topic/artificial-intelligence2": {
-  "etag": "\"1795563585\"",
-  "last_modified": "Tue, 24 Nov 2026 23:39:45 GMT"
+  "etag": "\"1795578002\"",
+  "last_modified": "Wed, 25 Nov 2026 03:40:02 GMT"
  },
  "https://openai.com/news/rss.xml": {
   "etag": null,
@@ -80,8 +80,8 @@
   "last_modified": "Tue, 24 Nov 2026 22:45:59 GMT"
  },
  "https://techcrunch.com/category/artificial-intelligence/feed/": {
-  "etag": "W/\"89810433cc9be08c23cf0d146c870e11\"",
-  "last_modified": "Tue, 24 Nov 2026 23:22:15 GMT"
+  "etag": "W/\"079a4a3786c8f1e3ba4677d8b3f8843b\"",
+  "last_modified": "Wed, 25 Nov 2026 03:15:10 GMT"
  },
  "https://the-decoder.com/feed/": {
   "etag": "\"ad2a004a157589033c2a04838728362a\"",
@@ -92,15 +92,15 @@
   "last_modified": "Tue, 24 Nov 2026 23:06:19 GMT"
  },
  "https://www.microsoft.com/en-us/research/feed/": {
-  "etag": "\"9b0542bc36745b16899f68500fefee05\"",
-  "last_modified": "Tue, 24 Nov 2026 21:50:10 GMT"
+  "etag": "\"ef863cd5fc9a545cc994d4b89cd3f47b\"",
+  "last_modified": "Wed, 25 Nov 2026 02:09:57 GMT"
  },
  "https://www.technologyreview.com/topic/artificial-intelligence/feed": {
   "etag": "W/\"68f7d90ac4762049e0954f195d91fcb2\"",
   "last_modified": "Tue, 24 Nov 2026 15:15:16 GMT"
  },
  "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-  "etag": "W/\"49e85fa1a5a6868136ce349a15790417\"",
+  "etag": "W/\"f4131f883fa0cc0dcc970e5e1924ace5\"",
   "last_modified": null
  },
  "https://www.wired.com/feed/tag/ai/latest/rss": {
