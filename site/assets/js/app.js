@@ -673,93 +673,273 @@ main.addEventListener("click", (e) => { if (current?.name === "repos") current.c
 const BUZZ_KEY = "gap-saved-buzz";
 const loadBuzzSaved = () => { try { return JSON.parse(localStorage.getItem(BUZZ_KEY) || "{}"); } catch (e) { return {}; } };
 const writeBuzzSaved = (o) => { try { localStorage.setItem(BUZZ_KEY, JSON.stringify(o)); return true; } catch (e) { return false; } };
-const BUZZ_MOOD = { debated: ["\u{1F4AC} Heated debate", "More comments than votes: people disagree about this one."], loved: ["\u{1F44D} Crowd favourite", "Lots of votes and little to argue about."] };
+const BUZZ_MOOD = {
+  debated: ["\u{1F4AC} Heated debate", "High comment volume relative to score — active community debate."],
+  loved: ["\u{1F44D} Crowd favourite", "Highly upvoted with strong community agreement."]
+};
 const BUZZ_WIN = { "1": ["Last 24 hours", 1], "7": ["This week", 7], "14": ["Last 2 weeks", 14] };
 const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } };
+
+const BUZZ_ICONS = {
+  hn: `<svg class="plat-svg" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="4" fill="#FF6600"/><path fill="#fff" d="M12.8 13.8v5.4h-2v-5.4L6.9 6h2.2l2.9 5.8 2.8-5.8h2.2l-4.2 7.8z"/></svg>`,
+  lobsters: `<svg class="plat-svg" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="4" fill="#AC130D"/><path fill="#fff" d="M12 4a8 8 0 0 0-8 8c0 3.3 2 6.1 4.9 7.3.3-.8.7-1.5 1.1-2.1-1.7-.8-2.9-2.4-2.9-4.3a5 5 0 0 1 10 0c0 1.9-1.2 3.5-2.9 4.3.4.6.8 1.3 1.1 2.1 2.9-1.2 4.9-4 4.9-7.3a8 8 0 0 0-8-8z"/></svg>`,
+  devto: `<svg class="plat-svg" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="4" fill="#0A0A0A"/><path fill="#fff" d="M7.4 8h2.1c1.8 0 2.8 1 2.8 2.7v2.6c0 1.7-1 2.7-2.8 2.7H7.4V8zm2.1 6.3c.7 0 1-.4 1-1.2v-2.2c0-.8-.3-1.2-1-1.2h-.4v4.6h.4zm3.8-6.3h4.3v1.7h-2.5v1.4h2.2v1.7h-2.2v1.5h2.5V16h-4.3V8zm5.5 0h1.8l1.3 5.4 1.3-5.4h1.8L23 16h-1.9l-1.3-5-1.3 5h-1.9l-1.4-8z"/></svg>`,
+  mastodon: `<svg class="plat-svg" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="4" fill="#6364FF"/><path fill="#fff" d="M18.8 9.5c-.2-1.7-1.6-3-3.3-3.2-2.8-.4-5.6-.4-8.3 0-1.7.2-3.1 1.5-3.3 3.2-.5 3.2-.5 6.5 0 9.7.3 1.8 2.1 3.1 3.8 3.1 2 .1 4.1 0 6.1-.4.5-.1 1-.3 1.4-.6l-.1-1.4c-.4.2-.8.3-1.3.3-1.7.3-3.4.3-5.1 0-1-.2-1.5-.7-1.7-1.7 1.8.5 3.8.7 5.6.7 2.2 0 4.5-.2 6.6-1 .2-.1.3-.3.3-.6v-8.1zm-2.6 5.5h-1.7v-4.3h-1.3v3h-1.7v-3h-1.3v4.3H8.5V9.7h2.2l1.4 2.8 1.4-2.8h2.2v5.3z"/></svg>`,
+  youtube: `<svg class="plat-svg" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="4" fill="#E62117"/><path fill="#fff" d="M19 8.2c-.2-.7-.7-1.2-1.4-1.4C16.4 6.5 12 6.5 12 6.5s-4.4 0-5.6.3c-.7.2-1.2.7-1.4 1.4-.3 1.2-.3 3.8-.3 3.8s0 2.6.3 3.8c.2.7.7 1.2 1.4 1.4 1.2.3 5.6.3 5.6.3s4.4 0 5.6-.3c.7-.2 1.2-.7 1.4-1.4.3-1.2.3-3.8.3-3.8s0-2.6-.3-3.8zM10.5 14.5v-5l4.3 2.5-4.3 2.5z"/></svg>`,
+};
+const platBadge = (p, name, color) => `<span class="plat plat--${p}" style="--p:${color}">${BUZZ_ICONS[p] || `<i style="background:${color}"></i>`}<span>${esc(name)}</span></span>`;
 
 const BuzzView = {
   async mount(params) {
     if (!store.buzz) store.buzz = await getJSON("buzz.json");
     const b = store.buzz;
     const t = b.trends, up = (rows) => rows.filter((r) => r.state === "rising"), down = (rows) => rows.filter((r) => r.state === "cooling");
-    const chip = (r, kind) => `<button type="button" data-${kind}="${esc(r.name)}">${esc(r.name)}<span class="c">${r.now}</span><span class="${r.change_pct !== null && r.change_pct < 0 ? "dn" : "up"}">${r.change_pct === null ? "new" : (r.change_pct > 0 ? "+" : "") + r.change_pct + "%"}</span></button>`;
-    const board = (title, note, topics, comps, emptyMsg) => `<div class="box buzzbox"><span class="box-h">${title}</span><p class="buzzbox__note">${note}</p>
-      <div class="themes__list">${topics.map((r) => chip(r, "topic")).join("")}${comps.map((r) => chip(r, "q")).join("") || ""}${!topics.length && !comps.length ? `<span class="muted">${emptyMsg}</span>` : ""}</div></div>`;
+    const chip = (r, kind) => `<button type="button" class="buzz-chip" data-${kind}="${esc(r.name)}"><span class="chip-name">${esc(r.name)}</span><span class="c">${r.now}</span><span class="${r.change_pct !== null && r.change_pct < 0 ? "dn" : "up"}">${r.change_pct === null ? "new" : (r.change_pct > 0 ? "+" : "") + r.change_pct + "%"}</span></button>`;
+    
+    const board = (id, icon, title, note, topics, comps, emptyMsg) => `
+      <div class="box buzzbox buzzbox--${id}">
+        <div class="buzzbox__head">
+          <span class="buzzbox__badge">${icon}</span>
+          <div>
+            <span class="box-h">${title}</span>
+            <p class="buzzbox__note">${note}</p>
+          </div>
+        </div>
+        ${topics.length ? `
+          <div class="buzzbox__sec">
+            <span class="buzzbox__sec-title">Key Topics</span>
+            <div class="themes__list">${topics.map((r) => chip(r, "topic")).join("")}</div>
+          </div>` : ""}
+        ${comps.length ? `
+          <div class="buzzbox__sec">
+            <span class="buzzbox__sec-title">Companies &amp; Labs</span>
+            <div class="themes__list">${comps.map((r) => chip(r, "q")).join("")}</div>
+          </div>` : ""}
+        ${!topics.length && !comps.length ? `<span class="muted">${emptyMsg}</span>` : ""}
+      </div>`;
+
     const base = t.baseline.map((id) => BUZZ_PLAT[id][0]).join(", ");
     const steady = t.companies.filter((r) => r.state === "steady");
-    main.innerHTML = `<header class="page-head"><h1>What developers are talking about</h1>
-        <p>The AI discussions getting the most attention right now on Hacker News, Lobsters, dev.to, Mastodon and YouTube, and which topics are heating up or cooling off. Each thread links to the original conversation.</p></header>
+
+    main.innerHTML = `<header class="page-head">
+        <div class="buzz-head-pill">&#128293; Developer Pulse &amp; Community Threads</div>
+        <h1>What developers are talking about</h1>
+        <p>The AI discussions gaining the fastest momentum across Hacker News, Lobsters, dev.to, Mastodon and YouTube. Filter by heat, sentiment, or topic, jump straight into the comment threads, and track what's heating up or cooling off week-over-week.</p>
+      </header>
       <section class="buzzboards" aria-label="Topic trends">
-        ${board("&#128293; HEATING UP", "More discussion than last week.", up(t.topics), up(t.companies), "Nothing is climbing sharply right now.")}
-        ${board("&#10052; COOLING OFF", "Less discussion than last week.", down(t.topics), down(t.companies), "Nothing is fading sharply right now.")}
-        ${board("&#128172; STEADY TOPICS", "Consistently talked about.", t.topics.filter((r) => r.state === "steady").slice(0, 6), steady.slice(0, 4), "Not enough data yet.")}
+        ${board("heat", "&#128293;", "HEATING UP", "Gaining velocity vs last week", up(t.topics), up(t.companies), "Nothing is climbing sharply right now.")}
+        ${board("cool", "&#10052;", "COOLING OFF", "Slowing down vs last week", down(t.topics), down(t.companies), "Nothing is fading sharply right now.")}
+        ${board("steady", "&#128172;", "STEADY TOPICS", "Consistent community anchors", t.topics.filter((r) => r.state === "steady").slice(0, 6), steady.slice(0, 4), "Not enough baseline data yet.")}
       </section>
-      <p class="trend-note">Week-over-week trends use ${esc(base)}. Mastodon joins once two weeks of its posts have been collected. Click a topic to filter the feed.</p>
+      <p class="trend-note">Week-over-week baseline tracked across ${esc(base)}. Mastodon joins once two weeks of its posts have been collected. Click any topic or company to filter the feed.</p>
+      
       <div class="repo-tabs" role="tablist" id="btabs"></div>
-      <div class="repo-tools">
-        <label class="search"><span class="visually-hidden">Search discussions</span>${searchIcon}<input id="bq" type="search" placeholder="Search titles and posts" autocomplete="off"></label>
+      
+      <div class="repo-tools buzz-tools">
+        <label class="search"><span class="visually-hidden">Search discussions</span>${searchIcon}<input id="bq" type="search" placeholder="Search headlines, posts, authors..." autocomplete="off"></label>
+        <div class="buzz-filters" role="group" aria-label="Quick filters">
+          <button type="button" data-filter="" class="buzz-pill" aria-pressed="true">All</button>
+          <button type="button" data-filter="hot" class="buzz-pill" aria-pressed="false">&#128293; Blazing</button>
+          <button type="button" data-filter="debated" class="buzz-pill" aria-pressed="false">&#128172; Heated debates</button>
+          <button type="button" data-filter="loved" class="buzz-pill" aria-pressed="false">&#128402; Crowd favourites</button>
+          <button type="button" data-filter="news" class="buzz-pill" aria-pressed="false">&#128240; In our news</button>
+          <button type="button" data-filter="repo" class="buzz-pill" aria-pressed="false">&#128187; Tracked repos</button>
+        </div>
         <label class="sortbox"><span class="visually-hidden">Time window</span><select class="select" id="bwin">${Object.entries(BUZZ_WIN).map(([k, [l]]) => `<option value="${k}">${l}</option>`).join("")}</select></label>
         <label class="sortbox"><span class="visually-hidden">Sort</span><select class="select" id="bsort"><option value="hot">Buzzing now</option><option value="new">Newest first</option></select></label>
+        <div class="seg" role="group" aria-label="Layout">
+          <button type="button" data-view="cards" aria-pressed="true">Cards</button>
+          <button type="button" data-view="compact" aria-pressed="false">Compact</button>
+        </div>
       </div>
+      
       <p class="result-line" id="bline" aria-live="polite"></p>
       <div class="buzz-list" id="blist"></div>
+      
+      <div class="saved-tools" id="bsavedtools" hidden>
+        <button class="btn" type="button" id="bexport">Export saved discussions</button>
+        <label class="btn"><input type="file" id="bimport" accept="application/json" hidden>Import saved discussions</label>
+      </div>
+
       <p class="trend-note" id="bsrc"></p>`;
+
     const q = main.querySelector("#bq"); let tm;
     q.addEventListener("input", () => { clearTimeout(tm); tm = setTimeout(() => this.set({ q: q.value.trim() }), 150); });
     main.querySelector("#bwin").addEventListener("change", (e) => this.set({ win: e.target.value }));
     main.querySelector("#bsort").addEventListener("change", (e) => this.set({ sort: e.target.value }));
+    main.querySelector("#bexport")?.addEventListener("click", () => this.exportSaved());
+    main.querySelector("#bimport")?.addEventListener("change", (e) => this.importSaved(e.target.files[0]));
     this.update(params);
+  },
+  exportSaved() {
+    const data = JSON.stringify(loadBuzzSaved(), null, 2);
+    const blob = new Blob([data], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `saved-buzz-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  },
+  async importSaved(file) {
+    if (!file) return;
+    try {
+      const incoming = JSON.parse(await file.text());
+      const merged = { ...loadBuzzSaved() };
+      for (const [id, v] of Object.entries(incoming)) if (v && v.t && v.savedAt) merged[id] = merged[id] || v;
+      writeBuzzSaved(merged);
+      this.update(this.params, true);
+    } catch (err) { alert("That file is not a saved-buzz export."); }
   },
   set(patch, push = false) { this.params = { ...this.params, ...patch }; setParams("/buzz", this.params, { push }); this.update(this.params); },
   update(params, keepLimit = false) {
     if (keepLimit !== true || !this.limit) this.limit = 30;
-    this.params = { src: "all", win: "7", sort: "hot", ...params };
+    this.params = { src: "all", win: "7", sort: "hot", view: "cards", filter: "", ...params };
     const p = this.params, b = store.buzz, saved = loadBuzzSaved();
     const win = BUZZ_WIN[p.win] ? p.win : "7";
-    const tabs = [["all", "All", b.items.length], ...b.platforms.map((x) => [x.id, x.name, x.count]), ["saved", "\u{1F516} Saved", Object.keys(saved).length]];
+    const tabs = [["all", "All Discussions", b.items.length], ...b.platforms.map((x) => [x.id, x.name, x.count]), ["saved", "\u{1F516} Saved", Object.keys(saved).length]];
     main.querySelector("#btabs").innerHTML = tabs.map(([k, l, n]) => `<button type="button" role="tab" data-src="${k}" aria-selected="${k === p.src}">${esc(l)} <span class="count">${n}</span></button>`).join("");
     main.querySelector("#bq").value = p.q || "";
     main.querySelector("#bwin").value = win; main.querySelector("#bsort").value = p.sort === "new" ? "new" : "hot";
+    
+    main.querySelectorAll(".buzz-pill[data-filter]").forEach((el) => el.setAttribute("aria-pressed", String(el.dataset.filter === (p.filter || ""))));
+    main.querySelectorAll("[data-view]").forEach((el) => el.setAttribute("aria-pressed", String(el.dataset.view === (p.view || "cards"))));
     main.querySelectorAll("[data-topic]").forEach((el) => el.setAttribute("aria-pressed", String(el.dataset.topic === p.topic)));
     main.querySelectorAll(".buzzbox [data-q]").forEach((el) => el.setAttribute("aria-pressed", String(el.dataset.q === p.q)));
+    
+    const savedTools = main.querySelector("#bsavedtools");
+    if (savedTools) savedTools.hidden = p.src !== "saved";
+
     const cutoff = Date.now() - BUZZ_WIN[win][1] * DAY, needle = fold(p.q || "");
     let list = p.src === "saved" ? Object.values(saved).sort((a, c) => c.savedAt - a.savedAt) : b.items.filter((it) => new Date(it.ts) >= cutoff && (p.src === "all" || it.p === p.src));
     if (p.topic) list = list.filter((it) => (it.tp || []).includes(p.topic));
     if (needle) list = list.filter((it) => fold(`${it.t} ${it.x || ""} ${it.au || ""}`).includes(needle));
+    
+    if (p.filter === "hot") list = list.filter((it) => (it.h || 0) >= 0.5);
+    else if (p.filter === "debated") list = list.filter((it) => it.m === "debated");
+    else if (p.filter === "loved") list = list.filter((it) => it.m === "loved");
+    else if (p.filter === "news") list = list.filter((it) => !!it.news);
+    else if (p.filter === "repo") list = list.filter((it) => !!it.repo);
+
     if (p.src !== "saved") list = [...list].sort(p.sort === "new" ? (a, c) => new Date(c.ts) - new Date(a.ts) : (a, c) => c.h - a.h);
     const shown = list.slice(0, this.limit);
-    main.querySelector("#bline").innerHTML = `${plural(list.length, "discussion")}${p.topic ? ` about <strong>${esc(p.topic)}</strong>` : ""}${p.q ? ` matching &ldquo;${esc(p.q)}&rdquo;` : ""}${p.topic || p.q ? ` <button type="button" data-clear>Clear</button>` : ""}`;
-    main.querySelector("#blist").innerHTML = shown.length
-      ? shown.map((it) => this.card(it, !!saved[it.id])).join("") + (list.length > this.limit ? `<button class="more repo-more" type="button" data-more>Show more (${list.length - this.limit} left)</button>` : "")
-      : `<p class="empty">${p.src === "saved" ? "Nothing saved yet. Use the bookmark on any discussion to keep it here." : "No discussions match these filters."}</p>`;
+    
+    const filterLabel = {
+      hot: "blazing discussions",
+      debated: "heated debates",
+      loved: "crowd favourites",
+      news: "discussions in our news",
+      repo: "discussions tracking open repos"
+    }[p.filter] || "";
+
+    const activeParts = [];
+    if (p.topic) activeParts.push(`about <strong>${esc(p.topic)}</strong>`);
+    if (p.filter) activeParts.push(`filtered by <strong>${filterLabel}</strong>`);
+    if (p.q) activeParts.push(`matching &ldquo;${esc(p.q)}&rdquo;`);
+    const hasFilters = p.topic || p.q || p.filter;
+
+    main.querySelector("#bline").innerHTML = `${plural(list.length, "discussion")}${activeParts.length ? " " + activeParts.join(" ") : ""}${hasFilters ? ` <button type="button" class="clear-btn" data-clear>Clear filters</button>` : ""}`;
+    
+    const blist = main.querySelector("#blist");
+    blist.className = `buzz-list buzz-list--${p.view === "compact" ? "compact" : "cards"}`;
+    
+    if (shown.length) {
+      const renderCard = p.view === "compact" ? (it) => this.cardRow(it, !!saved[it.id]) : (it) => this.card(it, !!saved[it.id]);
+      blist.innerHTML = shown.map(renderCard).join("") + (list.length > this.limit ? `<button class="more repo-more" type="button" data-more>Show more (${list.length - this.limit} left)</button>` : "");
+    } else {
+      blist.innerHTML = `<div class="buzz-empty">
+        <p class="empty">${p.src === "saved" ? "Nothing saved yet. Use the bookmark icon on any discussion card to save it for later." : "No discussions match your current filters."}</p>
+        ${hasFilters ? `<button type="button" class="btn" data-clear>Reset all filters</button>` : ""}
+      </div>`;
+    }
+    
     main.querySelector("#bsrc").innerHTML = "Sources: " + b.platforms.map((x) => `<a href="${esc(x.home)}" target="_blank" rel="noopener">${esc(x.name)}</a>${x.ok === false ? " (last fetch failed)" : ""}`).join(", ") + `. X and Reddit are not included: X charges for access and Reddit blocks automated readers.`;
   },
   card(it, isSaved) {
-    const [pname, unit] = BUZZ_PLAT[it.p], pm = store.buzz.platforms.find((x) => x.id === it.p);
-    const stat = it.p === "youtube" ? `${kfmt(it.s)} views` : `${kfmt(it.s)} ${unit}${it.c ? ` &middot; ${kfmt(it.c)} comments` : ""}`;
+    const [pname, unit] = BUZZ_PLAT[it.p], pm = store.buzz.platforms.find((x) => x.id === it.p) || { color: "#5B3DF5" };
+    const stat = it.p === "youtube" ? `${kfmt(it.s)} views` : `${kfmt(it.s)} ${unit}`;
     const host = it.u !== it.d ? hostOf(it.u) : "";
     const mood = it.m ? `<span class="mood mood--${it.m}" title="${esc(BUZZ_MOOD[it.m][1])}">${BUZZ_MOOD[it.m][0]}</span>` : "";
+    const hotBadge = it.h >= 1.5 ? `<span class="bz__hotness bz__hotness--blazing" title="Blazing hot: score velocity ${it.h.toFixed(1)}">&#128293;&#128293; Blazing</span>`
+      : it.h >= 0.5 ? `<span class="bz__hotness bz__hotness--surge" title="Surging interest: score velocity ${it.h.toFixed(1)}">&#128293; Surging</span>` : "";
     const save = `<button class="save" type="button" data-save="${esc(it.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? "Remove from saved" : "Save"} discussion" title="${isSaved ? "Saved: click to remove" : "Save this discussion"}">${bookmark(isSaved)}</button>`;
-    return `<article class="bz">
+    
+    const discussLink = it.u !== it.d
+      ? `<a class="bz__action-discuss" href="${esc(it.d)}" target="_blank" rel="noopener" title="Open discussion on ${esc(pname)}">&#128172; ${it.c ? `${kfmt(it.c)} comments` : "View thread"} &rarr;</a>`
+      : `<span class="bz__self-badge" title="Original community thread">&#128172; ${it.c ? `${kfmt(it.c)} comments` : "Community thread"}</span>`;
+
+    return `<article class="bz bz--card">
       <div class="bz__main">
-        <div class="bz__meta"><span class="plat" style="--p:${pm.color}"><i></i>${esc(pname)}</span><span class="heat" title="Engagement">${stat}</span>${mood}
-          <time datetime="${esc(it.ts)}" title="${esc(new Date(it.ts).toLocaleString("en-GB"))}">${esc(relTime(it.ts))}</time></div>
-        <h3 class="bz__title"><a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a>${host ? ` <span class="host">${esc(host)}</span>` : ""}</h3>
+        <div class="bz__meta">
+          ${platBadge(it.p, pname, pm.color)}
+          <span class="heat" title="Community Engagement">${stat}${it.c ? ` &middot; ${kfmt(it.c)} comments` : ""}</span>
+          ${hotBadge}
+          ${mood}
+          <time datetime="${esc(it.ts)}" title="${esc(new Date(it.ts).toLocaleString("en-GB"))}">${esc(relTime(it.ts))}</time>
+        </div>
+        <h3 class="bz__title">
+          <a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a>
+          ${host ? ` <span class="host">${esc(host)}</span>` : ""}
+        </h3>
         ${it.x && it.x !== it.t ? `<p class="bz__text">${esc(it.x)}</p>` : ""}
-        <div class="bz__foot">${(it.tp || []).map((tp) => `<button type="button" class="tag" data-topic="${esc(tp)}">${esc(tp)}</button>`).join("")}
-          ${it.news ? `<span class="tag tag--ok" title="This story is also in AI News Update">In our news</span>` : ""}
-          ${it.repo ? `<a class="tag tag--ok" href="#/repos?q=${encodeURIComponent(it.repo.split("/")[1])}" title="A repo we track">Tracked repo</a>` : ""}
-          ${it.au ? `<span class="by">${esc(it.au)}</span>` : ""}
-          ${it.u !== it.d ? `<a class="disc" href="${esc(it.d)}" target="_blank" rel="noopener">Discussion &rarr;</a>` : ""}</div>
-      </div>${it.th && it.p !== "mastodon" ? `<a class="bz__thumb" href="${esc(it.u)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.th)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></a>` : ""}${save}</article>`;
+        <div class="bz__foot">
+          <div class="bz__tags">
+            ${(it.tp || []).map((tp) => `<button type="button" class="tag" data-topic="${esc(tp)}">${esc(tp)}</button>`).join("")}
+            ${it.news ? `<span class="tag tag--ok" title="This story is also featured in our news dashboard">&#128240; In our news</span>` : ""}
+            ${it.repo ? `<a class="tag tag--ok" href="#/repos?q=${encodeURIComponent(it.repo.split("/")[1])}" title="Open-source repository we track">&#128187; Tracked repo</a>` : ""}
+            ${it.au ? `<span class="by">by ${esc(it.au)}</span>` : ""}
+          </div>
+          <div class="bz__actions">
+            ${discussLink}
+          </div>
+        </div>
+      </div>
+      ${it.th && it.p !== "mastodon" ? `<a class="bz__thumb" href="${esc(it.u)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.th)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></a>` : ""}
+      ${save}
+    </article>`;
+  },
+  cardRow(it, isSaved) {
+    const [pname, unit] = BUZZ_PLAT[it.p], pm = store.buzz.platforms.find((x) => x.id === it.p) || { color: "#5B3DF5" };
+    const host = it.u !== it.d ? hostOf(it.u) : "";
+    const mood = it.m ? `<span class="mood mood--${it.m}" title="${esc(BUZZ_MOOD[it.m][1])}">${BUZZ_MOOD[it.m][0]}</span>` : "";
+    const hotBadge = it.h >= 1.5 ? `<span class="bz__hotness bz__hotness--blazing">&#128293;&#128293;</span>`
+      : it.h >= 0.5 ? `<span class="bz__hotness bz__hotness--surge">&#128293;</span>` : "";
+    const save = `<button class="save" type="button" data-save="${esc(it.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? "Remove from saved" : "Save"} discussion">${bookmark(isSaved)}</button>`;
+
+    return `<article class="bz bz--row">
+      <div class="bz__row-stat" title="Score: ${it.s}">
+        <span class="num">${kfmt(it.s)}</span>
+        <span class="unit">${it.p === "youtube" ? "views" : unit}</span>
+      </div>
+      <div class="bz__row-main">
+        <div class="bz__row-meta">
+          ${platBadge(it.p, pname, pm.color)}
+          ${hotBadge}
+          ${mood}
+          <time datetime="${esc(it.ts)}">${esc(relTime(it.ts))}</time>
+          ${it.news ? `<span class="tag tag--ok tag--mini">News</span>` : ""}
+          ${it.repo ? `<span class="tag tag--ok tag--mini">Repo</span>` : ""}
+        </div>
+        <h3 class="bz__row-title">
+          <a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a>
+          ${host ? `<span class="host">${esc(host)}</span>` : ""}
+        </h3>
+        <div class="bz__row-foot">
+          ${(it.tp || []).slice(0, 3).map((tp) => `<button type="button" class="tag tag--mini" data-topic="${esc(tp)}">${esc(tp)}</button>`).join("")}
+          ${it.u !== it.d ? `<a class="bz__row-discuss" href="${esc(it.d)}" target="_blank" rel="noopener">&#128172; ${it.c ? `${kfmt(it.c)} comments` : "Thread"} &rarr;</a>` : ""}
+        </div>
+      </div>
+      ${save}
+    </article>`;
   },
   click(e) {
     const t = e.target.closest("button, a"); if (!t) return;
     const d = t.dataset;
     if (d.src) { this.set({ src: d.src }, true); }
     else if (d.topic) { this.set({ topic: this.params.topic === d.topic ? "" : d.topic }, true); }
+    else if (d.filter !== undefined) { this.set({ filter: this.params.filter === d.filter ? "" : d.filter }, true); }
+    else if (d.view) { this.set({ view: d.view }, true); }
     else if (d.q !== undefined && t.closest(".buzzbox")) { this.set({ q: this.params.q === d.q ? "" : d.q }, true); }
-    else if (d.clear !== undefined) { this.set({ topic: "", q: "" }, true); }
+    else if (d.clear !== undefined) { this.set({ topic: "", q: "", filter: "" }, true); }
     else if (d.more !== undefined) { this.limit += 30; this.update(this.params, true); }
     else if (d.save) {
       const saved = loadBuzzSaved(), it = store.buzz.items.find((x) => x.id === d.save) || saved[d.save];
