@@ -1,13 +1,13 @@
 {
  "2026-11": {
-  "as_of": "2026-11-24T16:21:18Z",
+  "as_of": "2026-11-24T23:56:46Z",
   "gems": [
    {
     "created": "2026-10-16T00:41:59Z",
     "day": 0,
     "desc": "Blazing fast Apple Silicon inference engine optimized for Qwen & Nemotron. OpenAI + Anthropic API compatible. Built by folks from nace.ai",
     "est": false,
-    "forks": 123,
+    "forks": 122,
     "full": "nace-ai/kapitsa",
     "home": "https://kapitsa.vercel.app",
     "id": "nace-ai/kapitsa",
@@ -15,14 +15,14 @@
     "license": "Apache-2.0",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T02:06:06Z",
+    "pushed": "2026-11-24T16:54:37Z",
     "quickstart": "brew install nace-ai/tap/kapitsa",
-    "reason": "Small but healthy: updated today, release v0.2.39, about 661 new stars a month, Apache-2.0 license",
+    "reason": "Small but healthy: updated today, release v0.2.40, about 665 new stars a month, Apache-2.0 license",
     "release": {
-     "date": "2026-11-20T21:54:20Z",
-     "tag": "v0.2.39"
+     "date": "2026-11-24T11:29:26Z",
+     "tag": "v0.2.40"
     },
-    "stars": 874,
+    "stars": 886,
     "topics": [
      "apple-silicon",
      "clover",
@@ -41,43 +41,6 @@
     "why": null
    },
    {
-    "created": "2026-10-08T19:24:10Z",
-    "day": 0,
-    "desc": "WebRouter is an open source standard that connects your agent to the web",
-    "est": false,
-    "forks": 56,
-    "full": "Nimbleway/webrouter",
-    "home": "https://docs.webrouter.net",
-    "id": "nimbleway/webrouter",
-    "lang": "Python",
-    "license": "Apache-2.0",
-    "owner_type": "Organization",
-    "permissive": true,
-    "pushed": "2026-11-23T20:42:54Z",
-    "quickstart": "pip install \"webrouter[all]\"",
-    "reason": "Small but healthy: updated today, release v0.14.0, about 591 new stars a month, Apache-2.0 license",
-    "release": {
-     "date": "2026-11-19T09:08:41Z",
-     "tag": "v0.14.0"
-    },
-    "stars": 924,
-    "topics": [
-     "ai-agents",
-     "llm-tools",
-     "mcp",
-     "web-search",
-     "router"
-    ],
-    "unverified": false,
-    "url": "https://github.com/Nimbleway/webrouter",
-    "uses": [
-     "Agents",
-     "MCP"
-    ],
-    "week": null,
-    "why": null
-   },
-   {
     "created": "2026-08-01T02:13:37Z",
     "day": 0,
     "desc": "A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains useful in future tasks.",
@@ -90,14 +53,14 @@
     "license": "MIT",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T03:28:35Z",
+    "pushed": "2026-11-24T11:30:37Z",
     "quickstart": "npm install -g @memorax/memorax-code",
-    "reason": "Small but healthy: updated today, release v0.1.23, about 567 new stars a month, MIT license",
+    "reason": "Small but healthy: updated today, release v0.1.24, about 566 new stars a month, MIT license",
     "release": {
-     "date": "2026-11-12T01:35:56Z",
-     "tag": "v0.1.23"
+     "date": "2026-11-24T08:06:35Z",
+     "tag": "v0.1.24"
     },
-    "stars": 2186,
+    "stars": 2188,
     "topics": [
      "ai-agents",
      "coding-memory",
@@ -115,11 +78,48 @@
     "why": null
    },
    {
+    "created": "2026-10-08T19:24:10Z",
+    "day": 0,
+    "desc": "WebRouter is an open source standard that connects your agent to the web",
+    "est": false,
+    "forks": 67,
+    "full": "Nimbleway/webrouter",
+    "home": "https://docs.webrouter.net",
+    "id": "nimbleway/webrouter",
+    "lang": "Python",
+    "license": "Apache-2.0",
+    "owner_type": "Organization",
+    "permissive": true,
+    "pushed": "2026-11-24T22:41:48Z",
+    "quickstart": "pip install \"webrouter[all]\"",
+    "reason": "Small but healthy: updated today, release v0.15.0, about 523 new stars a month, Apache-2.0 license",
+    "release": {
+     "date": "2026-11-24T09:48:25Z",
+     "tag": "v0.15.0"
+    },
+    "stars": 824,
+    "topics": [
+     "ai-agents",
+     "llm-tools",
+     "mcp",
+     "web-search",
+     "router"
+    ],
+    "unverified": false,
+    "url": "https://github.com/Nimbleway/webrouter",
+    "uses": [
+     "Agents",
+     "MCP"
+    ],
+    "week": null,
+    "why": null
+   },
+   {
     "created": "2026-09-25T03:58:19Z",
     "day": 0,
     "desc": "Open-source LLM gateway in Rust. One endpoint for OpenAI, Anthropic, Gemini and every other vendor. Any SDK, any model, any tool.",
     "est": false,
-    "forks": 157,
+    "forks": 160,
     "full": "respanai/respan-gateway",
     "home": "https://respan.ai/ai-gateway",
     "id": "respanai/respan-gateway",
@@ -127,14 +127,14 @@
     "license": "Apache-2.0",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T00:49:36Z",
+    "pushed": "2026-11-24T16:51:04Z",
     "quickstart": "pip install respan-gateway",
-    "reason": "Small but healthy: updated today, release v0.3.0, about 507 new stars a month, Apache-2.0 license",
+    "reason": "Small but healthy: updated today, release v0.3.0, about 513 new stars a month, Apache-2.0 license",
     "release": {
      "date": "2026-10-25T06:27:24Z",
      "tag": "v0.3.0"
     },
-    "stars": 1023,
+    "stars": 1042,
     "topics": [
      "ai-agents",
      "ai-gateway",
@@ -157,7 +157,7 @@
     "day": 0,
     "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
     "est": false,
-    "forks": 3722,
+    "forks": 3752,
     "full": "yetone/magpie",
     "home": "https://usemagpie.ai",
     "id": "yetone/magpie",
@@ -165,14 +165,14 @@
     "license": "MIT",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-24T03:40:26Z",
+    "pushed": "2026-11-24T22:49:51Z",
     "quickstart": "curl -fsSL https://usemagpie.ai/install.sh | sh",
-    "reason": "61 days old with 40,600 stars",
+    "reason": "62 days old with 41,005 stars",
     "release": {
-     "date": "2026-11-24T03:14:45Z",
-     "tag": "v0.1.4735"
+     "date": "2026-11-24T22:32:13Z",
+     "tag": "v0.1.4777"
     },
-    "stars": 40600,
+    "stars": 41005,
     "topics": [],
     "unverified": false,
     "url": "https://github.com/yetone/magpie",
@@ -186,9 +186,9 @@
    {
     "created": "2026-10-08T21:14:39Z",
     "day": 0,
-    "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "desc": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
     "est": false,
-    "forks": 6680,
+    "forks": 7190,
     "full": "BaaRai/ARTEX",
     "home": null,
     "id": "baarai/artex",
@@ -196,14 +196,14 @@
     "license": "AGPL-3.0",
     "owner_type": "User",
     "permissive": false,
-    "pushed": "2026-11-24T00:19:23Z",
+    "pushed": "2026-11-24T19:49:01Z",
     "quickstart": "docker pull ghcr.io/baarai/artex:latest",
-    "reason": "46 days old with 17,922 stars",
+    "reason": "47 days old with 19,245 stars",
     "release": {
      "date": "2026-11-21T08:44:23Z",
      "tag": "v0.7.0"
     },
-    "stars": 17922,
+    "stars": 19245,
     "topics": [
      "rea",
      "ai-agents",
@@ -223,7 +223,7 @@
     "day": 0,
     "desc": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
     "est": false,
-    "forks": 2557,
+    "forks": 2572,
     "full": "tangency-labs/solidcraft",
     "home": "https://solidcraft.io",
     "id": "tangency-labs/solidcraft",
@@ -231,14 +231,14 @@
     "license": "Apache-2.0",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T03:46:39Z",
+    "pushed": "2026-11-24T23:59:23Z",
     "quickstart": null,
-    "reason": "47 days old with 17,947 stars",
+    "reason": "48 days old with 18,092 stars",
     "release": {
-     "date": "2026-11-24T02:13:34Z",
-     "tag": "v0.48.0"
+     "date": "2026-11-24T05:12:06Z",
+     "tag": "v0.48.1"
     },
-    "stars": 17947,
+    "stars": 18092,
     "topics": [
      "3d-modeling",
      "brep",
@@ -259,7 +259,7 @@
     "day": 0,
     "desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
     "est": false,
-    "forks": 2603,
+    "forks": 2665,
     "full": "lemomo-ai/lemo-opuscar",
     "home": "https://lemomo-ai.github.io/lemo-opuscar/",
     "id": "lemomo-ai/lemo-opuscar",
@@ -269,12 +269,12 @@
     "permissive": false,
     "pushed": "2026-11-23T04:53:40Z",
     "quickstart": null,
-    "reason": "59 days old with 20,348 stars",
+    "reason": "59 days old with 20,681 stars",
     "release": {
      "date": "2026-11-12T08:07:11Z",
      "tag": "v2.0.0"
     },
-    "stars": 20348,
+    "stars": 20681,
     "topics": [
      "ai-agents",
      "ai-video",
@@ -299,22 +299,22 @@
     "day": 0,
     "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
     "est": true,
-    "forks": 713,
+    "forks": 748,
     "full": "erkamyaman/rust-anything",
-    "home": "https://www.npmjs.com/package/rust-anything",
+    "home": "rust-anything.com",
     "id": "erkamyaman/rust-anything",
     "lang": "Rust",
     "license": "MIT",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-23T21:17:51Z",
+    "pushed": "2026-11-24T21:05:44Z",
     "quickstart": "npm install -g eslint-rs",
-    "reason": "+7,534 stars this week (average since launch)",
+    "reason": "+7,586 stars this week (average since launch)",
     "release": {
-     "date": "2026-11-23T16:22:53Z",
-     "tag": "v3.4.0"
+     "date": "2026-11-24T22:53:56Z",
+     "tag": "v4.1.0"
     },
-    "stars": 8798,
+    "stars": 9202,
     "topics": [
      "agent-skills",
      "ffi",
@@ -329,45 +329,7 @@
      "MCP",
      "Coding tools"
     ],
-    "week": 7534,
-    "why": null
-   },
-   {
-    "created": "2026-10-29T16:15:01Z",
-    "day": 0,
-    "desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
-    "est": true,
-    "forks": 1867,
-    "full": "JuneYaooo/rea-video",
-    "home": "https://www.reavideo.ai/",
-    "id": "juneyaooo/rea-video",
-    "lang": "Python",
-    "license": "Apache-2.0",
-    "owner_type": "User",
-    "permissive": true,
-    "pushed": "2026-11-24T02:53:34Z",
-    "quickstart": null,
-    "reason": "+3,426 stars this week (average since launch)",
-    "release": {
-     "date": "2026-11-11T17:48:35Z",
-     "tag": "v0.1.0"
-    },
-    "stars": 12730,
-    "topics": [
-     "agent-skills",
-     "ai-video",
-     "aigc-detection",
-     "ffmpeg",
-     "prompt-engineering"
-    ],
-    "unverified": false,
-    "url": "https://github.com/JuneYaooo/rea-video",
-    "uses": [
-     "Agents",
-     "Coding tools",
-     "Multimodal"
-    ],
-    "week": 3426,
+    "week": 7586,
     "why": null
    },
    {
@@ -375,7 +337,7 @@
     "day": 0,
     "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
     "est": false,
-    "forks": 213,
+    "forks": 255,
     "full": "EL4CTEO/fast-anything",
     "home": "https://www.npmjs.com/package/@el4cteo/fast-anything",
     "id": "el4cteo/fast-anything",
@@ -383,14 +345,14 @@
     "license": "MIT",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-24T00:18:49Z",
+    "pushed": "2026-11-24T15:28:28Z",
     "quickstart": "npm i -g @el4cteo/fast-anything",
-    "reason": "+3,220 stars this week",
+    "reason": "+3,596 stars this week",
     "release": {
-     "date": "2026-11-24T00:12:14Z",
-     "tag": "v0.8.6"
+     "date": "2026-11-24T15:50:13Z",
+     "tag": "v0.8.7"
     },
-    "stars": 3220,
+    "stars": 3596,
     "topics": [
      "agent-skills",
      "ai-agents",
@@ -405,7 +367,45 @@
      "MCP",
      "Coding tools"
     ],
-    "week": 3220,
+    "week": 3596,
+    "why": null
+   },
+   {
+    "created": "2026-10-29T16:15:01Z",
+    "day": 0,
+    "desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+    "est": true,
+    "forks": 1909,
+    "full": "JuneYaooo/rea-video",
+    "home": "https://www.reavideo.ai/",
+    "id": "juneyaooo/rea-video",
+    "lang": "Python",
+    "license": "Apache-2.0",
+    "owner_type": "User",
+    "permissive": true,
+    "pushed": "2026-11-24T16:26:12Z",
+    "quickstart": null,
+    "reason": "+3,455 stars this week (average since launch)",
+    "release": {
+     "date": "2026-11-11T17:48:35Z",
+     "tag": "v0.1.0"
+    },
+    "stars": 12994,
+    "topics": [
+     "agent-skills",
+     "ai-video",
+     "aigc-detection",
+     "ffmpeg",
+     "prompt-engineering"
+    ],
+    "unverified": false,
+    "url": "https://github.com/JuneYaooo/rea-video",
+    "uses": [
+     "Agents",
+     "Coding tools",
+     "Multimodal"
+    ],
+    "week": 3455,
     "why": null
    },
    {
@@ -413,7 +413,7 @@
     "day": 0,
     "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
     "est": true,
-    "forks": 2192,
+    "forks": 2206,
     "full": "wangzan101/Mika",
     "home": "https://mikaphone.com",
     "id": "wangzan101/mika",
@@ -421,14 +421,14 @@
     "license": "Apache-2.0",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-23T09:42:27Z",
+    "pushed": "2026-11-24T20:45:04Z",
     "quickstart": null,
-    "reason": "+2,629 stars this week (average since launch)",
+    "reason": "+2,616 stars this week (average since launch)",
     "release": {
      "date": "2026-11-20T17:37:45Z",
      "tag": "v0.1.50"
     },
-    "stars": 9795,
+    "stars": 9866,
     "topics": [
      "accessibility",
      "ai-agent",
@@ -442,20 +442,20 @@
      "Agents",
      "Local & inference"
     ],
-    "week": 2629,
+    "week": 2616,
     "why": null
    }
   ]
  },
  "2026-Q4": {
-  "as_of": "2026-11-24T16:21:18Z",
+  "as_of": "2026-11-24T23:56:46Z",
   "gems": [
    {
     "created": "2026-10-16T00:41:59Z",
     "day": 0,
     "desc": "Blazing fast Apple Silicon inference engine optimized for Qwen & Nemotron. OpenAI + Anthropic API compatible. Built by folks from nace.ai",
     "est": false,
-    "forks": 123,
+    "forks": 122,
     "full": "nace-ai/kapitsa",
     "home": "https://kapitsa.vercel.app",
     "id": "nace-ai/kapitsa",
@@ -463,14 +463,14 @@
     "license": "Apache-2.0",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T02:06:06Z",
+    "pushed": "2026-11-24T16:54:37Z",
     "quickstart": "brew install nace-ai/tap/kapitsa",
-    "reason": "Small but healthy: updated today, release v0.2.39, about 661 new stars a month, Apache-2.0 license",
+    "reason": "Small but healthy: updated today, release v0.2.40, about 665 new stars a month, Apache-2.0 license",
     "release": {
-     "date": "2026-11-20T21:54:20Z",
-     "tag": "v0.2.39"
+     "date": "2026-11-24T11:29:26Z",
+     "tag": "v0.2.40"
     },
-    "stars": 874,
+    "stars": 886,
     "topics": [
      "apple-silicon",
      "clover",
@@ -489,43 +489,6 @@
     "why": null
    },
    {
-    "created": "2026-10-08T19:24:10Z",
-    "day": 0,
-    "desc": "WebRouter is an open source standard that connects your agent to the web",
-    "est": false,
-    "forks": 56,
-    "full": "Nimbleway/webrouter",
-    "home": "https://docs.webrouter.net",
-    "id": "nimbleway/webrouter",
-    "lang": "Python",
-    "license": "Apache-2.0",
-    "owner_type": "Organization",
-    "permissive": true,
-    "pushed": "2026-11-23T20:42:54Z",
-    "quickstart": "pip install \"webrouter[all]\"",
-    "reason": "Small but healthy: updated today, release v0.14.0, about 591 new stars a month, Apache-2.0 license",
-    "release": {
-     "date": "2026-11-19T09:08:41Z",
-     "tag": "v0.14.0"
-    },
-    "stars": 924,
-    "topics": [
-     "ai-agents",
-     "llm-tools",
-     "mcp",
-     "web-search",
-     "router"
-    ],
-    "unverified": false,
-    "url": "https://github.com/Nimbleway/webrouter",
-    "uses": [
-     "Agents",
-     "MCP"
-    ],
-    "week": null,
-    "why": null
-   },
-   {
     "created": "2026-08-01T02:13:37Z",
     "day": 0,
     "desc": "A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains useful in future tasks.",
@@ -538,14 +501,14 @@
     "license": "MIT",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T03:28:35Z",
+    "pushed": "2026-11-24T11:30:37Z",
     "quickstart": "npm install -g @memorax/memorax-code",
-    "reason": "Small but healthy: updated today, release v0.1.23, about 567 new stars a month, MIT license",
+    "reason": "Small but healthy: updated today, release v0.1.24, about 566 new stars a month, MIT license",
     "release": {
-     "date": "2026-11-12T01:35:56Z",
-     "tag": "v0.1.23"
+     "date": "2026-11-24T08:06:35Z",
+     "tag": "v0.1.24"
     },
-    "stars": 2186,
+    "stars": 2188,
     "topics": [
      "ai-agents",
      "coding-memory",
@@ -563,11 +526,48 @@
     "why": null
    },
    {
+    "created": "2026-10-08T19:24:10Z",
+    "day": 0,
+    "desc": "WebRouter is an open source standard that connects your agent to the web",
+    "est": false,
+    "forks": 67,
+    "full": "Nimbleway/webrouter",
+    "home": "https://docs.webrouter.net",
+    "id": "nimbleway/webrouter",
+    "lang": "Python",
+    "license": "Apache-2.0",
+    "owner_type": "Organization",
+    "permissive": true,
+    "pushed": "2026-11-24T22:41:48Z",
+    "quickstart": "pip install \"webrouter[all]\"",
+    "reason": "Small but healthy: updated today, release v0.15.0, about 523 new stars a month, Apache-2.0 license",
+    "release": {
+     "date": "2026-11-24T09:48:25Z",
+     "tag": "v0.15.0"
+    },
+    "stars": 824,
+    "topics": [
+     "ai-agents",
+     "llm-tools",
+     "mcp",
+     "web-search",
+     "router"
+    ],
+    "unverified": false,
+    "url": "https://github.com/Nimbleway/webrouter",
+    "uses": [
+     "Agents",
+     "MCP"
+    ],
+    "week": null,
+    "why": null
+   },
+   {
     "created": "2026-09-25T03:58:19Z",
     "day": 0,
     "desc": "Open-source LLM gateway in Rust. One endpoint for OpenAI, Anthropic, Gemini and every other vendor. Any SDK, any model, any tool.",
     "est": false,
-    "forks": 157,
+    "forks": 160,
     "full": "respanai/respan-gateway",
     "home": "https://respan.ai/ai-gateway",
     "id": "respanai/respan-gateway",
@@ -575,14 +575,14 @@
     "license": "Apache-2.0",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T00:49:36Z",
+    "pushed": "2026-11-24T16:51:04Z",
     "quickstart": "pip install respan-gateway",
-    "reason": "Small but healthy: updated today, release v0.3.0, about 507 new stars a month, Apache-2.0 license",
+    "reason": "Small but healthy: updated today, release v0.3.0, about 513 new stars a month, Apache-2.0 license",
     "release": {
      "date": "2026-10-25T06:27:24Z",
      "tag": "v0.3.0"
     },
-    "stars": 1023,
+    "stars": 1042,
     "topics": [
      "ai-agents",
      "ai-gateway",
@@ -605,7 +605,7 @@
     "day": 0,
     "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
     "est": false,
-    "forks": 3722,
+    "forks": 3752,
     "full": "yetone/magpie",
     "home": "https://usemagpie.ai",
     "id": "yetone/magpie",
@@ -613,14 +613,14 @@
     "license": "MIT",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-24T03:40:26Z",
+    "pushed": "2026-11-24T22:49:51Z",
     "quickstart": "curl -fsSL https://usemagpie.ai/install.sh | sh",
-    "reason": "61 days old with 40,600 stars",
+    "reason": "62 days old with 41,005 stars",
     "release": {
-     "date": "2026-11-24T03:14:45Z",
-     "tag": "v0.1.4735"
+     "date": "2026-11-24T22:32:13Z",
+     "tag": "v0.1.4777"
     },
-    "stars": 40600,
+    "stars": 41005,
     "topics": [],
     "unverified": false,
     "url": "https://github.com/yetone/magpie",
@@ -634,9 +634,9 @@
    {
     "created": "2026-10-08T21:14:39Z",
     "day": 0,
-    "desc": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+    "desc": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
     "est": false,
-    "forks": 6680,
+    "forks": 7190,
     "full": "BaaRai/ARTEX",
     "home": null,
     "id": "baarai/artex",
@@ -644,14 +644,14 @@
     "license": "AGPL-3.0",
     "owner_type": "User",
     "permissive": false,
-    "pushed": "2026-11-24T00:19:23Z",
+    "pushed": "2026-11-24T19:49:01Z",
     "quickstart": "docker pull ghcr.io/baarai/artex:latest",
-    "reason": "46 days old with 17,922 stars",
+    "reason": "47 days old with 19,245 stars",
     "release": {
      "date": "2026-11-21T08:44:23Z",
      "tag": "v0.7.0"
     },
-    "stars": 17922,
+    "stars": 19245,
     "topics": [
      "rea",
      "ai-agents",
@@ -671,7 +671,7 @@
     "day": 0,
     "desc": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
     "est": false,
-    "forks": 2557,
+    "forks": 2572,
     "full": "tangency-labs/solidcraft",
     "home": "https://solidcraft.io",
     "id": "tangency-labs/solidcraft",
@@ -679,14 +679,14 @@
     "license": "Apache-2.0",
     "owner_type": "Organization",
     "permissive": true,
-    "pushed": "2026-11-24T03:46:39Z",
+    "pushed": "2026-11-24T23:59:23Z",
     "quickstart": null,
-    "reason": "47 days old with 17,947 stars",
+    "reason": "48 days old with 18,092 stars",
     "release": {
-     "date": "2026-11-24T02:13:34Z",
-     "tag": "v0.48.0"
+     "date": "2026-11-24T05:12:06Z",
+     "tag": "v0.48.1"
     },
-    "stars": 17947,
+    "stars": 18092,
     "topics": [
      "3d-modeling",
      "brep",
@@ -707,7 +707,7 @@
     "day": 0,
     "desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
     "est": false,
-    "forks": 2603,
+    "forks": 2665,
     "full": "lemomo-ai/lemo-opuscar",
     "home": "https://lemomo-ai.github.io/lemo-opuscar/",
     "id": "lemomo-ai/lemo-opuscar",
@@ -717,12 +717,12 @@
     "permissive": false,
     "pushed": "2026-11-23T04:53:40Z",
     "quickstart": null,
-    "reason": "59 days old with 20,348 stars",
+    "reason": "59 days old with 20,681 stars",
     "release": {
      "date": "2026-11-12T08:07:11Z",
      "tag": "v2.0.0"
     },
-    "stars": 20348,
+    "stars": 20681,
     "topics": [
      "ai-agents",
      "ai-video",
@@ -747,22 +747,22 @@
     "day": 0,
     "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
     "est": true,
-    "forks": 713,
+    "forks": 748,
     "full": "erkamyaman/rust-anything",
-    "home": "https://www.npmjs.com/package/rust-anything",
+    "home": "rust-anything.com",
     "id": "erkamyaman/rust-anything",
     "lang": "Rust",
     "license": "MIT",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-23T21:17:51Z",
+    "pushed": "2026-11-24T21:05:44Z",
     "quickstart": "npm install -g eslint-rs",
-    "reason": "+7,534 stars this week (average since launch)",
+    "reason": "+7,586 stars this week (average since launch)",
     "release": {
-     "date": "2026-11-23T16:22:53Z",
-     "tag": "v3.4.0"
+     "date": "2026-11-24T22:53:56Z",
+     "tag": "v4.1.0"
     },
-    "stars": 8798,
+    "stars": 9202,
     "topics": [
      "agent-skills",
      "ffi",
@@ -777,45 +777,7 @@
      "MCP",
      "Coding tools"
     ],
-    "week": 7534,
-    "why": null
-   },
-   {
-    "created": "2026-10-29T16:15:01Z",
-    "day": 0,
-    "desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
-    "est": true,
-    "forks": 1867,
-    "full": "JuneYaooo/rea-video",
-    "home": "https://www.reavideo.ai/",
-    "id": "juneyaooo/rea-video",
-    "lang": "Python",
-    "license": "Apache-2.0",
-    "owner_type": "User",
-    "permissive": true,
-    "pushed": "2026-11-24T02:53:34Z",
-    "quickstart": null,
-    "reason": "+3,426 stars this week (average since launch)",
-    "release": {
-     "date": "2026-11-11T17:48:35Z",
-     "tag": "v0.1.0"
-    },
-    "stars": 12730,
-    "topics": [
-     "agent-skills",
-     "ai-video",
-     "aigc-detection",
-     "ffmpeg",
-     "prompt-engineering"
-    ],
-    "unverified": false,
-    "url": "https://github.com/JuneYaooo/rea-video",
-    "uses": [
-     "Agents",
-     "Coding tools",
-     "Multimodal"
-    ],
-    "week": 3426,
+    "week": 7586,
     "why": null
    },
    {
@@ -823,7 +785,7 @@
     "day": 0,
     "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
     "est": false,
-    "forks": 213,
+    "forks": 255,
     "full": "EL4CTEO/fast-anything",
     "home": "https://www.npmjs.com/package/@el4cteo/fast-anything",
     "id": "el4cteo/fast-anything",
@@ -831,14 +793,14 @@
     "license": "MIT",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-24T00:18:49Z",
+    "pushed": "2026-11-24T15:28:28Z",
     "quickstart": "npm i -g @el4cteo/fast-anything",
-    "reason": "+3,220 stars this week",
+    "reason": "+3,596 stars this week",
     "release": {
-     "date": "2026-11-24T00:12:14Z",
-     "tag": "v0.8.6"
+     "date": "2026-11-24T15:50:13Z",
+     "tag": "v0.8.7"
     },
-    "stars": 3220,
+    "stars": 3596,
     "topics": [
      "agent-skills",
      "ai-agents",
@@ -853,7 +815,45 @@
      "MCP",
      "Coding tools"
     ],
-    "week": 3220,
+    "week": 3596,
+    "why": null
+   },
+   {
+    "created": "2026-10-29T16:15:01Z",
+    "day": 0,
+    "desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+    "est": true,
+    "forks": 1909,
+    "full": "JuneYaooo/rea-video",
+    "home": "https://www.reavideo.ai/",
+    "id": "juneyaooo/rea-video",
+    "lang": "Python",
+    "license": "Apache-2.0",
+    "owner_type": "User",
+    "permissive": true,
+    "pushed": "2026-11-24T16:26:12Z",
+    "quickstart": null,
+    "reason": "+3,455 stars this week (average since launch)",
+    "release": {
+     "date": "2026-11-11T17:48:35Z",
+     "tag": "v0.1.0"
+    },
+    "stars": 12994,
+    "topics": [
+     "agent-skills",
+     "ai-video",
+     "aigc-detection",
+     "ffmpeg",
+     "prompt-engineering"
+    ],
+    "unverified": false,
+    "url": "https://github.com/JuneYaooo/rea-video",
+    "uses": [
+     "Agents",
+     "Coding tools",
+     "Multimodal"
+    ],
+    "week": 3455,
     "why": null
    },
    {
@@ -861,7 +861,7 @@
     "day": 0,
     "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
     "est": true,
-    "forks": 2192,
+    "forks": 2206,
     "full": "wangzan101/Mika",
     "home": "https://mikaphone.com",
     "id": "wangzan101/mika",
@@ -869,14 +869,14 @@
     "license": "Apache-2.0",
     "owner_type": "User",
     "permissive": true,
-    "pushed": "2026-11-23T09:42:27Z",
+    "pushed": "2026-11-24T20:45:04Z",
     "quickstart": null,
-    "reason": "+2,629 stars this week (average since launch)",
+    "reason": "+2,616 stars this week (average since launch)",
     "release": {
      "date": "2026-11-20T17:37:45Z",
      "tag": "v0.1.50"
     },
-    "stars": 9795,
+    "stars": 9866,
     "topics": [
      "accessibility",
      "ai-agent",
@@ -890,7 +890,7 @@
      "Agents",
      "Local & inference"
     ],
-    "week": 2629,
+    "week": 2616,
     "why": null
    }
   ]
