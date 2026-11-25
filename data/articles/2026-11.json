@@ -14366,14 +14366,14 @@
    "github": "https://github.com/Caiyun-AI/LoomFormer",
    "hf_url": "https://huggingface.co/papers/2611.30634",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30634.png",
-   "upvotes": 13
+   "upvotes": 14
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "025f3cd20286",
   "kind": "paper",
   "published": "2026-11-23T00:00:00Z",
-  "score": 46.8,
+  "score": 47.4,
   "source_id": "hf-papers",
   "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens.",
   "tags": [
@@ -39929,14 +39929,14 @@
    ],
    "hf_url": "https://huggingface.co/papers/2611.25403",
    "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25403.png",
-   "upvotes": 16
+   "upvotes": 17
   },
   "fetched": "2026-11-25T03:50:58Z",
   "focus": "tech",
   "id": "4e4690a77ae9",
   "kind": "paper",
   "published": "2026-11-19T00:00:00Z",
-  "score": 50.5,
+  "score": 51.0,
   "source_id": "hf-papers",
   "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route.",
   "tags": [

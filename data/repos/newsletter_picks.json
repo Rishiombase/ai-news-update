@@ -1,6 +1,6 @@
 {
  "2026-11": {
-  "as_of": "2026-11-25T04:20:46Z",
+  "as_of": "2026-11-25T04:25:43Z",
   "gems": [
    {
     "created": "2026-10-16T00:41:59Z",
@@ -309,7 +309,7 @@
     "permissive": true,
     "pushed": "2026-11-24T21:05:44Z",
     "quickstart": "npm install -g eslint-rs",
-    "reason": "+7,426 stars this week (average since launch)",
+    "reason": "+7,423 stars this week (average since launch)",
     "release": {
      "date": "2026-11-24T22:53:56Z",
      "tag": "v4.1.0"
@@ -329,7 +329,7 @@
      "MCP",
      "Coding tools"
     ],
-    "week": 7426,
+    "week": 7423,
     "why": null
    },
    {
@@ -448,7 +448,7 @@
   ]
  },
  "2026-Q4": {
-  "as_of": "2026-11-25T04:20:46Z",
+  "as_of": "2026-11-25T04:25:43Z",
   "gems": [
    {
     "created": "2026-10-16T00:41:59Z",
@@ -757,7 +757,7 @@
     "permissive": true,
     "pushed": "2026-11-24T21:05:44Z",
     "quickstart": "npm install -g eslint-rs",
-    "reason": "+7,426 stars this week (average since launch)",
+    "reason": "+7,423 stars this week (average since launch)",
     "release": {
      "date": "2026-11-24T22:53:56Z",
      "tag": "v4.1.0"
@@ -777,7 +777,7 @@
      "MCP",
      "Coding tools"
     ],
-    "week": 7426,
+    "week": 7423,
     "why": null
    },
    {

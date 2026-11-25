@@ -9,27 +9,27 @@
  "status": {
   "hn": {
    "ok": true,
-   "last_success": "2026-11-25T04:20:46Z",
+   "last_success": "2026-11-25T04:25:43Z",
    "items": 149
   },
   "lobsters": {
    "ok": true,
-   "last_success": "2026-11-25T04:20:46Z",
+   "last_success": "2026-11-25T04:25:43Z",
    "items": 11
   },
   "devto": {
    "ok": true,
-   "last_success": "2026-11-25T04:20:46Z",
+   "last_success": "2026-11-25T04:25:43Z",
    "items": 40
   },
   "mastodon": {
    "ok": true,
-   "last_success": "2026-11-25T04:20:46Z",
-   "items": 8
+   "last_success": "2026-11-25T04:25:43Z",
+   "items": 7
   },
   "youtube": {
    "ok": true,
-   "last_success": "2026-11-25T04:20:46Z",
+   "last_success": "2026-11-25T04:25:43Z",
    "items": 22
   }
  }
