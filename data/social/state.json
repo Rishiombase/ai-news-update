@@ -1,0 +1,36 @@
+{
+ "since": {
+  "hn": "2026-11-11T03:46:06Z",
+  "lobsters": "2026-11-11T03:46:06Z",
+  "devto": "2026-11-11T03:46:06Z",
+  "mastodon": "2026-11-25T03:46:06Z",
+  "youtube": "2026-11-11T03:46:06Z"
+ },
+ "status": {
+  "hn": {
+   "ok": true,
+   "last_success": "2026-11-25T03:46:06Z",
+   "items": 154
+  },
+  "lobsters": {
+   "ok": true,
+   "last_success": "2026-11-25T03:46:06Z",
+   "items": 10
+  },
+  "devto": {
+   "ok": true,
+   "last_success": "2026-11-25T03:46:06Z",
+   "items": 40
+  },
+  "mastodon": {
+   "ok": true,
+   "last_success": "2026-11-25T03:46:06Z",
+   "items": 8
+  },
+  "youtube": {
+   "ok": true,
+   "last_success": "2026-11-25T03:46:06Z",
+   "items": 22
+  }
+ }
+}

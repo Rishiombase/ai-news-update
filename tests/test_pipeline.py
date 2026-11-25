@@ -286,3 +286,61 @@ def test_repo_history_keeps_repos_and_counts_days_once():
         assert saved["org/a"]["days"] == 2 and saved["org/a"]["first_featured"] == "2026-11-20"
         assert saved["org/a"]["stars_then"] == 5000                    # growth is measured from first feature
         assert "org/b" in saved                                         # not featured today, but never forgotten
+
+
+# ------------------------------------------------------------------ buzz (social discussion)
+def _post(p="hn", title="New open-weight LLM released", days_ago=1.0, s=100, c=10, u=None, **kw):
+    from pipeline.social import _item
+    return _item(p, str(abs(hash((title, p, days_ago)))), title, u or "https://example.com/x",
+                 "https://news.ycombinator.com/item?id=1", NOW - timedelta(days=days_ago), s, c, **kw)
+
+
+def test_buzz_heat_decays_with_age_and_is_capped():
+    from pipeline.social import heat
+    fresh, old = _post(days_ago=0.1, s=400, c=200), _post(days_ago=6, s=400, c=200)
+    assert heat(fresh, NOW) > heat(old, NOW) * 3
+    assert heat(_post("youtube", s=10**9, c=0, days_ago=0), NOW) <= 10.0
+
+
+def test_buzz_mood_comes_from_votes_vs_comments():
+    from pipeline.social import mood
+    assert mood(_post(s=200, c=250)) == "debated"
+    assert mood(_post(s=500, c=60)) == "loved"
+    assert mood(_post(s=100, c=20)) is None
+    assert mood(_post("youtube", s=10**6, c=0)) is None
+
+
+def test_buzz_filters_business_and_people_headlines():
+    from pipeline.social import _ok_title
+    assert _ok_title("Show HN: A local LLM runtime in Rust")
+    assert not _ok_title("Nasdaq erases 2026 gains as AI sell-off deepens")
+    assert not _ok_title("OpenAI names new CTO as AI chief steps down")
+    assert not _ok_title("My cat photos")
+
+
+def test_buzz_trends_need_both_weeks_and_label_direction():
+    from pipeline.social import trends
+    items = ([_post(title=f"New AI agent framework {i}", days_ago=1 + i * 0.1) for i in range(6)]
+             + [_post(title=f"AI agent benchmark {i}", days_ago=8 + i * 0.1) for i in range(2)]
+             + [_post(title=f"Local LLM with ollama {i}", days_ago=9 + i * 0.1) for i in range(5)]
+             + [_post("mastodon", title="AI agents everywhere right now", days_ago=1)] * 3)
+    t = trends(items, NOW, {"hn"})
+    rows = {r["name"]: r for r in t["topics"]}
+    assert rows["AI agents"]["state"] == "rising" and rows["AI agents"]["now"] == 6   # mastodon excluded
+    assert rows["Local & on-device"]["state"] == "cooling"
+
+
+def test_buzz_links_discussions_to_stories_and_repos():
+    from pipeline.social import link_index
+    a = art("A real story")
+    hn_story = _post(u=a["url"], s=300, c=120)
+    hn_repo = _post(title="Show HN: tinyagent", u="https://github.com/Acme/TinyAgent", s=90, c=10)
+    self_post = _post(title="Ask HN: which LLM?", u="https://news.ycombinator.com/item?id=1")
+    by_article, by_repo = link_index([hn_story, hn_repo, self_post], {a["id"]: a}, {"acme/tinyagent": {}})
+    assert by_article[a["id"]]["s"] == 300 and "_e" not in by_article[a["id"]]
+    assert "acme/tinyagent" in by_repo and len(by_article) == 1
+
+
+def test_buzz_mastodon_body_drops_links_and_hashtags():
+    from pipeline.social import _body
+    assert _body('<p>Claude shipped a new agent mode <a href="https://x.co/a">https://x.co/a</a> #AI #LLM</p>') == "Claude shipped a new agent mode"

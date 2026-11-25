@@ -6,7 +6,7 @@ import logging
 from collections import Counter
 from datetime import datetime, timedelta
 
-from . import config, repos, store
+from . import config, repos, social, store
 from .focus import is_tech
 from .scoring import category_stats, hotness, trending
 from .textutil import parse_iso, to_utc_iso
@@ -14,7 +14,7 @@ from .textutil import parse_iso, to_utc_iso
 log = logging.getLogger(__name__)
 
 
-def compact(a: dict, now: datetime | None = None) -> dict:
+def compact(a: dict, now: datetime | None = None, buzz: dict | None = None) -> dict:
     out = {
         "id": a["id"], "title": a["title"], "url": a["url"], "summary": a["summary"],
         "source": a["source_id"], "date": a["published"], "kind": a["kind"],
@@ -35,6 +35,8 @@ def compact(a: dict, now: datetime | None = None) -> dict:
         out["hf"] = extra["hf_url"]
     if extra.get("authors") and a["kind"] == "paper":
         out["authors"] = extra["authors"][:4]
+    if buzz and a["id"] in buzz:
+        out["buzz"] = buzz[a["id"]]
     if now is not None:
         out["hot"] = round(hotness(a, now), 2)
     return out
@@ -54,6 +56,8 @@ def build(articles: dict[str, dict], state: dict, now: datetime) -> None:
     news = [a for a in all_items if a["kind"] == "news"]
     papers = [a for a in all_items if a["kind"] == "paper"]
     cutoff = now - timedelta(days=config.LATEST_WINDOW_DAYS)
+    buzz = social.site_payload(now, articles, repos.load_records())
+    article_buzz, repo_buzz = buzz.pop("_article_buzz"), buzz.pop("_repo_buzz")
     latest = [a for a in news if parse_iso(a["published"]) >= cutoff]
 
     # Papers: last 30 days, most upvoted / highest scored first, capped for payload size.
@@ -62,7 +66,7 @@ def build(articles: dict[str, dict], state: dict, now: datetime) -> None:
                            key=lambda p: (-p.get("extra", {}).get("upvotes", 0), -p["score"]))[:400]
 
     _write(config.SITE_DATA_DIR / "latest.json", {"generated": to_utc_iso(now),
-                                                  "articles": [compact(a, now) for a in latest]})
+                                                  "articles": [compact(a, now, article_buzz) for a in latest]})
     _write(config.SITE_DATA_DIR / "papers.json", {"generated": to_utc_iso(now),
                                                   "papers": [compact(p) for p in recent_papers]})
 
@@ -111,10 +115,15 @@ def build(articles: dict[str, dict], state: dict, now: datetime) -> None:
     _write(config.SITE_DATA_DIR / "meta.json", meta)
     repo_payload = repos.site_payload(now)
     if repo_payload:
+        for k, b in repo_buzz.items():
+            if k in repo_payload["repos"]:
+                repo_payload["repos"][k]["buzz"] = b
         _write(config.SITE_DATA_DIR / "repos.json", repo_payload)
         log.info("site data: %d repos across %d sections", len(repo_payload["repos"]), len(repo_payload["sections"]))
     archive = repos.archive_payload(now)
     if archive:
         _write(config.SITE_DATA_DIR / "repos-archive.json", archive)
         log.info("site data: %d repos in the history archive", archive["count"])
+    _write(config.SITE_DATA_DIR / "buzz.json", buzz)
+    log.info("site data: %d buzz items (%d linked to stories, %d to repos)", len(buzz["items"]), len(article_buzz), len(repo_buzz))
     log.info("site data: %d latest, %d papers, %d archive months", len(latest), len(recent_papers), len(months))

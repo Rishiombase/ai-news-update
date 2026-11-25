@@ -13,7 +13,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timedelta
 
-from . import build_site, config, insights, newsletter, repos, store
+from . import build_site, config, insights, newsletter, repos, social, store
 from .classify import Classifier, is_ai_relevant
 from .dedupe import cluster, merge_exact
 from .embeddings import Embedder
@@ -93,6 +93,7 @@ def main(argv: list[str] | None = None) -> None:
     ap.add_argument("--no-newsletters", action="store_true", help="skip newsletter generation")
     ap.add_argument("--repos", action="store_true", help="refresh GitHub repos now (normally once a day)")
     ap.add_argument("--no-repos", action="store_true", help="skip the GitHub repo refresh")
+    ap.add_argument("--no-social", action="store_true", help="skip the Buzz (discussion) refresh")
     ap.add_argument("--no-insights", action="store_true", help="skip AI-written 'why it matters' lines")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
@@ -163,6 +164,11 @@ def main(argv: list[str] | None = None) -> None:
                 log.info("repos: refreshed")
         except Exception:
             log.exception("repos: refresh failed; keeping the previous repo data")
+    if not args.no_fetch and not args.no_social:
+        try:
+            social.refresh(now)
+        except Exception:
+            log.exception("buzz: refresh failed; keeping the previous discussion data")
     if not args.no_fetch and not args.no_insights:
         try:
             insights.run(articles, state, now)

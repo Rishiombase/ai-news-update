@@ -14,6 +14,7 @@ It runs entirely on free resources: public RSS feeds and APIs, open-source Pytho
 | Technology focus | Stories mainly about people, politics, lawsuits, or money are hidden from the site and newsletters (kept in the archive). Keyword scoring plus the embedding model decide; run `python -m pipeline.focus` to see each decision |
 | Usage badges | Available now, Preview, Open source, API, For developers, Enterprise, Research: how a company could act on each story |
 | Repos | A **Repos** page of open-source AI projects, refreshed daily from the GitHub API: Trending (stars gained this week, from our own daily snapshots), New & rising, Getting recognized (in the news, code for top papers, star milestones, major releases), Hidden gems and Proven essentials, plus emerging use-case themes. Repos with inflated popularity or that are not about AI are filtered out. Each card shows why it's listed and a copyable install command. A permanent **History** tab keeps every repo ever featured (stored in `data/repos/history.json`, star counts re-checked daily, growth shown since first featured); each tab loads 30 at a time. Saved repos are kept in the browser, with export and import |
+| Buzz | A **Buzz** page of what developers are discussing right now, from free public sources: Hacker News, Lobsters, dev.to, Mastodon hashtags and YouTube channel feeds. Ranked by engagement and freshness, with topic and company boards for what is **heating up and cooling off** (this week versus last week), measurable "heated debate" and "crowd favourite" labels (comments versus votes), and a 🔥 badge on any story or repo that is also being discussed. Posts can be saved in the browser. X and Reddit are deliberately not used: X's API is paid and Reddit blocks automated readers. Stored in `data/social/`; `--no-social` skips it |
 | Duplicate removal | Canonical URLs merge exact duplicates. The same story from several outlets is grouped under its most authoritative report, with the others listed as "also reported by" |
 | Ranking | Source tier + number of independent outlets + launch/funding/regulation signals + community upvotes (papers) − noise (tutorials, podcasts, deals) |
 | Dashboard | Lead story, category filters, full-text search, time period and monthly archives, trending topics, top papers, newsletter downloads |
@@ -120,6 +121,7 @@ pipeline/            Python pipeline (fetch → enrich → dedupe → classify �
 site/                Static website (index.html, assets/); data/ and newsletters/ are generated
 data/articles/       Archive, one JSON file per month (committed by CI)
 data/state/          Feed cache, source health, run metadata
+data/social/         Buzz discussions (items.json, one per line) and per-platform health
 tests/               pytest suite
 .github/workflows/   Scheduled update and deploy
 ```

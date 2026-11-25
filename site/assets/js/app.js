@@ -70,7 +70,7 @@ async function route() {
   document.querySelectorAll(".nav a").forEach((a) => {
     if (a.dataset.route === name) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
-  const views = { latest: LatestView, research: ResearchView, repos: ReposView, newsletters: NewslettersView, sources: SourcesView, about: AboutView };
+  const views = { latest: LatestView, research: ResearchView, repos: ReposView, buzz: BuzzView, newsletters: NewslettersView, sources: SourcesView, about: AboutView };
   const View = views[name];
   try {
     if (!View) { main.innerHTML = `<div class="empty">This page does not exist. <a href="#/">See the latest stories</a>.</div>`; return; }
@@ -107,6 +107,8 @@ function thumb(a, cls = "") {
   return `<span class="thumb ${cls}" style="--cat:${c?.color || "#2B47D9"}"><span class="thumb__fb" aria-hidden="true"><b>${esc(src(a.source).name)}</b></span>${a.img
     ? `<img src="${esc(a.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}</span>`;
 }
+const BUZZ_PLAT = { hn: ["Hacker News", "points"], lobsters: ["Lobsters", "votes"], devto: ["dev.to", "reactions"], mastodon: ["Mastodon", "engagement"], youtube: ["YouTube", "views"] };
+const buzzBadge = (b) => (b ? `<a class="buzz-badge" href="${esc(b.d)}" target="_blank" rel="noopener" title="Open the discussion">\u{1F525} ${kfmt(b.s)} ${BUZZ_PLAT[b.p][1]}${b.c ? ` &middot; ${kfmt(b.c)} comments` : ""} on ${esc(BUZZ_PLAT[b.p][0])}</a>` : "");
 const whyHTML = (a) => (a.why ? `<p class="why"><b>Why it matters</b> ${esc(a.why)} <span class="ai-tag" title="Written by an AI model from the article's own text. Check the source for details.">AI</span></p>` : "");
 const tagsHTML = (a) => (a.tags?.length ? `<span class="tags">${a.tags.map((t) => `<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join("")}</span>` : "");
 function catStyle(id) { const c = cat(id); return c ? `--cat:${c.color}` : ""; }
@@ -120,7 +122,7 @@ function storyHTML(a) {
     </div>
     <h3 class="story__title"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
     ${a.summary ? `<p class="story__summary">${esc(a.summary)}</p>` : ""}
-    ${whyHTML(a)}
+    ${whyHTML(a)}${a.buzz ? `<p class="buzz-line">${buzzBadge(a.buzz)}</p>` : ""}
     <div class="story__foot">${tagsHTML(a)}${coverage(a)}</div></div>
     <a class="story__thumb" href="${esc(a.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${thumb(a)}</a>
   </article>`;
@@ -620,6 +622,7 @@ const ReposView = {
       <div class="repo__stats"><span title="Stars">&#9733; ${kfmt(r.stars)}</span>${growth}
         ${r.forks ? `<span title="Forks">&#5833; ${kfmt(r.forks)}</span>` : ""}${lang}
         ${r.pushed ? `<span>Updated ${esc(relTime(r.pushed))}</span>` : ""}${license}</div>
+      ${r.buzz ? `<p class="buzz-line">${buzzBadge(r.buzz)}</p>` : ""}
       ${(r.topics || []).length ? `<div class="repo__topics">${r.topics.map((tp) => `<button type="button" data-topic="${esc(tp)}">${esc(tp)}</button>`).join("")}</div>` : ""}
       <div class="repo__links"><a href="${esc(r.url)}" target="_blank" rel="noopener">GitHub</a>${r.home ? `<a href="${esc(r.home)}" target="_blank" rel="noopener">Website</a>` : ""}${r.release ? `<a href="${esc(r.url)}/releases" target="_blank" rel="noopener">Release ${esc(r.release.tag)}</a>` : ""}<a href="${esc(r.url)}" target="_blank" rel="noopener" title="Opens the repo on GitHub, where you can star it">Star on GitHub</a></div>
     </article>`;
@@ -666,6 +669,108 @@ const ReposView = {
 // One listener for the Repos page, routed to whichever Repos view is current.
 main.addEventListener("click", (e) => { if (current?.name === "repos") current.click(e); });
 
+// ------------------------------------------------------------------ Buzz
+const BUZZ_KEY = "gap-saved-buzz";
+const loadBuzzSaved = () => { try { return JSON.parse(localStorage.getItem(BUZZ_KEY) || "{}"); } catch (e) { return {}; } };
+const writeBuzzSaved = (o) => { try { localStorage.setItem(BUZZ_KEY, JSON.stringify(o)); return true; } catch (e) { return false; } };
+const BUZZ_MOOD = { debated: ["\u{1F4AC} Heated debate", "More comments than votes: people disagree about this one."], loved: ["\u{1F44D} Crowd favourite", "Lots of votes and little to argue about."] };
+const BUZZ_WIN = { "1": ["Last 24 hours", 1], "7": ["This week", 7], "14": ["Last 2 weeks", 14] };
+const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } };
+
+const BuzzView = {
+  async mount(params) {
+    if (!store.buzz) store.buzz = await getJSON("buzz.json");
+    const b = store.buzz;
+    const t = b.trends, up = (rows) => rows.filter((r) => r.state === "rising"), down = (rows) => rows.filter((r) => r.state === "cooling");
+    const chip = (r, kind) => `<button type="button" data-${kind}="${esc(r.name)}">${esc(r.name)}<span class="c">${r.now}</span><span class="${r.change_pct !== null && r.change_pct < 0 ? "dn" : "up"}">${r.change_pct === null ? "new" : (r.change_pct > 0 ? "+" : "") + r.change_pct + "%"}</span></button>`;
+    const board = (title, note, topics, comps, emptyMsg) => `<div class="box buzzbox"><span class="box-h">${title}</span><p class="buzzbox__note">${note}</p>
+      <div class="themes__list">${topics.map((r) => chip(r, "topic")).join("")}${comps.map((r) => chip(r, "q")).join("") || ""}${!topics.length && !comps.length ? `<span class="muted">${emptyMsg}</span>` : ""}</div></div>`;
+    const base = t.baseline.map((id) => BUZZ_PLAT[id][0]).join(", ");
+    const steady = t.companies.filter((r) => r.state === "steady");
+    main.innerHTML = `<header class="page-head"><h1>What developers are talking about</h1>
+        <p>The AI discussions getting the most attention right now on Hacker News, Lobsters, dev.to, Mastodon and YouTube, and which topics are heating up or cooling off. Each thread links to the original conversation.</p></header>
+      <section class="buzzboards" aria-label="Topic trends">
+        ${board("&#128293; HEATING UP", "More discussion than last week.", up(t.topics), up(t.companies), "Nothing is climbing sharply right now.")}
+        ${board("&#10052; COOLING OFF", "Less discussion than last week.", down(t.topics), down(t.companies), "Nothing is fading sharply right now.")}
+        ${board("&#128172; STEADY TOPICS", "Consistently talked about.", t.topics.filter((r) => r.state === "steady").slice(0, 6), steady.slice(0, 4), "Not enough data yet.")}
+      </section>
+      <p class="trend-note">Week-over-week trends use ${esc(base)}. Mastodon joins once two weeks of its posts have been collected. Click a topic to filter the feed.</p>
+      <div class="repo-tabs" role="tablist" id="btabs"></div>
+      <div class="repo-tools">
+        <label class="search"><span class="visually-hidden">Search discussions</span>${searchIcon}<input id="bq" type="search" placeholder="Search titles and posts" autocomplete="off"></label>
+        <label class="sortbox"><span class="visually-hidden">Time window</span><select class="select" id="bwin">${Object.entries(BUZZ_WIN).map(([k, [l]]) => `<option value="${k}">${l}</option>`).join("")}</select></label>
+        <label class="sortbox"><span class="visually-hidden">Sort</span><select class="select" id="bsort"><option value="hot">Buzzing now</option><option value="new">Newest first</option></select></label>
+      </div>
+      <p class="result-line" id="bline" aria-live="polite"></p>
+      <div class="buzz-list" id="blist"></div>
+      <p class="trend-note" id="bsrc"></p>`;
+    const q = main.querySelector("#bq"); let tm;
+    q.addEventListener("input", () => { clearTimeout(tm); tm = setTimeout(() => this.set({ q: q.value.trim() }), 150); });
+    main.querySelector("#bwin").addEventListener("change", (e) => this.set({ win: e.target.value }));
+    main.querySelector("#bsort").addEventListener("change", (e) => this.set({ sort: e.target.value }));
+    this.update(params);
+  },
+  set(patch, push = false) { this.params = { ...this.params, ...patch }; setParams("/buzz", this.params, { push }); this.update(this.params); },
+  update(params, keepLimit = false) {
+    if (keepLimit !== true || !this.limit) this.limit = 30;
+    this.params = { src: "all", win: "7", sort: "hot", ...params };
+    const p = this.params, b = store.buzz, saved = loadBuzzSaved();
+    const win = BUZZ_WIN[p.win] ? p.win : "7";
+    const tabs = [["all", "All", b.items.length], ...b.platforms.map((x) => [x.id, x.name, x.count]), ["saved", "\u{1F516} Saved", Object.keys(saved).length]];
+    main.querySelector("#btabs").innerHTML = tabs.map(([k, l, n]) => `<button type="button" role="tab" data-src="${k}" aria-selected="${k === p.src}">${esc(l)} <span class="count">${n}</span></button>`).join("");
+    main.querySelector("#bq").value = p.q || "";
+    main.querySelector("#bwin").value = win; main.querySelector("#bsort").value = p.sort === "new" ? "new" : "hot";
+    main.querySelectorAll("[data-topic]").forEach((el) => el.setAttribute("aria-pressed", String(el.dataset.topic === p.topic)));
+    main.querySelectorAll(".buzzbox [data-q]").forEach((el) => el.setAttribute("aria-pressed", String(el.dataset.q === p.q)));
+    const cutoff = Date.now() - BUZZ_WIN[win][1] * DAY, needle = fold(p.q || "");
+    let list = p.src === "saved" ? Object.values(saved).sort((a, c) => c.savedAt - a.savedAt) : b.items.filter((it) => new Date(it.ts) >= cutoff && (p.src === "all" || it.p === p.src));
+    if (p.topic) list = list.filter((it) => (it.tp || []).includes(p.topic));
+    if (needle) list = list.filter((it) => fold(`${it.t} ${it.x || ""} ${it.au || ""}`).includes(needle));
+    if (p.src !== "saved") list = [...list].sort(p.sort === "new" ? (a, c) => new Date(c.ts) - new Date(a.ts) : (a, c) => c.h - a.h);
+    const shown = list.slice(0, this.limit);
+    main.querySelector("#bline").innerHTML = `${plural(list.length, "discussion")}${p.topic ? ` about <strong>${esc(p.topic)}</strong>` : ""}${p.q ? ` matching &ldquo;${esc(p.q)}&rdquo;` : ""}${p.topic || p.q ? ` <button type="button" data-clear>Clear</button>` : ""}`;
+    main.querySelector("#blist").innerHTML = shown.length
+      ? shown.map((it) => this.card(it, !!saved[it.id])).join("") + (list.length > this.limit ? `<button class="more repo-more" type="button" data-more>Show more (${list.length - this.limit} left)</button>` : "")
+      : `<p class="empty">${p.src === "saved" ? "Nothing saved yet. Use the bookmark on any discussion to keep it here." : "No discussions match these filters."}</p>`;
+    main.querySelector("#bsrc").innerHTML = "Sources: " + b.platforms.map((x) => `<a href="${esc(x.home)}" target="_blank" rel="noopener">${esc(x.name)}</a>${x.ok === false ? " (last fetch failed)" : ""}`).join(", ") + `. X and Reddit are not included: X charges for access and Reddit blocks automated readers.`;
+  },
+  card(it, isSaved) {
+    const [pname, unit] = BUZZ_PLAT[it.p], pm = store.buzz.platforms.find((x) => x.id === it.p);
+    const stat = it.p === "youtube" ? `${kfmt(it.s)} views` : `${kfmt(it.s)} ${unit}${it.c ? ` &middot; ${kfmt(it.c)} comments` : ""}`;
+    const host = it.u !== it.d ? hostOf(it.u) : "";
+    const mood = it.m ? `<span class="mood mood--${it.m}" title="${esc(BUZZ_MOOD[it.m][1])}">${BUZZ_MOOD[it.m][0]}</span>` : "";
+    const save = `<button class="save" type="button" data-save="${esc(it.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? "Remove from saved" : "Save"} discussion" title="${isSaved ? "Saved: click to remove" : "Save this discussion"}">${bookmark(isSaved)}</button>`;
+    return `<article class="bz">
+      <div class="bz__main">
+        <div class="bz__meta"><span class="plat" style="--p:${pm.color}"><i></i>${esc(pname)}</span><span class="heat" title="Engagement">${stat}</span>${mood}
+          <time datetime="${esc(it.ts)}" title="${esc(new Date(it.ts).toLocaleString("en-GB"))}">${esc(relTime(it.ts))}</time></div>
+        <h3 class="bz__title"><a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a>${host ? ` <span class="host">${esc(host)}</span>` : ""}</h3>
+        ${it.x && it.x !== it.t ? `<p class="bz__text">${esc(it.x)}</p>` : ""}
+        <div class="bz__foot">${(it.tp || []).map((tp) => `<button type="button" class="tag" data-topic="${esc(tp)}">${esc(tp)}</button>`).join("")}
+          ${it.news ? `<span class="tag tag--ok" title="This story is also in AI News Update">In our news</span>` : ""}
+          ${it.repo ? `<a class="tag tag--ok" href="#/repos?q=${encodeURIComponent(it.repo.split("/")[1])}" title="A repo we track">Tracked repo</a>` : ""}
+          ${it.au ? `<span class="by">${esc(it.au)}</span>` : ""}
+          ${it.u !== it.d ? `<a class="disc" href="${esc(it.d)}" target="_blank" rel="noopener">Discussion &rarr;</a>` : ""}</div>
+      </div>${it.th && it.p !== "mastodon" ? `<a class="bz__thumb" href="${esc(it.u)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="${esc(it.th)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></a>` : ""}${save}</article>`;
+  },
+  click(e) {
+    const t = e.target.closest("button, a"); if (!t) return;
+    const d = t.dataset;
+    if (d.src) { this.set({ src: d.src }, true); }
+    else if (d.topic) { this.set({ topic: this.params.topic === d.topic ? "" : d.topic }, true); }
+    else if (d.q !== undefined && t.closest(".buzzbox")) { this.set({ q: this.params.q === d.q ? "" : d.q }, true); }
+    else if (d.clear !== undefined) { this.set({ topic: "", q: "" }, true); }
+    else if (d.more !== undefined) { this.limit += 30; this.update(this.params, true); }
+    else if (d.save) {
+      const saved = loadBuzzSaved(), it = store.buzz.items.find((x) => x.id === d.save) || saved[d.save];
+      if (saved[d.save]) delete saved[d.save]; else if (it) saved[d.save] = { ...it, savedAt: Date.now() };
+      if (!writeBuzzSaved(saved)) alert("Your browser blocked saving. Check that site data is allowed.");
+      this.update(this.params, true);
+    }
+  },
+};
+main.addEventListener("click", (e) => { if (current?.name === "buzz") current.click(e); });
+
 const SourcesView = {
   mount() {
     const groups = Object.entries(store.meta.tiers).map(([t, info]) => {
@@ -699,6 +804,8 @@ const AboutView = {
       <ul>${store.meta.categories.map((c) => `<li><span style="color:${c.color}">●</span> ${esc(c.name)}</li>`).join("")}</ul>
       <h2>Ranking</h2>
       <p>Importance combines the source's authority, the number of independent outlets covering the story, signals that something is usable (launches, releases, APIs, open-source code, benchmark results), and for papers, community upvotes. The front page also weighs recency, so the lead story is the most significant development of the last few days.</p>
+      <h2>Buzz</h2>
+      <p>The Buzz page shows what developers are actually talking about. Every few hours it reads Hacker News, Lobsters, dev.to, Mastodon hashtags and the feeds of established AI channels on YouTube, all through their free public interfaces. Threads are ranked by votes, comments and freshness. Topic boards compare this week with last week to show what is heating up and what is cooling off. &ldquo;Heated debate&rdquo; means a thread has more comments than votes; &ldquo;Crowd favourite&rdquo; means many votes and little argument. Both are counted from the numbers, not guessed from tone. X and Reddit are not included because X charges for access and Reddit blocks automated readers.</p>
       <h2>Repos</h2>
       <p>Once a day the GitHub API is searched for open-source AI projects. Star counts are saved daily so weekly growth is measured, not guessed. Projects whose popularity looks inflated (very few watchers and forks for their stars) or that are not about AI are left out. Saved repos stay in your browser; export them to move them to another device.</p>
       <h2>Newsletters</h2>
