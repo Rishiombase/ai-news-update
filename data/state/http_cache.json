@@ -1,7 +1,7 @@
 {
  "https://arstechnica.com/ai/feed/": {
-  "etag": "\"0ab33d834ae8e9f509dd2a5b1550cad7\"",
-  "last_modified": "Thu, 26 Nov 2026 12:49:35 GMT"
+  "etag": "\"c27f37c0ccfd85e866b7919336a73af6\"",
+  "last_modified": "Fri, 27 Nov 2026 00:07:29 GMT"
  },
  "https://aws.amazon.com/blogs/machine-learning/feed/": {
   "etag": null,
@@ -20,7 +20,7 @@
   "last_modified": "Thu, 26 Nov 2026 14:00:22 GMT"
  },
  "https://deepmind.google/blog/rss.xml": {
-  "etag": "\"sisJfg\"",
+  "etag": "\"0br6lg\"",
   "last_modified": null
  },
  "https://developer.nvidia.com/blog/feed": {
@@ -44,7 +44,7 @@
   "last_modified": null
  },
  "https://lastweekin.ai/feed": {
-  "etag": "W/\"433a8-HiGjCvKOTTi98wIhFnw4vdGoKdg\"",
+  "etag": "W/\"433a8-8YnsIVx9DTIbC1fo1DtSvl8iltA\"",
   "last_modified": null
  },
  "https://machinelearning.apple.com/rss.xml": {
@@ -56,8 +56,8 @@
   "last_modified": "Wed, 25 Nov 2026 17:56:22 GMT"
  },
  "https://news.mit.edu/rss/topic/artificial-intelligence2": {
-  "etag": "\"1795712049\"",
-  "last_modified": "Thu, 26 Nov 2026 16:54:09 GMT"
+  "etag": "\"1795742701\"",
+  "last_modified": "Fri, 27 Nov 2026 01:25:01 GMT"
  },
  "https://openai.com/news/rss.xml": {
   "etag": null,
@@ -80,16 +80,16 @@
   "last_modified": "Wed, 25 Nov 2026 15:20:21 GMT"
  },
  "https://techcrunch.com/category/artificial-intelligence/feed/": {
-  "etag": "W/\"9e5c32f23b1edc978c2d2ec9bfac26f1\"",
-  "last_modified": "Thu, 26 Nov 2026 16:48:19 GMT"
+  "etag": "W/\"201e2449765e7b0e68bdf7dba18d3eb6\"",
+  "last_modified": "Thu, 26 Nov 2026 20:09:26 GMT"
  },
  "https://the-decoder.com/feed/": {
-  "etag": "\"0c325d75b70a075f979c15a748903eb5\"",
-  "last_modified": "Thu, 26 Nov 2026 15:45:47 GMT"
+  "etag": "\"745401b60414d5f93d658f0f9d2ea737\"",
+  "last_modified": "Thu, 26 Nov 2026 19:35:31 GMT"
  },
  "https://www.marktechpost.com/feed/": {
-  "etag": "W/\"5ca867e59913850108df8f38ea4e0d60\"",
-  "last_modified": "Wed, 25 Nov 2026 05:42:06 GMT"
+  "etag": "W/\"9c5c3c35f1998c076e64058dfed4a912\"",
+  "last_modified": "Thu, 26 Nov 2026 22:06:42 GMT"
  },
  "https://www.microsoft.com/en-us/research/feed/": {
   "etag": "\"52003d263bb81855ceae2e6aad94ae41\"",
@@ -100,7 +100,7 @@
   "last_modified": "Thu, 26 Nov 2026 13:10:04 GMT"
  },
  "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-  "etag": "W/\"cc106676f26f4129e99107b19e4fbbbf\"",
+  "etag": "W/\"3ab7861290dcf97d2bf74b571fc0b0a1\"",
   "last_modified": null
  },
  "https://www.wired.com/feed/tag/ai/latest/rss": {
